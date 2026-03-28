@@ -1,0 +1,18 @@
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         ShuttingDown
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         ShuttingDown
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         ShuttingDown
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:9:5: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |     }
+
+iteration_01.sysml:14:63: error (reference-error): No Feature named 'Off' found.
+    14 |         attribute currentState : VehicleState = VehicleState::Off;
+       |                                                               ^^^

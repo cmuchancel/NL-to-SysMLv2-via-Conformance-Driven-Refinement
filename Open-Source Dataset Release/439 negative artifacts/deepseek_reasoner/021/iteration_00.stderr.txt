@@ -1,0 +1,15 @@
+iteration_01.sysml:11:14: error (parsing-error): Unexpected identifier, did you mean 'inout'?
+    11 |         port input sceneInput : ShootingScene;
+       |              ^^^^^
+
+iteration_01.sysml:12:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    12 |         port output imageOutput : ProcessedImage;
+       |              ^^^^^^
+
+iteration_01.sysml:16:14: error (parsing-error): Unexpected identifier, did you mean 'inout'?
+    16 |         port input imageInput : ProcessedImage;
+       |              ^^^^^
+
+iteration_01.sysml:17:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    17 |         port output photoOutput : Photograph;
+       |              ^^^^^^

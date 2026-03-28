@@ -1,0 +1,3 @@
+iteration_01.sysml:7:7: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    7 |       item fuel : Fuel;
+      |       ^^^^^^^^^^^^^^^^^

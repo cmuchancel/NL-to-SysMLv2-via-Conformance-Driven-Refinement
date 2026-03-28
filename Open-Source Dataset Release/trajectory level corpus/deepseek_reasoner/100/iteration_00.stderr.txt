@@ -1,0 +1,31 @@
+iteration_01.sysml:25:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleVariants::Vehicle::mass
+│   25 |         attribute mass : kg = 2000;
+│      |                   ^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:24:29: note: Because VehicleVariants::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:26:14: warning (namespace-distinguishability): Member name 'frontAxle' shadows VehicleVariants::Vehicle::frontAxle
+│   26 |         part frontAxle : SteeringAxle[1];
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:24:29: note: Because VehicleVariants::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:5:26: error (reference-error): No Type named 'kg' found.
+    5 |         attribute mass : kg;
+      |                          ^^
+
+iteration_01.sysml:9:26: error (reference-error): No Type named 'kg' found.
+    9 |         attribute mass : kg;
+      |                          ^^
+
+iteration_01.sysml:15:35: error (reference-error): No Type named 'degrees' found.
+    15 |         attribute steeringAngle : degrees;
+       |                                   ^^^^^^^
+
+iteration_01.sysml:19:26: error (reference-error): No Type named 'kg' found.
+    19 |         attribute mass : kg = 1750;
+       |                          ^^
+
+iteration_01.sysml:25:26: error (reference-error): No Type named 'kg' found.
+    25 |         attribute mass : kg = 2000;
+       |                          ^^

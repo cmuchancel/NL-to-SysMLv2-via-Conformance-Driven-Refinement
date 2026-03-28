@@ -1,0 +1,605 @@
+prompt_id,model_label,difficulty,iterations_to_success
+1,Anthropic Claude Sonnet 4.6,1,1
+2,Anthropic Claude Sonnet 4.6,1,1
+3,Anthropic Claude Sonnet 4.6,1,1
+4,Anthropic Claude Sonnet 4.6,1,1
+5,Anthropic Claude Sonnet 4.6,1,1
+6,Anthropic Claude Sonnet 4.6,2,1
+7,Anthropic Claude Sonnet 4.6,1,1
+8,Anthropic Claude Sonnet 4.6,1,1
+9,Anthropic Claude Sonnet 4.6,2,1
+10,Anthropic Claude Sonnet 4.6,1,1
+11,Anthropic Claude Sonnet 4.6,3,1
+12,Anthropic Claude Sonnet 4.6,2,1
+13,Anthropic Claude Sonnet 4.6,5,1
+14,Anthropic Claude Sonnet 4.6,3,1
+15,Anthropic Claude Sonnet 4.6,2,1
+16,Anthropic Claude Sonnet 4.6,2,1
+17,Anthropic Claude Sonnet 4.6,2,1
+18,Anthropic Claude Sonnet 4.6,2,1
+19,Anthropic Claude Sonnet 4.6,2,1
+20,Anthropic Claude Sonnet 4.6,1,1
+21,Anthropic Claude Sonnet 4.6,2,1
+22,Anthropic Claude Sonnet 4.6,2,1
+23,Anthropic Claude Sonnet 4.6,2,1
+24,Anthropic Claude Sonnet 4.6,5,1
+25,Anthropic Claude Sonnet 4.6,5,1
+26,Anthropic Claude Sonnet 4.6,4,1
+27,Anthropic Claude Sonnet 4.6,2,1
+28,Anthropic Claude Sonnet 4.6,3,1
+29,Anthropic Claude Sonnet 4.6,4,1
+30,Anthropic Claude Sonnet 4.6,5,1
+31,Anthropic Claude Sonnet 4.6,3,1
+32,Anthropic Claude Sonnet 4.6,1,1
+33,Anthropic Claude Sonnet 4.6,2,1
+34,Anthropic Claude Sonnet 4.6,3,1
+35,Anthropic Claude Sonnet 4.6,4,2
+36,Anthropic Claude Sonnet 4.6,3,1
+37,Anthropic Claude Sonnet 4.6,2,1
+38,Anthropic Claude Sonnet 4.6,2,1
+39,Anthropic Claude Sonnet 4.6,1,1
+40,Anthropic Claude Sonnet 4.6,2,1
+41,Anthropic Claude Sonnet 4.6,1,1
+42,Anthropic Claude Sonnet 4.6,2,1
+43,Anthropic Claude Sonnet 4.6,2,1
+44,Anthropic Claude Sonnet 4.6,2,1
+45,Anthropic Claude Sonnet 4.6,1,1
+46,Anthropic Claude Sonnet 4.6,1,1
+47,Anthropic Claude Sonnet 4.6,2,1
+48,Anthropic Claude Sonnet 4.6,5,2
+49,Anthropic Claude Sonnet 4.6,1,1
+50,Anthropic Claude Sonnet 4.6,1,1
+51,Anthropic Claude Sonnet 4.6,1,1
+52,Anthropic Claude Sonnet 4.6,1,2
+53,Anthropic Claude Sonnet 4.6,2,1
+54,Anthropic Claude Sonnet 4.6,2,1
+55,Anthropic Claude Sonnet 4.6,1,1
+56,Anthropic Claude Sonnet 4.6,1,1
+57,Anthropic Claude Sonnet 4.6,2,1
+58,Anthropic Claude Sonnet 4.6,2,1
+59,Anthropic Claude Sonnet 4.6,1,1
+60,Anthropic Claude Sonnet 4.6,1,1
+61,Anthropic Claude Sonnet 4.6,2,1
+62,Anthropic Claude Sonnet 4.6,2,1
+63,Anthropic Claude Sonnet 4.6,2,2
+64,Anthropic Claude Sonnet 4.6,2,1
+65,Anthropic Claude Sonnet 4.6,2,1
+66,Anthropic Claude Sonnet 4.6,2,1
+67,Anthropic Claude Sonnet 4.6,2,1
+68,Anthropic Claude Sonnet 4.6,2,2
+69,Anthropic Claude Sonnet 4.6,2,1
+70,Anthropic Claude Sonnet 4.6,1,1
+71,Anthropic Claude Sonnet 4.6,1,1
+72,Anthropic Claude Sonnet 4.6,1,1
+73,Anthropic Claude Sonnet 4.6,1,1
+74,Anthropic Claude Sonnet 4.6,1,3
+75,Anthropic Claude Sonnet 4.6,1,1
+76,Anthropic Claude Sonnet 4.6,1,1
+77,Anthropic Claude Sonnet 4.6,2,2
+78,Anthropic Claude Sonnet 4.6,2,1
+79,Anthropic Claude Sonnet 4.6,1,1
+80,Anthropic Claude Sonnet 4.6,1,1
+81,Anthropic Claude Sonnet 4.6,1,1
+82,Anthropic Claude Sonnet 4.6,2,1
+83,Anthropic Claude Sonnet 4.6,2,1
+84,Anthropic Claude Sonnet 4.6,1,1
+85,Anthropic Claude Sonnet 4.6,2,1
+86,Anthropic Claude Sonnet 4.6,1,1
+87,Anthropic Claude Sonnet 4.6,1,1
+88,Anthropic Claude Sonnet 4.6,1,1
+89,Anthropic Claude Sonnet 4.6,1,1
+90,Anthropic Claude Sonnet 4.6,1,1
+91,Anthropic Claude Sonnet 4.6,1,2
+92,Anthropic Claude Sonnet 4.6,2,1
+93,Anthropic Claude Sonnet 4.6,1,1
+94,Anthropic Claude Sonnet 4.6,2,2
+95,Anthropic Claude Sonnet 4.6,2,2
+96,Anthropic Claude Sonnet 4.6,1,2
+97,Anthropic Claude Sonnet 4.6,2,1
+98,Anthropic Claude Sonnet 4.6,2,1
+99,Anthropic Claude Sonnet 4.6,3,1
+100,Anthropic Claude Sonnet 4.6,4,2
+101,Anthropic Claude Sonnet 4.6,2,1
+102,Anthropic Claude Sonnet 4.6,1,2
+103,Anthropic Claude Sonnet 4.6,1,1
+104,Anthropic Claude Sonnet 4.6,2,2
+105,Anthropic Claude Sonnet 4.6,2,1
+106,Anthropic Claude Sonnet 4.6,2,1
+107,Anthropic Claude Sonnet 4.6,2,2
+108,Anthropic Claude Sonnet 4.6,1,1
+109,Anthropic Claude Sonnet 4.6,1,2
+110,Anthropic Claude Sonnet 4.6,1,1
+111,Anthropic Claude Sonnet 4.6,2,1
+112,Anthropic Claude Sonnet 4.6,2,1
+113,Anthropic Claude Sonnet 4.6,2,1
+114,Anthropic Claude Sonnet 4.6,1,2
+115,Anthropic Claude Sonnet 4.6,1,1
+116,Anthropic Claude Sonnet 4.6,1,2
+117,Anthropic Claude Sonnet 4.6,1,1
+118,Anthropic Claude Sonnet 4.6,2,1
+119,Anthropic Claude Sonnet 4.6,2,1
+120,Anthropic Claude Sonnet 4.6,2,3
+121,Anthropic Claude Sonnet 4.6,3,7
+122,Anthropic Claude Sonnet 4.6,3,1
+123,Anthropic Claude Sonnet 4.6,2,1
+124,Anthropic Claude Sonnet 4.6,4,3
+125,Anthropic Claude Sonnet 4.6,5,1
+126,Anthropic Claude Sonnet 4.6,2,1
+127,Anthropic Claude Sonnet 4.6,2,1
+128,Anthropic Claude Sonnet 4.6,3,1
+129,Anthropic Claude Sonnet 4.6,1,1
+130,Anthropic Claude Sonnet 4.6,2,1
+131,Anthropic Claude Sonnet 4.6,2,1
+132,Anthropic Claude Sonnet 4.6,1,1
+133,Anthropic Claude Sonnet 4.6,2,1
+134,Anthropic Claude Sonnet 4.6,1,2
+135,Anthropic Claude Sonnet 4.6,1,1
+136,Anthropic Claude Sonnet 4.6,1,1
+137,Anthropic Claude Sonnet 4.6,1,2
+138,Anthropic Claude Sonnet 4.6,1,1
+139,Anthropic Claude Sonnet 4.6,2,1
+140,Anthropic Claude Sonnet 4.6,2,1
+141,Anthropic Claude Sonnet 4.6,1,2
+142,Anthropic Claude Sonnet 4.6,2,1
+143,Anthropic Claude Sonnet 4.6,3,1
+144,Anthropic Claude Sonnet 4.6,2,1
+145,Anthropic Claude Sonnet 4.6,3,1
+146,Anthropic Claude Sonnet 4.6,1,2
+147,Anthropic Claude Sonnet 4.6,1,2
+148,Anthropic Claude Sonnet 4.6,1,1
+149,Anthropic Claude Sonnet 4.6,1,1
+150,Anthropic Claude Sonnet 4.6,1,1
+151,Anthropic Claude Sonnet 4.6,4,1
+1,DeepSeek Reasoner,1,2
+2,DeepSeek Reasoner,1,1
+3,DeepSeek Reasoner,1,1
+4,DeepSeek Reasoner,1,1
+5,DeepSeek Reasoner,1,3
+6,DeepSeek Reasoner,2,4
+7,DeepSeek Reasoner,1,1
+8,DeepSeek Reasoner,1,1
+9,DeepSeek Reasoner,2,2
+10,DeepSeek Reasoner,1,2
+11,DeepSeek Reasoner,3,2
+12,DeepSeek Reasoner,2,1
+13,DeepSeek Reasoner,5,1
+14,DeepSeek Reasoner,3,2
+15,DeepSeek Reasoner,2,2
+16,DeepSeek Reasoner,2,2
+17,DeepSeek Reasoner,2,2
+18,DeepSeek Reasoner,2,2
+19,DeepSeek Reasoner,2,1
+20,DeepSeek Reasoner,1,1
+21,DeepSeek Reasoner,2,3
+22,DeepSeek Reasoner,2,1
+23,DeepSeek Reasoner,2,1
+24,DeepSeek Reasoner,5,1
+25,DeepSeek Reasoner,5,1
+26,DeepSeek Reasoner,4,1
+27,DeepSeek Reasoner,2,3
+28,DeepSeek Reasoner,3,1
+29,DeepSeek Reasoner,4,1
+30,DeepSeek Reasoner,5,3
+31,DeepSeek Reasoner,3,1
+32,DeepSeek Reasoner,1,2
+33,DeepSeek Reasoner,2,1
+34,DeepSeek Reasoner,3,5
+35,DeepSeek Reasoner,4,2
+36,DeepSeek Reasoner,3,2
+37,DeepSeek Reasoner,2,1
+38,DeepSeek Reasoner,2,2
+39,DeepSeek Reasoner,1,2
+40,DeepSeek Reasoner,2,1
+41,DeepSeek Reasoner,1,3
+42,DeepSeek Reasoner,2,1
+43,DeepSeek Reasoner,2,2
+44,DeepSeek Reasoner,2,2
+45,DeepSeek Reasoner,1,1
+46,DeepSeek Reasoner,1,4
+47,DeepSeek Reasoner,2,2
+48,DeepSeek Reasoner,5,4
+49,DeepSeek Reasoner,1,1
+50,DeepSeek Reasoner,1,1
+51,DeepSeek Reasoner,1,2
+52,DeepSeek Reasoner,1,2
+53,DeepSeek Reasoner,2,2
+54,DeepSeek Reasoner,2,1
+55,DeepSeek Reasoner,1,2
+56,DeepSeek Reasoner,1,2
+57,DeepSeek Reasoner,2,1
+58,DeepSeek Reasoner,2,2
+59,DeepSeek Reasoner,1,1
+60,DeepSeek Reasoner,1,1
+61,DeepSeek Reasoner,2,1
+62,DeepSeek Reasoner,2,1
+63,DeepSeek Reasoner,2,1
+64,DeepSeek Reasoner,2,1
+65,DeepSeek Reasoner,2,1
+66,DeepSeek Reasoner,2,1
+67,DeepSeek Reasoner,2,1
+68,DeepSeek Reasoner,2,1
+69,DeepSeek Reasoner,2,3
+70,DeepSeek Reasoner,1,2
+71,DeepSeek Reasoner,1,1
+72,DeepSeek Reasoner,1,1
+73,DeepSeek Reasoner,1,4
+74,DeepSeek Reasoner,1,4
+75,DeepSeek Reasoner,1,1
+76,DeepSeek Reasoner,1,2
+77,DeepSeek Reasoner,2,2
+78,DeepSeek Reasoner,2,2
+79,DeepSeek Reasoner,1,3
+80,DeepSeek Reasoner,1,2
+81,DeepSeek Reasoner,1,2
+82,DeepSeek Reasoner,2,1
+83,DeepSeek Reasoner,2,1
+84,DeepSeek Reasoner,1,1
+85,DeepSeek Reasoner,2,2
+86,DeepSeek Reasoner,1,1
+87,DeepSeek Reasoner,1,2
+88,DeepSeek Reasoner,1,3
+89,DeepSeek Reasoner,1,5
+90,DeepSeek Reasoner,1,2
+91,DeepSeek Reasoner,1,3
+92,DeepSeek Reasoner,2,2
+93,DeepSeek Reasoner,1,4
+94,DeepSeek Reasoner,2,3
+95,DeepSeek Reasoner,2,2
+96,DeepSeek Reasoner,1,4
+97,DeepSeek Reasoner,2,2
+98,DeepSeek Reasoner,2,1
+99,DeepSeek Reasoner,3,1
+100,DeepSeek Reasoner,4,2
+101,DeepSeek Reasoner,2,1
+102,DeepSeek Reasoner,1,1
+103,DeepSeek Reasoner,1,1
+104,DeepSeek Reasoner,2,2
+105,DeepSeek Reasoner,2,4
+106,DeepSeek Reasoner,2,3
+107,DeepSeek Reasoner,2,2
+108,DeepSeek Reasoner,1,4
+109,DeepSeek Reasoner,1,2
+110,DeepSeek Reasoner,1,1
+111,DeepSeek Reasoner,2,1
+112,DeepSeek Reasoner,2,2
+113,DeepSeek Reasoner,2,2
+114,DeepSeek Reasoner,1,3
+115,DeepSeek Reasoner,1,2
+116,DeepSeek Reasoner,1,2
+117,DeepSeek Reasoner,1,1
+118,DeepSeek Reasoner,2,1
+119,DeepSeek Reasoner,2,4
+120,DeepSeek Reasoner,2,1
+121,DeepSeek Reasoner,3,3
+122,DeepSeek Reasoner,3,2
+123,DeepSeek Reasoner,2,1
+124,DeepSeek Reasoner,4,2
+125,DeepSeek Reasoner,5,3
+126,DeepSeek Reasoner,2,1
+127,DeepSeek Reasoner,2,1
+128,DeepSeek Reasoner,3,1
+129,DeepSeek Reasoner,1,3
+130,DeepSeek Reasoner,2,2
+131,DeepSeek Reasoner,2,1
+132,DeepSeek Reasoner,1,3
+133,DeepSeek Reasoner,2,1
+134,DeepSeek Reasoner,1,2
+135,DeepSeek Reasoner,1,2
+136,DeepSeek Reasoner,1,5
+137,DeepSeek Reasoner,1,4
+138,DeepSeek Reasoner,1,3
+139,DeepSeek Reasoner,2,2
+140,DeepSeek Reasoner,2,3
+141,DeepSeek Reasoner,1,4
+142,DeepSeek Reasoner,2,2
+143,DeepSeek Reasoner,3,2
+144,DeepSeek Reasoner,2,8
+145,DeepSeek Reasoner,3,1
+146,DeepSeek Reasoner,1,2
+147,DeepSeek Reasoner,1,2
+148,DeepSeek Reasoner,1,1
+149,DeepSeek Reasoner,1,3
+150,DeepSeek Reasoner,1,2
+151,DeepSeek Reasoner,4,1
+1,Mistral Large,1,1
+2,Mistral Large,1,1
+3,Mistral Large,1,1
+4,Mistral Large,1,2
+5,Mistral Large,1,1
+6,Mistral Large,2,1
+7,Mistral Large,1,2
+8,Mistral Large,1,1
+9,Mistral Large,2,5
+10,Mistral Large,1,2
+11,Mistral Large,3,2
+12,Mistral Large,2,1
+13,Mistral Large,5,2
+14,Mistral Large,3,2
+15,Mistral Large,2,2
+16,Mistral Large,2,2
+17,Mistral Large,2,2
+18,Mistral Large,2,2
+19,Mistral Large,2,2
+20,Mistral Large,1,1
+21,Mistral Large,2,2
+22,Mistral Large,2,1
+23,Mistral Large,2,2
+24,Mistral Large,5,1
+25,Mistral Large,5,1
+26,Mistral Large,4,1
+27,Mistral Large,2,2
+28,Mistral Large,3,2
+29,Mistral Large,4,1
+30,Mistral Large,5,1
+31,Mistral Large,3,3
+32,Mistral Large,1,1
+33,Mistral Large,2,1
+34,Mistral Large,3,2
+35,Mistral Large,4,2
+36,Mistral Large,3,5
+37,Mistral Large,2,1
+38,Mistral Large,2,2
+39,Mistral Large,1,1
+40,Mistral Large,2,1
+41,Mistral Large,1,2
+42,Mistral Large,2,5
+43,Mistral Large,2,1
+44,Mistral Large,2,1
+45,Mistral Large,1,1
+46,Mistral Large,1,1
+47,Mistral Large,2,2
+48,Mistral Large,5,2
+49,Mistral Large,1,3
+50,Mistral Large,1,2
+51,Mistral Large,1,5
+52,Mistral Large,1,3
+53,Mistral Large,2,1
+54,Mistral Large,2,4
+55,Mistral Large,1,4
+56,Mistral Large,1,4
+57,Mistral Large,2,3
+58,Mistral Large,2,1
+59,Mistral Large,1,2
+60,Mistral Large,1,2
+61,Mistral Large,2,1
+62,Mistral Large,2,3
+63,Mistral Large,2,2
+64,Mistral Large,2,3
+65,Mistral Large,2,5
+66,Mistral Large,2,2
+67,Mistral Large,2,1
+68,Mistral Large,2,3
+69,Mistral Large,2,1
+70,Mistral Large,1,4
+71,Mistral Large,1,1
+72,Mistral Large,1,1
+73,Mistral Large,1,1
+74,Mistral Large,1,4
+75,Mistral Large,1,1
+76,Mistral Large,1,1
+77,Mistral Large,2,2
+78,Mistral Large,2,3
+79,Mistral Large,1,1
+80,Mistral Large,1,2
+81,Mistral Large,1,1
+82,Mistral Large,2,2
+83,Mistral Large,2,1
+84,Mistral Large,1,1
+85,Mistral Large,2,2
+86,Mistral Large,1,2
+87,Mistral Large,1,1
+88,Mistral Large,1,2
+89,Mistral Large,1,2
+90,Mistral Large,1,1
+91,Mistral Large,1,1
+92,Mistral Large,2,1
+93,Mistral Large,1,2
+94,Mistral Large,2,3
+95,Mistral Large,2,1
+96,Mistral Large,1,3
+97,Mistral Large,2,2
+98,Mistral Large,2,2
+99,Mistral Large,3,3
+100,Mistral Large,4,4
+101,Mistral Large,2,1
+102,Mistral Large,1,3
+103,Mistral Large,1,1
+104,Mistral Large,2,2
+105,Mistral Large,2,2
+106,Mistral Large,2,1
+107,Mistral Large,2,1
+108,Mistral Large,1,3
+109,Mistral Large,1,1
+110,Mistral Large,1,2
+111,Mistral Large,2,1
+112,Mistral Large,2,2
+113,Mistral Large,2,2
+114,Mistral Large,1,3
+115,Mistral Large,1,1
+116,Mistral Large,1,3
+117,Mistral Large,1,2
+118,Mistral Large,2,1
+119,Mistral Large,2,1
+120,Mistral Large,2,4
+121,Mistral Large,3,4
+122,Mistral Large,3,2
+123,Mistral Large,2,2
+124,Mistral Large,4,2
+125,Mistral Large,5,1
+126,Mistral Large,2,3
+127,Mistral Large,2,2
+128,Mistral Large,3,1
+129,Mistral Large,1,3
+130,Mistral Large,2,1
+131,Mistral Large,2,1
+132,Mistral Large,1,1
+133,Mistral Large,2,2
+134,Mistral Large,1,3
+135,Mistral Large,1,2
+136,Mistral Large,1,1
+137,Mistral Large,1,1
+138,Mistral Large,1,2
+139,Mistral Large,2,3
+140,Mistral Large,2,1
+141,Mistral Large,1,2
+142,Mistral Large,2,2
+143,Mistral Large,3,2
+144,Mistral Large,2,3
+145,Mistral Large,3,3
+146,Mistral Large,1,2
+147,Mistral Large,1,2
+148,Mistral Large,1,4
+149,Mistral Large,1,3
+150,Mistral Large,1,2
+151,Mistral Large,4,3
+1,OpenAI Codex 5.2,1,1
+2,OpenAI Codex 5.2,1,2
+3,OpenAI Codex 5.2,1,2
+4,OpenAI Codex 5.2,1,1
+5,OpenAI Codex 5.2,1,1
+6,OpenAI Codex 5.2,2,1
+7,OpenAI Codex 5.2,1,2
+8,OpenAI Codex 5.2,1,1
+9,OpenAI Codex 5.2,2,1
+10,OpenAI Codex 5.2,1,3
+11,OpenAI Codex 5.2,3,1
+12,OpenAI Codex 5.2,2,2
+13,OpenAI Codex 5.2,5,2
+14,OpenAI Codex 5.2,3,2
+15,OpenAI Codex 5.2,2,2
+16,OpenAI Codex 5.2,2,1
+17,OpenAI Codex 5.2,2,3
+18,OpenAI Codex 5.2,2,2
+19,OpenAI Codex 5.2,2,3
+20,OpenAI Codex 5.2,1,2
+21,OpenAI Codex 5.2,2,2
+22,OpenAI Codex 5.2,2,1
+23,OpenAI Codex 5.2,2,1
+24,OpenAI Codex 5.2,5,2
+25,OpenAI Codex 5.2,5,2
+26,OpenAI Codex 5.2,4,1
+27,OpenAI Codex 5.2,2,1
+28,OpenAI Codex 5.2,3,1
+29,OpenAI Codex 5.2,4,1
+30,OpenAI Codex 5.2,5,1
+31,OpenAI Codex 5.2,3,1
+32,OpenAI Codex 5.2,1,1
+33,OpenAI Codex 5.2,2,2
+34,OpenAI Codex 5.2,3,2
+35,OpenAI Codex 5.2,4,2
+36,OpenAI Codex 5.2,3,2
+37,OpenAI Codex 5.2,2,2
+38,OpenAI Codex 5.2,2,2
+39,OpenAI Codex 5.2,1,2
+40,OpenAI Codex 5.2,2,2
+41,OpenAI Codex 5.2,1,2
+42,OpenAI Codex 5.2,2,2
+43,OpenAI Codex 5.2,2,3
+44,OpenAI Codex 5.2,2,1
+45,OpenAI Codex 5.2,1,2
+46,OpenAI Codex 5.2,1,2
+47,OpenAI Codex 5.2,2,1
+48,OpenAI Codex 5.2,5,1
+49,OpenAI Codex 5.2,1,1
+50,OpenAI Codex 5.2,1,1
+51,OpenAI Codex 5.2,1,1
+52,OpenAI Codex 5.2,1,4
+53,OpenAI Codex 5.2,2,2
+54,OpenAI Codex 5.2,2,2
+55,OpenAI Codex 5.2,1,4
+56,OpenAI Codex 5.2,1,2
+57,OpenAI Codex 5.2,2,1
+58,OpenAI Codex 5.2,2,1
+59,OpenAI Codex 5.2,1,1
+60,OpenAI Codex 5.2,1,2
+61,OpenAI Codex 5.2,2,1
+62,OpenAI Codex 5.2,2,1
+63,OpenAI Codex 5.2,2,2
+64,OpenAI Codex 5.2,2,1
+65,OpenAI Codex 5.2,2,1
+66,OpenAI Codex 5.2,2,2
+67,OpenAI Codex 5.2,2,2
+68,OpenAI Codex 5.2,2,2
+69,OpenAI Codex 5.2,2,2
+70,OpenAI Codex 5.2,1,3
+71,OpenAI Codex 5.2,1,2
+72,OpenAI Codex 5.2,1,1
+73,OpenAI Codex 5.2,1,1
+74,OpenAI Codex 5.2,1,1
+75,OpenAI Codex 5.2,1,1
+76,OpenAI Codex 5.2,1,1
+77,OpenAI Codex 5.2,2,2
+78,OpenAI Codex 5.2,2,1
+79,OpenAI Codex 5.2,1,1
+80,OpenAI Codex 5.2,1,2
+81,OpenAI Codex 5.2,1,2
+82,OpenAI Codex 5.2,2,1
+83,OpenAI Codex 5.2,2,2
+84,OpenAI Codex 5.2,1,1
+85,OpenAI Codex 5.2,2,2
+86,OpenAI Codex 5.2,1,1
+87,OpenAI Codex 5.2,1,1
+88,OpenAI Codex 5.2,1,2
+89,OpenAI Codex 5.2,1,1
+90,OpenAI Codex 5.2,1,1
+91,OpenAI Codex 5.2,1,2
+92,OpenAI Codex 5.2,2,2
+93,OpenAI Codex 5.2,1,3
+94,OpenAI Codex 5.2,2,2
+95,OpenAI Codex 5.2,2,2
+96,OpenAI Codex 5.2,1,2
+97,OpenAI Codex 5.2,2,3
+98,OpenAI Codex 5.2,2,2
+99,OpenAI Codex 5.2,3,2
+100,OpenAI Codex 5.2,4,1
+101,OpenAI Codex 5.2,2,1
+102,OpenAI Codex 5.2,1,2
+103,OpenAI Codex 5.2,1,2
+104,OpenAI Codex 5.2,2,3
+105,OpenAI Codex 5.2,2,3
+106,OpenAI Codex 5.2,2,2
+107,OpenAI Codex 5.2,2,1
+108,OpenAI Codex 5.2,1,2
+109,OpenAI Codex 5.2,1,1
+110,OpenAI Codex 5.2,1,2
+111,OpenAI Codex 5.2,2,2
+112,OpenAI Codex 5.2,2,2
+113,OpenAI Codex 5.2,2,2
+114,OpenAI Codex 5.2,1,1
+115,OpenAI Codex 5.2,1,2
+116,OpenAI Codex 5.2,1,1
+117,OpenAI Codex 5.2,1,5
+118,OpenAI Codex 5.2,2,2
+119,OpenAI Codex 5.2,2,1
+120,OpenAI Codex 5.2,2,3
+121,OpenAI Codex 5.2,3,2
+122,OpenAI Codex 5.2,3,2
+123,OpenAI Codex 5.2,2,1
+124,OpenAI Codex 5.2,4,1
+125,OpenAI Codex 5.2,5,2
+126,OpenAI Codex 5.2,2,1
+127,OpenAI Codex 5.2,2,1
+128,OpenAI Codex 5.2,3,2
+129,OpenAI Codex 5.2,1,1
+130,OpenAI Codex 5.2,2,2
+131,OpenAI Codex 5.2,2,1
+132,OpenAI Codex 5.2,1,2
+133,OpenAI Codex 5.2,2,3
+134,OpenAI Codex 5.2,1,2
+135,OpenAI Codex 5.2,1,1
+136,OpenAI Codex 5.2,1,1
+137,OpenAI Codex 5.2,1,3
+138,OpenAI Codex 5.2,1,3
+139,OpenAI Codex 5.2,2,2
+140,OpenAI Codex 5.2,2,3
+141,OpenAI Codex 5.2,1,3
+142,OpenAI Codex 5.2,2,1
+143,OpenAI Codex 5.2,3,2
+144,OpenAI Codex 5.2,2,2
+145,OpenAI Codex 5.2,3,2
+146,OpenAI Codex 5.2,1,1
+147,OpenAI Codex 5.2,1,1
+148,OpenAI Codex 5.2,1,2
+149,OpenAI Codex 5.2,1,1
+150,OpenAI Codex 5.2,1,1
+151,OpenAI Codex 5.2,4,2

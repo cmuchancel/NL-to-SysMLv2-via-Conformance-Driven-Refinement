@@ -1,0 +1,5 @@
+iteration_02.sysml:48:14: warning (namespace-distinguishability): Member name 'passengers' shadows transportation_system::Vehicle::passengers
+│   48 |         part passengers : User[0..4];
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:21:19: note: Inherited from here
+    └── iteration_02.sysml:46:19: note: Because transportation_system::Vehicle is specialized through FeatureTyping

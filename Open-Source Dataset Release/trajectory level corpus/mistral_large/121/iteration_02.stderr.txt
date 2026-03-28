@@ -1,0 +1,11 @@
+iteration_03.sysml:51:19: error (parsing-error): Unexpected 'analysis', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    51 |         attribute analysis : TradeOffAnalysis;
+       |                   ^^^^^^^^
+
+iteration_03.sysml:68:39: error (parsing-error): Unexpected '.', expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    68 |     connect system.ui.output to system.analysis.evaluate;
+       |                                       ^
+
+iteration_03.sysml:68:49: error (reference-error): No Feature named 'evaluate' found.
+    68 |     connect system.ui.output to system.analysis.evaluate;
+       |                                                 ^^^^^^^^

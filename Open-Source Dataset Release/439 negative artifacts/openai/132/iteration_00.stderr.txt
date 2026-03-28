@@ -1,0 +1,38 @@
+iteration_01.sysml:14:34: error (parsing-error): Expected a token. Did you forget ';'?
+    14 |   part def UnclassifiedComponent : Component {
+
+iteration_01.sysml:18:34: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |   part def ConfidentialComponent : Component {
+
+iteration_01.sysml:22:28: error (parsing-error): Expected a token. Did you forget ';'?
+    22 |   part def SecretComponent : Component {
+
+iteration_01.sysml:15:15: warning (namespace-distinguishability): Member name 'classification' shadows SecurityModel::Component::classification
+│   15 |     attribute classification : SecurityClassification = Unclassified;
+│      |               ^^^^^^^^^^^^^^
+└── iteration_01.sysml:11:15: note: Inherited from here
+    └── iteration_01.sysml:14:36: note: Because SecurityModel::Component is specialized through FeatureTyping
+
+iteration_01.sysml:19:15: warning (namespace-distinguishability): Member name 'classification' shadows SecurityModel::Component::classification
+│   19 |     attribute classification : SecurityClassification = Confidential;
+│      |               ^^^^^^^^^^^^^^
+└── iteration_01.sysml:11:15: note: Inherited from here
+    └── iteration_01.sysml:18:36: note: Because SecurityModel::Component is specialized through FeatureTyping
+
+iteration_01.sysml:23:15: warning (namespace-distinguishability): Member name 'classification' shadows SecurityModel::Component::classification
+│   23 |     attribute classification : SecurityClassification = Secret;
+│      |               ^^^^^^^^^^^^^^
+└── iteration_01.sysml:11:15: note: Inherited from here
+    └── iteration_01.sysml:22:30: note: Because SecurityModel::Component is specialized through FeatureTyping
+
+iteration_01.sysml:15:57: error (reference-error): No Feature named 'Unclassified' found.
+    15 |     attribute classification : SecurityClassification = Unclassified;
+       |                                                         ^^^^^^^^^^^^
+
+iteration_01.sysml:19:57: error (reference-error): No Feature named 'Confidential' found.
+    19 |     attribute classification : SecurityClassification = Confidential;
+       |                                                         ^^^^^^^^^^^^
+
+iteration_01.sysml:23:57: error (reference-error): No Feature named 'Secret' found.
+    23 |     attribute classification : SecurityClassification = Secret;
+       |                                                         ^^^^^^

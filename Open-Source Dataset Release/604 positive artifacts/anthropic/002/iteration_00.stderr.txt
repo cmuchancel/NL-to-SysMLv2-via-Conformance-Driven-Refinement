@@ -1,0 +1,25 @@
+iteration_01.sysml:20:14: warning (namespace-distinguishability): Member name 'driver' shadows VehicleSystem::ManuallyOperatedVehicle::driver
+│   20 |         part driver : Personnel[1];
+│      |              ^^^^^^
+└── iteration_01.sysml:10:14: note: Inherited from here
+    └── iteration_01.sysml:19:36: note: Because VehicleSystem::ManuallyOperatedVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:24:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::PoweredVehicle::engine
+│   24 |         part engine : Engine[1];
+│      |              ^^^^^^
+└── iteration_01.sysml:14:14: note: Inherited from here
+    └── iteration_01.sysml:23:27: note: Because VehicleSystem::PoweredVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:28:14: warning (namespace-distinguishability): Member name 'driver' shadows VehicleSystem::ManuallyOperatedVehicle::driver
+│   28 |         part driver : Personnel[1];
+│      |              ^^^^^^
+└── iteration_01.sysml:10:14: note: Inherited from here
+    ├── iteration_01.sysml:17:48: note: Because VehicleSystem::ManuallyOperatedVehicle is specialized through Subclassification
+    └── iteration_01.sysml:27:43: note: Because VehicleSystem::ManuallyOperatedPoweredVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:29:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::PoweredVehicle::engine
+│   29 |         part engine : Engine[1];
+│      |              ^^^^^^
+└── iteration_01.sysml:14:14: note: Inherited from here
+    ├── iteration_01.sysml:17:73: note: Because VehicleSystem::PoweredVehicle is specialized through Subclassification
+    └── iteration_01.sysml:27:43: note: Because VehicleSystem::ManuallyOperatedPoweredVehicle is specialized through FeatureTyping

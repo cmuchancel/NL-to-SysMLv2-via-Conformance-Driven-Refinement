@@ -1,0 +1,49 @@
+iteration_01.sysml:35:37: error (feature-value-overriding): Cannot override a binding feature value
+│   35 |         attribute redefines mass_kg = 1200.0;
+│      |                                     ^^^^^^^^
+└── iteration_01.sysml:27:34: note: Redefined binding feature value here
+
+iteration_01.sysml:36:38: error (feature-value-overriding): Cannot override a binding feature value
+│   36 |         attribute redefines length_m = 4.82;
+│      |                                      ^^^^^^
+└── iteration_01.sysml:28:35: note: Redefined binding feature value here
+
+iteration_01.sysml:37:37: error (feature-value-overriding): Cannot override a binding feature value
+│   37 |         attribute redefines mass_lb = 2645.55;
+│      |                                     ^^^^^^^^^
+└── iteration_01.sysml:29:34: note: Redefined binding feature value here
+
+iteration_01.sysml:38:39: error (feature-value-overriding): Cannot override a binding feature value
+│   38 |         attribute redefines length_ft = 15.81;
+│      |                                       ^^^^^^^
+└── iteration_01.sysml:30:36: note: Redefined binding feature value here
+
+iteration_01.sysml:42:52: error (feature-value-overriding): Cannot override a binding feature value
+│   42 |                 attribute redefines hubDiameter_in = 18.0;
+│      |                                                    ^^^^^^
+└── iteration_01.sysml:14:41: note: Redefined binding feature value here
+
+iteration_01.sysml:43:46: error (feature-value-overriding): Cannot override a binding feature value
+│   43 |                 attribute redefines width_mm = 245.0;
+│      |                                              ^^^^^^^
+└── iteration_01.sysml:15:35: note: Redefined binding feature value here
+
+iteration_01.sysml:44:52: error (feature-value-overriding): Cannot override a binding feature value
+│   44 |                 attribute redefines hubDiameter_mm = 457.2;
+│      |                                                    ^^^^^^^
+└── iteration_01.sysml:16:41: note: Redefined binding feature value here
+
+iteration_01.sysml:51:52: error (feature-value-overriding): Cannot override a binding feature value
+│   51 |                 attribute redefines hubDiameter_in = 18.0;
+│      |                                                    ^^^^^^
+└── iteration_01.sysml:14:41: note: Redefined binding feature value here
+
+iteration_01.sysml:52:46: error (feature-value-overriding): Cannot override a binding feature value
+│   52 |                 attribute redefines width_mm = 245.0;
+│      |                                              ^^^^^^^
+└── iteration_01.sysml:15:35: note: Redefined binding feature value here
+
+iteration_01.sysml:53:52: error (feature-value-overriding): Cannot override a binding feature value
+│   53 |                 attribute redefines hubDiameter_mm = 457.2;
+│      |                                                    ^^^^^^^
+└── iteration_01.sysml:16:41: note: Redefined binding feature value here

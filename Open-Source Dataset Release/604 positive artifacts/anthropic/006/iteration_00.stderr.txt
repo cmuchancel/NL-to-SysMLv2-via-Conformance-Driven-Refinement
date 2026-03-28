@@ -1,0 +1,113 @@
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'level' shadows TrafficLightClassification::ClassificationEntry::level
+│   46 |             attribute level : ClassificationLevel = ClassificationLevel::UNCLASSIFIED;
+│      |                       ^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:45:34: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'code' shadows TrafficLightClassification::ClassificationEntry::code
+│   47 |             attribute code : String = "uncl";
+│      |                       ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:45:34: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:48:23: warning (namespace-distinguishability): Member name 'color' shadows TrafficLightClassification::ClassificationEntry::color
+│   48 |             attribute color : String = "green";
+│      |                       ^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:45:34: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:52:23: warning (namespace-distinguishability): Member name 'level' shadows TrafficLightClassification::ClassificationEntry::level
+│   52 |             attribute level : ClassificationLevel = ClassificationLevel::CONFIDENTIAL;
+│      |                       ^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:51:34: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'code' shadows TrafficLightClassification::ClassificationEntry::code
+│   53 |             attribute code : String = "conf";
+│      |                       ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:51:34: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'color' shadows TrafficLightClassification::ClassificationEntry::color
+│   54 |             attribute color : String = "yellow";
+│      |                       ^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:51:34: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:58:23: warning (namespace-distinguishability): Member name 'level' shadows TrafficLightClassification::ClassificationEntry::level
+│   58 |             attribute level : ClassificationLevel = ClassificationLevel::SECRET;
+│      |                       ^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:57:28: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'code' shadows TrafficLightClassification::ClassificationEntry::code
+│   59 |             attribute code : String = "secr";
+│      |                       ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:57:28: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:60:23: warning (namespace-distinguishability): Member name 'color' shadows TrafficLightClassification::ClassificationEntry::color
+│   60 |             attribute color : String = "red";
+│      |                       ^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:57:28: note: Because TrafficLightClassification::ClassificationEntry is specialized through FeatureTyping
+
+iteration_01.sysml:64:23: warning (namespace-distinguishability): Member name 'grade' shadows TrafficLightClassification::GradeEntry::grade
+│   64 |             attribute grade : GradeLevel = GradeLevel::A;
+│      |                       ^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:63:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:65:23: warning (namespace-distinguishability): Member name 'points' shadows TrafficLightClassification::GradeEntry::points
+│   65 |             attribute points : Real = 4.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:63:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'grade' shadows TrafficLightClassification::GradeEntry::grade
+│   69 |             attribute grade : GradeLevel = GradeLevel::B;
+│      |                       ^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'points' shadows TrafficLightClassification::GradeEntry::points
+│   70 |             attribute points : Real = 3.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:74:23: warning (namespace-distinguishability): Member name 'grade' shadows TrafficLightClassification::GradeEntry::grade
+│   74 |             attribute grade : GradeLevel = GradeLevel::C;
+│      |                       ^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:73:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:75:23: warning (namespace-distinguishability): Member name 'points' shadows TrafficLightClassification::GradeEntry::points
+│   75 |             attribute points : Real = 2.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:73:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'grade' shadows TrafficLightClassification::GradeEntry::grade
+│   79 |             attribute grade : GradeLevel = GradeLevel::D;
+│      |                       ^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:78:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'points' shadows TrafficLightClassification::GradeEntry::points
+│   80 |             attribute points : Real = 1.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:78:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:84:23: warning (namespace-distinguishability): Member name 'grade' shadows TrafficLightClassification::GradeEntry::grade
+│   84 |             attribute grade : GradeLevel = GradeLevel::F;
+│      |                       ^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:83:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping
+
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'points' shadows TrafficLightClassification::GradeEntry::points
+│   85 |             attribute points : Real = 0.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:83:23: note: Because TrafficLightClassification::GradeEntry is specialized through FeatureTyping

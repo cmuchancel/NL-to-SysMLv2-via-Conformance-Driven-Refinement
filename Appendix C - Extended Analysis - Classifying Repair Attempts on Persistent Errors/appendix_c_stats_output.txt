@@ -1,0 +1,15 @@
+Scanning: exact_signature_transition_analysis.csv
+
+C.1 Persistent exact-error transition counts
+Total exact-error transitions: 1502
+Resolved by the next iteration: 1262/1502 (84.02%)
+Persistent through the next iteration: 240/1502 (15.98%)
+
+Persistent deterministic states:
+persistent_same_snippet: 155/240 (64.58%)
+persistent_changed_snippet: 83/240 (34.58%)
+persistent_no_comparable_snippet: 2/240 (0.83%)
+
+C.2 Persistent outcome split
+Unaddressed and not fixed: 155/240 (64.58%)
+Addressed but not fixed: 85/240 (35.42%)

@@ -1,0 +1,3 @@
+iteration_02.sysml:15:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    15 |         attribute state : VehicleState;
+       |                   ^^^^^

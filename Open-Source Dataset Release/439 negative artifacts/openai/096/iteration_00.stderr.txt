@@ -1,0 +1,13 @@
+iteration_01.sysml:8:18: error (parsing-error): Expected a token. Did you forget ';'?
+    8 |     part def Car : Automobile;
+
+iteration_01.sysml:10:21: error (parsing-error): Expected a token. Did you forget ';'?
+    10 |     item def Torque : TorqueValue;
+
+iteration_01.sysml:5:28: error (reference-error): No Type named 'TorqueValue' found.
+    5 |         attribute torque : TorqueValue;
+      |                            ^^^^^^^^^^^
+
+iteration_01.sysml:10:23: error (reference-error): No Type named 'TorqueValue' found.
+    10 |     item def Torque : TorqueValue;
+       |                       ^^^^^^^^^^^

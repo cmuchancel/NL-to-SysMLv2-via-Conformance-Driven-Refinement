@@ -1,0 +1,119 @@
+iteration_01.sysml:98:19: warning (namespace-distinguishability): Member name 'systemName' shadows SystemAssembly::SystemRoot::systemName
+│   98 |         attribute systemName = "IntegratedSystem";
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:82:19: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:99:19: warning (namespace-distinguishability): Member name 'systemVersion' shadows SystemAssembly::SystemRoot::systemVersion
+│   99 |         attribute systemVersion = "1.0";
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:83:19: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:100:19: warning (namespace-distinguishability): Member name 'reliable' shadows SystemAssembly::SystemRoot::reliable
+│   100 |         attribute reliable = true;
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:84:19: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:101:19: warning (namespace-distinguishability): Member name 'efficient' shadows SystemAssembly::SystemRoot::efficient
+│   101 |         attribute efficient = true;
+│       |                   ^^^^^^^^^
+└── iteration_01.sysml:85:19: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:102:19: warning (namespace-distinguishability): Member name 'compliant' shadows SystemAssembly::SystemRoot::compliant
+│   102 |         attribute compliant = true;
+│       |                   ^^^^^^^^^
+└── iteration_01.sysml:86:19: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:104:14: warning (namespace-distinguishability): Member name 'software' shadows SystemAssembly::SystemRoot::software
+│   104 |         part software : SoftwareDesign {
+│       |              ^^^^^^^^
+└── iteration_01.sysml:88:14: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:105:23: warning (namespace-distinguishability): Member name 'designVersion' shadows SystemAssembly::SoftwareDesign::designVersion
+│   105 |             attribute designVersion = "1.0";
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:50:19: note: Inherited from here
+    └── iteration_01.sysml:104:25: note: Because SystemAssembly::SoftwareDesign is specialized through FeatureTyping
+
+iteration_01.sysml:106:23: warning (namespace-distinguishability): Member name 'messageFormat' shadows SystemAssembly::SoftwareDesign::messageFormat
+│   106 |             attribute messageFormat = MessageFormatType::JSON;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    └── iteration_01.sysml:104:25: note: Because SystemAssembly::SoftwareDesign is specialized through FeatureTyping
+
+iteration_01.sysml:107:23: warning (namespace-distinguishability): Member name 'dataFormat' shadows SystemAssembly::SoftwareDesign::dataFormat
+│   107 |             attribute dataFormat = DataFormatType::Structured;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:104:25: note: Because SystemAssembly::SoftwareDesign is specialized through FeatureTyping
+
+iteration_01.sysml:110:14: warning (namespace-distinguishability): Member name 'computer' shadows SystemAssembly::SystemRoot::computer
+│   110 |         part computer : ComputerSubsystem {
+│       |              ^^^^^^^^
+└── iteration_01.sysml:89:14: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:111:23: warning (namespace-distinguishability): Member name 'processorSpeed' shadows SystemAssembly::ComputerSubsystem::processorSpeed
+│   111 |             attribute processorSpeed = 3.5;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:61:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because SystemAssembly::ComputerSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:112:23: warning (namespace-distinguishability): Member name 'memorySize' shadows SystemAssembly::ComputerSubsystem::memorySize
+│   112 |             attribute memorySize = 16.0;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:62:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because SystemAssembly::ComputerSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:113:23: warning (namespace-distinguishability): Member name 'supportedMessageFormat' shadows SystemAssembly::ComputerSubsystem::supportedMessageFormat
+│   113 |             attribute supportedMessageFormat = MessageFormatType::JSON;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because SystemAssembly::ComputerSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:114:23: warning (namespace-distinguishability): Member name 'supportedDataFormat' shadows SystemAssembly::ComputerSubsystem::supportedDataFormat
+│   114 |             attribute supportedDataFormat = DataFormatType::Structured;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because SystemAssembly::ComputerSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:115:23: warning (namespace-distinguishability): Member name 'integratesSoftwareFunctions' shadows SystemAssembly::ComputerSubsystem::integratesSoftwareFunctions
+│   115 |             attribute integratesSoftwareFunctions = true;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:65:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because SystemAssembly::ComputerSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:118:14: warning (namespace-distinguishability): Member name 'storage' shadows SystemAssembly::SystemRoot::storage
+│   118 |         part storage : StorageSubsystem {
+│       |              ^^^^^^^
+└── iteration_01.sysml:90:14: note: Inherited from here
+    └── iteration_01.sysml:97:19: note: Because SystemAssembly::SystemRoot is specialized through FeatureTyping
+
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'storageCapacity' shadows SystemAssembly::StorageSubsystem::storageCapacity
+│   119 |             attribute storageCapacity = 1000.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:72:19: note: Inherited from here
+    └── iteration_01.sysml:118:24: note: Because SystemAssembly::StorageSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'compatibleMessageFormat' shadows SystemAssembly::StorageSubsystem::compatibleMessageFormat
+│   120 |             attribute compatibleMessageFormat = MessageFormatType::JSON;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:73:19: note: Inherited from here
+    └── iteration_01.sysml:118:24: note: Because SystemAssembly::StorageSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:121:23: warning (namespace-distinguishability): Member name 'compatibleDataFormat' shadows SystemAssembly::StorageSubsystem::compatibleDataFormat
+│   121 |             attribute compatibleDataFormat = DataFormatType::Structured;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:74:19: note: Inherited from here
+    └── iteration_01.sysml:118:24: note: Because SystemAssembly::StorageSubsystem is specialized through FeatureTyping
+
+iteration_01.sysml:122:23: warning (namespace-distinguishability): Member name 'accessMode' shadows SystemAssembly::StorageSubsystem::accessMode
+│   122 |             attribute accessMode = StorageAccessMode::ReadWrite;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:75:19: note: Inherited from here
+    └── iteration_01.sysml:118:24: note: Because SystemAssembly::StorageSubsystem is specialized through FeatureTyping

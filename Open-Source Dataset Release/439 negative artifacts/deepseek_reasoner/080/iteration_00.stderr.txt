@@ -1,0 +1,18 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    6 |         enum six
+      |         ^^^^
+
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:12:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    12 |     }
+       |     ^
+
+iteration_01.sysml:12:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    12 |     }
+       |     ^
+
+iteration_01.sysml:24:66: error (reference-error): No Feature named 'four' found.
+    24 |         attribute cylinderCount : CylinderCount = CylinderCount::four;
+       |                                                                  ^^^^

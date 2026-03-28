@@ -1,0 +1,19 @@
+iteration_02.sysml:8:56: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    8 |         attribute totalMass(minThreshold : Real = 0.0) : Real;
+      |                                                        ^
+
+iteration_02.sysml:14:46: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    14 |         attribute aggregateMass(minThreshold : Real = 0.0) : Real;
+       |                                              ^
+
+iteration_02.sysml:14:62: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    14 |         attribute aggregateMass(minThreshold : Real = 0.0) : Real;
+       |                                                              ^^^^
+
+iteration_02.sysml:14:55: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    14 |         attribute aggregateMass(minThreshold : Real = 0.0) : Real;
+       |                                                       ^^^
+
+iteration_02.sysml:14:62: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is DataType
+    14 |         attribute aggregateMass(minThreshold : Real = 0.0) : Real;
+       |                                                              ^^^^

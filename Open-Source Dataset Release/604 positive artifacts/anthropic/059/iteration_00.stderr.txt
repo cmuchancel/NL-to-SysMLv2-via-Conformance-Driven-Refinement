@@ -1,0 +1,77 @@
+iteration_01.sysml:122:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleDynamics::VehicleDynamicsSystem::totalMass
+│   122 |         attribute totalMass = 1500.0;
+│       |                   ^^^^^^^^^
+└── iteration_01.sysml:85:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:123:19: warning (namespace-distinguishability): Member name 'aeroDragCoefficient' shadows VehicleDynamics::VehicleDynamicsSystem::aeroDragCoefficient
+│   123 |         attribute aeroDragCoefficient = 0.3;
+│       |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:86:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:124:19: warning (namespace-distinguishability): Member name 'rollingResistanceCoefficient' shadows VehicleDynamics::VehicleDynamicsSystem::rollingResistanceCoefficient
+│   124 |         attribute rollingResistanceCoefficient = 0.015;
+│       |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:87:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:125:19: warning (namespace-distinguishability): Member name 'frontalArea' shadows VehicleDynamics::VehicleDynamicsSystem::frontalArea
+│   125 |         attribute frontalArea = 2.2;
+│       |                   ^^^^^^^^^^^
+└── iteration_01.sysml:88:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:126:19: warning (namespace-distinguishability): Member name 'airDensity' shadows VehicleDynamics::VehicleDynamicsSystem::airDensity
+│   126 |         attribute airDensity = 1.225;
+│       |                   ^^^^^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:127:19: warning (namespace-distinguishability): Member name 'gravitationalAcceleration' shadows VehicleDynamics::VehicleDynamicsSystem::gravitationalAcceleration
+│   127 |         attribute gravitationalAcceleration = 9.81;
+│       |                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:90:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:128:19: warning (namespace-distinguishability): Member name 'wheelEndOutputPower' shadows VehicleDynamics::VehicleDynamicsSystem::wheelEndOutputPower
+│   128 |         attribute wheelEndOutputPower = 50000.0;
+│       |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:91:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:129:19: warning (namespace-distinguishability): Member name 'initialSpeed' shadows VehicleDynamics::VehicleDynamicsSystem::initialSpeed
+│   129 |         attribute initialSpeed = 0.0;
+│       |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:92:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:130:19: warning (namespace-distinguishability): Member name 'initialPosition' shadows VehicleDynamics::VehicleDynamicsSystem::initialPosition
+│   130 |         attribute initialPosition = 0.0;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:93:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:131:19: warning (namespace-distinguishability): Member name 'timeStep' shadows VehicleDynamics::VehicleDynamicsSystem::timeStep
+│   131 |         attribute timeStep = 0.1;
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:94:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:132:19: warning (namespace-distinguishability): Member name 'currentSpeed' shadows VehicleDynamics::VehicleDynamicsSystem::currentSpeed
+│   132 |         attribute currentSpeed = 0.0;
+│       |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:95:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:133:19: warning (namespace-distinguishability): Member name 'currentPosition' shadows VehicleDynamics::VehicleDynamicsSystem::currentPosition
+│   133 |         attribute currentPosition = 0.0;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:96:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping
+
+iteration_01.sysml:134:19: warning (namespace-distinguishability): Member name 'drivingMode' shadows VehicleDynamics::VehicleDynamicsSystem::drivingMode
+│   134 |         attribute drivingMode = DrivingMode::STRAIGHT_LINE;
+│       |                   ^^^^^^^^^^^
+└── iteration_01.sysml:106:19: note: Inherited from here
+    └── iteration_01.sysml:121:36: note: Because VehicleDynamics::VehicleDynamicsSystem is specialized through FeatureTyping

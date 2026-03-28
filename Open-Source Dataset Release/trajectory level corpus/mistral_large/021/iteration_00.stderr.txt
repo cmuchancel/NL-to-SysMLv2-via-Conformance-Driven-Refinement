@@ -1,0 +1,7 @@
+iteration_01.sysml:35:20: error (reference-error): Expected Feature element but found PartDefinition (AutomatedPhotographySystem::FocusProcessor)
+    35 |     part system :> FocusProcessor, Shooter {
+       |                    ^^^^^^^^^^^^^^
+
+iteration_01.sysml:35:36: error (reference-error): Expected Feature element but found PartDefinition (AutomatedPhotographySystem::Shooter)
+    35 |     part system :> FocusProcessor, Shooter {
+       |                                    ^^^^^^^

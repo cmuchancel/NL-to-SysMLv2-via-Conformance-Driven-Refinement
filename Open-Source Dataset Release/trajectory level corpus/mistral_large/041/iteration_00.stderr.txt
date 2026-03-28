@@ -1,0 +1,16 @@
+iteration_01.sysml:15:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    15 |         port in request : Request;
+       |              ^^
+
+iteration_01.sysml:22:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    22 |         attribute state : ServerState = ServerState::off;
+       |                   ^^^^^
+
+iteration_01.sysml:23:19: warning (namespace-distinguishability): Member name 'localClock' shadows Occurrences::Occurrence::localClock
+│   23 |         attribute localClock : Clock;
+│      |                   ^^^^^^^^^^
+└── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Kernel Libraries/Kernel Semantic Library/Occurrences.kerml:52:11: note: Inherited from here
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Kernel Libraries/Kernel Semantic Library/Objects.kerml:24:37: note: Because Occurrences::Occurrence is specialized through Subclassification
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Items.sysml:24:28: note: Because Objects::Object is specialized through Subclassification
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Parts.sysml:19:28: note: Because Items::Item is specialized through Subclassification
+    └── iteration_01.sysml:21:5: note: Because Parts::Part is implicitly specialized through Subclassification

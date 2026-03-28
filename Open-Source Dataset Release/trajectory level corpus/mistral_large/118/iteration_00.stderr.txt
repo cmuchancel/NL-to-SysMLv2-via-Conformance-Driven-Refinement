@@ -1,0 +1,47 @@
+iteration_01.sysml:42:9: warning (namespace-distinguishability): Member name 'mass' shadows AutomobileRequirements::Vehicle::mass
+│   42 |         mass = 2000.0;
+│      |         ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:41:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:43:9: warning (namespace-distinguishability): Member name 'maxMass' shadows AutomobileRequirements::Vehicle::maxMass
+│   43 |         maxMass = 2000.0;
+│      |         ^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:41:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:44:9: warning (namespace-distinguishability): Member name 'massGrade' shadows AutomobileRequirements::Vehicle::massGrade
+│   44 |         massGrade = MassGrade::GRADE_2000KG;
+│      |         ^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:41:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:45:9: warning (namespace-distinguishability): Member name 'fuelStatus' shadows AutomobileRequirements::Vehicle::fuelStatus
+│   45 |         fuelStatus = FuelStatus::FULL;
+│      |         ^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:41:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:49:9: warning (namespace-distinguishability): Member name 'mass' shadows AutomobileRequirements::Vehicle::mass
+│   49 |         mass = 2500.0;
+│      |         ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:48:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:50:9: warning (namespace-distinguishability): Member name 'maxMass' shadows AutomobileRequirements::Vehicle::maxMass
+│   50 |         maxMass = 2500.0;
+│      |         ^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:48:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:51:9: warning (namespace-distinguishability): Member name 'massGrade' shadows AutomobileRequirements::Vehicle::massGrade
+│   51 |         massGrade = MassGrade::GRADE_2500KG;
+│      |         ^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:48:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:52:9: warning (namespace-distinguishability): Member name 'fuelStatus' shadows AutomobileRequirements::Vehicle::fuelStatus
+│   52 |         fuelStatus = FuelStatus::EMPTY;
+│      |         ^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:48:26: note: Because AutomobileRequirements::Vehicle is specialized through FeatureTyping

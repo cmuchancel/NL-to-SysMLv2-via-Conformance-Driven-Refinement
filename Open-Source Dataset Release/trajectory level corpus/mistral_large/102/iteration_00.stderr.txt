@@ -1,0 +1,18 @@
+iteration_01.sysml:5:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    5 |         engaged
+      |         ^^^^^^^
+
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    11 |         first
+       |         ^^^^^
+
+iteration_01.sysml:54:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    54 |         attribute state : ClutchState = ClutchState::disengaged;
+       |                   ^^^^^
+
+iteration_01.sysml:61:46: error (reference-error): No Feature named 'neutral' found.
+    61 |         attribute currentGear : Gear = Gear::neutral;
+       |                                              ^^^^^^^

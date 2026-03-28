@@ -1,0 +1,68 @@
+iteration_01.sysml:57:43: error (parsing-error): Expected a token. Did you forget ';'?
+    57 |         attribute accelerations : Sequence<Real>;
+
+iteration_01.sysml:58:40: error (parsing-error): Expected a token. Did you forget ';'?
+    58 |         attribute velocities : Sequence<Real>;
+
+iteration_01.sysml:59:39: error (parsing-error): Expected a token. Did you forget ';'?
+    59 |         attribute positions : Sequence<Real>;
+
+iteration_01.sysml:73:38: error (parsing-error): Expected a token. Did you forget ';'?
+    73 |         attribute segments : Sequence<PowerSegment>;
+
+iteration_01.sysml:77:43: error (parsing-error): Expected a token. Did you forget ';'?
+    77 |         attribute accelerations : Sequence<Real>;
+
+iteration_01.sysml:78:40: error (parsing-error): Expected a token. Did you forget ';'?
+    78 |         attribute velocities : Sequence<Real>;
+
+iteration_01.sysml:79:39: error (parsing-error): Expected a token. Did you forget ';'?
+    79 |         attribute positions : Sequence<Real>;
+
+iteration_01.sysml:58:41: warning (namespace-distinguishability): Member name 'Real' shadows VehicleLongitudinalDynamics::SimulationOutput::Real
+│   58 |         attribute velocities : Sequence<Real>;
+│      |                                         ^^^^
+└── iteration_01.sysml:57:44: note: First declared here
+
+iteration_01.sysml:59:40: warning (namespace-distinguishability): Member name 'Real' shadows VehicleLongitudinalDynamics::SimulationOutput::Real
+│   59 |         attribute positions : Sequence<Real>;
+│      |                                        ^^^^
+└── iteration_01.sysml:57:44: note: First declared here
+
+iteration_01.sysml:78:41: warning (namespace-distinguishability): Member name 'Real' shadows VehicleLongitudinalDynamics::MotionData::Real
+│   78 |         attribute velocities : Sequence<Real>;
+│      |                                         ^^^^
+└── iteration_01.sysml:77:44: note: First declared here
+
+iteration_01.sysml:79:40: warning (namespace-distinguishability): Member name 'Real' shadows VehicleLongitudinalDynamics::MotionData::Real
+│   79 |         attribute positions : Sequence<Real>;
+│      |                                        ^^^^
+└── iteration_01.sysml:77:44: note: First declared here
+
+iteration_01.sysml:57:35: error (reference-error): No Type named 'Sequence' found.
+    57 |         attribute accelerations : Sequence<Real>;
+       |                                   ^^^^^^^^
+
+iteration_01.sysml:58:32: error (reference-error): No Type named 'Sequence' found.
+    58 |         attribute velocities : Sequence<Real>;
+       |                                ^^^^^^^^
+
+iteration_01.sysml:59:31: error (reference-error): No Type named 'Sequence' found.
+    59 |         attribute positions : Sequence<Real>;
+       |                               ^^^^^^^^
+
+iteration_01.sysml:73:30: error (reference-error): No Type named 'Sequence' found.
+    73 |         attribute segments : Sequence<PowerSegment>;
+       |                              ^^^^^^^^
+
+iteration_01.sysml:77:35: error (reference-error): No Type named 'Sequence' found.
+    77 |         attribute accelerations : Sequence<Real>;
+       |                                   ^^^^^^^^
+
+iteration_01.sysml:78:32: error (reference-error): No Type named 'Sequence' found.
+    78 |         attribute velocities : Sequence<Real>;
+       |                                ^^^^^^^^
+
+iteration_01.sysml:79:31: error (reference-error): No Type named 'Sequence' found.
+    79 |         attribute positions : Sequence<Real>;
+       |                               ^^^^^^^^

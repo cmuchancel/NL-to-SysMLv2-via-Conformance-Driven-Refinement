@@ -1,0 +1,36 @@
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:12:40: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |         attribute timePoints : Sequence<Real>;
+
+iteration_01.sysml:13:39: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |         attribute positions : Sequence<Vector3D>;
+
+iteration_01.sysml:14:40: error (parsing-error): Expected a token. Did you forget ';'?
+    14 |         attribute velocities : Sequence<Vector3D>;
+
+iteration_01.sysml:11:39: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    11 |         attribute referenceTimeZero : Real = 0.0;
+       |                                       ^^^^
+
+iteration_01.sysml:11:46: error (type-error): ScalarValues::Rational does not conform to SpacecraftTrajectory::Spacecraft::Real
+    11 |         attribute referenceTimeZero : Real = 0.0;
+       |                                              ^^^
+
+iteration_01.sysml:14:41: warning (namespace-distinguishability): Member name 'Vector3D' shadows SpacecraftTrajectory::Spacecraft::Vector3D
+│   14 |         attribute velocities : Sequence<Vector3D>;
+│      |                                         ^^^^^^^^
+└── iteration_01.sysml:13:40: note: First declared here
+
+iteration_01.sysml:12:32: error (reference-error): No Type named 'Sequence' found.
+    12 |         attribute timePoints : Sequence<Real>;
+       |                                ^^^^^^^^
+
+iteration_01.sysml:13:31: error (reference-error): No Type named 'Sequence' found.
+    13 |         attribute positions : Sequence<Vector3D>;
+       |                               ^^^^^^^^
+
+iteration_01.sysml:14:32: error (reference-error): No Type named 'Sequence' found.
+    14 |         attribute velocities : Sequence<Vector3D>;
+       |                                ^^^^^^^^

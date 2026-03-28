@@ -1,0 +1,7 @@
+iteration_01.sysml:16:52: error (parsing-error): Expected a token. Did you forget an identifier?
+    16 |         attribute installationPosition : Real[3] = [0.0, 0.0, 0.0];
+
+iteration_01.sysml:16:52: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   16 |         attribute installationPosition : Real[3] = [0.0, 0.0, 0.0];
+│      |                                                    ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:53: note: ScalarValues::Rational does not conform to MeasurementReferences::MeasurementUnit

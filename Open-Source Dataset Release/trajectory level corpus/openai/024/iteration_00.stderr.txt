@@ -1,0 +1,19 @@
+iteration_01.sysml:11:26: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    11 |   port def SceneInPort { item scene: Scene; }
+       |                          ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:12:27: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    12 |   port def SceneOutPort { item scene: Scene; }
+       |                           ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:13:24: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    13 |   port def ImagePort { item image: Image; }
+       |                        ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:14:23: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    14 |   port def EvalPort { item evaluation: FocusEvaluation; }
+       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:15:24: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    15 |   port def PhotoPort { item photo: Photograph; }
+       |                        ^^^^^^^^^^^^^^^^^^^^^^^

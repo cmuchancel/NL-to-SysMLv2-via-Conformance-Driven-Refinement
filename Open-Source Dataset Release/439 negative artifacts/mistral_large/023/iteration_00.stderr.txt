@@ -1,0 +1,7 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    6 |         enum UNCLEAR
+      |         ^^^^
+
+iteration_01.sysml:33:67: error (reference-error): No Feature named 'UNCLEAR' found.
+    33 |         attribute currentFocusStatus : FocusStatus = FocusStatus::UNCLEAR;
+       |                                                                   ^^^^^^^

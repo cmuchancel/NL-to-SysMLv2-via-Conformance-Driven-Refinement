@@ -1,0 +1,37 @@
+iteration_01.sysml:24:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassBudget::Chassis::actualMass
+│   24 |             attribute actualMass : Real = 800.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:7:19: note: Inherited from here
+    └── iteration_01.sysml:23:24: note: Because VehicleMassBudget::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:28:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassBudget::Engine::actualMass
+│   28 |             attribute actualMass : Real = 450.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:27:23: note: Because VehicleMassBudget::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:32:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassBudget::Transmission::actualMass
+│   32 |             attribute actualMass : Real = 120.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:31:29: note: Because VehicleMassBudget::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:37:39: error (feature-value-overriding): Cannot override a binding feature value
+│   37 |         attribute redefines massLimit = 2500.0;
+│      |                                       ^^^^^^^^
+└── iteration_01.sysml:19:36: note: Redefined binding feature value here
+
+iteration_01.sysml:42:44: error (feature-value-overriding): Cannot override a binding feature value
+│   42 |             attribute redefines actualMass = 800.0;
+│      |                                            ^^^^^^^
+└── iteration_01.sysml:24:41: note: Redefined binding feature value here
+
+iteration_01.sysml:46:44: error (feature-value-overriding): Cannot override a binding feature value
+│   46 |             attribute redefines actualMass = 450.0;
+│      |                                            ^^^^^^^
+└── iteration_01.sysml:28:41: note: Redefined binding feature value here
+
+iteration_01.sysml:50:44: error (feature-value-overriding): Cannot override a binding feature value
+│   50 |             attribute redefines actualMass = 120.0;
+│      |                                            ^^^^^^^
+└── iteration_01.sysml:32:41: note: Redefined binding feature value here

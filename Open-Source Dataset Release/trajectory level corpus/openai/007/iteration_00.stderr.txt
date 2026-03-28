@@ -1,0 +1,23 @@
+iteration_01.sysml:8:25: error (parsing-error): Expected a token. Did you forget ';'?
+    8 |    part def SmallEngine : Engine {
+
+iteration_01.sysml:12:25: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |    part def LargeEngine : Engine {
+
+iteration_01.sysml:20:26: error (parsing-error): Expected a token. Did you forget ';'?
+    20 |    part def SmallVehicle : Vehicle {
+
+iteration_01.sysml:24:26: error (parsing-error): Expected a token. Did you forget ';'?
+    24 |    part def LargeVehicle : Vehicle {
+
+iteration_01.sysml:21:12: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   21 |       part engine : SmallEngine;
+│      |            ^^^^^^
+└── iteration_01.sysml:17:12: note: Inherited from here
+    └── iteration_01.sysml:20:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:25:12: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   25 |       part engine : LargeEngine;
+│      |            ^^^^^^
+└── iteration_01.sysml:17:12: note: Inherited from here
+    └── iteration_01.sysml:24:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

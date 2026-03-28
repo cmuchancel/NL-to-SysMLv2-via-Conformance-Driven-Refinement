@@ -1,0 +1,11 @@
+iteration_02.sysml:24:33: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    24 |         attribute currentTime : Time;
+       |                                 ^^^^
+
+iteration_02.sysml:25:34: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    25 |         attribute lastMidnight : Time;
+       |                                  ^^^^
+
+iteration_02.sysml:30:35: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    30 |         attribute responseStart : Time;
+       |                                   ^^^^

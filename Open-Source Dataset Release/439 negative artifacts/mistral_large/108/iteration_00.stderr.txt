@@ -1,0 +1,18 @@
+iteration_01.sysml:5:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    5 |         connected
+      |         ^^^^^^^^^
+
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:20:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    20 |         part frame : TrailerFrame;
+       |              ^^^^^
+
+iteration_01.sysml:33:47: error (parsing-error): Unexpected '.', expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    33 |     connect vehicle.chassis.towBall to trailer.frame.coupler;
+       |                                               ^
+
+iteration_01.sysml:33:54: error (reference-error): No Feature named 'coupler' found.
+    33 |     connect vehicle.chassis.towBall to trailer.frame.coupler;
+       |                                                      ^^^^^^^

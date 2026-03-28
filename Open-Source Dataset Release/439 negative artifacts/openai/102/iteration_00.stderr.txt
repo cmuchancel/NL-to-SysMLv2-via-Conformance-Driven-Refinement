@@ -1,0 +1,103 @@
+iteration_01.sysml:32:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    32 |         port in : PowerPort;
+       |              ^^
+
+iteration_01.sysml:33:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    33 |         port out : PowerPort;
+       |              ^^^
+
+iteration_01.sysml:37:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    37 |         port in : PowerPort;
+       |              ^^
+
+iteration_01.sysml:43:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    43 |         port in : PowerPort;
+       |              ^^
+
+iteration_01.sysml:44:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    44 |         port out : PowerPort;
+       |              ^^^
+
+iteration_01.sysml:56:37: error (parsing-error): Unexpected token '.'.
+    56 |         connect driveshaftIn to diff.in;
+       |                                     ^
+
+iteration_01.sysml:56:38: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    56 |         connect driveshaftIn to diff.in;
+       |                                      ^^
+
+iteration_01.sysml:57:41: error (parsing-error): Unexpected token '.'.
+    57 |         connect diff.outLeft to leftHalf.in;
+       |                                         ^
+
+iteration_01.sysml:57:42: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    57 |         connect diff.outLeft to leftHalf.in;
+       |                                          ^^
+
+iteration_01.sysml:58:43: error (parsing-error): Unexpected token '.'.
+    58 |         connect diff.outRight to rightHalf.in;
+       |                                           ^
+
+iteration_01.sysml:58:44: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    58 |         connect diff.outRight to rightHalf.in;
+       |                                            ^^
+
+iteration_01.sysml:59:25: error (parsing-error): Unexpected token '.'.
+    59 |         connect leftHalf.out to leftOut;
+       |                         ^
+
+iteration_01.sysml:59:26: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    59 |         connect leftHalf.out to leftOut;
+       |                          ^^^
+
+iteration_01.sysml:60:26: error (parsing-error): Unexpected token '.'.
+    60 |         connect rightHalf.out to rightOut;
+       |                          ^
+
+iteration_01.sysml:60:27: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    60 |         connect rightHalf.out to rightOut;
+       |                           ^^^
+
+iteration_01.sysml:87:52: error (parsing-error): Unexpected token '.'.
+    87 |         connect transmission.powerOut to driveshaft.in;
+       |                                                    ^
+
+iteration_01.sysml:87:53: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    87 |         connect transmission.powerOut to driveshaft.in;
+       |                                                     ^^
+
+iteration_01.sysml:88:27: error (parsing-error): Unexpected token '.'.
+    88 |         connect driveshaft.out to rearAxle.driveshaftIn;
+       |                           ^
+
+iteration_01.sysml:88:28: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    88 |         connect driveshaft.out to rearAxle.driveshaftIn;
+       |                            ^^^
+
+iteration_01.sysml:56:33: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    56 |         connect driveshaftIn to diff.in;
+       |                                 ^^^^
+
+iteration_01.sysml:57:33: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    57 |         connect diff.outLeft to leftHalf.in;
+       |                                 ^^^^^^^^
+
+iteration_01.sysml:58:34: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    58 |         connect diff.outRight to rightHalf.in;
+       |                                  ^^^^^^^^^
+
+iteration_01.sysml:59:17: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    59 |         connect leftHalf.out to leftOut;
+       |                 ^^^^^^^^
+
+iteration_01.sysml:60:17: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    60 |         connect rightHalf.out to rightOut;
+       |                 ^^^^^^^^^
+
+iteration_01.sysml:87:42: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    87 |         connect transmission.powerOut to driveshaft.in;
+       |                                          ^^^^^^^^^^
+
+iteration_01.sysml:88:17: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    88 |         connect driveshaft.out to rearAxle.driveshaftIn;
+       |                 ^^^^^^^^^^

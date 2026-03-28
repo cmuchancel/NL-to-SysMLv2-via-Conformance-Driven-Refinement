@@ -1,0 +1,65 @@
+iteration_04.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    6 |         enum Updating
+      |         ^^^^
+
+iteration_04.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    8 |         enum Error
+      |         ^^^^
+
+iteration_04.sysml:13:9: error (parsing-error): Unexpected identifier.
+    13 |         attribute status : SensorStatus
+       |         ^^^^^^^^^
+
+iteration_04.sysml:14:9: error (parsing-error): Unexpected identifier.
+    14 |         attribute lastUpdateTime : Integer = 0
+       |         ^^^^^^^^^
+
+iteration_04.sysml:17:14: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    17 |     part def SensorManager {
+       |              ^^^^^^^^^^^^^
+
+iteration_04.sysml:19:9: error (parsing-error): Expected a token. Did you forget ';'?
+    19 |         attribute updateInterval : Integer = 1000
+
+iteration_04.sysml:20:5: error (parsing-error): Unexpected '}', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "VariantMembership", "FeatureMembership", "FeatureMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "FeatureMembership", "SuccessionAsUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Dependency_repeat1"].
+    20 |     }
+       |     ^
+
+iteration_04.sysml:23:2: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)
+
+iteration_04.sysml:14:46: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    14 |         attribute lastUpdateTime : Integer = 0
+       |                                              ^
+
+iteration_04.sysml:18:9: error (attribute-usage-features): Features of an attribute usage must be referential
+    18 |         part sensors : Sensor[0..*]
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    19 |         attribute updateInterval : Integer = 1000
+
+iteration_04.sysml:12:24: error (reference-error): No Type named 'String' found.
+    12 |         attribute id : String
+       |                        ^^^^^^
+
+iteration_04.sysml:13:28: error (reference-error): No Type named 'SensorStatus' found.
+    13 |         attribute status : SensorStatus
+       |                            ^^^^^^^^^^^^
+
+iteration_04.sysml:14:36: error (reference-error): No Type named 'Integer' found.
+    14 |         attribute lastUpdateTime : Integer = 0
+       |                                    ^^^^^^^
+
+iteration_04.sysml:17:14: error (reference-error): No Feature named 'SensorManager' found.
+    17 |     part def SensorManager {
+       |              ^^^^^^^^^^^^^
+
+iteration_04.sysml:18:24: error (reference-error): No Type named 'Sensor' found.
+    18 |         part sensors : Sensor[0..*]
+       |                        ^^^^^^
+
+iteration_04.sysml:19:36: error (reference-error): No Type named 'Integer' found.
+    19 |         attribute updateInterval : Integer = 1000
+       |                                    ^^^^^^^
+
+iteration_04.sysml:22:19: error (reference-error): No Type named 'SensorManager' found.
+    22 |     part system : SensorManager
+       |                   ^^^^^^^^^^^^^

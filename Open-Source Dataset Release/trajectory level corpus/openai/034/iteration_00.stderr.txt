@@ -1,0 +1,3 @@
+iteration_01.sysml:14:39: error (reference-error): No Feature named 'NotReady' found.
+    14 |     attribute status : SensorStatus = NotReady;
+       |                                       ^^^^^^^^

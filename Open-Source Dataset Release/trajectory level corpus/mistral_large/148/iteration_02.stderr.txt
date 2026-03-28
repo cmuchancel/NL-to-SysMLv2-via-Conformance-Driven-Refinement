@@ -1,0 +1,59 @@
+iteration_03.sysml:41:25: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    41 |             constituent => "Iron",
+       |                         ^
+
+iteration_03.sysml:42:26: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    42 |             massFraction => 0.97
+       |                          ^
+
+iteration_03.sysml:45:25: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    45 |             constituent => "Carbon",
+       |                         ^
+
+iteration_03.sysml:46:26: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    46 |             massFraction => 0.002
+       |                          ^
+
+iteration_03.sysml:49:25: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    49 |             constituent => "Manganese",
+       |                         ^
+
+iteration_03.sysml:50:26: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    50 |             massFraction => 0.02
+       |                          ^
+
+iteration_03.sysml:40:35: error (type-error): ScalarValues::Boolean does not conform to EngineeringMaterialsDatabase::Composition
+    40 |         part iron : Composition = (
+       |                                   ^
+
+iteration_03.sysml:44:37: error (type-error): ScalarValues::Boolean does not conform to EngineeringMaterialsDatabase::Composition
+    44 |         part carbon : Composition = (
+       |                                     ^
+
+iteration_03.sysml:48:40: error (type-error): ScalarValues::Boolean does not conform to EngineeringMaterialsDatabase::Composition
+    48 |         part manganese : Composition = (
+       |                                        ^
+
+iteration_03.sysml:41:13: error (reference-error): No Feature named 'constituent' found.
+    41 |             constituent => "Iron",
+       |             ^^^^^^^^^^^
+
+iteration_03.sysml:42:13: error (reference-error): No Feature named 'massFraction' found.
+    42 |             massFraction => 0.97
+       |             ^^^^^^^^^^^^
+
+iteration_03.sysml:45:13: error (reference-error): No Feature named 'constituent' found.
+    45 |             constituent => "Carbon",
+       |             ^^^^^^^^^^^
+
+iteration_03.sysml:46:13: error (reference-error): No Feature named 'massFraction' found.
+    46 |             massFraction => 0.002
+       |             ^^^^^^^^^^^^
+
+iteration_03.sysml:49:13: error (reference-error): No Feature named 'constituent' found.
+    49 |             constituent => "Manganese",
+       |             ^^^^^^^^^^^
+
+iteration_03.sysml:50:13: error (reference-error): No Feature named 'massFraction' found.
+    50 |             massFraction => 0.02
+       |             ^^^^^^^^^^^^

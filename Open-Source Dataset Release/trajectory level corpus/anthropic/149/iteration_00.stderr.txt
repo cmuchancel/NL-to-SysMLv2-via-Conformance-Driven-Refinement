@@ -1,0 +1,179 @@
+iteration_01.sysml:125:23: warning (namespace-distinguishability): Member name 'producerId' shadows PubSubSystem::Producer::producerId
+│   125 |             attribute producerId = "P001";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:124:26: note: Because PubSubSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:126:23: warning (namespace-distinguishability): Member name 'topicToPublish' shadows PubSubSystem::Producer::topicToPublish
+│   126 |             attribute topicToPublish = "TOPIC_NEWS";
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:72:19: note: Inherited from here
+    └── iteration_01.sysml:124:26: note: Because PubSubSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:127:23: warning (namespace-distinguishability): Member name 'messageContent' shadows PubSubSystem::Producer::messageContent
+│   127 |             attribute messageContent = "Breaking News Update";
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:73:19: note: Inherited from here
+    └── iteration_01.sysml:124:26: note: Because PubSubSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:131:23: warning (namespace-distinguishability): Member name 'producerId' shadows PubSubSystem::Producer::producerId
+│   131 |             attribute producerId = "P002";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:130:26: note: Because PubSubSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:132:23: warning (namespace-distinguishability): Member name 'topicToPublish' shadows PubSubSystem::Producer::topicToPublish
+│   132 |             attribute topicToPublish = "TOPIC_SPORTS";
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:72:19: note: Inherited from here
+    └── iteration_01.sysml:130:26: note: Because PubSubSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:133:23: warning (namespace-distinguishability): Member name 'messageContent' shadows PubSubSystem::Producer::messageContent
+│   133 |             attribute messageContent = "Sports Score Update";
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:73:19: note: Inherited from here
+    └── iteration_01.sysml:130:26: note: Because PubSubSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:137:23: warning (namespace-distinguishability): Member name 'brokerId' shadows PubSubSystem::Broker::brokerId
+│   137 |             attribute brokerId = "B001";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:79:19: note: Inherited from here
+    └── iteration_01.sysml:136:23: note: Because PubSubSystem::Broker is specialized through FeatureTyping
+
+iteration_01.sysml:138:23: warning (namespace-distinguishability): Member name 'brokerName' shadows PubSubSystem::Broker::brokerName
+│   138 |             attribute brokerName = "MainBroker";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:80:19: note: Inherited from here
+    └── iteration_01.sysml:136:23: note: Because PubSubSystem::Broker is specialized through FeatureTyping
+
+iteration_01.sysml:139:23: warning (namespace-distinguishability): Member name 'maxTopics' shadows PubSubSystem::Broker::maxTopics
+│   139 |             attribute maxTopics = 100;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:81:19: note: Inherited from here
+    └── iteration_01.sysml:136:23: note: Because PubSubSystem::Broker is specialized through FeatureTyping
+
+iteration_01.sysml:143:23: warning (namespace-distinguishability): Member name 'consumerId' shadows PubSubSystem::Consumer::consumerId
+│   143 |             attribute consumerId = "C001";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    └── iteration_01.sysml:142:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:144:23: warning (namespace-distinguishability): Member name 'subscribedTopic' shadows PubSubSystem::Consumer::subscribedTopic
+│   144 |             attribute subscribedTopic = "TOPIC_NEWS";
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:90:19: note: Inherited from here
+    └── iteration_01.sysml:142:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:145:23: warning (namespace-distinguishability): Member name 'receivedMessageContent' shadows PubSubSystem::Consumer::receivedMessageContent
+│   145 |             attribute receivedMessageContent = "";
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:91:19: note: Inherited from here
+    └── iteration_01.sysml:142:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:149:23: warning (namespace-distinguishability): Member name 'consumerId' shadows PubSubSystem::Consumer::consumerId
+│   149 |             attribute consumerId = "C002";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    └── iteration_01.sysml:148:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:150:23: warning (namespace-distinguishability): Member name 'subscribedTopic' shadows PubSubSystem::Consumer::subscribedTopic
+│   150 |             attribute subscribedTopic = "TOPIC_SPORTS";
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:90:19: note: Inherited from here
+    └── iteration_01.sysml:148:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:151:23: warning (namespace-distinguishability): Member name 'receivedMessageContent' shadows PubSubSystem::Consumer::receivedMessageContent
+│   151 |             attribute receivedMessageContent = "";
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:91:19: note: Inherited from here
+    └── iteration_01.sysml:148:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:155:23: warning (namespace-distinguishability): Member name 'consumerId' shadows PubSubSystem::Consumer::consumerId
+│   155 |             attribute consumerId = "C003";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    └── iteration_01.sysml:154:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:156:23: warning (namespace-distinguishability): Member name 'subscribedTopic' shadows PubSubSystem::Consumer::subscribedTopic
+│   156 |             attribute subscribedTopic = "TOPIC_NEWS";
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:90:19: note: Inherited from here
+    └── iteration_01.sysml:154:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:157:23: warning (namespace-distinguishability): Member name 'receivedMessageContent' shadows PubSubSystem::Consumer::receivedMessageContent
+│   157 |             attribute receivedMessageContent = "";
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:91:19: note: Inherited from here
+    └── iteration_01.sysml:154:26: note: Because PubSubSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:161:23: warning (namespace-distinguishability): Member name 'registryId' shadows PubSubSystem::TopicRegistry::registryId
+│   161 |             attribute registryId = "TR001";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:98:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:162:23: warning (namespace-distinguishability): Member name 'totalTopics' shadows PubSubSystem::TopicRegistry::totalTopics
+│   162 |             attribute totalTopics = 5;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:99:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:163:23: warning (namespace-distinguishability): Member name 'topic1' shadows PubSubSystem::TopicRegistry::topic1
+│   163 |             attribute topic1 = "TOPIC_NEWS";
+│       |                       ^^^^^^
+└── iteration_01.sysml:101:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:164:23: warning (namespace-distinguishability): Member name 'topic2' shadows PubSubSystem::TopicRegistry::topic2
+│   164 |             attribute topic2 = "TOPIC_SPORTS";
+│       |                       ^^^^^^
+└── iteration_01.sysml:102:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:165:23: warning (namespace-distinguishability): Member name 'topic3' shadows PubSubSystem::TopicRegistry::topic3
+│   165 |             attribute topic3 = "TOPIC_FINANCE";
+│       |                       ^^^^^^
+└── iteration_01.sysml:103:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:166:23: warning (namespace-distinguishability): Member name 'topic4' shadows PubSubSystem::TopicRegistry::topic4
+│   166 |             attribute topic4 = "TOPIC_TECH";
+│       |                       ^^^^^^
+└── iteration_01.sysml:104:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:167:23: warning (namespace-distinguishability): Member name 'topic5' shadows PubSubSystem::TopicRegistry::topic5
+│   167 |             attribute topic5 = "TOPIC_WEATHER";
+│       |                       ^^^^^^
+└── iteration_01.sysml:105:19: note: Inherited from here
+    └── iteration_01.sysml:160:30: note: Because PubSubSystem::TopicRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:171:23: warning (namespace-distinguishability): Member name 'managerId' shadows PubSubSystem::SubscriptionManager::managerId
+│   171 |             attribute managerId = "SM001";
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:109:19: note: Inherited from here
+    └── iteration_01.sysml:170:36: note: Because PubSubSystem::SubscriptionManager is specialized through FeatureTyping
+
+iteration_01.sysml:172:23: warning (namespace-distinguishability): Member name 'totalSubscriptions' shadows PubSubSystem::SubscriptionManager::totalSubscriptions
+│   172 |             attribute totalSubscriptions = 3;
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:110:19: note: Inherited from here
+    └── iteration_01.sysml:170:36: note: Because PubSubSystem::SubscriptionManager is specialized through FeatureTyping
+
+iteration_01.sysml:176:23: warning (namespace-distinguishability): Member name 'dispatcherId' shadows PubSubSystem::MessageDispatcher::dispatcherId
+│   176 |             attribute dispatcherId = "MD001";
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:114:19: note: Inherited from here
+    └── iteration_01.sysml:175:34: note: Because PubSubSystem::MessageDispatcher is specialized through FeatureTyping
+
+iteration_01.sysml:177:23: warning (namespace-distinguishability): Member name 'pendingMessages' shadows PubSubSystem::MessageDispatcher::pendingMessages
+│   177 |             attribute pendingMessages = 0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:115:19: note: Inherited from here
+    └── iteration_01.sysml:175:34: note: Because PubSubSystem::MessageDispatcher is specialized through FeatureTyping
+
+iteration_01.sysml:178:23: warning (namespace-distinguishability): Member name 'dispatchedMessages' shadows PubSubSystem::MessageDispatcher::dispatchedMessages
+│   178 |             attribute dispatchedMessages = 0;
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:116:19: note: Inherited from here
+    └── iteration_01.sysml:175:34: note: Because PubSubSystem::MessageDispatcher is specialized through FeatureTyping

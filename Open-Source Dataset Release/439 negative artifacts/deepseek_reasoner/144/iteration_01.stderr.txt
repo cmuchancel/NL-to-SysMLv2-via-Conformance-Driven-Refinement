@@ -1,0 +1,25 @@
+iteration_02.sysml:15:62: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "ordered", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    15 |         attribute sparePartsArchive : SparePart[*] {nonunique};
+       |                                                              ^
+
+iteration_02.sysml:16:55: error (parsing-error): Unexpected ',', expected one of ["SINGLE_LINE_NOTE", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    16 |         attribute integerStorage : Integer[*] {ordered, nonunique};
+       |                                                       ^
+
+iteration_02.sysml:16:66: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    16 |         attribute integerStorage : Integer[*] {ordered, nonunique};
+       |                                                                  ^
+
+iteration_02.sysml:18:55: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    18 |         attribute personnelRoster : Person[*] {ordered};
+       |                                                       ^
+
+iteration_02.sysml:19:50: error (parsing-error): Unexpected '[', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "subsets", "defined", "=", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    19 |         attribute nestedPersonnelSets : Person[*][*];
+       |                                                  ^
+
+iteration_02.sysml:22:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_02.sysml:22:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_02.sysml:22:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)

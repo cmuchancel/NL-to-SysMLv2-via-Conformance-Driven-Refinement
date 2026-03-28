@@ -1,0 +1,107 @@
+iteration_01.sysml:49:14: warning (namespace-distinguishability): Member name 'vehicles' shadows VehicleManagementSystem::Fleet::vehicles
+│   49 |         part vehicles : Vehicle[*] {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:45:14: note: Inherited from here
+    └── iteration_01.sysml:48:25: note: Because VehicleManagementSystem::Fleet is specialized through FeatureTyping
+
+iteration_01.sysml:50:18: warning (namespace-distinguishability): Member name 'currentStatus' shadows VehicleManagementSystem::Vehicle::currentStatus
+│   50 |             part currentStatus : VehicleStatus {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:39:14: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:51:27: warning (namespace-distinguishability): Member name 'gearSetting' shadows VehicleManagementSystem::VehicleStatus::gearSetting
+│   51 |                 attribute gearSetting : GearSetting = GearSetting::PARK;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:50:34: note: Because VehicleManagementSystem::VehicleStatus is specialized through FeatureTyping
+
+iteration_01.sysml:52:27: warning (namespace-distinguishability): Member name 'acceleratorPedalPosition' shadows VehicleManagementSystem::VehicleStatus::acceleratorPedalPosition
+│   52 |                 attribute acceleratorPedalPosition : Real = 0.0;
+│      |                           ^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:50:34: note: Because VehicleManagementSystem::VehicleStatus is specialized through FeatureTyping
+
+iteration_01.sysml:54:18: warning (namespace-distinguishability): Member name 'engine' shadows VehicleManagementSystem::Vehicle::engine
+│   54 |             part engine : Engine {
+│      |                  ^^^^^^
+└── iteration_01.sysml:40:14: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:55:27: warning (namespace-distinguishability): Member name 'displacement' shadows VehicleManagementSystem::Engine::displacement
+│   55 |                 attribute displacement : Real = 2.0;
+│      |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:54:27: note: Because VehicleManagementSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:56:27: warning (namespace-distinguishability): Member name 'horsepower' shadows VehicleManagementSystem::Engine::horsepower
+│   56 |                 attribute horsepower : Real = 150.0;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:54:27: note: Because VehicleManagementSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:57:27: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleManagementSystem::Engine::engineType
+│   57 |                 attribute engineType : String = "V4";
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:54:27: note: Because VehicleManagementSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:59:18: warning (namespace-distinguishability): Member name 'driver' shadows VehicleManagementSystem::Vehicle::driver
+│   59 |             part driver : Driver[0..1] {
+│      |                  ^^^^^^
+└── iteration_01.sysml:41:14: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:60:22: warning (namespace-distinguishability): Member name 'personInfo' shadows VehicleManagementSystem::Driver::personInfo
+│   60 |                 part personInfo : Person {
+│      |                      ^^^^^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:59:27: note: Because VehicleManagementSystem::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:61:31: warning (namespace-distinguishability): Member name 'firstName' shadows VehicleManagementSystem::Person::firstName
+│   61 |                     attribute firstName : String = "John";
+│      |                               ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:60:35: note: Because VehicleManagementSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:62:31: warning (namespace-distinguishability): Member name 'lastName' shadows VehicleManagementSystem::Person::lastName
+│   62 |                     attribute lastName : String = "Doe";
+│      |                               ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:60:35: note: Because VehicleManagementSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:63:31: warning (namespace-distinguishability): Member name 'licenseNumber' shadows VehicleManagementSystem::Person::licenseNumber
+│   63 |                     attribute licenseNumber : String = "DL123456";
+│      |                               ^^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:60:35: note: Because VehicleManagementSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:65:27: warning (namespace-distinguishability): Member name 'experienceYears' shadows VehicleManagementSystem::Driver::experienceYears
+│   65 |                 attribute experienceYears : Integer = 5;
+│      |                           ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:59:27: note: Because VehicleManagementSystem::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'vehicleMass' shadows VehicleManagementSystem::Vehicle::vehicleMass
+│   67 |             attribute vehicleMass : Real = 1500.0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:68:23: warning (namespace-distinguishability): Member name 'make' shadows VehicleManagementSystem::Vehicle::make
+│   68 |             attribute make : String = "Toyota";
+│      |                       ^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'model' shadows VehicleManagementSystem::Vehicle::model
+│   69 |             attribute model : String = "Camry";
+│      |                       ^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'year' shadows VehicleManagementSystem::Vehicle::year
+│   70 |             attribute year : Integer = 2023;
+│      |                       ^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:49:25: note: Because VehicleManagementSystem::Vehicle is specialized through FeatureTyping

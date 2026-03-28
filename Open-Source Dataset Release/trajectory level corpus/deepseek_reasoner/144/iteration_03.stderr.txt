@@ -1,0 +1,35 @@
+iteration_04.sysml:15:46: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    15 |         attribute members : Person[*] {unique};
+       |                                              ^
+
+iteration_04.sysml:19:66: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "@", "as", "#", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    19 |         attribute sparePartsArchive : SparePart[*] {ordered=false};
+       |                                                                  ^
+
+iteration_04.sysml:20:55: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    20 |         attribute integerStorage : Integer[*] {ordered};
+       |                                                       ^
+
+iteration_04.sysml:21:55: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    21 |         attribute stringManagement : String[*] {unique};
+       |                                                       ^
+
+iteration_04.sysml:22:57: error (parsing-error): Unexpected identifier.
+    22 |         attribute personnelRoster : Person[*] {ordered, unique};
+       |                                                         ^^^^^^
+
+iteration_04.sysml:23:65: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    23 |         attribute nestedPersonnelSets : PersonnelSet[*] {ordered};
+       |                                                                 ^
+
+iteration_04.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_04.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_04.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_04.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_04.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_04.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)

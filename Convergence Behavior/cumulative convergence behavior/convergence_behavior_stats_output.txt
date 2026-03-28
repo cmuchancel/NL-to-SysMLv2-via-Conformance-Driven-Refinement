@@ -1,0 +1,29 @@
+Scanning: 604 positive artifacts
+
+Figure 5 cumulative acceptance by repair cycle:
+  k=0: 309/604 (51.16%)
+  k=1: 510/604 (84.44%)
+  k=2: 570/604 (94.37%)
+  k=3: 593/604 (98.18%)
+  k=4: 602/604 (99.67%)
+  k=5: 602/604 (99.67%)
+  k=6: 603/604 (99.83%)
+  k=7: 604/604 (100.00%)
+
+Table 1 grouped distribution:
+  k=0: 309 cases, 51.16% share, 51.16% cumulative
+  k=1: 201 cases, 33.28% share, 84.44% cumulative
+  k=2: 60 cases, 9.93% share, 94.37% cumulative
+  k=3: 23 cases, 3.81% share, 98.18% cumulative
+  k=4: 9 cases, 1.49% share, 99.67% cumulative
+  k=5-7: 2 cases, 0.33% share, 100.00% cumulative
+
+Rate characterization:
+  Residual failure mass: R_0 = 0.4884, R_1 = 0.1556, R_2 = 0.0563, R_3 = 0.0182, R_4 = 0.0033
+  Early-cycle contraction ratios: rho_0 = 0.32, rho_1 = 0.36, rho_2 = 0.32
+  Geometric-mean early-cycle contraction factor: 0.33
+  Threshold repair cycles: T90 = 2, T95 = 3, T99 = 4
+
+Summary statistics:
+  Repair cycles to first conformance: mean 0.727, median 0, IQR 0-1, max 7
+  Total attempts to first conformance: mean 1.727, median 1, IQR 1-2, max 8

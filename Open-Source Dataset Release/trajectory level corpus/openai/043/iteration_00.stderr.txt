@@ -1,0 +1,170 @@
+iteration_01.sysml:2:3: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |   private import ScalarValues::*;
+
+iteration_01.sysml:23:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    23 |     port startControlIn : SignalPort;
+       |     ^^^^
+
+iteration_01.sysml:25:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    25 |   end;
+
+iteration_01.sysml:28:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    28 |     port startSignalOut : SignalPort;
+       |     ^^^^
+
+iteration_01.sysml:32:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    32 |   end;
+
+iteration_01.sysml:35:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    35 |     port applyCommandIn : SignalPort;
+       |     ^^^^
+
+iteration_01.sysml:37:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    37 |   end;
+
+iteration_01.sysml:40:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    40 |     port powerOut : PowerPort;
+       |     ^^^^
+
+iteration_01.sysml:42:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    42 |   end;
+
+iteration_01.sysml:45:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    45 |     attribute state : VehicleState = Off;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:53:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    53 |   end;
+
+iteration_01.sysml:56:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    56 |     part controller : VehicleController;
+       |     ^^^^
+
+iteration_01.sysml:59:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    59 |   end;
+
+iteration_01.sysml:62:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    62 |     part system : StartStopSystem;
+       |     ^^^^
+
+iteration_01.sysml:75:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    75 |   end;
+
+iteration_01.sysml:77:4: error (parsing-error): Expected a token. Did you forget an identifier?
+    77 | end;
+
+iteration_01.sysml:45:38: error (reference-error): No Feature named 'Off' found.
+    45 |     attribute state : VehicleState = Off;
+       |                                      ^^^
+
+iteration_01.sysml:66:20: error (reference-error): No Feature named 'startSignalOut' found.
+    66 |     connect driver.startSignalOut to system.startSignalIn;
+       |                    ^^^^^^^^^^^^^^
+
+iteration_01.sysml:66:38: error (reference-error): No Feature named 'system' found.
+    66 |     connect driver.startSignalOut to system.startSignalIn;
+       |                                      ^^^^^^
+
+iteration_01.sysml:66:45: error (reference-error): No Feature named 'startSignalIn' found.
+    66 |     connect driver.startSignalOut to system.startSignalIn;
+       |                                             ^^^^^^^^^^^^^
+
+iteration_01.sysml:67:20: error (reference-error): No Feature named 'brakeSignalOut' found.
+    67 |     connect driver.brakeSignalOut to system.brakeSignalIn;
+       |                    ^^^^^^^^^^^^^^
+
+iteration_01.sysml:67:38: error (reference-error): No Feature named 'system' found.
+    67 |     connect driver.brakeSignalOut to system.brakeSignalIn;
+       |                                      ^^^^^^
+
+iteration_01.sysml:67:45: error (reference-error): No Feature named 'brakeSignalIn' found.
+    67 |     connect driver.brakeSignalOut to system.brakeSignalIn;
+       |                                             ^^^^^^^^^^^^^
+
+iteration_01.sysml:68:20: error (reference-error): No Feature named 'vehicleOnSignalOut' found.
+    68 |     connect driver.vehicleOnSignalOut to system.vehicleOnSignalIn;
+       |                    ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:68:42: error (reference-error): No Feature named 'system' found.
+    68 |     connect driver.vehicleOnSignalOut to system.vehicleOnSignalIn;
+       |                                          ^^^^^^
+
+iteration_01.sysml:68:49: error (reference-error): No Feature named 'vehicleOnSignalIn' found.
+    68 |     connect driver.vehicleOnSignalOut to system.vehicleOnSignalIn;
+       |                                                 ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:69:20: error (reference-error): No Feature named 'shutdownSignalOut' found.
+    69 |     connect driver.shutdownSignalOut to system.shutdownSignalIn;
+       |                    ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:69:41: error (reference-error): No Feature named 'system' found.
+    69 |     connect driver.shutdownSignalOut to system.shutdownSignalIn;
+       |                                         ^^^^^^
+
+iteration_01.sysml:69:48: error (reference-error): No Feature named 'shutdownSignalIn' found.
+    69 |     connect driver.shutdownSignalOut to system.shutdownSignalIn;
+       |                                                ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:71:13: error (reference-error): No Feature named 'system' found.
+    71 |     connect system.startControlOut to vehicle.controller.startControlIn;
+       |             ^^^^^^
+
+iteration_01.sysml:71:20: error (reference-error): No Feature named 'startControlOut' found.
+    71 |     connect system.startControlOut to vehicle.controller.startControlIn;
+       |                    ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:71:47: error (reference-error): No Feature named 'controller' found.
+    71 |     connect system.startControlOut to vehicle.controller.startControlIn;
+       |                                               ^^^^^^^^^^
+
+iteration_01.sysml:71:58: error (reference-error): No Feature named 'startControlIn' found.
+    71 |     connect system.startControlOut to vehicle.controller.startControlIn;
+       |                                                          ^^^^^^^^^^^^^^
+
+iteration_01.sysml:72:13: error (reference-error): No Feature named 'system' found.
+    72 |     connect system.powerSupplyOut to vehicle.power.powerOut;
+       |             ^^^^^^
+
+iteration_01.sysml:72:20: error (reference-error): No Feature named 'powerSupplyOut' found.
+    72 |     connect system.powerSupplyOut to vehicle.power.powerOut;
+       |                    ^^^^^^^^^^^^^^
+
+iteration_01.sysml:72:46: error (reference-error): No Feature named 'power' found.
+    72 |     connect system.powerSupplyOut to vehicle.power.powerOut;
+       |                                              ^^^^^
+
+iteration_01.sysml:72:52: error (reference-error): No Feature named 'powerOut' found.
+    72 |     connect system.powerSupplyOut to vehicle.power.powerOut;
+       |                                                    ^^^^^^^^
+
+iteration_01.sysml:73:13: error (reference-error): No Feature named 'system' found.
+    73 |     connect system.parkingBrakeApplyOut to vehicle.parkingBrake.applyCommandIn;
+       |             ^^^^^^
+
+iteration_01.sysml:73:20: error (reference-error): No Feature named 'parkingBrakeApplyOut' found.
+    73 |     connect system.parkingBrakeApplyOut to vehicle.parkingBrake.applyCommandIn;
+       |                    ^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:73:52: error (reference-error): No Feature named 'parkingBrake' found.
+    73 |     connect system.parkingBrakeApplyOut to vehicle.parkingBrake.applyCommandIn;
+       |                                                    ^^^^^^^^^^^^
+
+iteration_01.sysml:73:65: error (reference-error): No Feature named 'applyCommandIn' found.
+    73 |     connect system.parkingBrakeApplyOut to vehicle.parkingBrake.applyCommandIn;
+       |                                                                 ^^^^^^^^^^^^^^
+
+iteration_01.sysml:74:21: error (reference-error): No Feature named 'power' found.
+    74 |     connect vehicle.power.powerOut to vehicle.controller.powerIn;
+       |                     ^^^^^
+
+iteration_01.sysml:74:27: error (reference-error): No Feature named 'powerOut' found.
+    74 |     connect vehicle.power.powerOut to vehicle.controller.powerIn;
+       |                           ^^^^^^^^
+
+iteration_01.sysml:74:47: error (reference-error): No Feature named 'controller' found.
+    74 |     connect vehicle.power.powerOut to vehicle.controller.powerIn;
+       |                                               ^^^^^^^^^^
+
+iteration_01.sysml:74:58: error (reference-error): No Feature named 'powerIn' found.
+    74 |     connect vehicle.power.powerOut to vehicle.controller.powerIn;
+       |                                                          ^^^^^^^

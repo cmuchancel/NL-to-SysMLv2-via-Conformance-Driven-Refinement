@@ -1,0 +1,41 @@
+iteration_02.sysml:20:19: warning (namespace-distinguishability): Member name 'size' shadows VehicleSystem::Vehicle::size
+│   20 |         attribute size = VehicleSize::Small;
+│      |                   ^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:19:30: note: Because VehicleSystem::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:21:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   21 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_02.sysml:16:14: note: Inherited from here
+    └── iteration_02.sysml:19:30: note: Because VehicleSystem::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:22:23: warning (namespace-distinguishability): Member name 'cylinders' shadows VehicleSystem::Engine::cylinders
+│   22 |             attribute cylinders = 4;
+│      |                       ^^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:21:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:27:19: warning (namespace-distinguishability): Member name 'size' shadows VehicleSystem::Vehicle::size
+│   27 |         attribute size = VehicleSize::Standard;
+│      |                   ^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:26:33: note: Because VehicleSystem::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:31:19: warning (namespace-distinguishability): Member name 'size' shadows VehicleSystem::Vehicle::size
+│   31 |         attribute size = VehicleSize::Large;
+│      |                   ^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:30:30: note: Because VehicleSystem::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:32:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   32 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_02.sysml:16:14: note: Inherited from here
+    └── iteration_02.sysml:30:30: note: Because VehicleSystem::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:33:23: warning (namespace-distinguishability): Member name 'cylinders' shadows VehicleSystem::Engine::cylinders
+│   33 |             attribute cylinders = 6;
+│      |                       ^^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:32:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping

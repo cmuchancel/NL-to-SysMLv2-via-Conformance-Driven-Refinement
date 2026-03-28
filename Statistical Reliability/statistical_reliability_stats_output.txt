@@ -1,0 +1,12 @@
+Scanning: 604 positive artifacts
+
+Total prompt-level cases: 604
+Single-shot production conformance: 309/604 (51.16%)
+Final pipeline production conformance: 604/604 (100.00%)
+
+Exact one-sided 95% lower confidence bound on convergence probability: 0.995052 (99.51%)
+Exact one-sided 95% upper confidence bound on failure probability: 0.004948 (0.495%)
+Large-n approximation for the failure bound: 0.004960 (0.496%)
+
+Interpretation: with 95% confidence, the true convergence probability is at least 99.51%.
+Interpretation: with 95% confidence, the true failure rate is below about 0.5%.

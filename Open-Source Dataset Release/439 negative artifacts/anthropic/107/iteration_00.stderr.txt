@@ -1,0 +1,59 @@
+iteration_01.sysml:38:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    38 |         attribute state : ConnectionState;
+       |                   ^^^^^
+
+iteration_01.sysml:53:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    53 |         part frame : VehicleFrame {
+       |              ^^^^^
+
+iteration_01.sysml:62:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    62 |         part frame : TrailerFrame {
+       |              ^^^^^
+
+iteration_01.sysml:42:23: warning (namespace-distinguishability): Member name 'diameter' shadows VehicleTrailerHitchSystem::HitchBall::diameter
+│   42 |             attribute diameter : Real = 1.875;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:41:26: note: Because VehicleTrailerHitchSystem::HitchBall is specialized through FeatureTyping
+
+iteration_01.sysml:43:23: warning (namespace-distinguishability): Member name 'material' shadows VehicleTrailerHitchSystem::HitchBall::material
+│   43 |             attribute material : String = "Steel";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:41:26: note: Because VehicleTrailerHitchSystem::HitchBall is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'diameter' shadows VehicleTrailerHitchSystem::TrailerCoupler::diameter
+│   46 |             attribute diameter : Real = 1.875;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:45:31: note: Because VehicleTrailerHitchSystem::TrailerCoupler is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'material' shadows VehicleTrailerHitchSystem::TrailerCoupler::material
+│   47 |             attribute material : String = "Steel";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:45:31: note: Because VehicleTrailerHitchSystem::TrailerCoupler is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'frameId' shadows VehicleTrailerHitchSystem::VehicleFrame::frameId
+│   54 |             attribute frameId : String = "VF-001";
+│      |                       ^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:53:22: note: Because VehicleTrailerHitchSystem::VehicleFrame is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'frameId' shadows VehicleTrailerHitchSystem::TrailerFrame::frameId
+│   63 |             attribute frameId : String = "TF-001";
+│      |                       ^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:62:22: note: Because VehicleTrailerHitchSystem::TrailerFrame is specialized through FeatureTyping
+
+iteration_01.sysml:73:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleTrailerHitchSystem::Vehicle::vehicleId
+│   73 |             attribute vehicleId : String = "V-001";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:72:24: note: Because VehicleTrailerHitchSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'trailerId' shadows VehicleTrailerHitchSystem::Trailer::trailerId
+│   77 |             attribute trailerId : String = "T-001";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:61:19: note: Inherited from here
+    └── iteration_01.sysml:76:24: note: Because VehicleTrailerHitchSystem::Trailer is specialized through FeatureTyping

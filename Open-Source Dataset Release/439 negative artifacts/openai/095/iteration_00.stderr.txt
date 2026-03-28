@@ -1,0 +1,3 @@
+iteration_01.sysml:12:24: error (reference-error): No Type named 'TorqueValue' found.
+    12 |     attribute torque : TorqueValue;
+       |                        ^^^^^^^^^^^

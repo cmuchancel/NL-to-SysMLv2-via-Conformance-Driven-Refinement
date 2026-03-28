@@ -1,0 +1,61 @@
+iteration_01.sysml:30:15: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |     attribute state : VehicleState;
+       |               ^^^^^
+
+iteration_01.sysml:34:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    34 |     item startIn : StartSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:35:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    35 |     item brakeIn : BrakeSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:36:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    36 |     item tempOut : TemperatureSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:37:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    37 |     item warnOut : WarningSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:38:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    38 |     item statusOut : StatusSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:42:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    42 |     item startOut : StartSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:43:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    43 |     item brakeOut : BrakeSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:44:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    44 |     item tempIn : TemperatureSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:45:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    45 |     item warnIn : WarningSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:46:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    46 |     item statusIn : StatusSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:74:17: warning (namespace-distinguishability): Member name 'fuelLevel' shadows VehicleSystem::Vehicle::fuelLevel
+│   74 |       attribute fuelLevel = defaultFuelLevel;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:52:15: note: Inherited from here
+    └── iteration_01.sysml:73:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:75:17: warning (namespace-distinguishability): Member name 'maintenanceIntervalDays' shadows VehicleSystem::Vehicle::maintenanceIntervalDays
+│   75 |       attribute maintenanceIntervalDays = defaultMaintenanceIntervalDays;
+│      |                 ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:53:15: note: Inherited from here
+    └── iteration_01.sysml:73:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:76:17: warning (namespace-distinguishability): Member name 'temperatureThreshold' shadows VehicleSystem::Vehicle::temperatureThreshold
+│   76 |       attribute temperatureThreshold = defaultTemperatureThreshold;
+│      |                 ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:54:15: note: Inherited from here
+    └── iteration_01.sysml:73:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

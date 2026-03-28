@@ -1,0 +1,101 @@
+iteration_01.sysml:90:23: warning (namespace-distinguishability): Member name 'capacity' shadows FuelSystem::FuelTankAssembly::capacity
+│   90 |             attribute capacity = 60.0;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:89:21: note: Because FuelSystem::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:91:23: warning (namespace-distinguishability): Member name 'currentFuelLevel' shadows FuelSystem::FuelTankAssembly::currentFuelLevel
+│   91 |             attribute currentFuelLevel = 45.0;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:89:21: note: Because FuelSystem::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:92:23: warning (namespace-distinguishability): Member name 'fuelTemperature' shadows FuelSystem::FuelTankAssembly::fuelTemperature
+│   92 |             attribute fuelTemperature = 25.0;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:89:21: note: Because FuelSystem::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'fuelConsumptionRate' shadows FuelSystem::Engine::fuelConsumptionRate
+│   96 |             attribute fuelConsumptionRate = 8.5;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:95:23: note: Because FuelSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'operatingTemperature' shadows FuelSystem::Engine::operatingTemperature
+│   97 |             attribute operatingTemperature = 90.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:95:23: note: Because FuelSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:101:23: warning (namespace-distinguishability): Member name 'length' shadows FuelSystem::FuelLine::length
+│   101 |             attribute length = 2.5;
+│       |                       ^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    └── iteration_01.sysml:100:27: note: Because FuelSystem::FuelLine is specialized through FeatureTyping
+
+iteration_01.sysml:102:23: warning (namespace-distinguishability): Member name 'diameter' shadows FuelSystem::FuelLine::diameter
+│   102 |             attribute diameter = 0.012;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:100:27: note: Because FuelSystem::FuelLine is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'maxPressure' shadows FuelSystem::FuelLine::maxPressure
+│   103 |             attribute maxPressure = 500.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:53:19: note: Inherited from here
+    └── iteration_01.sysml:100:27: note: Because FuelSystem::FuelLine is specialized through FeatureTyping
+
+iteration_01.sysml:107:23: warning (namespace-distinguishability): Member name 'length' shadows FuelSystem::ReturnLine::length
+│   107 |             attribute length = 2.5;
+│       |                       ^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:106:27: note: Because FuelSystem::ReturnLine is specialized through FeatureTyping
+
+iteration_01.sysml:108:23: warning (namespace-distinguishability): Member name 'diameter' shadows FuelSystem::ReturnLine::diameter
+│   108 |             attribute diameter = 0.010;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:61:19: note: Inherited from here
+    └── iteration_01.sysml:106:27: note: Because FuelSystem::ReturnLine is specialized through FeatureTyping
+
+iteration_01.sysml:109:23: warning (namespace-distinguishability): Member name 'maxPressure' shadows FuelSystem::ReturnLine::maxPressure
+│   109 |             attribute maxPressure = 300.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:62:19: note: Inherited from here
+    └── iteration_01.sysml:106:27: note: Because FuelSystem::ReturnLine is specialized through FeatureTyping
+
+iteration_01.sysml:113:23: warning (namespace-distinguishability): Member name 'measuredTemperature' shadows FuelSystem::TemperatureSensor::measuredTemperature
+│   113 |             attribute measuredTemperature = 25.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:69:19: note: Inherited from here
+    └── iteration_01.sysml:112:27: note: Because FuelSystem::TemperatureSensor is specialized through FeatureTyping
+
+iteration_01.sysml:114:23: warning (namespace-distinguishability): Member name 'minOperatingTemp' shadows FuelSystem::TemperatureSensor::minOperatingTemp
+│   114 |             attribute minOperatingTemp = -40.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:112:27: note: Because FuelSystem::TemperatureSensor is specialized through FeatureTyping
+
+iteration_01.sysml:115:23: warning (namespace-distinguishability): Member name 'maxOperatingTemp' shadows FuelSystem::TemperatureSensor::maxOperatingTemp
+│   115 |             attribute maxOperatingTemp = 120.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:112:27: note: Because FuelSystem::TemperatureSensor is specialized through FeatureTyping
+
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'pumpPressure' shadows FuelSystem::FuelPump::pumpPressure
+│   119 |             attribute pumpPressure = 400.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:77:19: note: Inherited from here
+    └── iteration_01.sysml:118:21: note: Because FuelSystem::FuelPump is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'pumpFlowRate' shadows FuelSystem::FuelPump::pumpFlowRate
+│   120 |             attribute pumpFlowRate = 150.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:78:19: note: Inherited from here
+    └── iteration_01.sysml:118:21: note: Because FuelSystem::FuelPump is specialized through FeatureTyping
+
+iteration_01.sysml:121:23: warning (namespace-distinguishability): Member name 'isOperational' shadows FuelSystem::FuelPump::isOperational
+│   121 |             attribute isOperational = true;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:79:19: note: Inherited from here
+    └── iteration_01.sysml:118:21: note: Because FuelSystem::FuelPump is specialized through FeatureTyping

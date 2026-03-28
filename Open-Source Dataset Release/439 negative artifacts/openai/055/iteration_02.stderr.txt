@@ -1,0 +1,20 @@
+iteration_03.sysml:12:12: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    12 |   part def Engine extends Component {
+       |            ^^^^^^
+
+iteration_03.sysml:12:19: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    12 |   part def Engine extends Component {
+       |                   ^^^^^^^
+
+iteration_03.sysml:15:25: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    15 |   part def Transmission extends Component {
+       |                         ^^^^^^^
+
+iteration_03.sysml:12:27: warning (namespace-distinguishability): Member name 'Component' shadows VehicleMassManagement::Component
+│   12 |   part def Engine extends Component {
+│      |                           ^^^^^^^^^
+└── iteration_03.sysml:4:12: note: First declared here
+
+iteration_03.sysml:23:19: error (reference-error): No Type named 'Engine' found.
+    23 |     part engine : Engine;
+       |                   ^^^^^^

@@ -1,0 +1,41 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    6 |         enum DRIVE
+      |         ^^^^
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   36 |         attribute mass : Real = 1500.0;
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:35:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:37:14: warning (namespace-distinguishability): Member name 'leftFrontWheel' shadows VehicleSystem::Vehicle::leftFrontWheel
+│   37 |         part leftFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:35:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:38:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Wheel::mass
+│   38 |             attribute mass : Real = 20.0;
+│      |                       ^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:37:31: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:40:14: warning (namespace-distinguishability): Member name 'rightFrontWheel' shadows VehicleSystem::Vehicle::rightFrontWheel
+│   40 |         part rightFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:35:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:41:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Wheel::mass
+│   41 |             attribute mass : Real = 20.0;
+│      |                       ^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:40:32: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:25:78: error (reference-error): No Feature named 'NEUTRAL' found.
+    25 |         attribute operationalStatus : OperationalStatus = OperationalStatus::NEUTRAL;
+       |                                                                              ^^^^^^^
+
+iteration_01.sysml:26:65: error (reference-error): No Feature named 'NEUTRAL' found.
+    26 |         attribute gear : OperationalStatus = OperationalStatus::NEUTRAL;
+       |                                                                 ^^^^^^^

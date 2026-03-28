@@ -1,0 +1,3 @@
+iteration_01.sysml:74:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    74 |         part frame : StructuralFrame;
+       |              ^^^^^

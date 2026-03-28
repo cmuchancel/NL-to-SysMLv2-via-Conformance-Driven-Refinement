@@ -1,0 +1,23 @@
+iteration_01.sysml:41:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    41 |         attribute state : EngineState = Off;
+       |                   ^^^^^
+
+iteration_01.sysml:15:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    15 |         item fuelCmd : FuelCommand;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:19:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    19 |         item startSig : StartSignal;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:23:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    23 |         item shutdownSig : ShutdownSignal;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:27:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    27 |         item torque : Torque;
+       |         ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:41:41: error (reference-error): No Feature named 'Off' found.
+    41 |         attribute state : EngineState = Off;
+       |                                         ^^^

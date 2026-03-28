@@ -1,0 +1,12 @@
+iteration_01.sysml:2:5: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |     private import ScalarValues::*;
+
+iteration_01.sysml:56:12: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:8:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    8 |         item hot: HotWater;
+      |         ^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:12:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    12 |         item cold: ColdWater;
+       |         ^^^^^^^^^^^^^^^^^^^^^

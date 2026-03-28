@@ -1,0 +1,189 @@
+iteration_01.sysml:7:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    7 |         secret
+      |         ^^^^^^
+
+iteration_01.sysml:8:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |     }
+      |     ^
+
+iteration_01.sysml:8:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |     }
+      |     ^
+
+iteration_01.sysml:39:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    39 |         F
+       |         ^
+
+iteration_01.sysml:40:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    40 |     }
+       |     ^
+
+iteration_01.sysml:40:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    40 |     }
+       |     ^
+
+iteration_01.sysml:40:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    40 |     }
+       |     ^
+
+iteration_01.sysml:40:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    40 |     }
+       |     ^
+
+iteration_01.sysml:17:19: warning (namespace-distinguishability): Member name 'level' shadows InformationClassification::TrafficLightInfo::level
+│   17 |         attribute level = InformationLevel::unclassified;
+│      |                   ^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:16:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:18:19: warning (namespace-distinguishability): Member name 'code' shadows InformationClassification::TrafficLightInfo::code
+│   18 |         attribute code = "uncl";
+│      |                   ^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:16:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:19:19: warning (namespace-distinguishability): Member name 'color' shadows InformationClassification::TrafficLightInfo::color
+│   19 |         attribute color = "green";
+│      |                   ^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:16:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:23:19: warning (namespace-distinguishability): Member name 'level' shadows InformationClassification::TrafficLightInfo::level
+│   23 |         attribute level = InformationLevel::confidential;
+│      |                   ^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:22:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'code' shadows InformationClassification::TrafficLightInfo::code
+│   24 |         attribute code = "conf";
+│      |                   ^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:22:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:25:19: warning (namespace-distinguishability): Member name 'color' shadows InformationClassification::TrafficLightInfo::color
+│   25 |         attribute color = "yellow";
+│      |                   ^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:22:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:29:19: warning (namespace-distinguishability): Member name 'level' shadows InformationClassification::TrafficLightInfo::level
+│   29 |         attribute level = InformationLevel::secret;
+│      |                   ^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:28:23: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:30:19: warning (namespace-distinguishability): Member name 'code' shadows InformationClassification::TrafficLightInfo::code
+│   30 |         attribute code = "secr";
+│      |                   ^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:28:23: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:31:19: warning (namespace-distinguishability): Member name 'color' shadows InformationClassification::TrafficLightInfo::color
+│   31 |         attribute color = "red";
+│      |                   ^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:28:23: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   48 |         attribute grade = Grade::A;
+│      |                   ^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:47:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:49:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   49 |         attribute points = 4.0;
+│      |                   ^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:47:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:53:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   53 |         attribute grade = Grade::B;
+│      |                   ^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:52:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:54:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   54 |         attribute points = 3.0;
+│      |                   ^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:52:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:58:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   58 |         attribute grade = Grade::C;
+│      |                   ^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:57:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:59:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   59 |         attribute points = 2.0;
+│      |                   ^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:57:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:63:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   63 |         attribute grade = Grade::D;
+│      |                   ^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:62:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:64:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   64 |         attribute points = 1.0;
+│      |                   ^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:62:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:68:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   68 |         attribute grade = Grade::F;
+│      |                   ^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:67:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:69:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   69 |         attribute points = 0.0;
+│      |                   ^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:67:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_01.sysml:12:26: error (reference-error): No Type named 'string' found.
+    12 |         attribute code : string;
+       |                          ^^^^^^
+
+iteration_01.sysml:13:27: error (reference-error): No Type named 'string' found.
+    13 |         attribute color : string;
+       |                           ^^^^^^
+
+iteration_01.sysml:17:45: error (reference-error): No Feature named 'unclassified' found.
+    17 |         attribute level = InformationLevel::unclassified;
+       |                                             ^^^^^^^^^^^^
+
+iteration_01.sysml:23:45: error (reference-error): No Feature named 'confidential' found.
+    23 |         attribute level = InformationLevel::confidential;
+       |                                             ^^^^^^^^^^^^
+
+iteration_01.sysml:29:45: error (reference-error): No Feature named 'secret' found.
+    29 |         attribute level = InformationLevel::secret;
+       |                                             ^^^^^^
+
+iteration_01.sysml:44:28: error (reference-error): No Type named 'real' found.
+    44 |         attribute points : real;
+       |                            ^^^^
+
+iteration_01.sysml:48:34: error (reference-error): No Feature named 'A' found.
+    48 |         attribute grade = Grade::A;
+       |                                  ^
+
+iteration_01.sysml:53:34: error (reference-error): No Feature named 'B' found.
+    53 |         attribute grade = Grade::B;
+       |                                  ^
+
+iteration_01.sysml:58:34: error (reference-error): No Feature named 'C' found.
+    58 |         attribute grade = Grade::C;
+       |                                  ^
+
+iteration_01.sysml:63:34: error (reference-error): No Feature named 'D' found.
+    63 |         attribute grade = Grade::D;
+       |                                  ^
+
+iteration_01.sysml:68:34: error (reference-error): No Feature named 'F' found.
+    68 |         attribute grade = Grade::F;
+       |                                  ^

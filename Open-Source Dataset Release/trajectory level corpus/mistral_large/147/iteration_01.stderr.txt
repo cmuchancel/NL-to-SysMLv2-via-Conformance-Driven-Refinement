@@ -1,0 +1,95 @@
+iteration_02.sysml:37:19: warning (namespace-distinguishability): Member name 'name' shadows MaterialsScience::Substance::name
+│   37 |         attribute name : String = "Iron";
+│      |                   ^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:36:26: note: Because MaterialsScience::Substance is specialized through FeatureTyping
+
+iteration_02.sysml:38:19: warning (namespace-distinguishability): Member name 'atomicMass' shadows MaterialsScience::Substance::atomicMass
+│   38 |         attribute atomicMass : Real = 55.845;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:13:19: note: Inherited from here
+    └── iteration_02.sysml:36:26: note: Because MaterialsScience::Substance is specialized through FeatureTyping
+
+iteration_02.sysml:42:14: warning (namespace-distinguishability): Member name 'base' shadows MaterialsScience::Metal::base
+│   42 |         part base = ironSubstance;
+│      |              ^^^^
+└── iteration_02.sysml:18:19: note: Inherited from here
+    └── iteration_02.sysml:41:17: note: Because MaterialsScience::Metal is specialized through FeatureTyping
+
+iteration_02.sysml:46:19: warning (namespace-distinguishability): Member name 'name' shadows MaterialsScience::Substance::name
+│   46 |         attribute name : String = "Carbon";
+│      |                   ^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:45:28: note: Because MaterialsScience::Substance is specialized through FeatureTyping
+
+iteration_02.sysml:47:19: warning (namespace-distinguishability): Member name 'atomicMass' shadows MaterialsScience::Substance::atomicMass
+│   47 |         attribute atomicMass : Real = 12.011;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:13:19: note: Inherited from here
+    └── iteration_02.sysml:45:28: note: Because MaterialsScience::Substance is specialized through FeatureTyping
+
+iteration_02.sysml:51:14: warning (namespace-distinguishability): Member name 'base' shadows MaterialsScience::Metal::base
+│   51 |         part base = carbonSubstance;
+│      |              ^^^^
+└── iteration_02.sysml:18:19: note: Inherited from here
+    └── iteration_02.sysml:50:19: note: Because MaterialsScience::Metal is specialized through FeatureTyping
+
+iteration_02.sysml:55:19: warning (namespace-distinguishability): Member name 'name' shadows MaterialsScience::Substance::name
+│   55 |         attribute name : String = "Manganese";
+│      |                   ^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:54:31: note: Because MaterialsScience::Substance is specialized through FeatureTyping
+
+iteration_02.sysml:56:19: warning (namespace-distinguishability): Member name 'atomicMass' shadows MaterialsScience::Substance::atomicMass
+│   56 |         attribute atomicMass : Real = 54.938;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:13:19: note: Inherited from here
+    └── iteration_02.sysml:54:31: note: Because MaterialsScience::Substance is specialized through FeatureTyping
+
+iteration_02.sysml:60:14: warning (namespace-distinguishability): Member name 'base' shadows MaterialsScience::Metal::base
+│   60 |         part base = manganeseSubstance;
+│      |              ^^^^
+└── iteration_02.sysml:18:19: note: Inherited from here
+    └── iteration_02.sysml:59:22: note: Because MaterialsScience::Metal is specialized through FeatureTyping
+
+iteration_02.sysml:64:19: warning (namespace-distinguishability): Member name 'name' shadows MaterialsScience::Alloy::name
+│   64 |         attribute name : String = "Steel 980";
+│      |                   ^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:63:21: note: Because MaterialsScience::Alloy is specialized through FeatureTyping
+
+iteration_02.sysml:65:19: warning (namespace-distinguishability): Member name 'tensileStrength' shadows MaterialsScience::Alloy::tensileStrength
+│   65 |         attribute tensileStrength : Real = 980.0;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:23:19: note: Inherited from here
+    └── iteration_02.sysml:63:21: note: Because MaterialsScience::Alloy is specialized through FeatureTyping
+
+iteration_02.sysml:67:14: warning (namespace-distinguishability): Member name 'components' shadows MaterialsScience::Alloy::components
+│   67 |         part components : Component[2] {
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:26:14: note: Inherited from here
+    └── iteration_02.sysml:63:21: note: Because MaterialsScience::Alloy is specialized through FeatureTyping
+
+iteration_02.sysml:69:27: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsScience::Component::massFraction
+│   69 |                 attribute massFraction : Real = 98.0;
+│      |                           ^^^^^^^^^^^^
+└── iteration_02.sysml:30:19: note: Inherited from here
+    └── iteration_02.sysml:68:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_02.sysml:70:22: warning (namespace-distinguishability): Member name 'material' shadows MaterialsScience::Component::material
+│   70 |                 part material = iron;
+│      |                      ^^^^^^^^
+└── iteration_02.sysml:33:14: note: Inherited from here
+    └── iteration_02.sysml:68:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_02.sysml:73:27: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsScience::Component::massFraction
+│   73 |                 attribute massFraction : Real = 2.0;
+│      |                           ^^^^^^^^^^^^
+└── iteration_02.sysml:30:19: note: Inherited from here
+    └── iteration_02.sysml:72:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_02.sysml:74:22: warning (namespace-distinguishability): Member name 'material' shadows MaterialsScience::Component::material
+│   74 |                 part material = carbon;
+│      |                      ^^^^^^^^
+└── iteration_02.sysml:33:14: note: Inherited from here
+    └── iteration_02.sysml:72:31: note: Because MaterialsScience::Component is specialized through FeatureTyping

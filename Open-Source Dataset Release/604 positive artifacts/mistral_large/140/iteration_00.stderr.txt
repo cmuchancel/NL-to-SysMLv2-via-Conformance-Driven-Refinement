@@ -1,0 +1,341 @@
+iteration_01.sysml:58:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::QuantitySystem::name
+│   58 |         attribute name : String = "International System of Quantities";
+│      |                   ^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:57:16: note: Because PhysicalQuantities::QuantitySystem is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   61 |             attribute name : String = "length";
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   62 |             attribute symbol : String = "l";
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   63 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::length;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:64:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   64 |             attribute dimension : String = "L";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:68:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   68 |             attribute name : String = "mass";
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   69 |             attribute symbol : String = "m";
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   70 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::mass;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:71:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   71 |             attribute dimension : String = "M";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:75:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   75 |             attribute name : String = "time";
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:74:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:76:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   76 |             attribute symbol : String = "t";
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:74:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   77 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::time;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:74:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:78:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   78 |             attribute dimension : String = "T";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:74:21: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:82:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   82 |             attribute name : String = "electric current";
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:81:32: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:83:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   83 |             attribute symbol : String = "I";
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:81:32: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:84:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   84 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::electricCurrent;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:81:32: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   85 |             attribute dimension : String = "I";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:81:32: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:89:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   89 |             attribute name : String = "thermodynamic temperature";
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:88:41: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:90:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   90 |             attribute symbol : String = "Θ";
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:88:41: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:91:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   91 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::thermodynamicTemperature;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:88:41: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:92:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   92 |             attribute dimension : String = "Θ";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:88:41: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   96 |             attribute name : String = "amount of substance";
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:95:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   97 |             attribute symbol : String = "n";
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:95:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:98:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   98 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::amountOfSubstance;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:95:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:99:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   99 |             attribute dimension : String = "N";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:95:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::PhysicalQuantity::name
+│   103 |             attribute name : String = "luminous intensity";
+│       |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:102:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:104:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::PhysicalQuantity::symbol
+│   104 |             attribute symbol : String = "J";
+│       |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:102:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:105:23: warning (namespace-distinguishability): Member name 'baseQuantity' shadows PhysicalQuantities::PhysicalQuantity::baseQuantity
+│   105 |             attribute baseQuantity : BaseQuantityKind = BaseQuantityKind::luminousIntensity;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:102:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:106:23: warning (namespace-distinguishability): Member name 'dimension' shadows PhysicalQuantities::PhysicalQuantity::dimension
+│   106 |             attribute dimension : String = "J";
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:102:34: note: Because PhysicalQuantities::PhysicalQuantity is specialized through FeatureTyping
+
+iteration_01.sysml:110:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   110 |             attribute name : String = "meter";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:109:22: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:111:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   111 |             attribute symbol : String = "m";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:109:22: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:112:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   112 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:109:22: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:113:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   113 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::length;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:109:22: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:117:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   117 |             attribute name : String = "kilogram";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:116:25: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:118:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   118 |             attribute symbol : String = "kg";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:116:25: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   119 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:116:25: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   120 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::mass;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:116:25: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:124:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   124 |             attribute name : String = "second";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:123:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:125:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   125 |             attribute symbol : String = "s";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:123:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:126:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   126 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:123:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:127:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   127 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::time;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:123:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:131:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   131 |             attribute name : String = "ampere";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:130:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:132:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   132 |             attribute symbol : String = "A";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:130:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:133:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   133 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:130:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:134:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   134 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::electricCurrent;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:130:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:138:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   138 |             attribute name : String = "kelvin";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:137:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:139:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   139 |             attribute symbol : String = "K";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:137:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:140:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   140 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:137:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:141:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   141 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::thermodynamicTemperature;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:137:23: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:145:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   145 |             attribute name : String = "mole";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:144:21: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:146:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   146 |             attribute symbol : String = "mol";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:144:21: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:147:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   147 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:144:21: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:148:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   148 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::amountOfSubstance;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:144:21: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:152:23: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantities::Unit::name
+│   152 |             attribute name : String = "candela";
+│       |                       ^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:151:24: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:153:23: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantities::Unit::symbol
+│   153 |             attribute symbol : String = "cd";
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:151:24: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:154:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantities::Unit::conversionFactor
+│   154 |             attribute conversionFactor : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:151:24: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:155:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantities::Unit::quantityKind
+│   155 |             attribute quantityKind : BaseQuantityKind = BaseQuantityKind::luminousIntensity;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:151:24: note: Because PhysicalQuantities::Unit is specialized through FeatureTyping

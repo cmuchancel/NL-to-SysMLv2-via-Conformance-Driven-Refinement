@@ -1,0 +1,29 @@
+iteration_01.sysml:33:23: warning (namespace-distinguishability): Member name 'bumperSafety' shadows CarSafetyCompliance::Body::bumperSafety
+│   33 |             attribute bumperSafety : SafetyStatus = SafetyStatus::Mandatory;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:32:27: note: Because CarSafetyCompliance::Body is specialized through FeatureTyping
+
+iteration_01.sysml:37:23: warning (namespace-distinguishability): Member name 'seatBeltSafety' shadows CarSafetyCompliance::Interior::seatBeltSafety
+│   37 |             attribute seatBeltSafety : SafetyStatus = SafetyStatus::Mandatory;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:36:34: note: Because CarSafetyCompliance::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:41:23: warning (namespace-distinguishability): Member name 'absSafety' shadows CarSafetyCompliance::WheelAssembly::absSafety
+│   41 |             attribute absSafety : SafetyStatus = SafetyStatus::Optional;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:40:33: note: Because CarSafetyCompliance::WheelAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'bumperSafety' shadows CarSafetyCompliance::Body::bumperSafety
+│   47 |             attribute bumperSafety : SafetyStatus = SafetyStatus::Mandatory;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:46:27: note: Because CarSafetyCompliance::Body is specialized through FeatureTyping
+
+iteration_01.sysml:51:23: warning (namespace-distinguishability): Member name 'seatBeltSafety' shadows CarSafetyCompliance::Interior::seatBeltSafety
+│   51 |             attribute seatBeltSafety : SafetyStatus = SafetyStatus::Mandatory;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:50:34: note: Because CarSafetyCompliance::Interior is specialized through FeatureTyping

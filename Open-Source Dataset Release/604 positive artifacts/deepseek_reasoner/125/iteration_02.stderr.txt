@@ -1,0 +1,35 @@
+iteration_03.sysml:15:9: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   15 |         category = FeatureCategory::SafetyMandatory;
+│      |         ^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:14:26: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_03.sysml:19:9: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   19 |         category = FeatureCategory::SafetyMandatory;
+│      |         ^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:18:24: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_03.sysml:23:9: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   23 |         category = FeatureCategory::SafetyOptional;
+│      |         ^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:22:24: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_03.sysml:27:9: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   27 |         category = FeatureCategory::SafetyOptional;
+│      |         ^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:26:39: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_03.sysml:31:9: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   31 |         category = FeatureCategory::Security;
+│      |         ^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:30:29: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_03.sysml:35:9: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   35 |         category = FeatureCategory::Security;
+│      |         ^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:34:36: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification

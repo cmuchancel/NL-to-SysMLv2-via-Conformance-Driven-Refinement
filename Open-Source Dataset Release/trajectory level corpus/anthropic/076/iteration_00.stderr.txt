@@ -1,0 +1,35 @@
+iteration_01.sysml:36:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassVerificationSystem::Vehicle::actualMass
+│   36 |             attribute actualMass : Real;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:35:33: note: Because VehicleMassVerificationSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:40:23: warning (namespace-distinguishability): Member name 'maxCapacity' shadows VehicleMassVerificationSystem::WeighingEquipment::maxCapacity
+│   40 |             attribute maxCapacity : Real = 5000.0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:39:34: note: Because VehicleMassVerificationSystem::WeighingEquipment is specialized through FeatureTyping
+
+iteration_01.sysml:41:18: warning (namespace-distinguishability): Member name 'dataOut' shadows VehicleMassVerificationSystem::WeighingEquipment::dataOut
+│   41 |             port dataOut : MassDataPort;
+│      |                  ^^^^^^^
+└── iteration_01.sysml:19:14: note: Inherited from here
+    └── iteration_01.sysml:39:34: note: Because VehicleMassVerificationSystem::WeighingEquipment is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'massLimit' shadows VehicleMassVerificationSystem::MassVerificationUnit::massLimit
+│   45 |             attribute massLimit : Real = 2500.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:44:37: note: Because VehicleMassVerificationSystem::MassVerificationUnit is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'result' shadows VehicleMassVerificationSystem::MassVerificationUnit::result
+│   46 |             attribute result : InspectionResult;
+│      |                       ^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:44:37: note: Because VehicleMassVerificationSystem::MassVerificationUnit is specialized through FeatureTyping
+
+iteration_01.sysml:47:18: warning (namespace-distinguishability): Member name 'dataIn' shadows VehicleMassVerificationSystem::MassVerificationUnit::dataIn
+│   47 |             port dataIn : MassDataPort;
+│      |                  ^^^^^^
+└── iteration_01.sysml:25:14: note: Inherited from here
+    └── iteration_01.sysml:44:37: note: Because VehicleMassVerificationSystem::MassVerificationUnit is specialized through FeatureTyping

@@ -1,0 +1,5 @@
+iteration_01.sysml:41:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfig::Vehicle::mass
+│   41 |         attribute mass : Real = 2000;
+│      |                   ^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:40:38: note: Because VehicleConfig::Vehicle is specialized through Subclassification

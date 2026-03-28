@@ -1,0 +1,7 @@
+iteration_02.sysml:9:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    9 |     item ref fuel : Fuel;
+      |          ^^^
+
+iteration_02.sysml:9:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    9 |     item ref fuel : Fuel;
+      |     ^^^^^^^^^^^^^^^^^^^^^

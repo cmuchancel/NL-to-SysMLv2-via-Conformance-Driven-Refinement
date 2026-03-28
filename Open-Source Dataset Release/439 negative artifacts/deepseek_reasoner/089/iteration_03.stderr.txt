@@ -1,0 +1,19 @@
+iteration_04.sysml:21:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    21 |         port in causePort : Cause[0..*];
+       |              ^^
+
+iteration_04.sysml:22:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    22 |         port out effectPort : Situation[0..*];
+       |              ^^^
+
+iteration_04.sysml:23:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    23 |         port out failurePort : Failure[0..*];
+       |              ^^^
+
+iteration_04.sysml:29:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    29 |         port out leadsTo : Situation[0..*];
+       |              ^^^
+
+iteration_04.sysml:35:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    35 |         port in causedBy : Situation[0..*];
+       |              ^^

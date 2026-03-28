@@ -1,0 +1,47 @@
+iteration_02.sysml:41:27: error (parsing-error): Unexpected 'STRING_VALUE'.
+    41 |             constituent = "Iron",
+       |                           ^^^^^^
+
+iteration_02.sysml:42:28: error (parsing-error): Unexpected 'REAL_VALUE'.
+    42 |             massFraction = 0.97
+       |                            ^^^^
+
+iteration_02.sysml:45:27: error (parsing-error): Unexpected 'STRING_VALUE'.
+    45 |             constituent = "Carbon",
+       |                           ^^^^^^^^
+
+iteration_02.sysml:46:28: error (parsing-error): Unexpected 'REAL_VALUE'.
+    46 |             massFraction = 0.002
+       |                            ^^^^^
+
+iteration_02.sysml:49:27: error (parsing-error): Unexpected 'STRING_VALUE'.
+    49 |             constituent = "Manganese",
+       |                           ^^^^^^^^^^^
+
+iteration_02.sysml:50:28: error (parsing-error): Unexpected 'REAL_VALUE'.
+    50 |             massFraction = 0.02
+       |                            ^^^^
+
+iteration_02.sysml:48:40: error (type-error): ScalarValues::String does not conform to EngineeringMaterialsDatabase::Composition
+    48 |         part manganese : Composition = (
+       |                                        ^
+
+iteration_02.sysml:41:13: error (reference-error): No Feature named 'constituent' found.
+    41 |             constituent = "Iron",
+       |             ^^^^^^^^^^^
+
+iteration_02.sysml:42:13: error (reference-error): No Feature named 'massFraction' found.
+    42 |             massFraction = 0.97
+       |             ^^^^^^^^^^^^
+
+iteration_02.sysml:45:13: error (reference-error): No Feature named 'constituent' found.
+    45 |             constituent = "Carbon",
+       |             ^^^^^^^^^^^
+
+iteration_02.sysml:46:13: error (reference-error): No Feature named 'massFraction' found.
+    46 |             massFraction = 0.002
+       |             ^^^^^^^^^^^^
+
+iteration_02.sysml:50:13: error (reference-error): No Feature named 'massFraction' found.
+    50 |             massFraction = 0.02
+       |             ^^^^^^^^^^^^

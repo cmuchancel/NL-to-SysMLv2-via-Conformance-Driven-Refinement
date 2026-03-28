@@ -1,0 +1,35 @@
+iteration_01.sysml:39:19: warning (namespace-distinguishability): Member name 'size' shadows VehicleSystem::SmallVehicle::size
+│   39 |         attribute size : VehicleSize = VehicleSize::small;
+│      |                   ^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:38:33: note: Because VehicleSystem::SmallVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:40:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::SmallVehicle::engine
+│   40 |         part engine : SmallEngine[1] {
+│      |              ^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:38:33: note: Because VehicleSystem::SmallVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:41:18: warning (namespace-distinguishability): Member name 'cylinders' shadows VehicleSystem::SmallEngine::cylinders
+│   41 |             part cylinders : Cylinder[4];
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:16:14: note: Inherited from here
+    └── iteration_01.sysml:40:23: note: Because VehicleSystem::SmallEngine is specialized through FeatureTyping
+
+iteration_01.sysml:46:19: warning (namespace-distinguishability): Member name 'size' shadows VehicleSystem::LargeVehicle::size
+│   46 |         attribute size : VehicleSize = VehicleSize::large;
+│      |                   ^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:45:33: note: Because VehicleSystem::LargeVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:47:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::LargeVehicle::engine
+│   47 |         part engine : LargeEngine[1] {
+│      |              ^^^^^^
+└── iteration_01.sysml:35:14: note: Inherited from here
+    └── iteration_01.sysml:45:33: note: Because VehicleSystem::LargeVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:48:18: warning (namespace-distinguishability): Member name 'cylinders' shadows VehicleSystem::LargeEngine::cylinders
+│   48 |             part cylinders : Cylinder[6];
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:47:23: note: Because VehicleSystem::LargeEngine is specialized through FeatureTyping

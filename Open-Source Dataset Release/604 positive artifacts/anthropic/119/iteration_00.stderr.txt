@@ -1,0 +1,143 @@
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'calibrated' shadows VehicleMassCompliance::WeighingEquipment::calibrated
+│   53 |             attribute calibrated : Boolean = true;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:52:34: note: Because VehicleMassCompliance::WeighingEquipment is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'operatorId' shadows VehicleMassCompliance::TestOperator::operatorId
+│   57 |             attribute operatorId : String = "OP-001";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:56:29: note: Because VehicleMassCompliance::TestOperator is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'maximumPermissibleMass' shadows VehicleMassCompliance::ComplianceChecker::maximumPermissibleMass
+│   61 |             attribute maximumPermissibleMass : Real = 2500.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:60:34: note: Because VehicleMassCompliance::ComplianceChecker is specialized through FeatureTyping
+
+iteration_01.sysml:65:23: warning (namespace-distinguishability): Member name 'totalVehiclesTested' shadows VehicleMassCompliance::ComplianceRecord::totalVehiclesTested
+│   65 |             attribute totalVehiclesTested : Integer = 0;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:64:33: note: Because VehicleMassCompliance::ComplianceRecord is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'compliantCount' shadows VehicleMassCompliance::ComplianceRecord::compliantCount
+│   66 |             attribute compliantCount : Integer = 0;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:64:33: note: Because VehicleMassCompliance::ComplianceRecord is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'nonCompliantCount' shadows VehicleMassCompliance::ComplianceRecord::nonCompliantCount
+│   67 |             attribute nonCompliantCount : Integer = 0;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:64:33: note: Because VehicleMassCompliance::ComplianceRecord is specialized through FeatureTyping
+
+iteration_01.sysml:71:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleMassCompliance::Vehicle::vehicleId
+│   71 |             attribute vehicleId : String = "V-001";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:70:25: note: Because VehicleMassCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:72:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassCompliance::Vehicle::actualMass
+│   72 |             attribute actualMass : Real = 2200.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:70:25: note: Because VehicleMassCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:76:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleMassCompliance::Vehicle::vehicleId
+│   76 |             attribute vehicleId : String = "V-002";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:75:25: note: Because VehicleMassCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassCompliance::Vehicle::actualMass
+│   77 |             attribute actualMass : Real = 2500.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:75:25: note: Because VehicleMassCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:81:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleMassCompliance::Vehicle::vehicleId
+│   81 |             attribute vehicleId : String = "V-003";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:80:25: note: Because VehicleMassCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:82:23: warning (namespace-distinguishability): Member name 'actualMass' shadows VehicleMassCompliance::Vehicle::actualMass
+│   82 |             attribute actualMass : Real = 2750.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:80:25: note: Because VehicleMassCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleMassCompliance::ComplianceResult::vehicleId
+│   86 |             attribute vehicleId : String = "V-001";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:85:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'measuredMass' shadows VehicleMassCompliance::ComplianceResult::measuredMass
+│   87 |             attribute measuredMass : Real = 2200.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:85:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:88:23: warning (namespace-distinguishability): Member name 'maximumPermissibleMass' shadows VehicleMassCompliance::ComplianceResult::maximumPermissibleMass
+│   88 |             attribute maximumPermissibleMass : Real = 2500.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:85:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:89:23: warning (namespace-distinguishability): Member name 'status' shadows VehicleMassCompliance::ComplianceResult::status
+│   89 |             attribute status : ComplianceStatus = ComplianceStatus::Compliant;
+│      |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:85:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:93:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleMassCompliance::ComplianceResult::vehicleId
+│   93 |             attribute vehicleId : String = "V-002";
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:94:23: warning (namespace-distinguishability): Member name 'measuredMass' shadows VehicleMassCompliance::ComplianceResult::measuredMass
+│   94 |             attribute measuredMass : Real = 2500.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:95:23: warning (namespace-distinguishability): Member name 'maximumPermissibleMass' shadows VehicleMassCompliance::ComplianceResult::maximumPermissibleMass
+│   95 |             attribute maximumPermissibleMass : Real = 2500.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'status' shadows VehicleMassCompliance::ComplianceResult::status
+│   96 |             attribute status : ComplianceStatus = ComplianceStatus::Compliant;
+│      |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:100:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleMassCompliance::ComplianceResult::vehicleId
+│   100 |             attribute vehicleId : String = "V-003";
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:99:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:101:23: warning (namespace-distinguishability): Member name 'measuredMass' shadows VehicleMassCompliance::ComplianceResult::measuredMass
+│   101 |             attribute measuredMass : Real = 2750.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:99:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:102:23: warning (namespace-distinguishability): Member name 'maximumPermissibleMass' shadows VehicleMassCompliance::ComplianceResult::maximumPermissibleMass
+│   102 |             attribute maximumPermissibleMass : Real = 2500.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:99:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'status' shadows VehicleMassCompliance::ComplianceResult::status
+│   103 |             attribute status : ComplianceStatus = ComplianceStatus::NonCompliant;
+│       |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:99:24: note: Because VehicleMassCompliance::ComplianceResult is specialized through FeatureTyping

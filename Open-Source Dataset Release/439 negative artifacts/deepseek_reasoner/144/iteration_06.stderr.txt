@@ -1,0 +1,10 @@
+iteration_07.sysml:19:44: error (parsing-error): Expected a token. Did you forget ';'?
+    19 |         attribute nestedPersonnelSets : Set<Person>[*];
+
+iteration_07.sysml:18:37: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    18 |         attribute personnelRoster : Person[*];
+       |                                     ^^^^^^
+
+iteration_07.sysml:19:41: error (reference-error): No Type named 'Set' found.
+    19 |         attribute nestedPersonnelSets : Set<Person>[*];
+       |                                         ^^^

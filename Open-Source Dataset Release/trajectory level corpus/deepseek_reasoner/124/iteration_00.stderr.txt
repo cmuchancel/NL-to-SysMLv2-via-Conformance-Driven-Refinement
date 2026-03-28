@@ -1,0 +1,15 @@
+iteration_01.sysml:5:45: error (parsing-error): Unexpected identifier.
+    5 |         attribute totalMass : Real = 2500.0 kg;
+      |                                             ^^
+
+iteration_01.sysml:11:39: error (parsing-error): Unexpected identifier.
+    11 |         attribute mass : Real = 150.0 kg;
+       |                                       ^^
+
+iteration_01.sysml:19:40: error (parsing-error): Unexpected identifier.
+    19 |         attribute steeringAngle : Real deg;
+       |                                        ^^^
+
+iteration_01.sysml:27:39: error (parsing-error): Unexpected identifier.
+    27 |         attribute mass : Real = 250.0 kg;
+       |                                       ^^

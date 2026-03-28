@@ -1,0 +1,21 @@
+model_label,difficulty,n_cases,mean_iterations_to_success
+Anthropic Claude Sonnet 4.6,1,63,1.2222222222222223
+Anthropic Claude Sonnet 4.6,2,64,1.140625
+Anthropic Claude Sonnet 4.6,3,12,1.5
+Anthropic Claude Sonnet 4.6,4,6,1.6666666666666667
+Anthropic Claude Sonnet 4.6,5,6,1.1666666666666667
+DeepSeek Reasoner,1,63,2.1746031746031744
+DeepSeek Reasoner,2,64,1.8125
+DeepSeek Reasoner,3,12,1.9166666666666667
+DeepSeek Reasoner,4,6,1.5
+DeepSeek Reasoner,5,6,2.1666666666666665
+Mistral Large,1,63,1.9365079365079365
+Mistral Large,2,64,1.953125
+Mistral Large,3,12,2.5833333333333335
+Mistral Large,4,6,2.1666666666666665
+Mistral Large,5,6,1.3333333333333333
+OpenAI Codex 5.2,1,63,1.7301587301587302
+OpenAI Codex 5.2,2,64,1.765625
+OpenAI Codex 5.2,3,12,1.75
+OpenAI Codex 5.2,4,6,1.3333333333333333
+OpenAI Codex 5.2,5,6,1.6666666666666667

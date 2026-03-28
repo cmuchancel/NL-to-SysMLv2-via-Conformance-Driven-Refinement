@@ -1,0 +1,155 @@
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'wheelPower' shadows VehicleDynamics::PowerCalculator::wheelPower
+│   119 |             attribute wheelPower : Real = 150000.0;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'aeroDragCoefficient' shadows VehicleDynamics::PowerCalculator::aeroDragCoefficient
+│   120 |             attribute aeroDragCoefficient : Real = 0.3;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:121:23: warning (namespace-distinguishability): Member name 'frictionCoefficient' shadows VehicleDynamics::PowerCalculator::frictionCoefficient
+│   121 |             attribute frictionCoefficient : Real = 0.015;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:122:23: warning (namespace-distinguishability): Member name 'vehicleMass' shadows VehicleDynamics::PowerCalculator::vehicleMass
+│   122 |             attribute vehicleMass : Real = 1500.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:123:23: warning (namespace-distinguishability): Member name 'currentSpeed' shadows VehicleDynamics::PowerCalculator::currentSpeed
+│   123 |             attribute currentSpeed : Real = 20.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:124:23: warning (namespace-distinguishability): Member name 'frontalArea' shadows VehicleDynamics::PowerCalculator::frontalArea
+│   124 |             attribute frontalArea : Real = 2.2;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:125:23: warning (namespace-distinguishability): Member name 'airDensity' shadows VehicleDynamics::PowerCalculator::airDensity
+│   125 |             attribute airDensity : Real = 1.225;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:126:23: warning (namespace-distinguishability): Member name 'gravitationalAcceleration' shadows VehicleDynamics::PowerCalculator::gravitationalAcceleration
+│   126 |             attribute gravitationalAcceleration : Real = 9.81;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:127:23: warning (namespace-distinguishability): Member name 'aeroDragForce' shadows VehicleDynamics::PowerCalculator::aeroDragForce
+│   127 |             attribute aeroDragForce : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:128:23: warning (namespace-distinguishability): Member name 'rollingResistanceForce' shadows VehicleDynamics::PowerCalculator::rollingResistanceForce
+│   128 |             attribute rollingResistanceForce : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:129:23: warning (namespace-distinguishability): Member name 'totalResistanceForce' shadows VehicleDynamics::PowerCalculator::totalResistanceForce
+│   129 |             attribute totalResistanceForce : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:130:23: warning (namespace-distinguishability): Member name 'resistancePower' shadows VehicleDynamics::PowerCalculator::resistancePower
+│   130 |             attribute resistancePower : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:131:23: warning (namespace-distinguishability): Member name 'availablePower' shadows VehicleDynamics::PowerCalculator::availablePower
+│   131 |             attribute availablePower : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:116:26: note: Because VehicleDynamics::PowerCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:137:23: warning (namespace-distinguishability): Member name 'effectivePower' shadows VehicleDynamics::AccelerationCalculator::effectivePower
+│   137 |             attribute effectivePower : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:48:19: note: Inherited from here
+    └── iteration_01.sysml:134:26: note: Because VehicleDynamics::AccelerationCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:138:23: warning (namespace-distinguishability): Member name 'vehicleMass' shadows VehicleDynamics::AccelerationCalculator::vehicleMass
+│   138 |             attribute vehicleMass : Real = 1500.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:49:19: note: Inherited from here
+    └── iteration_01.sysml:134:26: note: Because VehicleDynamics::AccelerationCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:139:23: warning (namespace-distinguishability): Member name 'currentSpeed' shadows VehicleDynamics::AccelerationCalculator::currentSpeed
+│   139 |             attribute currentSpeed : Real = 20.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:50:19: note: Inherited from here
+    └── iteration_01.sysml:134:26: note: Because VehicleDynamics::AccelerationCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:140:23: warning (namespace-distinguishability): Member name 'netForce' shadows VehicleDynamics::AccelerationCalculator::netForce
+│   140 |             attribute netForce : Real = 0.0;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    └── iteration_01.sysml:134:26: note: Because VehicleDynamics::AccelerationCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:141:23: warning (namespace-distinguishability): Member name 'acceleration' shadows VehicleDynamics::AccelerationCalculator::acceleration
+│   141 |             attribute acceleration : Real = 0.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:134:26: note: Because VehicleDynamics::AccelerationCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:147:23: warning (namespace-distinguishability): Member name 'initialSpeed' shadows VehicleDynamics::SpeedCalculator::initialSpeed
+│   147 |             attribute initialSpeed : Real = 20.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:56:19: note: Inherited from here
+    └── iteration_01.sysml:144:26: note: Because VehicleDynamics::SpeedCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:148:23: warning (namespace-distinguishability): Member name 'acceleration' shadows VehicleDynamics::SpeedCalculator::acceleration
+│   148 |             attribute acceleration : Real = 0.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:144:26: note: Because VehicleDynamics::SpeedCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:149:23: warning (namespace-distinguishability): Member name 'elapsedTime' shadows VehicleDynamics::SpeedCalculator::elapsedTime
+│   149 |             attribute elapsedTime : Real = 5.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    └── iteration_01.sysml:144:26: note: Because VehicleDynamics::SpeedCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:150:23: warning (namespace-distinguishability): Member name 'speedAtTime' shadows VehicleDynamics::SpeedCalculator::speedAtTime
+│   150 |             attribute speedAtTime : Real = 0.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:144:26: note: Because VehicleDynamics::SpeedCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:156:23: warning (namespace-distinguishability): Member name 'initialSpeed' shadows VehicleDynamics::DisplacementCalculator::initialSpeed
+│   156 |             attribute initialSpeed : Real = 20.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:153:25: note: Because VehicleDynamics::DisplacementCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:157:23: warning (namespace-distinguishability): Member name 'acceleration' shadows VehicleDynamics::DisplacementCalculator::acceleration
+│   157 |             attribute acceleration : Real = 0.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:153:25: note: Because VehicleDynamics::DisplacementCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:158:23: warning (namespace-distinguishability): Member name 'elapsedTime' shadows VehicleDynamics::DisplacementCalculator::elapsedTime
+│   158 |             attribute elapsedTime : Real = 5.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:65:19: note: Inherited from here
+    └── iteration_01.sysml:153:25: note: Because VehicleDynamics::DisplacementCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:159:23: warning (namespace-distinguishability): Member name 'displacement' shadows VehicleDynamics::DisplacementCalculator::displacement
+│   159 |             attribute displacement : Real = 0.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:66:19: note: Inherited from here
+    └── iteration_01.sysml:153:25: note: Because VehicleDynamics::DisplacementCalculator is specialized through FeatureTyping

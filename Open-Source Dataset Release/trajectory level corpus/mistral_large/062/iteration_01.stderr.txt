@@ -1,0 +1,15 @@
+iteration_02.sysml:29:23: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    29 |     attribute vehicle.totalMass = vehicle.chassis.mass + vehicle.engine.mass + vehicle.gearbox.mass;
+       |                       ^^^^^^^^^
+
+iteration_02.sysml:30:23: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |     attribute vehicle.isOverweight = vehicle.totalMass > vehicle.maxPermittedMass;
+       |                       ^^^^^^^^^^^^
+
+iteration_02.sysml:32:58: error (parsing-error): Unexpected identifier.
+    32 |     connect vehicle.isOverweight to OverweightWarning if vehicle.isOverweight;
+       |                                                          ^^^^^^^
+
+iteration_02.sysml:32:37: error (reference-error): Expected Feature element but found ItemDefinition (VehicleMassManagement::OverweightWarning)
+    32 |     connect vehicle.isOverweight to OverweightWarning if vehicle.isOverweight;
+       |                                     ^^^^^^^^^^^^^^^^^

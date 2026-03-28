@@ -1,0 +1,881 @@
+iteration_01.sysml:241:51: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:241:51: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:241:51: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   45 |             attribute unitName : String = "metre";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   46 |             attribute unitSymbol : String = "m";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   47 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:48:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   48 |             attribute quantityKind : QuantityKind = QuantityKind::Length;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:49:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   49 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:50:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   50 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   53 |             attribute unitName : String = "kilogram";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:52:25: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   54 |             attribute unitSymbol : String = "kg";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:52:25: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   55 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:52:25: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   56 |             attribute quantityKind : QuantityKind = QuantityKind::Mass;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:52:25: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   57 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:52:25: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:58:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   58 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:52:25: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   61 |             attribute unitName : String = "second";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   62 |             attribute unitSymbol : String = "s";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   63 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:64:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   64 |             attribute quantityKind : QuantityKind = QuantityKind::Time;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:65:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   65 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   66 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   69 |             attribute unitName : String = "kelvin";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   70 |             attribute unitSymbol : String = "K";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:71:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   71 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:72:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   72 |             attribute quantityKind : QuantityKind = QuantityKind::Temperature;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:73:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   73 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:74:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   74 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   77 |             attribute unitName : String = "ampere";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:76:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:78:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   78 |             attribute unitSymbol : String = "A";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:76:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   79 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:76:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   80 |             attribute quantityKind : QuantityKind = QuantityKind::ElectricCurrent;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:76:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:81:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   81 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:76:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:82:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   82 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:76:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   85 |             attribute unitName : String = "mole";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:84:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   86 |             attribute unitSymbol : String = "mol";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:84:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   87 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:84:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:88:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   88 |             attribute quantityKind : QuantityKind = QuantityKind::AmountOfSubstance;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:84:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:89:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   89 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:84:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:90:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   90 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:84:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:93:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   93 |             attribute unitName : String = "candela";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:94:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   94 |             attribute unitSymbol : String = "cd";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:95:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   95 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   96 |             attribute quantityKind : QuantityKind = QuantityKind::LuminousIntensity;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   97 |             attribute conversionFactorToSI : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:98:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   98 |             attribute conversionOffsetToSI : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:101:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   101 |             attribute unitName : String = "square metre";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:100:28: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:102:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   102 |             attribute unitSymbol : String = "m2";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:100:28: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   103 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:100:28: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:104:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   104 |             attribute quantityKind : QuantityKind = QuantityKind::Area;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:100:28: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:105:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   105 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:100:28: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:106:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   106 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:100:28: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:109:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   109 |             attribute unitName : String = "cubic metre";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:108:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:110:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   110 |             attribute unitSymbol : String = "m3";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:108:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:111:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   111 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:108:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:112:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   112 |             attribute quantityKind : QuantityKind = QuantityKind::Volume;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:108:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:113:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   113 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:108:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:114:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   114 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:108:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:117:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   117 |             attribute unitName : String = "metre per second";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:118:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   118 |             attribute unitSymbol : String = "m/s";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   119 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   120 |             attribute quantityKind : QuantityKind = QuantityKind::Velocity;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:121:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   121 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:122:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   122 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:125:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   125 |             attribute unitName : String = "metre per second squared";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:124:38: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:126:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   126 |             attribute unitSymbol : String = "m/s2";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:124:38: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:127:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   127 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:124:38: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:128:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   128 |             attribute quantityKind : QuantityKind = QuantityKind::Acceleration;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:124:38: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:129:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   129 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:124:38: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:130:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   130 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:124:38: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:133:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   133 |             attribute unitName : String = "newton";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:132:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:134:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   134 |             attribute unitSymbol : String = "N";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:132:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:135:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   135 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:132:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:136:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   136 |             attribute quantityKind : QuantityKind = QuantityKind::Force;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:132:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:137:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   137 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:132:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:138:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   138 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:132:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:141:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   141 |             attribute unitName : String = "pascal";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:140:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:142:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   142 |             attribute unitSymbol : String = "Pa";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:140:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:143:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   143 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:140:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:144:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   144 |             attribute quantityKind : QuantityKind = QuantityKind::Pressure;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:140:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:145:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   145 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:140:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:146:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   146 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:140:23: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:149:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   149 |             attribute unitName : String = "joule";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:148:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:150:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   150 |             attribute unitSymbol : String = "J";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:148:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:151:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   151 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:148:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:152:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   152 |             attribute quantityKind : QuantityKind = QuantityKind::Energy;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:148:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:153:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   153 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:148:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:154:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   154 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:148:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:157:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   157 |             attribute unitName : String = "watt";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:156:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:158:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   158 |             attribute unitSymbol : String = "W";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:156:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:159:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   159 |             attribute system : UnitSystem = UnitSystem::ISQ;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:156:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:160:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   160 |             attribute quantityKind : QuantityKind = QuantityKind::Power;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:156:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:161:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   161 |             attribute conversionFactorToSI : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:156:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:162:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   162 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:156:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:168:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   168 |             attribute unitName : String = "foot";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:167:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:169:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   169 |             attribute unitSymbol : String = "ft";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:167:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:170:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   170 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:167:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:171:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   171 |             attribute quantityKind : QuantityKind = QuantityKind::Length;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:167:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:172:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   172 |             attribute conversionFactorToSI : Real = 0.3048;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:167:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:173:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   173 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:167:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:176:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   176 |             attribute unitName : String = "inch";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:175:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:177:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   177 |             attribute unitSymbol : String = "in";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:175:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:178:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   178 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:175:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:179:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   179 |             attribute quantityKind : QuantityKind = QuantityKind::Length;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:175:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:180:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   180 |             attribute conversionFactorToSI : Real = 0.0254;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:175:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:181:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   181 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:175:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:184:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   184 |             attribute unitName : String = "yard";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:183:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:185:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   185 |             attribute unitSymbol : String = "yd";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:183:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:186:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   186 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:183:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:187:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   187 |             attribute quantityKind : QuantityKind = QuantityKind::Length;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:183:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:188:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   188 |             attribute conversionFactorToSI : Real = 0.9144;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:183:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:189:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   189 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:183:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:192:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   192 |             attribute unitName : String = "mile";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:191:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:193:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   193 |             attribute unitSymbol : String = "mi";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:191:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:194:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   194 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:191:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:195:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   195 |             attribute quantityKind : QuantityKind = QuantityKind::Length;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:191:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:196:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   196 |             attribute conversionFactorToSI : Real = 1609.344;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:191:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:197:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   197 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:191:21: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:200:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   200 |             attribute unitName : String = "pound mass";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:199:26: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:201:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   201 |             attribute unitSymbol : String = "lbm";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:199:26: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:202:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   202 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:199:26: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:203:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   203 |             attribute quantityKind : QuantityKind = QuantityKind::Mass;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:199:26: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:204:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   204 |             attribute conversionFactorToSI : Real = 0.45359237;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:199:26: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:205:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   205 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:199:26: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:208:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   208 |             attribute unitName : String = "ounce";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:207:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:209:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   209 |             attribute unitSymbol : String = "oz";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:207:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:210:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   210 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:207:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:211:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   211 |             attribute quantityKind : QuantityKind = QuantityKind::Mass;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:207:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:212:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   212 |             attribute conversionFactorToSI : Real = 0.028349523;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:207:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:213:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   213 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:207:22: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:216:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   216 |             attribute unitName : String = "fahrenheit";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:215:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:217:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   217 |             attribute unitSymbol : String = "degF";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:215:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:218:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   218 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:215:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:219:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   219 |             attribute quantityKind : QuantityKind = QuantityKind::Temperature;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:215:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:220:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   220 |             attribute conversionFactorToSI : Real = 0.5555556;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:215:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:221:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   221 |             attribute conversionOffsetToSI : Real = 255.3722;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:215:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:224:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   224 |             attribute unitName : String = "rankine";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:223:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:225:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   225 |             attribute unitSymbol : String = "degR";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:223:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:226:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   226 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:223:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:227:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   227 |             attribute quantityKind : QuantityKind = QuantityKind::Temperature;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:223:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:228:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   228 |             attribute conversionFactorToSI : Real = 0.5555556;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:223:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:229:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   229 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:223:24: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:232:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   232 |             attribute unitName : String = "square foot";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:231:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:233:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   233 |             attribute unitSymbol : String = "ft2";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:231:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:234:23: warning (namespace-distinguishability): Member name 'system' shadows UnitSystemLibrary::Unit::system
+│   234 |             attribute system : UnitSystem = UnitSystem::USCustomary;
+│       |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:231:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:235:23: warning (namespace-distinguishability): Member name 'quantityKind' shadows UnitSystemLibrary::Unit::quantityKind
+│   235 |             attribute quantityKind : QuantityKind = QuantityKind::Area;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:231:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:236:23: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows UnitSystemLibrary::Unit::conversionFactorToSI
+│   236 |             attribute conversionFactorToSI : Real = 0.09290304;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:231:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:237:23: warning (namespace-distinguishability): Member name 'conversionOffsetToSI' shadows UnitSystemLibrary::Unit::conversionOffsetToSI
+│   237 |             attribute conversionOffsetToSI : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:231:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:240:23: warning (namespace-distinguishability): Member name 'unitName' shadows UnitSystemLibrary::Unit::unitName
+│   240 |             attribute unitName : String = "square inch";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:239:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping
+
+iteration_01.sysml:241:23: warning (namespace-distinguishability): Member name 'unitSymbol' shadows UnitSystemLibrary::Unit::unitSymbol
+│   241 |             attribute unitSymbol : String = "in2";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:239:27: note: Because UnitSystemLibrary::Unit is specialized through FeatureTyping

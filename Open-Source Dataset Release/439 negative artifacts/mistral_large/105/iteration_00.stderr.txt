@@ -1,0 +1,23 @@
+iteration_01.sysml:19:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    19 |         attribute state : EngineState = EngineState::OFF;
+       |                   ^^^^^
+
+iteration_01.sysml:55:14: warning (namespace-distinguishability): Member name 'FuelCommand' shadows AutomotivePowertrainControl::FuelCommand
+│   55 |     port def FuelCommand;
+│      |              ^^^^^^^^^^^
+└── iteration_01.sysml:50:14: note: First declared here
+
+iteration_01.sysml:56:14: warning (namespace-distinguishability): Member name 'Torque' shadows AutomotivePowertrainControl::Torque
+│   56 |     port def Torque;
+│      |              ^^^^^^
+└── iteration_01.sysml:51:14: note: First declared here
+
+iteration_01.sysml:57:14: warning (namespace-distinguishability): Member name 'StallSignal' shadows AutomotivePowertrainControl::StallSignal
+│   57 |     port def StallSignal;
+│      |              ^^^^^^^^^^^
+└── iteration_01.sysml:52:14: note: First declared here
+
+iteration_01.sysml:58:14: warning (namespace-distinguishability): Member name 'EngineControl' shadows AutomotivePowertrainControl::EngineControl
+│   58 |     port def EngineControl;
+│      |              ^^^^^^^^^^^^^
+└── iteration_01.sysml:53:14: note: First declared here

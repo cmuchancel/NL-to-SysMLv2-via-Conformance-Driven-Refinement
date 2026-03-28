@@ -1,0 +1,23 @@
+iteration_03.sysml:25:19: warning (namespace-distinguishability): Member name 'engine' shadows PowertrainConfig::PowertrainCombination::engine
+│   25 |         attribute engine : EngineType = EngineType::FourCylinder;
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:24:31: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_03.sysml:26:19: warning (namespace-distinguishability): Member name 'transmission' shadows PowertrainConfig::PowertrainCombination::transmission
+│   26 |         attribute transmission : TransmissionType = TransmissionType::Manual;
+│      |                   ^^^^^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:24:31: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_03.sysml:30:19: warning (namespace-distinguishability): Member name 'engine' shadows PowertrainConfig::PowertrainCombination::engine
+│   30 |         attribute engine : EngineType = EngineType::SixCylinder;
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:29:33: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_03.sysml:31:19: warning (namespace-distinguishability): Member name 'transmission' shadows PowertrainConfig::PowertrainCombination::transmission
+│   31 |         attribute transmission : TransmissionType = TransmissionType::Automatic;
+│      |                   ^^^^^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:29:33: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping

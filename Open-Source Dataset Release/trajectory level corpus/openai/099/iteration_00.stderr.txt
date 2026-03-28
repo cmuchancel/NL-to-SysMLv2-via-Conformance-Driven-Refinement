@@ -1,0 +1,47 @@
+iteration_01.sysml:6:22: error (parsing-error): Expected a token. Did you forget ';'?
+    6 |   part def FrontAxle : Axle;
+
+iteration_01.sysml:7:21: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |   part def RearAxle : Axle;
+
+iteration_01.sysml:9:31: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |   part def SteerableFrontAxle : FrontAxle {
+
+iteration_01.sysml:19:30: error (parsing-error): Expected a token. Did you forget ';'?
+    19 |   part def FrontAxleAssembly : AxleAssembly {
+
+iteration_01.sysml:23:29: error (parsing-error): Expected a token. Did you forget ';'?
+    23 |   part def RearAxleAssembly : AxleAssembly {
+
+iteration_01.sysml:27:39: error (parsing-error): Expected a token. Did you forget ';'?
+    27 |   part def SteerableFrontAxleAssembly : FrontAxleAssembly {
+
+iteration_01.sysml:37:26: error (parsing-error): Expected a token. Did you forget ';'?
+    37 |   part def Vehicle1750kg : Vehicle {
+
+iteration_01.sysml:41:26: error (parsing-error): Expected a token. Did you forget ';'?
+    41 |   part def Vehicle2000kg : Vehicle {
+
+iteration_01.sysml:20:10: warning (namespace-distinguishability): Member name 'axle' shadows VehicleStructuralArchitecture::AxleAssembly::axle
+│   20 |     part axle : FrontAxle;
+│      |          ^^^^
+└── iteration_01.sysml:14:10: note: Inherited from here
+    └── iteration_01.sysml:19:32: note: Because VehicleStructuralArchitecture::AxleAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:24:10: warning (namespace-distinguishability): Member name 'axle' shadows VehicleStructuralArchitecture::AxleAssembly::axle
+│   24 |     part axle : RearAxle;
+│      |          ^^^^
+└── iteration_01.sysml:14:10: note: Inherited from here
+    └── iteration_01.sysml:23:31: note: Because VehicleStructuralArchitecture::AxleAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:38:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   38 |     attribute mass : Real = 1750;
+│      |               ^^^^
+└── iteration_01.sysml:32:15: note: Inherited from here
+    └── iteration_01.sysml:37:28: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:42:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   42 |     attribute mass : Real = 2000;
+│      |               ^^^^
+└── iteration_01.sysml:32:15: note: Inherited from here
+    └── iteration_01.sysml:41:28: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping

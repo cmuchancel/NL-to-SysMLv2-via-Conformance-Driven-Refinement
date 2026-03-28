@@ -1,0 +1,47 @@
+iteration_01.sysml:31:19: warning (namespace-distinguishability): Member name 'providePower' shadows PowerTransmissionSystem::PowerTransmissionSystem::providePower
+│   31 |         attribute providePower : Boolean = true;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:30:30: note: Because PowerTransmissionSystem::PowerTransmissionSystem is specialized through FeatureTyping
+
+iteration_01.sysml:32:19: warning (namespace-distinguishability): Member name 'generateTorque' shadows PowerTransmissionSystem::PowerTransmissionSystem::generateTorque
+│   32 |         attribute generateTorque : Boolean = true;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:30:30: note: Because PowerTransmissionSystem::PowerTransmissionSystem is specialized through FeatureTyping
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'deliverPower' shadows PowerTransmissionSystem::LogicalLayer::deliverPower
+│   36 |         attribute deliverPower : Boolean = true;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:35:25: note: Because PowerTransmissionSystem::LogicalLayer is specialized through FeatureTyping
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'torqueGenerationCapability' shadows PowerTransmissionSystem::LogicalLayer::torqueGenerationCapability
+│   37 |         attribute torqueGenerationCapability : Boolean = true;
+│      |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:35:25: note: Because PowerTransmissionSystem::LogicalLayer is specialized through FeatureTyping
+
+iteration_01.sysml:39:23: warning (namespace-distinguishability): Member name 'generatingTorque' shadows PowerTransmissionSystem::TorqueGenerator::generatingTorque
+│   39 |             attribute generatingTorque : Boolean = true;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:38:32: note: Because PowerTransmissionSystem::TorqueGenerator is specialized through FeatureTyping
+
+iteration_01.sysml:44:14: warning (namespace-distinguishability): Member name 'powertrain' shadows PowerTransmissionSystem::PhysicalLayer::powertrain
+│   44 |         part powertrain : Powertrain {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:19:14: note: Inherited from here
+    └── iteration_01.sysml:43:26: note: Because PowerTransmissionSystem::PhysicalLayer is specialized through FeatureTyping
+
+iteration_01.sysml:45:18: warning (namespace-distinguishability): Member name 'engine' shadows PowerTransmissionSystem::Powertrain::engine
+│   45 |             part engine : Engine {
+│      |                  ^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:44:27: note: Because PowerTransmissionSystem::Powertrain is specialized through FeatureTyping
+
+iteration_01.sysml:46:27: warning (namespace-distinguishability): Member name 'generatingTorque' shadows PowerTransmissionSystem::Engine::generatingTorque
+│   46 |                 attribute generatingTorque : Boolean = true;
+│      |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:45:27: note: Because PowerTransmissionSystem::Engine is specialized through FeatureTyping

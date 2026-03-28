@@ -1,0 +1,11 @@
+iteration_03.sysml:17:48: error (parsing-error): Unexpected identifier.
+    17 |         attribute stringManagement : String[*] unique;
+       |                                                ^^^^^^
+
+iteration_03.sysml:18:62: error (parsing-error): Unexpected ';'.
+    18 |         attribute personnelRoster : Person[*] ordered, unique;
+       |                                                              ^
+
+iteration_03.sysml:19:58: error (parsing-error): Unexpected '['.
+    19 |         attribute nestedPersonnelSets : Person[*] unique [*] ordered;
+       |                                                          ^

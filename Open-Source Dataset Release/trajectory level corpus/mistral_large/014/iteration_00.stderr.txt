@@ -1,0 +1,19 @@
+iteration_01.sysml:6:14: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "=", ":=", "default", ";", "{", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    6 |         enum return;
+      |              ^^^^^^
+
+iteration_01.sysml:34:24: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveFuelSystem::FuelTankAssembly)
+    34 |     part fuelSystem :> FuelTankAssembly {
+       |                        ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:37:17: error (reference-error): No Feature named 'fuelOutlet' found.
+    37 |         connect fuelOutlet to pump.fuelInlet;
+       |                 ^^^^^^^^^^
+
+iteration_01.sysml:38:36: error (reference-error): No Feature named 'fuelOutlet' found.
+    38 |         connect pump.fuelOutlet to fuelOutlet;
+       |                                    ^^^^^^^^^^
+
+iteration_01.sysml:39:17: error (reference-error): No Feature named 'fuelReturn' found.
+    39 |         connect fuelReturn to pump.fuelInlet;
+       |                 ^^^^^^^^^^

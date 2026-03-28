@@ -1,0 +1,65 @@
+iteration_02.sysml:28:15: warning (namespace-distinguishability): Member name 'name' shadows MaterialsDB::MetalAlloy::name
+│   28 |     attribute name = "Steel_980";
+│      |               ^^^^
+└── iteration_02.sysml:19:15: note: Inherited from here
+    └── iteration_02.sysml:27:20: note: Because MaterialsDB::MetalAlloy is specialized through FeatureTyping
+
+iteration_02.sysml:29:15: warning (namespace-distinguishability): Member name 'materialType' shadows MaterialsDB::MetalAlloy::materialType
+│   29 |     attribute materialType = MaterialType::alloy;
+│      |               ^^^^^^^^^^^^
+└── iteration_02.sysml:20:15: note: Inherited from here
+    └── iteration_02.sysml:27:20: note: Because MaterialsDB::MetalAlloy is specialized through FeatureTyping
+
+iteration_02.sysml:30:15: warning (namespace-distinguishability): Member name 'atomicMass' shadows MaterialsDB::MetalAlloy::atomicMass
+│   30 |     attribute atomicMass = 55.9;
+│      |               ^^^^^^^^^^
+└── iteration_02.sysml:21:15: note: Inherited from here
+    └── iteration_02.sysml:27:20: note: Because MaterialsDB::MetalAlloy is specialized through FeatureTyping
+
+iteration_02.sysml:31:15: warning (namespace-distinguishability): Member name 'tensileStrength_N_per_mm2' shadows MaterialsDB::MetalAlloy::tensileStrength_N_per_mm2
+│   31 |     attribute tensileStrength_N_per_mm2 = 980.0;
+│      |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:22:15: note: Inherited from here
+    └── iteration_02.sysml:27:20: note: Because MaterialsDB::MetalAlloy is specialized through FeatureTyping
+
+iteration_02.sysml:32:15: warning (namespace-distinguishability): Member name 'compositionalInfo' shadows MaterialsDB::MetalAlloy::compositionalInfo
+│   32 |     attribute compositionalInfo = "High-strength steel alloy";
+│      |               ^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:24:15: note: Inherited from here
+    └── iteration_02.sysml:27:20: note: Because MaterialsDB::MetalAlloy is specialized through FeatureTyping
+
+iteration_02.sysml:34:17: warning (namespace-distinguishability): Member name 'constituentName' shadows MaterialsDB::ConstituentFraction::constituentName
+│   34 |       attribute constituentName = "Iron";
+│      |                 ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:14:15: note: Inherited from here
+    └── iteration_02.sysml:33:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_02.sysml:35:17: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsDB::ConstituentFraction::massFraction
+│   35 |       attribute massFraction = 0.985;
+│      |                 ^^^^^^^^^^^^
+└── iteration_02.sysml:15:15: note: Inherited from here
+    └── iteration_02.sysml:33:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_02.sysml:38:17: warning (namespace-distinguishability): Member name 'constituentName' shadows MaterialsDB::ConstituentFraction::constituentName
+│   38 |       attribute constituentName = "Carbon";
+│      |                 ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:14:15: note: Inherited from here
+    └── iteration_02.sysml:37:14: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_02.sysml:39:17: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsDB::ConstituentFraction::massFraction
+│   39 |       attribute massFraction = 0.010;
+│      |                 ^^^^^^^^^^^^
+└── iteration_02.sysml:15:15: note: Inherited from here
+    └── iteration_02.sysml:37:14: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_02.sysml:42:17: warning (namespace-distinguishability): Member name 'constituentName' shadows MaterialsDB::ConstituentFraction::constituentName
+│   42 |       attribute constituentName = "Manganese";
+│      |                 ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:14:15: note: Inherited from here
+    └── iteration_02.sysml:41:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_02.sysml:43:17: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsDB::ConstituentFraction::massFraction
+│   43 |       attribute massFraction = 0.005;
+│      |                 ^^^^^^^^^^^^
+└── iteration_02.sysml:15:15: note: Inherited from here
+    └── iteration_02.sysml:41:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping

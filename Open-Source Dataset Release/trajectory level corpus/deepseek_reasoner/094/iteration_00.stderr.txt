@@ -1,0 +1,43 @@
+iteration_01.sysml:4:11: error (parsing-error): Unexpected 'STRING_VALUE'.
+    4 |     alias "汽车 (Car)" for 汽车;
+      |           ^^^^^^^^^^^^
+
+iteration_01.sysml:4:30: error (parsing-error): Unexpected 'ERROR', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "NAME", "$"].
+    4 |     alias "汽车 (Car)" for 汽车;
+      |                            ^^^^
+
+iteration_01.sysml:4:30: error (parsing-error): Unexpected token '汽车'.
+    4 |     alias "汽车 (Car)" for 汽车;
+      |                            ^^^^
+
+iteration_01.sysml:6:14: error (parsing-error): Unexpected token '扭矩'.
+    6 |     item def 扭矩 {
+      |              ^^^^
+
+iteration_01.sysml:11:14: error (parsing-error): Unexpected token '汽车'.
+    11 |     part def 汽车 {
+       |              ^^^^
+
+iteration_01.sysml:12:19: error (parsing-error): Unexpected token '扭矩'.
+    12 |         attribute 扭矩 : 扭矩;
+       |                   ^^^^
+
+iteration_01.sysml:12:26: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    12 |         attribute 扭矩 : 扭矩;
+       |                        ^
+
+iteration_01.sysml:12:28: error (parsing-error): Unexpected token '扭矩'.
+    12 |         attribute 扭矩 : 扭矩;
+       |                          ^^^^
+
+iteration_01.sysml:14:1: error (parsing-error): Unexpected '}', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    14 | }
+       | ^
+
+iteration_01.sysml:7:27: error (reference-error): No Type named 'Real' found.
+    7 |         attribute value : Real;
+      |                           ^^^^
+
+iteration_01.sysml:8:26: error (reference-error): No Type named 'String' found.
+    8 |         attribute unit : String = "Nm";
+      |                          ^^^^^^

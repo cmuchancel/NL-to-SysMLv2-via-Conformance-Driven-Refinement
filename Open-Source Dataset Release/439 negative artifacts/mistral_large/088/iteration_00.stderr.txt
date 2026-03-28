@@ -1,0 +1,31 @@
+iteration_01.sysml:16:72: error (parsing-error): Unexpected ')', expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", ")", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "OperatorExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    16 |         attribute seatBelts : SeatBelt[2] = (new SeatBelt, new SeatBelt);
+       |                                                                        ^
+
+iteration_01.sysml:16:72: error (parsing-error): Unexpected ')', expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", ")", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "OperatorExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    16 |         attribute seatBelts : SeatBelt[2] = (new SeatBelt, new SeatBelt);
+       |                                                                        ^
+
+iteration_01.sysml:26:76: error (parsing-error): Unexpected ')', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ";", "{", "from", ",", "to", "locale", "[", ".", "if", "(", ")", "=", "REGULAR_COMMENT", "then", "accept", "via", "do"].
+    26 |         attribute tires : Tire[4] = (new Tire, new Tire, new Tire, new Tire);
+       |                                                                            ^
+
+iteration_01.sysml:26:76: error (parsing-error): Unexpected ')', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ";", "{", "from", ",", "to", "locale", "[", ".", "if", "(", ")", "=", "REGULAR_COMMENT", "then", "accept", "via", "do"].
+    26 |         attribute tires : Tire[4] = (new Tire, new Tire, new Tire, new Tire);
+       |                                                                            ^
+
+iteration_01.sysml:26:76: error (parsing-error): Unexpected ')', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ";", "{", "from", ",", "to", "locale", "[", ".", "if", "(", ")", "=", "REGULAR_COMMENT", "then", "accept", "via", "do"].
+    26 |         attribute tires : Tire[4] = (new Tire, new Tire, new Tire, new Tire);
+       |                                                                            ^
+
+iteration_01.sysml:26:76: error (parsing-error): Unexpected ')', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ";", "{", "from", ",", "to", "locale", "[", ".", "if", "(", ")", "=", "REGULAR_COMMENT", "then", "accept", "via", "do"].
+    26 |         attribute tires : Tire[4] = (new Tire, new Tire, new Tire, new Tire);
+       |                                                                            ^
+
+iteration_01.sysml:16:64: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyCompliance::SeatBelt)
+    16 |         attribute seatBelts : SeatBelt[2] = (new SeatBelt, new SeatBelt);
+       |                                                                ^^^^^^^^
+
+iteration_01.sysml:26:72: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyCompliance::Tire)
+    26 |         attribute tires : Tire[4] = (new Tire, new Tire, new Tire, new Tire);
+       |                                                                        ^^^^

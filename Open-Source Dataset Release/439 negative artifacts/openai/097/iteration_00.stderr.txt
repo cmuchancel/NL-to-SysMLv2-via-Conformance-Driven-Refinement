@@ -1,0 +1,105 @@
+iteration_01.sysml:4:33: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", "}", "[", "<", "@", "#", ":=", "REGULAR_COMMENT", "::>", "=>", ":>>", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "ordered", "nonunique", "metadata", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "enum"].
+    4 |   enum def VehicleSize { small; standard; large; }
+      |                                 ^^^^^^^^
+
+iteration_01.sysml:10:20: error (parsing-error): Expected a token. Did you forget ';'?
+    10 |   part def Engine4 : Engine {
+
+iteration_01.sysml:14:20: error (parsing-error): Expected a token. Did you forget ';'?
+    14 |   part def Engine6 : Engine {
+
+iteration_01.sysml:23:25: error (parsing-error): Expected a token. Did you forget ';'?
+    23 |   part def SmallVehicle : Vehicle {
+
+iteration_01.sysml:28:25: error (parsing-error): Expected a token. Did you forget ';'?
+    28 |   part def LargeVehicle : Vehicle {
+
+iteration_01.sysml:33:29: error (parsing-error): Expected a token. Did you forget ';'?
+    33 |   part def StandardVehicle4 : Vehicle {
+
+iteration_01.sysml:34:47: error (parsing-error): Unexpected token '::'.
+    34 |     attribute size : VehicleSize = VehicleSize::standard;
+       |                                               ^^
+
+iteration_01.sysml:34:49: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE", ";", "{", "}", ",", "::", "**", "[", "]", "??", "+", "|", "&", "===", "!==", "<=", ">=", "..", "%", "^", "@@", "#", "(", ")", ".?", "->", "from", "to", "*", ".", "if", "?", "else", "implies", "or", "and", "-", "xor", "==", "!=", "<", ">", "/", "hastype", "istype", "@", "as", "meta", "=", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    34 |     attribute size : VehicleSize = VehicleSize::standard;
+       |                                                 ^^^^^^^^
+
+iteration_01.sysml:38:29: error (parsing-error): Expected a token. Did you forget ';'?
+    38 |   part def StandardVehicle6 : Vehicle {
+
+iteration_01.sysml:39:47: error (parsing-error): Unexpected token '::'.
+    39 |     attribute size : VehicleSize = VehicleSize::standard;
+       |                                               ^^
+
+iteration_01.sysml:39:49: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE", ";", "{", "}", ",", "::", "**", "[", "]", "??", "+", "|", "&", "===", "!==", "<=", ">=", "..", "%", "^", "@@", "#", "(", ")", ".?", "->", "from", "to", "*", ".", "if", "?", "else", "implies", "or", "and", "-", "xor", "==", "!=", "<", ">", "/", "hastype", "istype", "@", "as", "meta", "=", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    39 |     attribute size : VehicleSize = VehicleSize::standard;
+       |                                                 ^^^^^^^^
+
+iteration_01.sysml:11:15: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleModel::Engine::cylinderCount
+│   11 |     attribute cylinderCount : Integer = 4;
+│      |               ^^^^^^^^^^^^^
+└── iteration_01.sysml:7:15: note: Inherited from here
+    └── iteration_01.sysml:10:22: note: Because VehicleModel::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:15:15: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleModel::Engine::cylinderCount
+│   15 |     attribute cylinderCount : Integer = 6;
+│      |               ^^^^^^^^^^^^^
+└── iteration_01.sysml:7:15: note: Inherited from here
+    └── iteration_01.sysml:14:22: note: Because VehicleModel::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:24:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   24 |     attribute size : VehicleSize = VehicleSize::small;
+│      |               ^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:23:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:25:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   25 |     part engine : Engine4;
+│      |          ^^^^^^
+└── iteration_01.sysml:20:10: note: Inherited from here
+    └── iteration_01.sysml:23:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:29:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   29 |     attribute size : VehicleSize = VehicleSize::large;
+│      |               ^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:28:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:30:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   30 |     part engine : Engine6;
+│      |          ^^^^^^
+└── iteration_01.sysml:20:10: note: Inherited from here
+    └── iteration_01.sysml:28:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:34:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   34 |     attribute size : VehicleSize = VehicleSize::standard;
+│      |               ^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:33:31: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:34:36: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is EnumerationDefinition
+    34 |     attribute size : VehicleSize = VehicleSize::standard;
+       |                                    ^^^^^^^^^^^^^
+
+iteration_01.sysml:35:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   35 |     part engine : Engine4;
+│      |          ^^^^^^
+└── iteration_01.sysml:20:10: note: Inherited from here
+    └── iteration_01.sysml:33:31: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:39:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   39 |     attribute size : VehicleSize = VehicleSize::standard;
+│      |               ^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:38:31: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:39:36: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is EnumerationDefinition
+    39 |     attribute size : VehicleSize = VehicleSize::standard;
+       |                                    ^^^^^^^^^^^^^
+
+iteration_01.sysml:40:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   40 |     part engine : Engine6;
+│      |          ^^^^^^
+└── iteration_01.sysml:20:10: note: Inherited from here
+    └── iteration_01.sysml:38:31: note: Because VehicleModel::Vehicle is specialized through FeatureTyping

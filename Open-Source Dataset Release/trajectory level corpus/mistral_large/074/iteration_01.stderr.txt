@@ -1,0 +1,99 @@
+iteration_02.sysml:37:38: error (parsing-error): Unexpected '(', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    37 |         attribute selectOptimalEngine() : Engine {
+       |                                      ^
+
+iteration_02.sysml:38:13: error (parsing-error): Unexpected identifier, did you mean 'verify'?
+    38 |             var bestScore : Real = -Infinity;
+       |             ^^^
+
+iteration_02.sysml:39:13: error (parsing-error): Unexpected 'for', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    39 |             for engine in candidateEngines {
+       |             ^^^
+
+iteration_02.sysml:39:17: error (parsing-error): Unexpected identifier, expected one of ["NAME", "for", "[", "abstract", "derived", "ordered", "nonunique", "if", "<", "not", "#", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "variation", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    39 |             for engine in candidateEngines {
+       |                 ^^^^^^
+
+iteration_02.sysml:40:36: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    40 |                 evaluator.evaluate = (engine.power * evaluator.weightPower) -
+       |                                    ^
+
+iteration_02.sysml:44:17: error (parsing-error): Unexpected identifier, did you mean 'verify'?
+    44 |                 var score : Real = evaluator.evaluate;
+       |                 ^^^
+
+iteration_02.sysml:45:29: error (parsing-error): Unexpected identifier, expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "VariantMembership", "FeatureMembership", "FeatureMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "FeatureMembership", "SuccessionAsUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Dependency_repeat1"].
+    45 |                 if (score > bestScore) {
+       |                             ^^^^^^^^^
+
+iteration_02.sysml:45:38: error (parsing-error): Unexpected ')', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    45 |                 if (score > bestScore) {
+       |                                      ^
+
+iteration_02.sysml:50:20: error (parsing-error): Unexpected identifier, expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "VariantMembership", "FeatureMembership", "FeatureMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "FeatureMembership", "SuccessionAsUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Dependency_repeat1"].
+    50 |             output.recommendedEngine = selectedEngine;
+       |                    ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:51:13: error (parsing-error): Unexpected 'return', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    51 |             return selectedEngine;
+       |             ^^^^^^
+
+iteration_02.sysml:38:37: error (reference-error): No Feature named 'Infinity' found.
+    38 |             var bestScore : Real = -Infinity;
+       |                                     ^^^^^^^^
+
+iteration_02.sysml:40:39: error (reference-error): No Feature named 'engine' found.
+    40 |                 evaluator.evaluate = (engine.power * evaluator.weightPower) -
+       |                                       ^^^^^^
+
+iteration_02.sysml:40:46: error (reference-error): No Feature named 'power' found.
+    40 |                 evaluator.evaluate = (engine.power * evaluator.weightPower) -
+       |                                              ^^^^^
+
+iteration_02.sysml:40:64: error (reference-error): No Feature named 'weightPower' found.
+    40 |                 evaluator.evaluate = (engine.power * evaluator.weightPower) -
+       |                                                                ^^^^^^^^^^^
+
+iteration_02.sysml:41:38: error (reference-error): No Feature named 'engine' found.
+    41 |                                     (engine.mass * evaluator.weightMass) +
+       |                                      ^^^^^^
+
+iteration_02.sysml:41:45: error (reference-error): No Feature named 'mass' found.
+    41 |                                     (engine.mass * evaluator.weightMass) +
+       |                                             ^^^^
+
+iteration_02.sysml:41:62: error (reference-error): No Feature named 'weightMass' found.
+    41 |                                     (engine.mass * evaluator.weightMass) +
+       |                                                              ^^^^^^^^^^
+
+iteration_02.sysml:42:38: error (reference-error): No Feature named 'engine' found.
+    42 |                                     (engine.efficiency * evaluator.weightEfficiency) -
+       |                                      ^^^^^^
+
+iteration_02.sysml:42:45: error (reference-error): No Feature named 'efficiency' found.
+    42 |                                     (engine.efficiency * evaluator.weightEfficiency) -
+       |                                             ^^^^^^^^^^
+
+iteration_02.sysml:42:68: error (reference-error): No Feature named 'weightEfficiency' found.
+    42 |                                     (engine.efficiency * evaluator.weightEfficiency) -
+       |                                                                    ^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:43:38: error (reference-error): No Feature named 'engine' found.
+    43 |                                     (engine.cost * evaluator.weightCost);
+       |                                      ^^^^^^
+
+iteration_02.sysml:43:45: error (reference-error): No Feature named 'cost' found.
+    43 |                                     (engine.cost * evaluator.weightCost);
+       |                                             ^^^^
+
+iteration_02.sysml:43:62: error (reference-error): No Feature named 'weightCost' found.
+    43 |                                     (engine.cost * evaluator.weightCost);
+       |                                                              ^^^^^^^^^^
+
+iteration_02.sysml:44:46: error (reference-error): No Feature named 'evaluate' found.
+    44 |                 var score : Real = evaluator.evaluate;
+       |                                              ^^^^^^^^
+
+iteration_02.sysml:47:38: error (reference-error): No Feature named 'engine' found.
+    47 |                     selectedEngine = engine;
+       |                                      ^^^^^^

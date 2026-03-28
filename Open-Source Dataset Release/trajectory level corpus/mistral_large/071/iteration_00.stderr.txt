@@ -1,0 +1,35 @@
+iteration_01.sysml:59:35: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    59 |     requirement vehicleMassFull : VehicleMassLimit {
+       |                                   ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:60:9: warning (namespace-distinguishability): Member name 'condition' shadows VehicleRequirements::VehicleMassLimit::condition
+│   60 |         condition = fullCondition;
+│      |         ^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:59:35: note: Because VehicleRequirements::VehicleMassLimit is specialized through FeatureTyping
+
+iteration_01.sysml:61:9: warning (namespace-distinguishability): Member name 'maxAllowedMass' shadows VehicleRequirements::VehicleMassLimit::maxAllowedMass
+│   61 |         maxAllowedMass = 2000.0;
+│      |         ^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:59:35: note: Because VehicleRequirements::VehicleMassLimit is specialized through FeatureTyping
+
+iteration_01.sysml:64:36: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    64 |     requirement vehicleMassEmpty : VehicleMassLimit {
+       |                                    ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:65:9: warning (namespace-distinguishability): Member name 'condition' shadows VehicleRequirements::VehicleMassLimit::condition
+│   65 |         condition = emptyCondition;
+│      |         ^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:64:36: note: Because VehicleRequirements::VehicleMassLimit is specialized through FeatureTyping
+
+iteration_01.sysml:66:9: warning (namespace-distinguishability): Member name 'maxAllowedMass' shadows VehicleRequirements::VehicleMassLimit::maxAllowedMass
+│   66 |         maxAllowedMass = 1500.0;
+│      |         ^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:64:36: note: Because VehicleRequirements::VehicleMassLimit is specialized through FeatureTyping
+
+iteration_01.sysml:69:38: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    69 |     requirement torqueTransmission : PowerTransmission;
+       |                                      ^^^^^^^^^^^^^^^^^

@@ -1,0 +1,31 @@
+iteration_02.sysml:67:36: error (parsing-error): Unexpected '{'.
+    67 |     requirement TorqueTransmission {
+       |                                    ^
+
+iteration_02.sysml:67:36: error (parsing-error): Unexpected '{'.
+    67 |     requirement TorqueTransmission {
+       |                                    ^
+
+iteration_02.sysml:71:1: error (parsing-error): Unexpected '}', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "analysis", "verification", "verify", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "VariantMembership", "FeatureMembership", "FeatureMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "FeatureMembership", "SuccessionAsUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "SubjectMembership", "RequirementConstraintMembership", "RequirementConstraintKind", "FramedConcernMembership", "ActorMembership", "StakeholderMembership", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "RequirementVerificationMembership", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Dependency_repeat1"].
+    71 | }
+       | ^
+
+iteration_02.sysml:71:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_02.sysml:64:44: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    64 |         attribute satisfied : Boolean = if engine.speed > 0.0 then engine.torque > 0.0 else true;
+       |                                            ^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:64:68: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    64 |         attribute satisfied : Boolean = if engine.speed > 0.0 then engine.torque > 0.0 else true;
+       |                                                                    ^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:67:36: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    67 |     requirement TorqueTransmission {
+       |                                    ^
+    68 |         attribute description : String = "Torque must be effectively transmitted through clutch.";
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    69 |         attribute satisfied : Boolean = clutch.torqueInput.torque == clutch.torqueOutput.torque;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    70 |     }
+       |     ^

@@ -1,0 +1,3 @@
+iteration_01.sysml:6:19: error (parsing-error): Unexpected token 'π'.
+    6 |         attribute π : Real = 3.14159265358979323846;
+      |                   ^

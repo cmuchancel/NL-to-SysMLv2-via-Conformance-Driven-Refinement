@@ -1,0 +1,32 @@
+iteration_01.sysml:2:3: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |   private import ScalarValues::*;
+
+iteration_01.sysml:27:12: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:10:42: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    10 |     attribute scheduledMaintenanceTime : Time;
+       |                                          ^^^^
+
+iteration_01.sysml:11:37: error (reference-error): No Type named 'Duration' found.
+    11 |     attribute maintenanceInterval : Duration;
+       |                                     ^^^^^^^^
+
+iteration_01.sysml:14:46: error (reference-error): No Feature named 'normal' found.
+    14 |     attribute healthStatus : VehicleStatus = normal;
+       |                                              ^^^^^^
+
+iteration_01.sysml:15:44: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    15 |     attribute actualMaintenanceStartTime : Time;
+       |                                            ^^^^
+
+iteration_01.sysml:16:40: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    16 |     attribute previousHealthyEndTime : Time;
+       |                                        ^^^^
+
+iteration_01.sysml:18:37: error (reference-error): No Type named 'Duration' found.
+    18 |     attribute maintenanceDuration : Duration;
+       |                                     ^^^^^^^^
+
+iteration_01.sysml:21:37: error (reference-error): Expected Type element but found LibraryPackage (Time)
+    21 |     attribute nextMaintenanceTime : Time;
+       |                                     ^^^^

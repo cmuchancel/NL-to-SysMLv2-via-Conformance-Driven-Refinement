@@ -1,0 +1,67 @@
+iteration_01.sysml:24:35: error (parsing-error): Unexpected identifier.
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                   ^^^^^
+
+iteration_01.sysml:24:85: error (parsing-error): Expected a token. Did you forget ';'?
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+
+iteration_01.sysml:24:113: error (parsing-error): Expected a token. Did you forget ';'?
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+
+iteration_01.sysml:24:143: error (parsing-error): Expected a token. Did you forget ';'?
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+
+iteration_01.sysml:29:19: error (parsing-error): Unexpected 'message', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    29 |         attribute message : String;
+       |                   ^^^^^^^
+
+iteration_01.sysml:37:19: error (parsing-error): Unexpected 'message', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    37 |         attribute message : String;
+       |                   ^^^^^^^
+
+iteration_01.sysml:42:19: error (parsing-error): Unexpected 'message', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    42 |         attribute message : String;
+       |                   ^^^^^^^
+
+iteration_01.sysml:24:58: error (type-error): Quantities::TensorQuantityValue does not conform to PublishSubscribeSystem::Consumer
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                          ^
+
+iteration_01.sysml:24:59: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+│      |                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:86: note: ScalarValues::Positive does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:24:59: error (type-error): PublishSubscribeSystem::Topic::Weather does not conform to PublishSubscribeSystem::SubscribePort
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                           ^^^^^^^^^^^^^^
+
+iteration_01.sysml:24:77: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                                             ^^^^^^^^
+
+iteration_01.sysml:24:90: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+│      |                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:114: note: ScalarValues::Positive does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:24:90: error (type-error): PublishSubscribeSystem::Topic::News does not conform to PublishSubscribeSystem::SubscribePort
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                                                          ^^^^^^^^^^^
+
+iteration_01.sysml:24:105: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                                                                         ^^^^^^^^
+
+iteration_01.sysml:24:118: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+│      |                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:144: note: ScalarValues::Positive does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:24:118: error (type-error): PublishSubscribeSystem::Topic::Sports does not conform to PublishSubscribeSystem::SubscribePort
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                                                                                      ^^^^^^^^^^^^^
+
+iteration_01.sysml:24:135: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    24 |         attribute subscriptions : Topic -> Consumer[*] = (Topic::Weather -> Consumer[*], Topic::News -> Consumer[*], Topic::Sports -> Consumer[*]);
+       |                                                                                                                                       ^^^^^^^^

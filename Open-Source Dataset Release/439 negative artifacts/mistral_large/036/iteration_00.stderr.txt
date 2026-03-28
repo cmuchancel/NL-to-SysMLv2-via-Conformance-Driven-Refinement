@@ -1,0 +1,15 @@
+iteration_01.sysml:11:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    11 |         attribute state : VehicleState = VehicleState::off;
+       |                   ^^^^^
+
+iteration_01.sysml:27:36: error (reference-error): Expected Feature element but found ItemDefinition (VehicleOperationalStatus::VehicleStartSignal)
+    27 |     connect vehicle.startSignal to VehicleStartSignal;
+       |                                    ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:28:33: error (reference-error): Expected Feature element but found ItemDefinition (VehicleOperationalStatus::VehicleOnSignal)
+    28 |     connect vehicle.onSignal to VehicleOnSignal;
+       |                                 ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:29:34: error (reference-error): Expected Feature element but found ItemDefinition (VehicleOperationalStatus::VehicleOffSignal)
+    29 |     connect vehicle.offSignal to VehicleOffSignal;
+       |                                  ^^^^^^^^^^^^^^^^

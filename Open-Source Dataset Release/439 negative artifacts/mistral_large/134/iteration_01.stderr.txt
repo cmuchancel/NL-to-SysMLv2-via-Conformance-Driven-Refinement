@@ -1,0 +1,3 @@
+iteration_02.sysml:25:19: error (parsing-error): Unexpected 'message', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    25 |         attribute message : String;
+       |                   ^^^^^^^

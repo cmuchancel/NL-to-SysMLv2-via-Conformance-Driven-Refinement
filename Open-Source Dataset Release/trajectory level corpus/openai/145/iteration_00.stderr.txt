@@ -1,0 +1,22 @@
+iteration_01.sysml:2:5: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |     private import ScalarValues::*;
+
+iteration_01.sysml:26:12: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:22:19: warning (namespace-distinguishability): Member name 'manufacturerName' shadows Tire::manufacturerName
+│   22 |         attribute manufacturerName = "Michelin";
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:21:28: note: Because Tire is specialized through FeatureTyping
+
+iteration_01.sysml:23:19: warning (namespace-distinguishability): Member name 'rimDiameterInInches' shadows Tire::rimDiameterInInches
+│   23 |         attribute rimDiameterInInches = 18.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:21:28: note: Because Tire is specialized through FeatureTyping
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'tireWidth' shadows Tire::tireWidth
+│   24 |         attribute tireWidth = 245.0;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:21:28: note: Because Tire is specialized through FeatureTyping

@@ -1,0 +1,29 @@
+iteration_03.sysml:45:14: warning (namespace-distinguishability): Member name 'publishPort' shadows PubSubSystem::Publisher::publishPort
+│   45 |         part publishPort : PublishPort;
+│      |              ^^^^^^^^^^^
+└── iteration_03.sysml:29:14: note: Inherited from here
+    └── iteration_03.sysml:44:23: note: Because PubSubSystem::Publisher is specialized through FeatureTyping
+
+iteration_03.sysml:49:14: warning (namespace-distinguishability): Member name 'subscribePort' shadows PubSubSystem::Subscriber::subscribePort
+│   49 |         part subscribePort : SubscribePort;
+│      |              ^^^^^^^^^^^^^
+└── iteration_03.sysml:33:14: note: Inherited from here
+    └── iteration_03.sysml:48:24: note: Because PubSubSystem::Subscriber is specialized through FeatureTyping
+
+iteration_03.sysml:53:14: warning (namespace-distinguishability): Member name 'subscribePort' shadows PubSubSystem::Subscriber::subscribePort
+│   53 |         part subscribePort : SubscribePort;
+│      |              ^^^^^^^^^^^^^
+└── iteration_03.sysml:33:14: note: Inherited from here
+    └── iteration_03.sysml:52:24: note: Because PubSubSystem::Subscriber is specialized through FeatureTyping
+
+iteration_03.sysml:57:14: warning (namespace-distinguishability): Member name 'publishReceivePort' shadows PubSubSystem::Server::publishReceivePort
+│   57 |         part publishReceivePort : PublishPort;
+│      |              ^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:38:14: note: Inherited from here
+    └── iteration_03.sysml:56:19: note: Because PubSubSystem::Server is specialized through FeatureTyping
+
+iteration_03.sysml:58:14: warning (namespace-distinguishability): Member name 'subscribeReceivePort' shadows PubSubSystem::Server::subscribeReceivePort
+│   58 |         part subscribeReceivePort : SubscribePort;
+│      |              ^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:39:14: note: Inherited from here
+    └── iteration_03.sysml:56:19: note: Because PubSubSystem::Server is specialized through FeatureTyping

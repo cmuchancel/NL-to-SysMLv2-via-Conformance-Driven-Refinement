@@ -1,0 +1,79 @@
+iteration_01.sysml:6:10: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "=", ":=", "default", ";", "{", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    6 |     enum standard;
+      |          ^^^^^^^^
+
+iteration_01.sysml:51:15: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    51 |     attribute variant : VehicleVariantType;
+       |               ^^^^^^^
+
+iteration_01.sysml:60:15: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    60 |     attribute variant : VehicleVariantType;
+       |               ^^^^^^^
+
+iteration_01.sysml:73:75: error (parsing-error): Unexpected token '::'.
+    73 |     attribute performanceRequirement : PerformanceLevel = PerformanceLevel::standard;
+       |                                                                           ^^
+
+iteration_01.sysml:73:77: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE", ";", "{", "}", ",", "::", "**", "[", "]", "??", "+", "|", "&", "===", "!==", "<=", ">=", "..", "%", "^", "@@", "#", "(", ")", ".?", "->", "from", "to", "*", ".", "if", "?", "else", "implies", "or", "and", "-", "xor", "==", "!=", "<", ">", "/", "hastype", "istype", "@", "as", "meta", "=", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    73 |     attribute performanceRequirement : PerformanceLevel = PerformanceLevel::standard;
+       |                                                                             ^^^^^^^^
+
+iteration_01.sysml:75:15: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    75 |     attribute variant : VehicleVariantType;
+       |               ^^^^^^^
+
+iteration_01.sysml:89:17: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    89 |       attribute variant : VehicleVariantType = VehicleVariantType::suv;
+       |                 ^^^^^^^
+
+iteration_01.sysml:92:17: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    92 |       attribute variant : VehicleVariantType = VehicleVariantType::sedan;
+       |                 ^^^^^^^
+
+iteration_01.sysml:95:17: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    95 |       attribute variant : VehicleVariantType = VehicleVariantType::sedan;
+       |                 ^^^^^^^
+
+iteration_01.sysml:98:17: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    98 |       attribute variant : VehicleVariantType = VehicleVariantType::truck;
+       |                 ^^^^^^^
+
+iteration_01.sysml:62:17: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   62 |       attribute engineType : EngineType = EngineType::sixCylinder;
+│      |                 ^^^^^^^^^^
+└── iteration_01.sysml:37:15: note: Inherited from here
+    └── iteration_01.sysml:61:19: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:65:17: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   65 |       attribute transmissionType : TransmissionType = TransmissionType::automatic;
+│      |                 ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:15: note: Inherited from here
+    └── iteration_01.sysml:64:25: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:68:17: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::WheelSet::wheelType
+│   68 |       attribute wheelType : WheelType = WheelType::wideRim;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:45:15: note: Inherited from here
+    └── iteration_01.sysml:67:19: note: Because VehicleProductLineConfiguration::WheelSet is specialized through FeatureTyping
+
+iteration_01.sysml:73:59: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is EnumerationDefinition
+    73 |     attribute performanceRequirement : PerformanceLevel = PerformanceLevel::standard;
+       |                                                           ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:77:17: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   77 |       attribute engineType : EngineType = EngineType::fourCylinder;
+│      |                 ^^^^^^^^^^
+└── iteration_01.sysml:37:15: note: Inherited from here
+    └── iteration_01.sysml:76:19: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:80:17: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   80 |       attribute transmissionType : TransmissionType = TransmissionType::manual;
+│      |                 ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:15: note: Inherited from here
+    └── iteration_01.sysml:79:25: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:83:17: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::WheelSet::wheelType
+│   83 |       attribute wheelType : WheelType = WheelType::narrowRim;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:45:15: note: Inherited from here
+    └── iteration_01.sysml:82:19: note: Because VehicleProductLineConfiguration::WheelSet is specialized through FeatureTyping

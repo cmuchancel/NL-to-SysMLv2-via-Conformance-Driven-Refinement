@@ -1,0 +1,105 @@
+iteration_01.sysml:26:15: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    26 |     attribute diameterMM : Real = 457.2[mm];
+       |               ^^^^^^^^^^
+
+iteration_01.sysml:26:28: error (parsing-error): Unexpected identifier.
+    26 |     attribute diameterMM : Real = 457.2[mm];
+       |                            ^^^^
+
+iteration_01.sysml:26:44: error (parsing-error): Expected a token. Did you forget ']'?
+    26 |     attribute diameterMM : Real = 457.2[mm];
+
+iteration_01.sysml:5:29: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   5 |     attribute mass : Real = 1200[kg];
+│     |                             ^^^^^^^^
+└── iteration_01.sysml:5:34: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:6:31: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   6 |     attribute length : Real = 4.82[m];
+│     |                               ^^^^^^^
+└── iteration_01.sysml:6:36: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:25:39: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   25 |     attribute diameterInches : Real = 18[in];
+│      |                                       ^^^^^^^
+│   26 |     attribute diameterMM : Real = 457.2[mm];
+│      |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:15: note: Quantities::TensorQuantityValue does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:25:45: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    25 |     attribute diameterInches : Real = 18[in];
+       |                                             ^
+
+iteration_01.sysml:26:15: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   26 |     attribute diameterMM : Real = 457.2[mm];
+│      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:41: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:30:30: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   30 |     attribute width : Real = 245[mm];
+│      |                              ^^^^^^^
+└── iteration_01.sysml:30:34: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:31:31: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   31 |     attribute height : Real = 45[mm];
+│      |                               ^^^^^^
+└── iteration_01.sysml:31:34: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:32:35: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   32 |     attribute treadDepth : Real = 6.0[mm];
+│      |                                   ^^^^^^^
+└── iteration_01.sysml:32:39: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:33:55: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   33 |     attribute treadDepthOk : Boolean = (treadDepth >= 3.5[mm]);
+│      |                                                       ^^^^^^^
+└── iteration_01.sysml:33:59: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:37:31: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   37 |     attribute radius : Real = 95[mm];
+│      |                               ^^^^^^
+└── iteration_01.sysml:37:34: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_01.sysml:5:34: error (reference-error): No Feature named 'kg' found.
+    5 |     attribute mass : Real = 1200[kg];
+      |                                  ^^
+
+iteration_01.sysml:6:36: error (reference-error): No Feature named 'm' found.
+    6 |     attribute length : Real = 4.82[m];
+      |                                    ^
+
+iteration_01.sysml:15:75: error (reference-error): No Feature named 'diameterMM' found.
+    15 |     attribute brakeDiscFitsRim : Boolean = (brakeDiscDiameter < wheel.rim.diameterMM);
+       |                                                                           ^^^^^^^^^^
+
+iteration_01.sysml:21:42: error (reference-error): No Feature named 'diameterMM' found.
+    21 |     attribute outerDiameter : Real = rim.diameterMM + 2 * tire.height;
+       |                                          ^^^^^^^^^^
+
+iteration_01.sysml:26:15: error (reference-error): No Feature named 'diameterMM' found.
+    26 |     attribute diameterMM : Real = 457.2[mm];
+       |               ^^^^^^^^^^
+
+iteration_01.sysml:26:41: error (reference-error): No Feature named 'mm' found.
+    26 |     attribute diameterMM : Real = 457.2[mm];
+       |                                         ^^
+
+iteration_01.sysml:30:34: error (reference-error): No Feature named 'mm' found.
+    30 |     attribute width : Real = 245[mm];
+       |                                  ^^
+
+iteration_01.sysml:31:34: error (reference-error): No Feature named 'mm' found.
+    31 |     attribute height : Real = 45[mm];
+       |                                  ^^
+
+iteration_01.sysml:32:39: error (reference-error): No Feature named 'mm' found.
+    32 |     attribute treadDepth : Real = 6.0[mm];
+       |                                       ^^
+
+iteration_01.sysml:33:59: error (reference-error): No Feature named 'mm' found.
+    33 |     attribute treadDepthOk : Boolean = (treadDepth >= 3.5[mm]);
+       |                                                           ^^
+
+iteration_01.sysml:37:34: error (reference-error): No Feature named 'mm' found.
+    37 |     attribute radius : Real = 95[mm];
+       |                                  ^^

@@ -1,0 +1,7 @@
+iteration_02.sysml:29:23: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Vehicle)
+    29 |     part Vehicle_1 :> Vehicle {
+       |                       ^^^^^^^
+
+iteration_02.sysml:36:28: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Vehicle)
+    36 |     part Vehicle_1_next :> Vehicle {
+       |                            ^^^^^^^

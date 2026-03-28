@@ -1,0 +1,21 @@
+iteration_01.sysml:11:9: error (parsing-error): Unexpected ':>', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "VariantMembership", "FeatureMembership", "FeatureMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "FeatureMembership", "SuccessionAsUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Dependency_repeat1"].
+    11 |         :> out torque : Real;
+       |         ^^
+
+iteration_01.sysml:21:14: warning (namespace-distinguishability): Member name 'engine' shadows PowertrainSystem::Vehicle::engine
+│   21 |         part engine : Engine;
+│      |              ^^^^^^
+└── iteration_01.sysml:15:14: note: Inherited from here
+    └── iteration_01.sysml:20:20: note: Because PowertrainSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:22:14: warning (namespace-distinguishability): Member name 'torqueGenerator' shadows PowertrainSystem::Vehicle::torqueGenerator
+│   22 |         part torqueGenerator : TorqueGenerator {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:14: note: Inherited from here
+    └── iteration_01.sysml:20:20: note: Because PowertrainSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:26:14: warning (namespace-distinguishability): Member name 'torqueOut' shadows PowertrainSystem::Vehicle::torqueOut
+│   26 |         port torqueOut : TorquePort;
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:17:14: note: Inherited from here
+    └── iteration_01.sysml:20:20: note: Because PowertrainSystem::Vehicle is specialized through FeatureTyping

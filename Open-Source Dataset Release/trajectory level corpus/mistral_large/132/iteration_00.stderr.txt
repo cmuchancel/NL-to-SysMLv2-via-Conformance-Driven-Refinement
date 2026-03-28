@@ -1,0 +1,17 @@
+iteration_01.sysml:16:19: warning (namespace-distinguishability): Member name 'classification' shadows SecurityClassification::Component::classification
+│   16 |         attribute classification : SecurityLevel = SecurityLevel::Confidential;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:15:34: note: Because SecurityClassification::Component is specialized through FeatureTyping
+
+iteration_01.sysml:20:19: warning (namespace-distinguishability): Member name 'classification' shadows SecurityClassification::Component::classification
+│   20 |         attribute classification : SecurityLevel = SecurityLevel::Unclassified;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:19:34: note: Because SecurityClassification::Component is specialized through FeatureTyping
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'classification' shadows SecurityClassification::Component::classification
+│   24 |         attribute classification : SecurityLevel = SecurityLevel::Secret;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:23:28: note: Because SecurityClassification::Component is specialized through FeatureTyping

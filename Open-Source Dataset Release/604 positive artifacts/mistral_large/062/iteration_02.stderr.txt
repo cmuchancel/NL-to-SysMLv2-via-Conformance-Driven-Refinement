@@ -1,0 +1,11 @@
+iteration_03.sysml:32:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleMassManagement::Vehicle::totalMass
+│   32 |         attribute totalMass : Real = calculateTotalMass;
+│      |                   ^^^^^^^^^
+└── iteration_03.sysml:20:19: note: Inherited from here
+    └── iteration_03.sysml:31:20: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:33:19: warning (namespace-distinguishability): Member name 'isOverweight' shadows VehicleMassManagement::Vehicle::isOverweight
+│   33 |         attribute isOverweight : Boolean = checkOverweight;
+│      |                   ^^^^^^^^^^^^
+└── iteration_03.sysml:22:19: note: Inherited from here
+    └── iteration_03.sysml:31:20: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping

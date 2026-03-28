@@ -1,0 +1,94 @@
+iteration_01.sysml:25:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfiguration::Vehicle::mass
+│   25 |         mass = 2000.0;
+│      |         ^^^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:24:21: note: Because VehicleConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:26:14: warning (namespace-distinguishability): Member name 'frontAxle' shadows VehicleConfiguration::Vehicle::frontAxle
+│   26 |         part frontAxle : FrontAxle {
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:7:14: note: Inherited from here
+    └── iteration_01.sysml:24:21: note: Because VehicleConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:27:13: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleConfiguration::FrontAxle::steeringAngle
+│   27 |             steeringAngle = 30.0;
+│      |             ^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:26:26: note: Because VehicleConfiguration::FrontAxle is specialized through FeatureTyping
+
+iteration_01.sysml:29:14: warning (namespace-distinguishability): Member name 'rearAxle' shadows VehicleConfiguration::Vehicle::rearAxle
+│   29 |         part rearAxle : Axle;
+│      |              ^^^^^^^^
+└── iteration_01.sysml:8:14: note: Inherited from here
+    └── iteration_01.sysml:24:21: note: Because VehicleConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:32:5: error (part-usage-part-definition): A part must be typed by at least one part definition
+    32 |     part vehicle1_c1 : vehicle1 {
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    33 |         part frontAxle : FrontAxle {
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    34 |             steeringAngle = 35.0;
+       |             ^^^^^^^^^^^^^^^^^^^^^
+    35 |         }
+       |         ^
+    36 |         part rearAxle : Axle {
+       |         ^^^^^^^^^^^^^^^^^^^^^^
+    37 |             part tires : Tire {
+       |             ^^^^^^^^^^^^^^^^^^^
+    38 |                 :>> tires[1] { mass = 15.0; }
+       |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    39 |                 :>> tires[2] { mass = 15.0; }
+       |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    40 |             }
+       |             ^
+    41 |         }
+       |         ^
+    42 |     }
+       |     ^
+
+iteration_01.sysml:32:24: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    32 |     part vehicle1_c1 : vehicle1 {
+       |                        ^^^^^^^^
+
+iteration_01.sysml:33:14: warning (namespace-distinguishability): Member name 'frontAxle' shadows VehicleConfiguration::vehicle1::frontAxle
+│   33 |         part frontAxle : FrontAxle {
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:26:14: note: Inherited from here
+    └── iteration_01.sysml:32:24: note: Because VehicleConfiguration::vehicle1 is specialized through FeatureTyping
+
+iteration_01.sysml:34:13: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleConfiguration::FrontAxle::steeringAngle
+│   34 |             steeringAngle = 35.0;
+│      |             ^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:33:26: note: Because VehicleConfiguration::FrontAxle is specialized through FeatureTyping
+
+iteration_01.sysml:36:14: warning (namespace-distinguishability): Member name 'rearAxle' shadows VehicleConfiguration::vehicle1::rearAxle
+│   36 |         part rearAxle : Axle {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:32:24: note: Because VehicleConfiguration::vehicle1 is specialized through FeatureTyping
+
+iteration_01.sysml:37:18: warning (namespace-distinguishability): Member name 'tires' shadows VehicleConfiguration::Axle::tires
+│   37 |             part tires : Tire {
+│      |                  ^^^^^
+└── iteration_01.sysml:13:14: note: Inherited from here
+    └── iteration_01.sysml:36:25: note: Because VehicleConfiguration::Axle is specialized through FeatureTyping
+
+iteration_01.sysml:38:32: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfiguration::Tire::mass
+│   38 |                 :>> tires[1] { mass = 15.0; }
+│      |                                ^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    ├── iteration_01.sysml:37:26: note: Because VehicleConfiguration::Tire is specialized through FeatureTyping
+    └── iteration_01.sysml:38:21: note: Because VehicleConfiguration::vehicle1_c1::rearAxle::tires is specialized through Redefinition
+
+iteration_01.sysml:39:17: warning (namespace-distinguishability): Member name 'tires' shadows VehicleConfiguration::vehicle1_c1::rearAxle::tires::tires
+│   39 |                 :>> tires[2] { mass = 15.0; }
+│      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:38:17: note: First declared here
+
+iteration_01.sysml:39:32: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfiguration::Tire::mass
+│   39 |                 :>> tires[2] { mass = 15.0; }
+│      |                                ^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    ├── iteration_01.sysml:37:26: note: Because VehicleConfiguration::Tire is specialized through FeatureTyping
+    └── iteration_01.sysml:39:21: note: Because VehicleConfiguration::vehicle1_c1::rearAxle::tires is specialized through Redefinition

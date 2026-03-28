@@ -1,0 +1,13 @@
+iteration_01.sysml:19:19: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    19 |         attribute variant : Integer = 0;
+       |                   ^^^^^^^
+
+iteration_01.sysml:29:19: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    29 |         attribute variant : Integer = 0;
+       |                   ^^^^^^^
+
+iteration_01.sysml:4:5: warning (namespace-distinguishability): Member name '~Port' shadows Ports::Port::'~Port'
+│   4 |     port def Port;
+│     |     ^^^^^^^^^^^^^^
+└── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Ports.sysml:11:5: note: Inherited from here
+    └── iteration_01.sysml:4:5: note: Because Ports::Port is implicitly specialized through Subclassification

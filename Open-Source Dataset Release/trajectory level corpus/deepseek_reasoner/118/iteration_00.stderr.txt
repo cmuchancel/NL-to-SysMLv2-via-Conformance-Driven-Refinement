@@ -1,0 +1,107 @@
+iteration_01.sysml:52:19: warning (namespace-distinguishability): Member name 'mass' shadows AutomobileSystem::Vehicle::mass
+│   52 |         attribute mass : Real = 2000;
+│      |                   ^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:51:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:53:19: warning (namespace-distinguishability): Member name 'actual_mass' shadows AutomobileSystem::Vehicle::actual_mass
+│   53 |         attribute actual_mass : Real = 1900;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:51:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:54:19: warning (namespace-distinguishability): Member name 'fuel_state' shadows AutomobileSystem::Vehicle::fuel_state
+│   54 |         attribute fuel_state : FuelStatus = FuelStatus::fully_fueled;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:51:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:56:14: warning (namespace-distinguishability): Member name 'engine' shadows AutomobileSystem::Vehicle::engine
+│   56 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_01.sysml:42:14: note: Inherited from here
+    └── iteration_01.sysml:51:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'torque_output' shadows AutomobileSystem::Engine::torque_output
+│   57 |             attribute torque_output : Real = 200;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because AutomobileSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:62:19: warning (namespace-distinguishability): Member name 'mass' shadows AutomobileSystem::Vehicle::mass
+│   62 |         attribute mass : Real = 2500;
+│      |                   ^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:61:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:63:19: warning (namespace-distinguishability): Member name 'actual_mass' shadows AutomobileSystem::Vehicle::actual_mass
+│   63 |         attribute actual_mass : Real = 2400;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:61:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:64:19: warning (namespace-distinguishability): Member name 'fuel_state' shadows AutomobileSystem::Vehicle::fuel_state
+│   64 |         attribute fuel_state : FuelStatus = FuelStatus::empty;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:61:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:66:14: warning (namespace-distinguishability): Member name 'engine' shadows AutomobileSystem::Vehicle::engine
+│   66 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_01.sysml:42:14: note: Inherited from here
+    └── iteration_01.sysml:61:25: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'torque_output' shadows AutomobileSystem::Engine::torque_output
+│   67 |             attribute torque_output : Real = 350;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:66:23: note: Because AutomobileSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:72:19: warning (namespace-distinguishability): Member name 'mass_grade' shadows AutomobileSystem::MassRequirement::mass_grade
+│   72 |         attribute mass_grade : Real = 2000;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:71:24: note: Because AutomobileSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:73:19: warning (namespace-distinguishability): Member name 'max_mass' shadows AutomobileSystem::MassRequirement::max_mass
+│   73 |         attribute max_mass : Real = 2200;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:71:24: note: Because AutomobileSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:77:19: warning (namespace-distinguishability): Member name 'mass_grade' shadows AutomobileSystem::MassRequirement::mass_grade
+│   77 |         attribute mass_grade : Real = 2500;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:76:24: note: Because AutomobileSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:78:19: warning (namespace-distinguishability): Member name 'max_mass' shadows AutomobileSystem::MassRequirement::max_mass
+│   78 |         attribute max_mass : Real = 2700;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:76:24: note: Because AutomobileSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:82:19: warning (namespace-distinguishability): Member name 'required_status' shadows AutomobileSystem::FuelRequirement::required_status
+│   82 |         attribute required_status : FuelStatus = FuelStatus::fully_fueled;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:81:24: note: Because AutomobileSystem::FuelRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:86:19: warning (namespace-distinguishability): Member name 'required_status' shadows AutomobileSystem::FuelRequirement::required_status
+│   86 |         attribute required_status : FuelStatus = FuelStatus::empty;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:85:25: note: Because AutomobileSystem::FuelRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:90:19: warning (namespace-distinguishability): Member name 'min_torque' shadows AutomobileSystem::PowertrainRequirement::min_torque
+│   90 |         attribute min_torque : Real = 180;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because AutomobileSystem::PowertrainRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:94:19: warning (namespace-distinguishability): Member name 'life_cycle_years' shadows AutomobileSystem::ReliabilityRequirement::life_cycle_years
+│   94 |         attribute life_cycle_years : Integer = 5;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:93:32: note: Because AutomobileSystem::ReliabilityRequirement is specialized through FeatureTyping

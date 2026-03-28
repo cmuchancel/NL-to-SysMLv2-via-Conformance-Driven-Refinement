@@ -1,0 +1,11 @@
+iteration_01.sysml:26:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    26 |     item signal : SignalItem;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:30:45: error (reference-error): No Feature named 'Off' found.
+    30 |     attribute currentState : VehicleState = Off;
+       |                                             ^^^
+
+iteration_01.sysml:50:51: error (reference-error): No Feature named 'Off' found.
+    50 |     attribute controllerState : ControllerState = Off;
+       |                                                   ^^^

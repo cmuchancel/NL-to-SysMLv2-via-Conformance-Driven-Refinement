@@ -1,0 +1,191 @@
+iteration_01.sysml:57:19: warning (namespace-distinguishability): Member name 'systemTotalMass' shadows MassManagement::MassAggregationSystem::systemTotalMass
+│   57 |         attribute systemTotalMass : Real = 0.0;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:48:19: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because MassManagement::MassAggregationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:58:19: warning (namespace-distinguishability): Member name 'systemMinMassThreshold' shadows MassManagement::MassAggregationSystem::systemMinMassThreshold
+│   58 |         attribute systemMinMassThreshold : Real = 0.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:49:19: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because MassManagement::MassAggregationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:60:14: warning (namespace-distinguishability): Member name 'composite1' shadows MassManagement::MassAggregationSystem::composite1
+│   60 |         part composite1 : CompositeObject {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:51:14: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because MassManagement::MassAggregationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::CompositeObject::basicMass
+│   61 |             attribute basicMass : Real = 10.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:60:27: note: Because MassManagement::CompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::CompositeObject::totalMass
+│   62 |             attribute totalMass : Real = 40.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:60:27: note: Because MassManagement::CompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'minMassThreshold' shadows MassManagement::CompositeObject::minMassThreshold
+│   63 |             attribute minMassThreshold : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:60:27: note: Because MassManagement::CompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:65:18: warning (namespace-distinguishability): Member name 'subcomponent1' shadows MassManagement::CompositeObject::subcomponent1
+│   65 |             part subcomponent1 : Subcomponent {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:60:27: note: Because MassManagement::CompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:66:27: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Subcomponent::basicMass
+│   66 |                 attribute basicMass : Real = 5.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:65:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:67:27: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Subcomponent::totalMass
+│   67 |                 attribute totalMass : Real = 5.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:65:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:69:18: warning (namespace-distinguishability): Member name 'subcomponent2' shadows MassManagement::CompositeObject::subcomponent2
+│   69 |             part subcomponent2 : Subcomponent {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:60:27: note: Because MassManagement::CompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:70:27: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Subcomponent::basicMass
+│   70 |                 attribute basicMass : Real = 15.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:69:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:71:27: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Subcomponent::totalMass
+│   71 |                 attribute totalMass : Real = 15.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:69:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:73:18: warning (namespace-distinguishability): Member name 'subcomponent3' shadows MassManagement::CompositeObject::subcomponent3
+│   73 |             part subcomponent3 : Subcomponent {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:34:14: note: Inherited from here
+    └── iteration_01.sysml:60:27: note: Because MassManagement::CompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:74:27: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Subcomponent::basicMass
+│   74 |                 attribute basicMass : Real = 10.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:73:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:75:27: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Subcomponent::totalMass
+│   75 |                 attribute totalMass : Real = 10.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:73:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:79:14: warning (namespace-distinguishability): Member name 'composite2' shadows MassManagement::MassAggregationSystem::composite2
+│   79 |         part composite2 : FilteredCompositeObject {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:52:14: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because MassManagement::MassAggregationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::FilteredCompositeObject::basicMass
+│   80 |             attribute basicMass : Real = 8.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:79:27: note: Because MassManagement::FilteredCompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:81:23: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::FilteredCompositeObject::totalMass
+│   81 |             attribute totalMass : Real = 33.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:79:27: note: Because MassManagement::FilteredCompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:82:23: warning (namespace-distinguishability): Member name 'minMassThreshold' shadows MassManagement::FilteredCompositeObject::minMassThreshold
+│   82 |             attribute minMassThreshold : Real = 10.0;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:79:27: note: Because MassManagement::FilteredCompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:84:18: warning (namespace-distinguishability): Member name 'subcomponent1' shadows MassManagement::FilteredCompositeObject::subcomponent1
+│   84 |             part subcomponent1 : Subcomponent {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:42:14: note: Inherited from here
+    └── iteration_01.sysml:79:27: note: Because MassManagement::FilteredCompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:85:27: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Subcomponent::basicMass
+│   85 |                 attribute basicMass : Real = 5.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:84:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:86:27: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Subcomponent::totalMass
+│   86 |                 attribute totalMass : Real = 5.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:84:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:88:18: warning (namespace-distinguishability): Member name 'subcomponent2' shadows MassManagement::FilteredCompositeObject::subcomponent2
+│   88 |             part subcomponent2 : Subcomponent {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:43:14: note: Inherited from here
+    └── iteration_01.sysml:79:27: note: Because MassManagement::FilteredCompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:89:27: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Subcomponent::basicMass
+│   89 |                 attribute basicMass : Real = 15.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:88:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:90:27: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Subcomponent::totalMass
+│   90 |                 attribute totalMass : Real = 15.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:88:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:92:18: warning (namespace-distinguishability): Member name 'subcomponent3' shadows MassManagement::FilteredCompositeObject::subcomponent3
+│   92 |             part subcomponent3 : Subcomponent {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:44:14: note: Inherited from here
+    └── iteration_01.sysml:79:27: note: Because MassManagement::FilteredCompositeObject is specialized through FeatureTyping
+
+iteration_01.sysml:93:27: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Subcomponent::basicMass
+│   93 |                 attribute basicMass : Real = 10.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:92:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:94:27: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Subcomponent::totalMass
+│   94 |                 attribute totalMass : Real = 10.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:92:34: note: Because MassManagement::Subcomponent is specialized through FeatureTyping
+
+iteration_01.sysml:98:14: warning (namespace-distinguishability): Member name 'standalone' shadows MassManagement::MassAggregationSystem::standalone
+│   98 |         part standalone : Component {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:53:14: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because MassManagement::MassAggregationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:99:23: warning (namespace-distinguishability): Member name 'basicMass' shadows MassManagement::Component::basicMass
+│   99 |             attribute basicMass : Real = 20.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:98:27: note: Because MassManagement::Component is specialized through FeatureTyping
+
+iteration_01.sysml:100:23: warning (namespace-distinguishability): Member name 'totalMass' shadows MassManagement::Component::totalMass
+│   100 |             attribute totalMass : Real = 20.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:98:27: note: Because MassManagement::Component is specialized through FeatureTyping
+
+iteration_01.sysml:101:23: warning (namespace-distinguishability): Member name 'minMassThreshold' shadows MassManagement::Component::minMassThreshold
+│   101 |             attribute minMassThreshold : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:98:27: note: Because MassManagement::Component is specialized through FeatureTyping

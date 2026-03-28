@@ -1,0 +1,24 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    6 |         EULER_NUMBER
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:12:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    12 |         ELECTRON_PROTON_MASS_RATIO
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:12:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    12 |         ELECTRON_PROTON_MASS_RATIO
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:13:5: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |     }
+
+iteration_01.sysml:17:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    17 |         AMPLIFIER_GAIN_MODEL_X
+       |         ^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:18:5: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |     }

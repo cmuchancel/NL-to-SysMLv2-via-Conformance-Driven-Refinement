@@ -1,0 +1,11 @@
+iteration_01.sysml:36:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::SmallVehicle::engine
+│   36 |         part engine : SmallEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:28:14: note: Inherited from here
+    └── iteration_01.sysml:35:33: note: Because VehicleSystem::SmallVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:40:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::LargeVehicle::engine
+│   40 |         part engine : LargeEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:39:33: note: Because VehicleSystem::LargeVehicle is specialized through FeatureTyping

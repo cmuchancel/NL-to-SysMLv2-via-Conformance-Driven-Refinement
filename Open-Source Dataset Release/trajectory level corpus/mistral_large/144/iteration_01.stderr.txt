@@ -1,0 +1,60 @@
+iteration_02.sysml:8:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE"].
+    8 |     item def Bag<T>;
+      |              ^^^
+
+iteration_02.sysml:10:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE"].
+    10 |     item def List<T>;
+       |              ^^^^
+
+iteration_02.sysml:12:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE"].
+    12 |     item def Set<T>;
+       |              ^^^
+
+iteration_02.sysml:14:24: error (parsing-error): Expected a token. Did you forget ';'?
+    14 |     item def OrderedSet<T>;
+
+iteration_02.sysml:17:35: error (parsing-error): Expected a token. Did you forget ';'?
+    17 |         attribute spareParts : Bag<SparePart>;
+
+iteration_02.sysml:18:34: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |         attribute integers : List<Integer>;
+
+iteration_02.sysml:19:32: error (parsing-error): Expected a token. Did you forget ';'?
+    19 |         attribute strings : Set<String>;
+
+iteration_02.sysml:20:41: error (parsing-error): Expected a token. Did you forget ';'?
+    20 |         attribute personnel : OrderedSet<Person>;
+
+iteration_02.sysml:21:42: error (parsing-error): Expected a token. Did you forget ';'?
+    21 |         attribute nestedPersonSets : List<Set>;
+
+iteration_02.sysml:10:19: warning (namespace-distinguishability): Member name 'T' shadows SparePartsManagement::T
+│   10 |     item def List<T>;
+│      |                   ^
+└── iteration_02.sysml:8:18: note: First declared here
+
+iteration_02.sysml:12:18: warning (namespace-distinguishability): Member name 'T' shadows SparePartsManagement::T
+│   12 |     item def Set<T>;
+│      |                  ^
+└── iteration_02.sysml:8:18: note: First declared here
+
+iteration_02.sysml:14:25: warning (namespace-distinguishability): Member name 'T' shadows SparePartsManagement::T
+│   14 |     item def OrderedSet<T>;
+│      |                         ^
+└── iteration_02.sysml:8:18: note: First declared here
+
+iteration_02.sysml:19:29: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    19 |         attribute strings : Set<String>;
+       |                             ^^^
+
+iteration_02.sysml:17:32: error (reference-error): No Type named 'Bag' found.
+    17 |         attribute spareParts : Bag<SparePart>;
+       |                                ^^^
+
+iteration_02.sysml:18:30: error (reference-error): No Type named 'List' found.
+    18 |         attribute integers : List<Integer>;
+       |                              ^^^^
+
+iteration_02.sysml:21:38: error (reference-error): No Type named 'List' found.
+    21 |         attribute nestedPersonSets : List<Set>;
+       |                                      ^^^^

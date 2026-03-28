@@ -1,0 +1,11 @@
+iteration_01.sysml:14:23: warning (namespace-distinguishability): Member name 'torqueOutput' shadows PowertrainTorqueSystem::Engine::torqueOutput
+│   14 |             attribute torqueOutput : Real = 250.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:13:23: note: Because PowertrainTorqueSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:17:23: warning (namespace-distinguishability): Member name 'generatedTorque' shadows PowertrainTorqueSystem::TorqueGenerator::generatedTorque
+│   17 |             attribute generatedTorque : Real = 250.0;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:16:26: note: Because PowertrainTorqueSystem::TorqueGenerator is specialized through FeatureTyping

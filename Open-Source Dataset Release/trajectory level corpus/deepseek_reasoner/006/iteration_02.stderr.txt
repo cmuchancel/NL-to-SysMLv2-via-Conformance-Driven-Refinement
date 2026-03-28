@@ -1,0 +1,11 @@
+iteration_03.sysml:12:26: error (reference-error): No Type named 'string' found.
+    12 |         attribute code : string;
+       |                          ^^^^^^
+
+iteration_03.sysml:13:27: error (reference-error): No Type named 'string' found.
+    13 |         attribute color : string;
+       |                           ^^^^^^
+
+iteration_03.sysml:44:28: error (reference-error): No Type named 'real' found.
+    44 |         attribute points : real;
+       |                            ^^^^

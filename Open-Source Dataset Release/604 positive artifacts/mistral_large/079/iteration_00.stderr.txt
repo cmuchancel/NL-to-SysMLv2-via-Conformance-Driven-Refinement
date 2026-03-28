@@ -1,0 +1,71 @@
+iteration_01.sysml:41:9: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Engine::type
+│   41 |         type = EngineType::FourCylinder;
+│      |         ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:40:26: note: Because VehicleProductLine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:42:9: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleProductLine::Engine::cylinderCount
+│   42 |         cylinderCount = 4;
+│      |         ^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:40:26: note: Because VehicleProductLine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:46:9: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Engine::type
+│   46 |         type = EngineType::SixCylinder;
+│      |         ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:45:25: note: Because VehicleProductLine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:47:9: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleProductLine::Engine::cylinderCount
+│   47 |         cylinderCount = 6;
+│      |         ^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:45:25: note: Because VehicleProductLine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:51:9: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Transmission::type
+│   51 |         type = TransmissionType::Manual;
+│      |         ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:50:31: note: Because VehicleProductLine::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:55:9: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Transmission::type
+│   55 |         type = TransmissionType::Automatic;
+│      |         ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:54:34: note: Because VehicleProductLine::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:59:9: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::Vehicle::engine
+│   59 |         engine = fourCylEngine;
+│      |         ^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:58:26: note: Because VehicleProductLine::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:60:9: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::Vehicle::transmission
+│   60 |         transmission = manualTransmission;
+│      |         ^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:58:26: note: Because VehicleProductLine::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:64:9: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::Vehicle::engine
+│   64 |         engine = fourCylEngine;
+│      |         ^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:63:26: note: Because VehicleProductLine::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:65:9: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::Vehicle::transmission
+│   65 |         transmission = automaticTransmission;
+│      |         ^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:63:26: note: Because VehicleProductLine::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:69:9: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::Vehicle::engine
+│   69 |         engine = sixCylEngine;
+│      |         ^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:68:26: note: Because VehicleProductLine::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:70:9: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::Vehicle::transmission
+│   70 |         transmission = automaticTransmission;
+│      |         ^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:68:26: note: Because VehicleProductLine::Vehicle is specialized through FeatureTyping

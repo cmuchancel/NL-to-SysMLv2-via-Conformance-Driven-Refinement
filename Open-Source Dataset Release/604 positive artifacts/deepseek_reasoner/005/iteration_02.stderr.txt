@@ -1,0 +1,5 @@
+iteration_03.sysml:15:19: warning (namespace-distinguishability): Member name 'currentColor' shadows TrafficSignalSystem::TrafficSignalComponent::currentColor
+│   15 |         attribute currentColor : TrafficLightColor = TrafficLightColor::green;
+│      |                   ^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:14:30: note: Because TrafficSignalSystem::TrafficSignalComponent is specialized through FeatureTyping

@@ -1,0 +1,95 @@
+iteration_02.sysml:31:48: error (parsing-error): Unexpected 'to', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    31 |     connect wheelAssembly.hub.mountingHoles[1] to wheelAssembly.hub.threadedHoles[1] using wheelAssembly.bolts[1];
+       |                                                ^^
+
+iteration_02.sysml:31:86: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    31 |     connect wheelAssembly.hub.mountingHoles[1] to wheelAssembly.hub.threadedHoles[1] using wheelAssembly.bolts[1];
+       |                                                                                      ^^^^^
+
+iteration_02.sysml:31:114: error (parsing-error): Unexpected ';', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    31 |     connect wheelAssembly.hub.mountingHoles[1] to wheelAssembly.hub.threadedHoles[1] using wheelAssembly.bolts[1];
+       |                                                                                                                  ^
+
+iteration_02.sysml:32:48: error (parsing-error): Unexpected 'to', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    32 |     connect wheelAssembly.hub.mountingHoles[2] to wheelAssembly.hub.threadedHoles[2] using wheelAssembly.bolts[2];
+       |                                                ^^
+
+iteration_02.sysml:32:86: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    32 |     connect wheelAssembly.hub.mountingHoles[2] to wheelAssembly.hub.threadedHoles[2] using wheelAssembly.bolts[2];
+       |                                                                                      ^^^^^
+
+iteration_02.sysml:32:114: error (parsing-error): Unexpected ';', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    32 |     connect wheelAssembly.hub.mountingHoles[2] to wheelAssembly.hub.threadedHoles[2] using wheelAssembly.bolts[2];
+       |                                                                                                                  ^
+
+iteration_02.sysml:33:48: error (parsing-error): Unexpected 'to', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    33 |     connect wheelAssembly.hub.mountingHoles[3] to wheelAssembly.hub.threadedHoles[3] using wheelAssembly.bolts[3];
+       |                                                ^^
+
+iteration_02.sysml:33:86: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    33 |     connect wheelAssembly.hub.mountingHoles[3] to wheelAssembly.hub.threadedHoles[3] using wheelAssembly.bolts[3];
+       |                                                                                      ^^^^^
+
+iteration_02.sysml:33:114: error (parsing-error): Unexpected ';', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    33 |     connect wheelAssembly.hub.mountingHoles[3] to wheelAssembly.hub.threadedHoles[3] using wheelAssembly.bolts[3];
+       |                                                                                                                  ^
+
+iteration_02.sysml:34:48: error (parsing-error): Unexpected 'to', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    34 |     connect wheelAssembly.hub.mountingHoles[4] to wheelAssembly.hub.threadedHoles[4] using wheelAssembly.bolts[4];
+       |                                                ^^
+
+iteration_02.sysml:34:86: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    34 |     connect wheelAssembly.hub.mountingHoles[4] to wheelAssembly.hub.threadedHoles[4] using wheelAssembly.bolts[4];
+       |                                                                                      ^^^^^
+
+iteration_02.sysml:34:111: error (parsing-error): Unexpected '[', expected one of ["SINGLE_LINE_NOTE", "[", "$", "NAME", "(", "ElementReference", "MULTILINE_NOTE", "MultiplicityRange", "OwningMembership", "ReferenceSubsetting", "Feature", "Feature", "OwningMembership", "FeatureChaining", "EndFeatureMembership", "Feature"].
+    34 |     connect wheelAssembly.hub.mountingHoles[4] to wheelAssembly.hub.threadedHoles[4] using wheelAssembly.bolts[4];
+       |                                                                                                               ^
+
+iteration_02.sysml:35:1: error (parsing-error): Unexpected '}'.
+    35 | }
+       | ^
+
+iteration_02.sysml:31:44: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    31 |     connect wheelAssembly.hub.mountingHoles[1] to wheelAssembly.hub.threadedHoles[1] using wheelAssembly.bolts[1];
+       |                                            ^^^
+
+iteration_02.sysml:31:82: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    31 |     connect wheelAssembly.hub.mountingHoles[1] to wheelAssembly.hub.threadedHoles[1] using wheelAssembly.bolts[1];
+       |                                                                                  ^^^
+
+iteration_02.sysml:31:111: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    31 |     connect wheelAssembly.hub.mountingHoles[1] to wheelAssembly.hub.threadedHoles[1] using wheelAssembly.bolts[1];
+       |                                                                                                               ^^^
+
+iteration_02.sysml:32:44: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    32 |     connect wheelAssembly.hub.mountingHoles[2] to wheelAssembly.hub.threadedHoles[2] using wheelAssembly.bolts[2];
+       |                                            ^^^
+
+iteration_02.sysml:32:82: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    32 |     connect wheelAssembly.hub.mountingHoles[2] to wheelAssembly.hub.threadedHoles[2] using wheelAssembly.bolts[2];
+       |                                                                                  ^^^
+
+iteration_02.sysml:32:111: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    32 |     connect wheelAssembly.hub.mountingHoles[2] to wheelAssembly.hub.threadedHoles[2] using wheelAssembly.bolts[2];
+       |                                                                                                               ^^^
+
+iteration_02.sysml:33:44: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    33 |     connect wheelAssembly.hub.mountingHoles[3] to wheelAssembly.hub.threadedHoles[3] using wheelAssembly.bolts[3];
+       |                                            ^^^
+
+iteration_02.sysml:33:82: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    33 |     connect wheelAssembly.hub.mountingHoles[3] to wheelAssembly.hub.threadedHoles[3] using wheelAssembly.bolts[3];
+       |                                                                                  ^^^
+
+iteration_02.sysml:33:111: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    33 |     connect wheelAssembly.hub.mountingHoles[3] to wheelAssembly.hub.threadedHoles[3] using wheelAssembly.bolts[3];
+       |                                                                                                               ^^^
+
+iteration_02.sysml:34:44: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    34 |     connect wheelAssembly.hub.mountingHoles[4] to wheelAssembly.hub.threadedHoles[4] using wheelAssembly.bolts[4];
+       |                                            ^^^
+
+iteration_02.sysml:34:82: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    34 |     connect wheelAssembly.hub.mountingHoles[4] to wheelAssembly.hub.threadedHoles[4] using wheelAssembly.bolts[4];
+       |                                                                                  ^^^

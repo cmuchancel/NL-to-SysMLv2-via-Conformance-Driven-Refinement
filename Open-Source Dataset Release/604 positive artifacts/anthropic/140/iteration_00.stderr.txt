@@ -1,0 +1,11 @@
+iteration_01.sysml:111:19: warning (namespace-distinguishability): Member name 'systemName' shadows ISQPhysicalQuantities::ISQDataManager::systemName
+│   111 |         attribute systemName = "ISQ Physical Quantity System";
+│       |                   ^^^^^^^^^^
+└── iteration_01.sysml:106:19: note: Inherited from here
+    └── iteration_01.sysml:110:24: note: Because ISQPhysicalQuantities::ISQDataManager is specialized through FeatureTyping
+
+iteration_01.sysml:112:19: warning (namespace-distinguishability): Member name 'systemVersion' shadows ISQPhysicalQuantities::ISQDataManager::systemVersion
+│   112 |         attribute systemVersion = "1.0";
+│       |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:107:19: note: Inherited from here
+    └── iteration_01.sysml:110:24: note: Because ISQPhysicalQuantities::ISQDataManager is specialized through FeatureTyping

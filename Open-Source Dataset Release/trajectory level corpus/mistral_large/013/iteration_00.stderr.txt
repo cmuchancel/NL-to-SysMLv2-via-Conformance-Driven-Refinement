@@ -1,0 +1,15 @@
+iteration_01.sysml:6:14: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "=", ":=", "default", ";", "{", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    6 |         enum return;
+      |              ^^^^^^
+
+iteration_01.sysml:39:68: error (parsing-error): Unexpected token '::'.
+    39 |         attribute direction : FuelFlowDirection = FuelFlowDirection::return;
+       |                                                                    ^^
+
+iteration_01.sysml:39:70: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "MULTILINE_NOTE", ";", "{", "}", ",", "::", "**", "[", "]", "??", "+", "|", "&", "===", "!==", "<=", ">=", "..", "%", "^", "@@", "#", "(", ")", ".?", "->", "from", "to", "*", ".", "if", "?", "else", "implies", "or", "and", "-", "xor", "==", "!=", "<", ">", "/", "hastype", "istype", "@", "as", "meta", "=", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    39 |         attribute direction : FuelFlowDirection = FuelFlowDirection::return;
+       |                                                                      ^^^^^^
+
+iteration_01.sysml:39:51: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is EnumerationDefinition
+    39 |         attribute direction : FuelFlowDirection = FuelFlowDirection::return;
+       |                                                   ^^^^^^^^^^^^^^^^^^^

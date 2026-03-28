@@ -1,0 +1,11 @@
+ID,Injected Condition,ANTLR,SysIDE
+01,Missing imported namespace,Pass,Fail (reference)
+02,Missing port type,Pass,Fail (reference)
+03,Missing attribute type,Pass,Fail (reference)
+04,Missing specialization base,Pass,Fail (reference)
+05,Action typed by undefined behavior type,Pass,Fail (reference)
+06,Invocation target is not a behavior,Pass,Fail (invocation)
+07,Missing referenced feature in expression,Pass,Fail (reference)
+08,Missing root-qualified namespace,Pass,Fail (reference)
+09,Redefinition of missing feature,Pass,Fail (reference)
+10,Missing namespace in type use,Pass,Fail (reference)

@@ -1,0 +1,71 @@
+iteration_01.sysml:38:23: warning (namespace-distinguishability): Member name 'tankTemperature' shadows FuelSystemManagement::FuelTankAssembly::tankTemperature
+│   38 |             attribute tankTemperature : Real = 25.0;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:37:25: note: Because FuelSystemManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:39:23: warning (namespace-distinguishability): Member name 'fuelLevel' shadows FuelSystemManagement::FuelTankAssembly::fuelLevel
+│   39 |             attribute fuelLevel : Real = 100.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:37:25: note: Because FuelSystemManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:40:18: warning (namespace-distinguishability): Member name 'supplyPort' shadows FuelSystemManagement::FuelTankAssembly::supplyPort
+│   40 |             port supplyPort : FuelPort {
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:37:25: note: Because FuelSystemManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:41:27: warning (namespace-distinguishability): Member name 'temperature' shadows FuelSystemManagement::FuelPort::temperature
+│   41 |                 attribute temperature : Real = 25.0;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:40:31: note: Because FuelSystemManagement::FuelPort is specialized through FeatureTyping
+
+iteration_01.sysml:43:18: warning (namespace-distinguishability): Member name 'returnPort' shadows FuelSystemManagement::FuelTankAssembly::returnPort
+│   43 |             port returnPort : FuelPort {
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:24:14: note: Inherited from here
+    └── iteration_01.sysml:37:25: note: Because FuelSystemManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:44:27: warning (namespace-distinguishability): Member name 'temperature' shadows FuelSystemManagement::FuelPort::temperature
+│   44 |                 attribute temperature : Real = 25.0;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:43:31: note: Because FuelSystemManagement::FuelPort is specialized through FeatureTyping
+
+iteration_01.sysml:49:23: warning (namespace-distinguishability): Member name 'engineTemperature' shadows FuelSystemManagement::Engine::engineTemperature
+│   49 |             attribute engineTemperature : Real = 90.0;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because FuelSystemManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:50:23: warning (namespace-distinguishability): Member name 'fuelConsumptionRate' shadows FuelSystemManagement::Engine::fuelConsumptionRate
+│   50 |             attribute fuelConsumptionRate : Real = 10.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because FuelSystemManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:51:18: warning (namespace-distinguishability): Member name 'fuelSupplyPort' shadows FuelSystemManagement::Engine::fuelSupplyPort
+│   51 |             port fuelSupplyPort : FuelPort {
+│      |                  ^^^^^^^^^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because FuelSystemManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:52:27: warning (namespace-distinguishability): Member name 'temperature' shadows FuelSystemManagement::FuelPort::temperature
+│   52 |                 attribute temperature : Real = 25.0;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:51:35: note: Because FuelSystemManagement::FuelPort is specialized through FeatureTyping
+
+iteration_01.sysml:54:18: warning (namespace-distinguishability): Member name 'fuelReturnPort' shadows FuelSystemManagement::Engine::fuelReturnPort
+│   54 |             port fuelReturnPort : FuelPort {
+│      |                  ^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because FuelSystemManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:55:27: warning (namespace-distinguishability): Member name 'temperature' shadows FuelSystemManagement::FuelPort::temperature
+│   55 |                 attribute temperature : Real = 60.0;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:54:35: note: Because FuelSystemManagement::FuelPort is specialized through FeatureTyping

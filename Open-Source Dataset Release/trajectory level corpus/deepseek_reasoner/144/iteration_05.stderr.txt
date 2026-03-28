@@ -1,0 +1,17 @@
+iteration_06.sysml:15:52: error (parsing-error): Unexpected identifier.
+    15 |         attribute members : Person[*] {nonordered, unique};
+       |                                                    ^^^^^^
+
+iteration_06.sysml:21:61: error (parsing-error): Unexpected identifier.
+    21 |         attribute stringManagement : String[*] {nonordered, unique};
+       |                                                             ^^^^^^
+
+iteration_06.sysml:22:57: error (parsing-error): Unexpected identifier.
+    22 |         attribute personnelRoster : Person[*] {ordered, unique};
+       |                                                         ^^^^^^
+
+iteration_06.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_06.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_06.sysml:26:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)

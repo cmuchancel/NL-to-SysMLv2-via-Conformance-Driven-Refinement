@@ -1,0 +1,11 @@
+iteration_01.sysml:14:13: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleSystem::Engine::cylinderCount
+│   14 |             cylinderCount = 4;
+│      |             ^^^^^^^^^^^^^
+└── iteration_01.sysml:8:19: note: Inherited from here
+    └── iteration_01.sysml:13:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:20:13: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleSystem::Engine::cylinderCount
+│   20 |             cylinderCount = 6;
+│      |             ^^^^^^^^^^^^^
+└── iteration_01.sysml:8:19: note: Inherited from here
+    └── iteration_01.sysml:19:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping

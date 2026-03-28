@@ -1,0 +1,71 @@
+iteration_03.sysml:16:19: warning (namespace-distinguishability): Member name 'functionalArea' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::functionalArea
+│   16 |         attribute functionalArea : FunctionalArea = FunctionalArea::Safety;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:15:31: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:17:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::isMandatory
+│   17 |         attribute isMandatory : Boolean = true;
+│      |                   ^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:15:31: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:21:19: warning (namespace-distinguishability): Member name 'functionalArea' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::functionalArea
+│   21 |         attribute functionalArea : FunctionalArea = FunctionalArea::Safety;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:20:24: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:22:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::isMandatory
+│   22 |         attribute isMandatory : Boolean = true;
+│      |                   ^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:20:24: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:26:19: warning (namespace-distinguishability): Member name 'functionalArea' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::functionalArea
+│   26 |         attribute functionalArea : FunctionalArea = FunctionalArea::Safety;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:25:30: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:27:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::isMandatory
+│   27 |         attribute isMandatory : Boolean = false;
+│      |                   ^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:25:30: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:31:19: warning (namespace-distinguishability): Member name 'functionalArea' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::functionalArea
+│   31 |         attribute functionalArea : FunctionalArea = FunctionalArea::Safety;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:30:39: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:32:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::isMandatory
+│   32 |         attribute isMandatory : Boolean = false;
+│      |                   ^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:30:39: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:36:19: warning (namespace-distinguishability): Member name 'functionalArea' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::functionalArea
+│   36 |         attribute functionalArea : FunctionalArea = FunctionalArea::AntiTheft;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:35:29: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:37:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::isMandatory
+│   37 |         attribute isMandatory : Boolean = false;
+│      |                   ^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:35:29: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:41:19: warning (namespace-distinguishability): Member name 'functionalArea' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::functionalArea
+│   41 |         attribute functionalArea : FunctionalArea = FunctionalArea::AntiTheft;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:11:19: note: Inherited from here
+    └── iteration_03.sysml:40:36: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification
+
+iteration_03.sysml:42:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetyAndAntiTheftFunctionCatalogue::Component::isMandatory
+│   42 |         attribute isMandatory : Boolean = false;
+│      |                   ^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:40:36: note: Because VehicleSafetyAndAntiTheftFunctionCatalogue::Component is specialized through Subclassification

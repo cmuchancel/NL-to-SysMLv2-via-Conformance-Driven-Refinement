@@ -1,0 +1,27 @@
+iteration_01.sysml:12:43: error (reference-error): No Feature named 'SafetyCritical' found.
+    12 |     attribute safetyClass : SafetyClass = SafetyCritical;
+       |                                           ^^^^^^^^^^^^^^
+
+iteration_01.sysml:17:43: error (reference-error): No Feature named 'SafetyCritical' found.
+    17 |     attribute safetyClass : SafetyClass = SafetyCritical;
+       |                                           ^^^^^^^^^^^^^^
+
+iteration_01.sysml:22:43: error (reference-error): No Feature named 'SecurityCritical' found.
+    22 |     attribute safetyClass : SafetyClass = SecurityCritical;
+       |                                           ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:27:43: error (reference-error): No Feature named 'SafetyCritical' found.
+    27 |     attribute safetyClass : SafetyClass = SafetyCritical;
+       |                                           ^^^^^^^^^^^^^^
+
+iteration_01.sysml:32:43: error (reference-error): No Feature named 'SecurityCritical' found.
+    32 |     attribute safetyClass : SafetyClass = SecurityCritical;
+       |                                           ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:37:43: error (reference-error): No Feature named 'SafetyCritical' found.
+    37 |     attribute safetyClass : SafetyClass = SafetyCritical;
+       |                                           ^^^^^^^^^^^^^^
+
+iteration_01.sysml:42:43: error (reference-error): No Feature named 'SafetyCritical' found.
+    42 |     attribute safetyClass : SafetyClass = SafetyCritical;
+       |                                           ^^^^^^^^^^^^^^

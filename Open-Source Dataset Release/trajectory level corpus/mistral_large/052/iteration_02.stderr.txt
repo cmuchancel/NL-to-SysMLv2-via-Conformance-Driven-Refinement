@@ -1,0 +1,47 @@
+iteration_03.sysml:31:13: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   31 |             mass = 2000.0;
+│      |             ^^^^
+└── iteration_03.sysml:20:19: note: Inherited from here
+    └── iteration_03.sysml:30:26: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:32:13: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::Vehicle::gear
+│   32 |             gear = 0;
+│      |             ^^^^
+└── iteration_03.sysml:21:19: note: Inherited from here
+    └── iteration_03.sysml:30:26: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:33:13: warning (namespace-distinguishability): Member name 'acceleratorPosition' shadows VehicleSystem::Vehicle::acceleratorPosition
+│   33 |             acceleratorPosition = 0.0;
+│      |             ^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:22:19: note: Inherited from here
+    └── iteration_03.sysml:30:26: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:34:13: warning (namespace-distinguishability): Member name 'gearState' shadows VehicleSystem::Vehicle::gearState
+│   34 |             gearState = GearSetting::NEUTRAL;
+│      |             ^^^^^^^^^
+└── iteration_03.sysml:23:19: note: Inherited from here
+    └── iteration_03.sysml:30:26: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:38:13: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   38 |             mass = 1500.0;
+│      |             ^^^^
+└── iteration_03.sysml:20:19: note: Inherited from here
+    └── iteration_03.sysml:37:31: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:39:13: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::Vehicle::gear
+│   39 |             gear = 2;
+│      |             ^^^^
+└── iteration_03.sysml:21:19: note: Inherited from here
+    └── iteration_03.sysml:37:31: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:40:13: warning (namespace-distinguishability): Member name 'acceleratorPosition' shadows VehicleSystem::Vehicle::acceleratorPosition
+│   40 |             acceleratorPosition = 0.5;
+│      |             ^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:22:19: note: Inherited from here
+    └── iteration_03.sysml:37:31: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:41:13: warning (namespace-distinguishability): Member name 'gearState' shadows VehicleSystem::Vehicle::gearState
+│   41 |             gearState = GearSetting::DRIVE;
+│      |             ^^^^^^^^^
+└── iteration_03.sysml:23:19: note: Inherited from here
+    └── iteration_03.sysml:37:31: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

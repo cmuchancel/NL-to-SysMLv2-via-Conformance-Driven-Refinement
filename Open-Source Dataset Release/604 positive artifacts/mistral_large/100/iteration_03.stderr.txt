@@ -1,0 +1,42 @@
+iteration_04.sysml:25:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfiguration::Vehicle::mass
+│   25 |         attribute mass = 2000.0;
+│      |                   ^^^^
+└── iteration_04.sysml:6:19: note: Inherited from here
+    └── iteration_04.sysml:24:21: note: Because VehicleConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:26:14: warning (namespace-distinguishability): Member name 'frontAxle' shadows VehicleConfiguration::Vehicle::frontAxle
+│   26 |         part frontAxle : FrontAxle {
+│      |              ^^^^^^^^^
+└── iteration_04.sysml:7:14: note: Inherited from here
+    └── iteration_04.sysml:24:21: note: Because VehicleConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:27:23: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleConfiguration::FrontAxle::steeringAngle
+│   27 |             attribute steeringAngle = 30.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_04.sysml:21:19: note: Inherited from here
+    └── iteration_04.sysml:26:26: note: Because VehicleConfiguration::FrontAxle is specialized through FeatureTyping
+
+iteration_04.sysml:33:18: warning (namespace-distinguishability): Member name 'frontAxle' shadows VehicleConfiguration::vehicle1::frontAxle
+│   33 |             part frontAxle : FrontAxle {
+│      |                  ^^^^^^^^^
+└── iteration_04.sysml:26:14: note: Inherited from here
+    └── iteration_04.sysml:32:25: note: Because VehicleConfiguration::vehicle1 is specialized through Subsetting
+
+iteration_04.sysml:34:27: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleConfiguration::FrontAxle::steeringAngle
+│   34 |                 attribute steeringAngle = 35.0;
+│      |                           ^^^^^^^^^^^^^
+└── iteration_04.sysml:21:19: note: Inherited from here
+    └── iteration_04.sysml:33:30: note: Because VehicleConfiguration::FrontAxle is specialized through FeatureTyping
+
+iteration_04.sysml:36:18: warning (namespace-distinguishability): Member name 'rearAxle' shadows VehicleConfiguration::Vehicle::rearAxle
+│   36 |             part rearAxle : Axle {
+│      |                  ^^^^^^^^
+└── iteration_04.sysml:8:14: note: Inherited from here
+    ├── iteration_04.sysml:24:21: note: Because VehicleConfiguration::Vehicle is specialized through FeatureTyping
+    └── iteration_04.sysml:32:25: note: Because VehicleConfiguration::vehicle1 is specialized through Subsetting
+
+iteration_04.sysml:37:22: warning (namespace-distinguishability): Member name 'tires' shadows VehicleConfiguration::Axle::tires
+│   37 |                 part tires : Tire[2] {
+│      |                      ^^^^^
+└── iteration_04.sysml:13:14: note: Inherited from here
+    └── iteration_04.sysml:36:29: note: Because VehicleConfiguration::Axle is specialized through FeatureTyping

@@ -1,0 +1,8 @@
+iteration_02.sysml:5:22: error (parsing-error): Expected a token. Did you forget ';'?
+    5 | item def TorqueValue : Real;
+
+iteration_02.sysml:6:17: error (parsing-error): Expected a token. Did you forget ';'?
+    6 | item def Torque : TorqueValue;
+
+iteration_02.sysml:12:14: error (parsing-error): Expected a token. Did you forget ';'?
+    12 | part def Car : Automobile;

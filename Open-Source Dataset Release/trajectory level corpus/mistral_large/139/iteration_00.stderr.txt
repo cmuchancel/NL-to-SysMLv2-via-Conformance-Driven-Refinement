@@ -1,0 +1,115 @@
+iteration_01.sysml:5:50: error (parsing-error): Unexpected identifier.
+    5 |         attribute totalMass : MassValue = 1200.0 kg;
+      |                                                  ^^
+
+iteration_01.sysml:6:47: error (parsing-error): Unexpected identifier.
+    6 |         attribute length : LengthValue = 4.82 m;
+      |                                               ^
+
+iteration_01.sysml:21:49: error (parsing-error): Unexpected identifier.
+    21 |         attribute diameter : LengthValue = 18.0 in;
+       |                                                 ^^
+
+iteration_01.sysml:25:47: error (parsing-error): Unexpected identifier.
+    25 |         attribute width : LengthValue = 245.0 mm;
+       |                                               ^^
+
+iteration_01.sysml:26:47: error (parsing-error): Unexpected identifier.
+    26 |         attribute height : LengthValue = 45.0 mm;
+       |                                               ^^
+
+iteration_01.sysml:27:50: error (parsing-error): Unexpected identifier.
+    27 |         attribute treadDepth : LengthValue = 6.0 mm;
+       |                                                  ^^
+
+iteration_01.sysml:28:53: error (parsing-error): Unexpected identifier.
+    28 |         attribute minTreadDepth : LengthValue = 3.5 mm;
+       |                                                     ^^
+
+iteration_01.sysml:29:70: error (parsing-error): Unexpected identifier.
+    29 |         attribute outerDiameter : LengthValue = (rim.diameter * 25.4 mm) + (2 * (width * height / 100.0));
+       |                                                                      ^^
+
+iteration_01.sysml:33:47: error (parsing-error): Unexpected identifier.
+    33 |         attribute radius : LengthValue = 95.0 mm;
+       |                                               ^^
+
+iteration_01.sysml:5:31: error (reference-error): No Type named 'MassValue' found.
+    5 |         attribute totalMass : MassValue = 1200.0 kg;
+      |                               ^^^^^^^^^
+
+iteration_01.sysml:6:28: error (reference-error): No Type named 'LengthValue' found.
+    6 |         attribute length : LengthValue = 4.82 m;
+      |                            ^^^^^^^^^^^
+
+iteration_01.sysml:21:30: error (reference-error): No Type named 'LengthValue' found.
+    21 |         attribute diameter : LengthValue = 18.0 in;
+       |                              ^^^^^^^^^^^
+
+iteration_01.sysml:25:27: error (reference-error): No Type named 'LengthValue' found.
+    25 |         attribute width : LengthValue = 245.0 mm;
+       |                           ^^^^^^^^^^^
+
+iteration_01.sysml:26:28: error (reference-error): No Type named 'LengthValue' found.
+    26 |         attribute height : LengthValue = 45.0 mm;
+       |                            ^^^^^^^^^^^
+
+iteration_01.sysml:27:32: error (reference-error): No Type named 'LengthValue' found.
+    27 |         attribute treadDepth : LengthValue = 6.0 mm;
+       |                                ^^^^^^^^^^^
+
+iteration_01.sysml:28:35: error (reference-error): No Type named 'LengthValue' found.
+    28 |         attribute minTreadDepth : LengthValue = 3.5 mm;
+       |                                   ^^^^^^^^^^^
+
+iteration_01.sysml:29:35: error (reference-error): No Type named 'LengthValue' found.
+    29 |         attribute outerDiameter : LengthValue = (rim.diameter * 25.4 mm) + (2 * (width * height / 100.0));
+       |                                   ^^^^^^^^^^^
+
+iteration_01.sysml:29:50: error (reference-error): No Feature named 'rim' found.
+    29 |         attribute outerDiameter : LengthValue = (rim.diameter * 25.4 mm) + (2 * (width * height / 100.0));
+       |                                                  ^^^
+
+iteration_01.sysml:29:54: error (reference-error): No Feature named 'diameter' found.
+    29 |         attribute outerDiameter : LengthValue = (rim.diameter * 25.4 mm) + (2 * (width * height / 100.0));
+       |                                                      ^^^^^^^^
+
+iteration_01.sysml:33:28: error (reference-error): No Type named 'LengthValue' found.
+    33 |         attribute radius : LengthValue = 95.0 mm;
+       |                            ^^^^^^^^^^^
+
+iteration_01.sysml:34:30: error (reference-error): No Type named 'LengthValue' found.
+    34 |         attribute diameter : LengthValue = radius * 2;
+       |                              ^^^^^^^^^^^
+
+iteration_01.sysml:39:41: error (reference-error): No Feature named 'tire' found.
+    39 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                         ^^^^
+
+iteration_01.sysml:39:46: error (reference-error): No Feature named 'treadDepth' found.
+    39 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                              ^^^^^^^^^^
+
+iteration_01.sysml:39:60: error (reference-error): No Feature named 'tire' found.
+    39 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                                            ^^^^
+
+iteration_01.sysml:39:65: error (reference-error): No Feature named 'minTreadDepth' found.
+    39 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                                                 ^^^^^^^^^^^^^
+
+iteration_01.sysml:44:41: error (reference-error): No Feature named 'brakeDisc' found.
+    44 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                         ^^^^^^^^^
+
+iteration_01.sysml:44:51: error (reference-error): No Feature named 'diameter' found.
+    44 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                                   ^^^^^^^^
+
+iteration_01.sysml:44:62: error (reference-error): No Feature named 'wheel' found.
+    44 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                                              ^^^^^
+
+iteration_01.sysml:44:68: error (reference-error): No Feature named 'outerDiameter' found.
+    44 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                                                    ^^^^^^^^^^^^^

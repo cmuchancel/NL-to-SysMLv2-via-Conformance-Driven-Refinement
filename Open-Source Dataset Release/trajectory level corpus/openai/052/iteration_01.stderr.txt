@@ -1,0 +1,114 @@
+iteration_02.sysml:2:1: error (parsing-error): Expected a token. Did you forget ';'?
+    2 | import ScalarValues::*;
+
+iteration_02.sysml:10:2: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    10 | };
+       |  ^
+
+iteration_02.sysml:14:3: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    14 |   part state : VehicleState;
+       |   ^^^^
+
+iteration_02.sysml:15:2: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    15 | };
+       |  ^
+
+iteration_02.sysml:20:2: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    20 | };
+       |  ^
+
+iteration_02.sysml:26:2: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    26 | };
+       |  ^
+
+iteration_02.sysml:32:7: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    32 |       part state : VehicleState {
+       |       ^^^^
+
+iteration_02.sysml:35:8: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    35 |       };
+       |        ^
+
+iteration_02.sysml:36:6: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    36 |     };
+       |      ^
+
+iteration_02.sysml:39:7: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    39 |       part state : VehicleState {
+       |       ^^^^
+
+iteration_02.sysml:42:8: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    42 |       };
+       |        ^
+
+iteration_02.sysml:43:6: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    43 |     };
+       |      ^
+
+iteration_02.sysml:44:4: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    44 |   };
+       |    ^
+
+iteration_02.sysml:45:2: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    45 | };
+       |  ^
+
+iteration_02.sysml:47:12: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)
+
+iteration_02.sysml:2:1: error (import-explicit-visibility): Imports must have explicit visibility.
+    2 | import ScalarValues::*;
+      | ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:29:8: warning (namespace-distinguishability): Member name 'vehicle_1' shadows CompositeSystem::vehicle_1
+│   29 |   part vehicle_1 : VehicleTimeline {
+│      |        ^^^^^^^^^
+└── iteration_02.sysml:23:8: note: Inherited from here
+    └── iteration_02.sysml:28:23: note: Because CompositeSystem is specialized through FeatureTyping
+
+iteration_02.sysml:30:10: warning (namespace-distinguishability): Member name 'initial' shadows VehicleTimeline::initial
+│   30 |     part initial : Vehicle {
+│      |          ^^^^^^^
+└── iteration_02.sysml:18:8: note: Inherited from here
+    └── iteration_02.sysml:29:20: note: Because VehicleTimeline is specialized through FeatureTyping
+
+iteration_02.sysml:31:17: warning (namespace-distinguishability): Member name 'mass' shadows Vehicle::mass
+│   31 |       attribute mass = 2000.0;
+│      |                 ^^^^
+└── iteration_02.sysml:13:13: note: Inherited from here
+    └── iteration_02.sysml:30:20: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:33:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleState::gear
+│   33 |         attribute gear = 0;
+│      |                   ^^^^
+└── iteration_02.sysml:8:13: note: Inherited from here
+    └── iteration_02.sysml:32:20: note: Because VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:34:19: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleState::accelerator
+│   34 |         attribute accelerator = 0.0;
+│      |                   ^^^^^^^^^^^
+└── iteration_02.sysml:9:13: note: Inherited from here
+    └── iteration_02.sysml:32:20: note: Because VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:37:10: warning (namespace-distinguishability): Member name 'next' shadows VehicleTimeline::next
+│   37 |     part next : Vehicle {
+│      |          ^^^^
+└── iteration_02.sysml:19:8: note: Inherited from here
+    └── iteration_02.sysml:29:20: note: Because VehicleTimeline is specialized through FeatureTyping
+
+iteration_02.sysml:38:17: warning (namespace-distinguishability): Member name 'mass' shadows Vehicle::mass
+│   38 |       attribute mass = 1500.0;
+│      |                 ^^^^
+└── iteration_02.sysml:13:13: note: Inherited from here
+    └── iteration_02.sysml:37:17: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:40:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleState::gear
+│   40 |         attribute gear = 2;
+│      |                   ^^^^
+└── iteration_02.sysml:8:13: note: Inherited from here
+    └── iteration_02.sysml:39:20: note: Because VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:41:19: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleState::accelerator
+│   41 |         attribute accelerator = 0.5;
+│      |                   ^^^^^^^^^^^
+└── iteration_02.sysml:9:13: note: Inherited from here
+    └── iteration_02.sysml:39:20: note: Because VehicleState is specialized through FeatureTyping

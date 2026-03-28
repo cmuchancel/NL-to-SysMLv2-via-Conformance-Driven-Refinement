@@ -1,0 +1,407 @@
+iteration_01.sysml:42:23: warning (namespace-distinguishability): Member name 'sensorId' shadows SensorManagementSystem::Sensor::sensorId
+│   42 |             attribute sensorId : Integer = 1;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:43:23: warning (namespace-distinguishability): Member name 'sensorName' shadows SensorManagementSystem::Sensor::sensorName
+│   43 |             attribute sensorName : String = "Sensor1";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:44:23: warning (namespace-distinguishability): Member name 'status' shadows SensorManagementSystem::Sensor::status
+│   44 |             attribute status : SensorStatus = SensorStatus::READY;
+│      |                       ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'isReady' shadows SensorManagementSystem::Sensor::isReady
+│   45 |             attribute isReady : Boolean = true;
+│      |                       ^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'lastUpdateTime' shadows SensorManagementSystem::Sensor::lastUpdateTime
+│   46 |             attribute lastUpdateTime : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'updateCount' shadows SensorManagementSystem::Sensor::updateCount
+│   47 |             attribute updateCount : Integer = 0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:49:18: warning (namespace-distinguishability): Member name 'sensorOut' shadows SensorManagementSystem::Sensor::sensorOut
+│   49 |             port sensorOut : SensorPort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:50:18: warning (namespace-distinguishability): Member name 'updateIn' shadows SensorManagementSystem::Sensor::updateIn
+│   50 |             port updateIn : UpdatePort;
+│      |                  ^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'sensorId' shadows SensorManagementSystem::Sensor::sensorId
+│   54 |             attribute sensorId : Integer = 2;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'sensorName' shadows SensorManagementSystem::Sensor::sensorName
+│   55 |             attribute sensorName : String = "Sensor2";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'status' shadows SensorManagementSystem::Sensor::status
+│   56 |             attribute status : SensorStatus = SensorStatus::NOT_READY;
+│      |                       ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'isReady' shadows SensorManagementSystem::Sensor::isReady
+│   57 |             attribute isReady : Boolean = false;
+│      |                       ^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:58:23: warning (namespace-distinguishability): Member name 'lastUpdateTime' shadows SensorManagementSystem::Sensor::lastUpdateTime
+│   58 |             attribute lastUpdateTime : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'updateCount' shadows SensorManagementSystem::Sensor::updateCount
+│   59 |             attribute updateCount : Integer = 0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:61:18: warning (namespace-distinguishability): Member name 'sensorOut' shadows SensorManagementSystem::Sensor::sensorOut
+│   61 |             port sensorOut : SensorPort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:62:18: warning (namespace-distinguishability): Member name 'updateIn' shadows SensorManagementSystem::Sensor::updateIn
+│   62 |             port updateIn : UpdatePort;
+│      |                  ^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'sensorId' shadows SensorManagementSystem::Sensor::sensorId
+│   66 |             attribute sensorId : Integer = 3;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'sensorName' shadows SensorManagementSystem::Sensor::sensorName
+│   67 |             attribute sensorName : String = "Sensor3";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:68:23: warning (namespace-distinguishability): Member name 'status' shadows SensorManagementSystem::Sensor::status
+│   68 |             attribute status : SensorStatus = SensorStatus::READY;
+│      |                       ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'isReady' shadows SensorManagementSystem::Sensor::isReady
+│   69 |             attribute isReady : Boolean = true;
+│      |                       ^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'lastUpdateTime' shadows SensorManagementSystem::Sensor::lastUpdateTime
+│   70 |             attribute lastUpdateTime : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:71:23: warning (namespace-distinguishability): Member name 'updateCount' shadows SensorManagementSystem::Sensor::updateCount
+│   71 |             attribute updateCount : Integer = 0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:73:18: warning (namespace-distinguishability): Member name 'sensorOut' shadows SensorManagementSystem::Sensor::sensorOut
+│   73 |             port sensorOut : SensorPort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:74:18: warning (namespace-distinguishability): Member name 'updateIn' shadows SensorManagementSystem::Sensor::updateIn
+│   74 |             port updateIn : UpdatePort;
+│      |                  ^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:65:24: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:109:23: warning (namespace-distinguishability): Member name 'registryId' shadows SensorManagementSystem::SensorRegistry::registryId
+│   109 |             attribute registryId : Integer = 1;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:108:25: note: Because SensorManagementSystem::SensorRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:110:23: warning (namespace-distinguishability): Member name 'totalSensors' shadows SensorManagementSystem::SensorRegistry::totalSensors
+│   110 |             attribute totalSensors : Integer = 3;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:108:25: note: Because SensorManagementSystem::SensorRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:111:23: warning (namespace-distinguishability): Member name 'activeSensors' shadows SensorManagementSystem::SensorRegistry::activeSensors
+│   111 |             attribute activeSensors : Integer = 2;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:108:25: note: Because SensorManagementSystem::SensorRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:113:18: warning (namespace-distinguishability): Member name 'sensor1' shadows SensorManagementSystem::SensorRegistry::sensor1
+│   113 |             part sensor1 : Sensor {
+│       |                  ^^^^^^^
+└── iteration_01.sysml:41:14: note: Inherited from here
+    └── iteration_01.sysml:108:25: note: Because SensorManagementSystem::SensorRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:114:27: warning (namespace-distinguishability): Member name 'sensorId' shadows SensorManagementSystem::Sensor::sensorId
+│   114 |                 attribute sensorId : Integer = 1;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:115:27: warning (namespace-distinguishability): Member name 'sensorName' shadows SensorManagementSystem::Sensor::sensorName
+│   115 |                 attribute sensorName : String = "Sensor1";
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:116:27: warning (namespace-distinguishability): Member name 'status' shadows SensorManagementSystem::Sensor::status
+│   116 |                 attribute status : SensorStatus = SensorStatus::READY;
+│       |                           ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:117:27: warning (namespace-distinguishability): Member name 'isReady' shadows SensorManagementSystem::Sensor::isReady
+│   117 |                 attribute isReady : Boolean = true;
+│       |                           ^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:118:27: warning (namespace-distinguishability): Member name 'lastUpdateTime' shadows SensorManagementSystem::Sensor::lastUpdateTime
+│   118 |                 attribute lastUpdateTime : Real = 0.0;
+│       |                           ^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:119:27: warning (namespace-distinguishability): Member name 'updateCount' shadows SensorManagementSystem::Sensor::updateCount
+│   119 |                 attribute updateCount : Integer = 0;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:121:22: warning (namespace-distinguishability): Member name 'sensorOut' shadows SensorManagementSystem::Sensor::sensorOut
+│   121 |                 port sensorOut : SensorPort;
+│       |                      ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:122:22: warning (namespace-distinguishability): Member name 'updateIn' shadows SensorManagementSystem::Sensor::updateIn
+│   122 |                 port updateIn : UpdatePort;
+│       |                      ^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:113:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:125:18: warning (namespace-distinguishability): Member name 'sensor2' shadows SensorManagementSystem::SensorRegistry::sensor2
+│   125 |             part sensor2 : Sensor {
+│       |                  ^^^^^^^
+└── iteration_01.sysml:53:14: note: Inherited from here
+    └── iteration_01.sysml:108:25: note: Because SensorManagementSystem::SensorRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:126:27: warning (namespace-distinguishability): Member name 'sensorId' shadows SensorManagementSystem::Sensor::sensorId
+│   126 |                 attribute sensorId : Integer = 2;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:127:27: warning (namespace-distinguishability): Member name 'sensorName' shadows SensorManagementSystem::Sensor::sensorName
+│   127 |                 attribute sensorName : String = "Sensor2";
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:128:27: warning (namespace-distinguishability): Member name 'status' shadows SensorManagementSystem::Sensor::status
+│   128 |                 attribute status : SensorStatus = SensorStatus::NOT_READY;
+│       |                           ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:129:27: warning (namespace-distinguishability): Member name 'isReady' shadows SensorManagementSystem::Sensor::isReady
+│   129 |                 attribute isReady : Boolean = false;
+│       |                           ^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:130:27: warning (namespace-distinguishability): Member name 'lastUpdateTime' shadows SensorManagementSystem::Sensor::lastUpdateTime
+│   130 |                 attribute lastUpdateTime : Real = 0.0;
+│       |                           ^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:131:27: warning (namespace-distinguishability): Member name 'updateCount' shadows SensorManagementSystem::Sensor::updateCount
+│   131 |                 attribute updateCount : Integer = 0;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:133:22: warning (namespace-distinguishability): Member name 'sensorOut' shadows SensorManagementSystem::Sensor::sensorOut
+│   133 |                 port sensorOut : SensorPort;
+│       |                      ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:134:22: warning (namespace-distinguishability): Member name 'updateIn' shadows SensorManagementSystem::Sensor::updateIn
+│   134 |                 port updateIn : UpdatePort;
+│       |                      ^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:125:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:137:18: warning (namespace-distinguishability): Member name 'sensor3' shadows SensorManagementSystem::SensorRegistry::sensor3
+│   137 |             part sensor3 : Sensor {
+│       |                  ^^^^^^^
+└── iteration_01.sysml:65:14: note: Inherited from here
+    └── iteration_01.sysml:108:25: note: Because SensorManagementSystem::SensorRegistry is specialized through FeatureTyping
+
+iteration_01.sysml:138:27: warning (namespace-distinguishability): Member name 'sensorId' shadows SensorManagementSystem::Sensor::sensorId
+│   138 |                 attribute sensorId : Integer = 3;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:139:27: warning (namespace-distinguishability): Member name 'sensorName' shadows SensorManagementSystem::Sensor::sensorName
+│   139 |                 attribute sensorName : String = "Sensor3";
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:140:27: warning (namespace-distinguishability): Member name 'status' shadows SensorManagementSystem::Sensor::status
+│   140 |                 attribute status : SensorStatus = SensorStatus::READY;
+│       |                           ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:141:27: warning (namespace-distinguishability): Member name 'isReady' shadows SensorManagementSystem::Sensor::isReady
+│   141 |                 attribute isReady : Boolean = true;
+│       |                           ^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:142:27: warning (namespace-distinguishability): Member name 'lastUpdateTime' shadows SensorManagementSystem::Sensor::lastUpdateTime
+│   142 |                 attribute lastUpdateTime : Real = 0.0;
+│       |                           ^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:143:27: warning (namespace-distinguishability): Member name 'updateCount' shadows SensorManagementSystem::Sensor::updateCount
+│   143 |                 attribute updateCount : Integer = 0;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:145:22: warning (namespace-distinguishability): Member name 'sensorOut' shadows SensorManagementSystem::Sensor::sensorOut
+│   145 |                 port sensorOut : SensorPort;
+│       |                      ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:146:22: warning (namespace-distinguishability): Member name 'updateIn' shadows SensorManagementSystem::Sensor::updateIn
+│   146 |                 port updateIn : UpdatePort;
+│       |                      ^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:137:28: note: Because SensorManagementSystem::Sensor is specialized through FeatureTyping
+
+iteration_01.sysml:151:23: warning (namespace-distinguishability): Member name 'controllerId' shadows SensorManagementSystem::UpdateController::controllerId
+│   151 |             attribute controllerId : Integer = 1;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:79:19: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:152:23: warning (namespace-distinguishability): Member name 'controllerName' shadows SensorManagementSystem::UpdateController::controllerName
+│   152 |             attribute controllerName : String = "MainUpdateController";
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:80:19: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:153:23: warning (namespace-distinguishability): Member name 'monitoringActive' shadows SensorManagementSystem::UpdateController::monitoringActive
+│   153 |             attribute monitoringActive : Boolean = true;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:81:19: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:154:23: warning (namespace-distinguishability): Member name 'traversalCount' shadows SensorManagementSystem::UpdateController::traversalCount
+│   154 |             attribute traversalCount : Integer = 0;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:82:19: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:155:23: warning (namespace-distinguishability): Member name 'updateThreshold' shadows SensorManagementSystem::UpdateController::updateThreshold
+│   155 |             attribute updateThreshold : Real = 1.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:83:19: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:157:18: warning (namespace-distinguishability): Member name 'controllerUpdateOut' shadows SensorManagementSystem::UpdateController::controllerUpdateOut
+│   157 |             port controllerUpdateOut : UpdatePort;
+│       |                  ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:85:14: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:158:18: warning (namespace-distinguishability): Member name 'controllerSensorIn' shadows SensorManagementSystem::UpdateController::controllerSensorIn
+│   158 |             port controllerSensorIn : SensorPort;
+│       |                  ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:86:14: note: Inherited from here
+    └── iteration_01.sysml:150:27: note: Because SensorManagementSystem::UpdateController is specialized through FeatureTyping
+
+iteration_01.sysml:162:23: warning (namespace-distinguishability): Member name 'monitorId' shadows SensorManagementSystem::StatusMonitor::monitorId
+│   162 |             attribute monitorId : Integer = 1;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:90:19: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:163:23: warning (namespace-distinguishability): Member name 'monitorName' shadows SensorManagementSystem::StatusMonitor::monitorName
+│   163 |             attribute monitorName : String = "MainStatusMonitor";
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:91:19: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:164:23: warning (namespace-distinguishability): Member name 'pollInterval' shadows SensorManagementSystem::StatusMonitor::pollInterval
+│   164 |             attribute pollInterval : Real = 0.5;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:92:19: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:165:23: warning (namespace-distinguishability): Member name 'readySensorsCount' shadows SensorManagementSystem::StatusMonitor::readySensorsCount
+│   165 |             attribute readySensorsCount : Integer = 0;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:93:19: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:166:23: warning (namespace-distinguishability): Member name 'processedSensorsCount' shadows SensorManagementSystem::StatusMonitor::processedSensorsCount
+│   166 |             attribute processedSensorsCount : Integer = 0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:94:19: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:168:18: warning (namespace-distinguishability): Member name 'monitorSensorIn' shadows SensorManagementSystem::StatusMonitor::monitorSensorIn
+│   168 |             port monitorSensorIn : SensorPort;
+│       |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:96:14: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:169:18: warning (namespace-distinguishability): Member name 'monitorUpdateOut' shadows SensorManagementSystem::StatusMonitor::monitorUpdateOut
+│   169 |             port monitorUpdateOut : UpdatePort;
+│       |                  ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:97:14: note: Inherited from here
+    └── iteration_01.sysml:161:24: note: Because SensorManagementSystem::StatusMonitor is specialized through FeatureTyping

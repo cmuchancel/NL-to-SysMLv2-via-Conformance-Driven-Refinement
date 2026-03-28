@@ -1,0 +1,7 @@
+iteration_02.sysml:19:17: error (parsing-error): Unexpected 'flow', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    19 |       attribute flow : FuelFlow;
+       |                 ^^^^
+
+iteration_02.sysml:23:17: error (parsing-error): Unexpected 'flow', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    23 |       attribute flow : FuelFlow;
+       |                 ^^^^

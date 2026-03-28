@@ -1,0 +1,19 @@
+iteration_04.sysml:25:39: error (parsing-error): Unexpected '(', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    25 |         attribute calculateTotalWeight() : Real {
+       |                                       ^
+
+iteration_04.sysml:26:21: error (parsing-error): Unexpected identifier.
+    26 |             chassis.weight + engine.weight + transmission.weight
+       |                     ^^^^^^
+
+iteration_04.sysml:26:59: error (parsing-error): Unexpected identifier.
+    26 |             chassis.weight + engine.weight + transmission.weight
+       |                                                           ^^^^^^
+
+iteration_04.sysml:29:35: error (parsing-error): Unexpected '(', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    29 |         attribute checkWeightLimit() : Boolean {
+       |                                   ^
+
+iteration_04.sysml:30:38: error (parsing-error): Unexpected identifier.
+    30 |             calculateTotalWeight() > maxAllowedWeight
+       |                                      ^^^^^^^^^^^^^^^^

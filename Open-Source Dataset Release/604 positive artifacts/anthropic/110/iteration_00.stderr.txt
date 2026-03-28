@@ -1,0 +1,29 @@
+iteration_01.sysml:37:23: warning (namespace-distinguishability): Member name 'capacity' shadows FuelDeliverySystem::StorageTank::capacity
+│   37 |             attribute capacity = 10000.0;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:36:28: note: Because FuelDeliverySystem::StorageTank is specialized through FeatureTyping
+
+iteration_01.sysml:38:23: warning (namespace-distinguishability): Member name 'currentLevel' shadows FuelDeliverySystem::StorageTank::currentLevel
+│   38 |             attribute currentLevel = 8000.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:36:28: note: Because FuelDeliverySystem::StorageTank is specialized through FeatureTyping
+
+iteration_01.sysml:42:18: warning (namespace-distinguishability): Member name 'vehicleFuelTank' shadows FuelDeliverySystem::Vehicle::vehicleFuelTank
+│   42 |             part vehicleFuelTank : VehicleFuelTank {
+│      |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because FuelDeliverySystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:43:27: warning (namespace-distinguishability): Member name 'maxCapacity' shadows FuelDeliverySystem::VehicleFuelTank::maxCapacity
+│   43 |                 attribute maxCapacity = 60.0;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:42:36: note: Because FuelDeliverySystem::VehicleFuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:44:27: warning (namespace-distinguishability): Member name 'currentFuelLevel' shadows FuelDeliverySystem::VehicleFuelTank::currentFuelLevel
+│   44 |                 attribute currentFuelLevel = 10.0;
+│      |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:42:36: note: Because FuelDeliverySystem::VehicleFuelTank is specialized through FeatureTyping

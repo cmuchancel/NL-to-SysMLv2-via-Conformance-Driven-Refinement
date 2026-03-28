@@ -1,0 +1,65 @@
+iteration_01.sysml:103:14: warning (namespace-distinguishability): Member name 'interior' shadows CarSafetyCompliance::Car::interior
+│   103 |         part interior : Interior {
+│       |              ^^^^^^^^
+└── iteration_01.sysml:71:14: note: Inherited from here
+    └── iteration_01.sysml:102:24: note: Because CarSafetyCompliance::Car is specialized through FeatureTyping
+
+iteration_01.sysml:104:18: warning (namespace-distinguishability): Member name 'seatBelt1' shadows CarSafetyCompliance::Interior::seatBelt1
+│   104 |             part seatBelt1 : SeatBelt;
+│       |                  ^^^^^^^^^
+└── iteration_01.sysml:54:14: note: Inherited from here
+    └── iteration_01.sysml:103:25: note: Because CarSafetyCompliance::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:105:18: warning (namespace-distinguishability): Member name 'seatBelt2' shadows CarSafetyCompliance::Interior::seatBelt2
+│   105 |             part seatBelt2 : SeatBelt;
+│       |                  ^^^^^^^^^
+└── iteration_01.sysml:55:14: note: Inherited from here
+    └── iteration_01.sysml:103:25: note: Because CarSafetyCompliance::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:106:18: warning (namespace-distinguishability): Member name 'driverAirbag' shadows CarSafetyCompliance::Interior::driverAirbag
+│   106 |             part driverAirbag : DriverAirbag;
+│       |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:56:14: note: Inherited from here
+    └── iteration_01.sysml:103:25: note: Because CarSafetyCompliance::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:108:14: warning (namespace-distinguishability): Member name 'body' shadows CarSafetyCompliance::Car::body
+│   108 |         part body : Body {
+│       |              ^^^^
+└── iteration_01.sysml:72:14: note: Inherited from here
+    └── iteration_01.sysml:102:24: note: Because CarSafetyCompliance::Car is specialized through FeatureTyping
+
+iteration_01.sysml:109:18: warning (namespace-distinguishability): Member name 'bumper' shadows CarSafetyCompliance::Body::bumper
+│   109 |             part bumper : Bumper;
+│       |                  ^^^^^^
+└── iteration_01.sysml:60:14: note: Inherited from here
+    └── iteration_01.sysml:108:21: note: Because CarSafetyCompliance::Body is specialized through FeatureTyping
+
+iteration_01.sysml:110:18: warning (namespace-distinguishability): Member name 'keylessEntry' shadows CarSafetyCompliance::Body::keylessEntry
+│   110 |             part keylessEntry : KeylessEntry;
+│       |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:61:14: note: Inherited from here
+    └── iteration_01.sysml:108:21: note: Because CarSafetyCompliance::Body is specialized through FeatureTyping
+
+iteration_01.sysml:112:14: warning (namespace-distinguishability): Member name 'wheelAssembly' shadows CarSafetyCompliance::Car::wheelAssembly
+│   112 |         part wheelAssembly : WheelAssembly {
+│       |              ^^^^^^^^^^^^^
+└── iteration_01.sysml:73:14: note: Inherited from here
+    └── iteration_01.sysml:102:24: note: Because CarSafetyCompliance::Car is specialized through FeatureTyping
+
+iteration_01.sysml:113:18: warning (namespace-distinguishability): Member name 'wheel1' shadows CarSafetyCompliance::WheelAssembly::wheel1
+│   113 |             part wheel1 : Wheel;
+│       |                  ^^^^^^
+└── iteration_01.sysml:65:14: note: Inherited from here
+    └── iteration_01.sysml:112:30: note: Because CarSafetyCompliance::WheelAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:114:18: warning (namespace-distinguishability): Member name 'wheel2' shadows CarSafetyCompliance::WheelAssembly::wheel2
+│   114 |             part wheel2 : Wheel;
+│       |                  ^^^^^^
+└── iteration_01.sysml:66:14: note: Inherited from here
+    └── iteration_01.sysml:112:30: note: Because CarSafetyCompliance::WheelAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:115:18: warning (namespace-distinguishability): Member name 'abs' shadows CarSafetyCompliance::WheelAssembly::abs
+│   115 |             part abs : AntiLockBrakingSystem;
+│       |                  ^^^
+└── iteration_01.sysml:67:14: note: Inherited from here
+    └── iteration_01.sysml:112:30: note: Because CarSafetyCompliance::WheelAssembly is specialized through FeatureTyping

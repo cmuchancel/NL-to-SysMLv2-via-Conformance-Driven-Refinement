@@ -1,0 +1,19 @@
+iteration_01.sysml:5:9: error (parsing-error): Unexpected identifier.
+    5 |         OK
+      |         ^^
+
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier.
+    6 |         LOW
+      |         ^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    8 |         CHARGING
+      |         ^^^^^^^^
+
+iteration_01.sysml:33:19: error (parsing-error): Unexpected 'message', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    33 |         attribute message : String;
+       |                   ^^^^^^^
+
+iteration_01.sysml:13:59: error (reference-error): No Feature named 'OK' found.
+    13 |         attribute status : BatteryStatus = BatteryStatus::OK;
+       |                                                           ^^

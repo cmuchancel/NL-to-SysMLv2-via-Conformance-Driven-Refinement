@@ -1,0 +1,27 @@
+iteration_01.sysml:59:50: error (parsing-error): Unexpected token '::'.
+    59 |         connect controller.stateOutput to vehicle::(currentSpeed, currentPosition, currentAcceleration);
+       |                                                  ^^
+
+iteration_01.sysml:59:52: error (parsing-error): Unexpected '(', expected one of ["SINGLE_LINE_NOTE", "[", "$", "NAME", "(", "ElementReference", "MULTILINE_NOTE", "MultiplicityRange", "OwningMembership", "ReferenceSubsetting", "Feature", "Feature", "OwningMembership", "FeatureChaining", "EndFeatureMembership", "Feature"].
+    59 |         connect controller.stateOutput to vehicle::(currentSpeed, currentPosition, currentAcceleration);
+       |                                                    ^
+
+iteration_01.sysml:59:17: warning (subsetting-featuring-types): Subsetted feature must be accessible from the subsetting feature (use dot notation for nesting)
+│   59 |         connect controller.stateOutput to vehicle::(currentSpeed, currentPosition, currentAcceleration);
+│      |                 ^^^^^^^^^^^^^^^^^^^^^^
+├── iteration_01.sysml:59:17: note: Subsetted feature declared here
+│   └── iteration_01.sysml:53:10: note: Subsetted feature is featured by VehicleDynamicsSimulation::simulationSystem
+└── iteration_01.sysml:59:17: note: Because featuring types of subsetted feature do not conform to the featuring types of the subsetting feature
+    └── iteration_01.sysml:59:17: note: Subsetting feature is featured by (orphan Type)
+
+iteration_01.sysml:59:53: error (reference-error): No Feature named 'currentSpeed' found.
+    59 |         connect controller.stateOutput to vehicle::(currentSpeed, currentPosition, currentAcceleration);
+       |                                                     ^^^^^^^^^^^^
+
+iteration_01.sysml:59:67: error (reference-error): No Feature named 'currentPosition' found.
+    59 |         connect controller.stateOutput to vehicle::(currentSpeed, currentPosition, currentAcceleration);
+       |                                                                   ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:59:84: error (reference-error): No Feature named 'currentAcceleration' found.
+    59 |         connect controller.stateOutput to vehicle::(currentSpeed, currentPosition, currentAcceleration);
+       |                                                                                    ^^^^^^^^^^^^^^^^^^^

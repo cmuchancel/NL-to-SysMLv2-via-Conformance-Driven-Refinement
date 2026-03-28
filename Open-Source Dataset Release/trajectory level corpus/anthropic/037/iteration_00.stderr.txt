@@ -1,0 +1,23 @@
+iteration_01.sysml:147:19: warning (namespace-distinguishability): Member name 'systemName' shadows VehiclePowerManagement::VehiclePowerSystem::systemName
+│   147 |         attribute systemName = "VehiclePowerManagementSystem";
+│       |                   ^^^^^^^^^^
+└── iteration_01.sysml:92:19: note: Inherited from here
+    └── iteration_01.sysml:146:31: note: Because VehiclePowerManagement::VehiclePowerSystem is specialized through FeatureTyping
+
+iteration_01.sysml:148:19: warning (namespace-distinguishability): Member name 'overallPowerState' shadows VehiclePowerManagement::VehiclePowerSystem::overallPowerState
+│   148 |         attribute overallPowerState = PowerState::OFF;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:93:19: note: Inherited from here
+    └── iteration_01.sysml:146:31: note: Because VehiclePowerManagement::VehiclePowerSystem is specialized through FeatureTyping
+
+iteration_01.sysml:149:19: warning (namespace-distinguishability): Member name 'selfDiagnosticsEnabled' shadows VehiclePowerManagement::VehiclePowerSystem::selfDiagnosticsEnabled
+│   149 |         attribute selfDiagnosticsEnabled = true;
+│       |                   ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:94:19: note: Inherited from here
+    └── iteration_01.sysml:146:31: note: Because VehiclePowerManagement::VehiclePowerSystem is specialized through FeatureTyping
+
+iteration_01.sysml:150:19: warning (namespace-distinguishability): Member name 'safeShutdownEnabled' shadows VehiclePowerManagement::VehiclePowerSystem::safeShutdownEnabled
+│   150 |         attribute safeShutdownEnabled = true;
+│       |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:95:19: note: Inherited from here
+    └── iteration_01.sysml:146:31: note: Because VehiclePowerManagement::VehiclePowerSystem is specialized through FeatureTyping

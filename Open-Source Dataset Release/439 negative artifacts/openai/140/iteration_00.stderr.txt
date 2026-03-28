@@ -1,0 +1,249 @@
+iteration_01.sysml:32:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   32 |         attribute name : String = "meter";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:31:32: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:33:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   33 |         attribute symbol : String = "m";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:31:32: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:34:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   34 |         attribute quantityKind : BaseQuantityKind = length;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:31:32: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   35 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:31:32: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:39:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   39 |         attribute name : String = "kilogram";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:38:35: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:40:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   40 |         attribute symbol : String = "kg";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:38:35: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:41:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   41 |         attribute quantityKind : BaseQuantityKind = mass;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:38:35: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:42:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   42 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:38:35: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:46:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   46 |         attribute name : String = "second";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:45:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:47:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   47 |         attribute symbol : String = "s";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:45:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   48 |         attribute quantityKind : BaseQuantityKind = time;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:45:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:49:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   49 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:45:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:53:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   53 |         attribute name : String = "ampere";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:52:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:54:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   54 |         attribute symbol : String = "A";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:52:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:55:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   55 |         attribute quantityKind : BaseQuantityKind = electricCurrent;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:52:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:56:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   56 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:52:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:60:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   60 |         attribute name : String = "kelvin";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:59:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:61:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   61 |         attribute symbol : String = "K";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:59:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:62:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   62 |         attribute quantityKind : BaseQuantityKind = temperature;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:59:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:63:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   63 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:59:33: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:67:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   67 |         attribute name : String = "mole";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:66:31: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:68:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   68 |         attribute symbol : String = "mol";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:66:31: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:69:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   69 |         attribute quantityKind : BaseQuantityKind = amountOfSubstance;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:66:31: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:70:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   70 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:66:31: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:74:19: warning (namespace-distinguishability): Member name 'name' shadows PhysicalQuantityLibrary::Unit::name
+│   74 |         attribute name : String = "candela";
+│      |                   ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:73:34: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:75:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantityLibrary::Unit::symbol
+│   75 |         attribute symbol : String = "cd";
+│      |                   ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:73:34: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:76:19: warning (namespace-distinguishability): Member name 'quantityKind' shadows PhysicalQuantityLibrary::Unit::quantityKind
+│   76 |         attribute quantityKind : BaseQuantityKind = luminousIntensity;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:73:34: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:77:19: warning (namespace-distinguishability): Member name 'conversionFactorToSI' shadows PhysicalQuantityLibrary::Unit::conversionFactorToSI
+│   77 |         attribute conversionFactorToSI : Real = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:73:34: note: Because PhysicalQuantityLibrary::Unit is specialized through Subclassification
+
+iteration_01.sysml:93:14: warning (namespace-distinguishability): Member name 'lengthUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::lengthUnit
+│   93 |         part lengthUnit : Meter;
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:81:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:94:14: warning (namespace-distinguishability): Member name 'massUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::massUnit
+│   94 |         part massUnit : Kilogram;
+│      |              ^^^^^^^^
+└── iteration_01.sysml:82:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:95:14: warning (namespace-distinguishability): Member name 'timeUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::timeUnit
+│   95 |         part timeUnit : Second;
+│      |              ^^^^^^^^
+└── iteration_01.sysml:83:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:96:14: warning (namespace-distinguishability): Member name 'electricCurrentUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::electricCurrentUnit
+│   96 |         part electricCurrentUnit : Ampere;
+│      |              ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:84:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:97:14: warning (namespace-distinguishability): Member name 'temperatureUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::temperatureUnit
+│   97 |         part temperatureUnit : Kelvin;
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:85:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:98:14: warning (namespace-distinguishability): Member name 'amountOfSubstanceUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::amountOfSubstanceUnit
+│   98 |         part amountOfSubstanceUnit : Mole;
+│      |              ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:86:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:99:14: warning (namespace-distinguishability): Member name 'luminousIntensityUnit' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::luminousIntensityUnit
+│   99 |         part luminousIntensityUnit : Candela;
+│      |              ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:87:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:100:14: warning (namespace-distinguishability): Member name 'quantityData' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::quantityData
+│   100 |         part quantityData : Quantity;
+│       |              ^^^^^^^^^^^^
+└── iteration_01.sysml:88:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:101:14: warning (namespace-distinguishability): Member name 'extension' shadows PhysicalQuantityLibrary::PhysicalQuantitySystem::extension
+│   101 |         part extension : UnitExtension;
+│       |              ^^^^^^^^^
+└── iteration_01.sysml:89:14: note: Inherited from here
+    └── iteration_01.sysml:92:43: note: Because PhysicalQuantityLibrary::PhysicalQuantitySystem is specialized through Subclassification
+
+iteration_01.sysml:34:53: error (reference-error): No Feature named 'length' found.
+    34 |         attribute quantityKind : BaseQuantityKind = length;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:41:53: error (reference-error): No Feature named 'mass' found.
+    41 |         attribute quantityKind : BaseQuantityKind = mass;
+       |                                                     ^^^^
+
+iteration_01.sysml:48:53: error (reference-error): No Feature named 'time' found.
+    48 |         attribute quantityKind : BaseQuantityKind = time;
+       |                                                     ^^^^
+
+iteration_01.sysml:55:53: error (reference-error): No Feature named 'electricCurrent' found.
+    55 |         attribute quantityKind : BaseQuantityKind = electricCurrent;
+       |                                                     ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:62:53: error (reference-error): No Feature named 'temperature' found.
+    62 |         attribute quantityKind : BaseQuantityKind = temperature;
+       |                                                     ^^^^^^^^^^^
+
+iteration_01.sysml:69:53: error (reference-error): No Feature named 'amountOfSubstance' found.
+    69 |         attribute quantityKind : BaseQuantityKind = amountOfSubstance;
+       |                                                     ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:76:53: error (reference-error): No Feature named 'luminousIntensity' found.
+    76 |         attribute quantityKind : BaseQuantityKind = luminousIntensity;
+       |                                                     ^^^^^^^^^^^^^^^^^

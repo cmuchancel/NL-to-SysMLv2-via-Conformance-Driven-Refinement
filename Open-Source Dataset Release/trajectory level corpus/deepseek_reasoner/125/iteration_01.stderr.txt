@@ -1,0 +1,59 @@
+iteration_02.sysml:15:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   15 |         attribute category : FeatureCategory = SafetyMandatory;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:14:26: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_02.sysml:19:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   19 |         attribute category : FeatureCategory = SafetyMandatory;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:18:24: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_02.sysml:23:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   23 |         attribute category : FeatureCategory = SafetyOptional;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:22:24: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_02.sysml:27:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   27 |         attribute category : FeatureCategory = SafetyOptional;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:26:39: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_02.sysml:31:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   31 |         attribute category : FeatureCategory = Security;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:30:29: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_02.sysml:35:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   35 |         attribute category : FeatureCategory = Security;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:34:36: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_02.sysml:15:48: error (reference-error): No Feature named 'SafetyMandatory' found.
+    15 |         attribute category : FeatureCategory = SafetyMandatory;
+       |                                                ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:19:48: error (reference-error): No Feature named 'SafetyMandatory' found.
+    19 |         attribute category : FeatureCategory = SafetyMandatory;
+       |                                                ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:23:48: error (reference-error): No Feature named 'SafetyOptional' found.
+    23 |         attribute category : FeatureCategory = SafetyOptional;
+       |                                                ^^^^^^^^^^^^^^
+
+iteration_02.sysml:27:48: error (reference-error): No Feature named 'SafetyOptional' found.
+    27 |         attribute category : FeatureCategory = SafetyOptional;
+       |                                                ^^^^^^^^^^^^^^
+
+iteration_02.sysml:31:48: error (reference-error): No Feature named 'Security' found.
+    31 |         attribute category : FeatureCategory = Security;
+       |                                                ^^^^^^^^
+
+iteration_02.sysml:35:48: error (reference-error): No Feature named 'Security' found.
+    35 |         attribute category : FeatureCategory = Security;
+       |                                                ^^^^^^^^

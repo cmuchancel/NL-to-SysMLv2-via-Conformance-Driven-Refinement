@@ -1,0 +1,59 @@
+iteration_01.sysml:45:14: warning (namespace-distinguishability): Member name 'subsystemA' shadows AutomotiveConfigurationManagement::Automobile::subsystemA
+│   45 |         part subsystemA : SubsystemA {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:38:14: note: Inherited from here
+    └── iteration_01.sysml:44:24: note: Because AutomotiveConfigurationManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'config' shadows AutomotiveConfigurationManagement::SubsystemA::config
+│   46 |             attribute config : SubsystemAConfig = SubsystemAConfig::Config1;
+│      |                       ^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:45:27: note: Because AutomotiveConfigurationManagement::SubsystemA is specialized through FeatureTyping
+
+iteration_01.sysml:48:14: warning (namespace-distinguishability): Member name 'subsystemB' shadows AutomotiveConfigurationManagement::Automobile::subsystemB
+│   48 |         part subsystemB : SubsystemB {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:39:14: note: Inherited from here
+    └── iteration_01.sysml:44:24: note: Because AutomotiveConfigurationManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:49:23: warning (namespace-distinguishability): Member name 'config' shadows AutomotiveConfigurationManagement::SubsystemB::config
+│   49 |             attribute config : SubsystemBConfig = SubsystemBConfig::Config1;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:48:27: note: Because AutomotiveConfigurationManagement::SubsystemB is specialized through FeatureTyping
+
+iteration_01.sysml:51:19: warning (namespace-distinguishability): Member name 'vehicleConfig' shadows AutomotiveConfigurationManagement::Automobile::vehicleConfig
+│   51 |         attribute vehicleConfig : String = "Configuration A";
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:44:24: note: Because AutomotiveConfigurationManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:55:14: warning (namespace-distinguishability): Member name 'subsystemA' shadows AutomotiveConfigurationManagement::Automobile::subsystemA
+│   55 |         part subsystemA : SubsystemA {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:38:14: note: Inherited from here
+    └── iteration_01.sysml:54:24: note: Because AutomotiveConfigurationManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'config' shadows AutomotiveConfigurationManagement::SubsystemA::config
+│   56 |             attribute config : SubsystemAConfig = SubsystemAConfig::Config2;
+│      |                       ^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:55:27: note: Because AutomotiveConfigurationManagement::SubsystemA is specialized through FeatureTyping
+
+iteration_01.sysml:58:14: warning (namespace-distinguishability): Member name 'subsystemB' shadows AutomotiveConfigurationManagement::Automobile::subsystemB
+│   58 |         part subsystemB : SubsystemB {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:39:14: note: Inherited from here
+    └── iteration_01.sysml:54:24: note: Because AutomotiveConfigurationManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'config' shadows AutomotiveConfigurationManagement::SubsystemB::config
+│   59 |             attribute config : SubsystemBConfig = SubsystemBConfig::Config1;
+│      |                       ^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:58:27: note: Because AutomotiveConfigurationManagement::SubsystemB is specialized through FeatureTyping
+
+iteration_01.sysml:61:19: warning (namespace-distinguishability): Member name 'vehicleConfig' shadows AutomotiveConfigurationManagement::Automobile::vehicleConfig
+│   61 |         attribute vehicleConfig : String = "Configuration B";
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:54:24: note: Because AutomotiveConfigurationManagement::Automobile is specialized through FeatureTyping

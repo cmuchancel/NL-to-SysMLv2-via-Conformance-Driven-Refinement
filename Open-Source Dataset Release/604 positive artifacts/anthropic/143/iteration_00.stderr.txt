@@ -1,0 +1,101 @@
+iteration_01.sysml:71:14: warning (namespace-distinguishability): Member name 'uintData' shadows DataManagementSystem::DataManagementCore::uintData
+│   71 |         part uintData : UnsignedIntegerType {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:61:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:72:23: warning (namespace-distinguishability): Member name 'value' shadows DataManagementSystem::UnsignedIntegerType::value
+│   72 |             attribute value : Integer = 0;
+│      |                       ^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:71:25: note: Because DataManagementSystem::UnsignedIntegerType is specialized through FeatureTyping
+
+iteration_01.sysml:73:23: warning (namespace-distinguishability): Member name 'isNonNegative' shadows DataManagementSystem::UnsignedIntegerType::isNonNegative
+│   73 |             attribute isNonNegative : Boolean = true;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:71:25: note: Because DataManagementSystem::UnsignedIntegerType is specialized through FeatureTyping
+
+iteration_01.sysml:75:14: warning (namespace-distinguishability): Member name 'ufloatData' shadows DataManagementSystem::DataManagementCore::ufloatData
+│   75 |         part ufloatData : UnsignedFloatType {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:62:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:76:23: warning (namespace-distinguishability): Member name 'value' shadows DataManagementSystem::UnsignedFloatType::value
+│   76 |             attribute value : Real = 0.0;
+│      |                       ^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:75:27: note: Because DataManagementSystem::UnsignedFloatType is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'isNonNegative' shadows DataManagementSystem::UnsignedFloatType::isNonNegative
+│   77 |             attribute isNonNegative : Boolean = true;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:75:27: note: Because DataManagementSystem::UnsignedFloatType is specialized through FeatureTyping
+
+iteration_01.sysml:79:14: warning (namespace-distinguishability): Member name 'dateTimeData' shadows DataManagementSystem::DataManagementCore::dateTimeData
+│   79 |         part dateTimeData : DateTimeType {
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:63:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'dateTimeValue' shadows DataManagementSystem::DateTimeType::dateTimeValue
+│   80 |             attribute dateTimeValue : String = "1970-01-01T00:00:00Z";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:79:29: note: Because DataManagementSystem::DateTimeType is specialized through FeatureTyping
+
+iteration_01.sysml:82:14: warning (namespace-distinguishability): Member name 'stringData' shadows DataManagementSystem::DataManagementCore::stringData
+│   82 |         part stringData : StringType {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:64:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:83:23: warning (namespace-distinguishability): Member name 'stringValue' shadows DataManagementSystem::StringType::stringValue
+│   83 |             attribute stringValue : String = "";
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:82:27: note: Because DataManagementSystem::StringType is specialized through FeatureTyping
+
+iteration_01.sysml:85:14: warning (namespace-distinguishability): Member name 'boolData' shadows DataManagementSystem::DataManagementCore::boolData
+│   85 |         part boolData : BooleanType {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:65:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'booleanValue' shadows DataManagementSystem::BooleanType::booleanValue
+│   86 |             attribute booleanValue : Boolean = false;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:85:25: note: Because DataManagementSystem::BooleanType is specialized through FeatureTyping
+
+iteration_01.sysml:88:14: warning (namespace-distinguishability): Member name 'statusData' shadows DataManagementSystem::DataManagementCore::statusData
+│   88 |         part statusData : StatusCondition {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:66:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:89:23: warning (namespace-distinguishability): Member name 'severity' shadows DataManagementSystem::StatusCondition::severity
+│   89 |             attribute severity : SeverityLevel = SeverityLevel::normal;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:88:27: note: Because DataManagementSystem::StatusCondition is specialized through FeatureTyping
+
+iteration_01.sysml:90:23: warning (namespace-distinguishability): Member name 'color' shadows DataManagementSystem::StatusCondition::color
+│   90 |             attribute color : StatusColor = StatusColor::green;
+│      |                       ^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    └── iteration_01.sysml:88:27: note: Because DataManagementSystem::StatusCondition is specialized through FeatureTyping
+
+iteration_01.sysml:92:14: warning (namespace-distinguishability): Member name 'dimensionData' shadows DataManagementSystem::DataManagementCore::dimensionData
+│   92 |         part dimensionData : PhysicalDimension {
+│      |              ^^^^^^^^^^^^^
+└── iteration_01.sysml:67:14: note: Inherited from here
+    └── iteration_01.sysml:70:19: note: Because DataManagementSystem::DataManagementCore is specialized through FeatureTyping
+
+iteration_01.sysml:93:23: warning (namespace-distinguishability): Member name 'diameterOption' shadows DataManagementSystem::PhysicalDimension::diameterOption
+│   93 |             attribute diameterOption : DiameterOption = DiameterOption::Small;
+│      |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:53:19: note: Inherited from here
+    └── iteration_01.sysml:92:30: note: Because DataManagementSystem::PhysicalDimension is specialized through FeatureTyping

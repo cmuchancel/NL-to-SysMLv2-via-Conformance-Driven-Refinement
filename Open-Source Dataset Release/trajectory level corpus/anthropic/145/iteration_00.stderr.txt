@@ -1,0 +1,113 @@
+iteration_01.sysml:31:23: warning (namespace-distinguishability): Member name 'manufacturerName' shadows TireInformationSystem::Tire::manufacturerName
+│   31 |             attribute manufacturerName : Manufacturer = Manufacturer::Michelin;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:30:35: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:32:23: warning (namespace-distinguishability): Member name 'rimDiameterInches' shadows TireInformationSystem::Tire::rimDiameterInches
+│   32 |             attribute rimDiameterInches : Real = 18.0;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:30:35: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:33:23: warning (namespace-distinguishability): Member name 'tireWidth' shadows TireInformationSystem::Tire::tireWidth
+│   33 |             attribute tireWidth : Real = 245.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:30:35: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:34:18: warning (namespace-distinguishability): Member name 'installationPosition' shadows TireInformationSystem::Tire::installationPosition
+│   34 |             part installationPosition : InstallationPosition {
+│      |                  ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:14: note: Inherited from here
+    └── iteration_01.sysml:30:35: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:35:22: warning (namespace-distinguishability): Member name 'location' shadows TireInformationSystem::InstallationPosition::location
+│   35 |                 part location : CoordinateVector {
+│      |                      ^^^^^^^^
+└── iteration_01.sysml:19:14: note: Inherited from here
+    └── iteration_01.sysml:34:41: note: Because TireInformationSystem::InstallationPosition is specialized through FeatureTyping
+
+iteration_01.sysml:36:31: warning (namespace-distinguishability): Member name 'x' shadows TireInformationSystem::CoordinateVector::x
+│   36 |                     attribute x : Real = 0.0;
+│      |                               ^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:35:33: note: Because TireInformationSystem::CoordinateVector is specialized through FeatureTyping
+
+iteration_01.sysml:37:31: warning (namespace-distinguishability): Member name 'y' shadows TireInformationSystem::CoordinateVector::y
+│   37 |                     attribute y : Real = 0.0;
+│      |                               ^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:35:33: note: Because TireInformationSystem::CoordinateVector is specialized through FeatureTyping
+
+iteration_01.sysml:38:31: warning (namespace-distinguishability): Member name 'z' shadows TireInformationSystem::CoordinateVector::z
+│   38 |                     attribute z : Real = 0.0;
+│      |                               ^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:35:33: note: Because TireInformationSystem::CoordinateVector is specialized through FeatureTyping
+
+iteration_01.sysml:44:23: warning (namespace-distinguishability): Member name 'manufacturerName' shadows TireInformationSystem::Tire::manufacturerName
+│   44 |             attribute manufacturerName : Manufacturer = Manufacturer::Bridgestone;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:43:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'rimDiameterInches' shadows TireInformationSystem::Tire::rimDiameterInches
+│   45 |             attribute rimDiameterInches : Real = 17.0;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:43:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'tireWidth' shadows TireInformationSystem::Tire::tireWidth
+│   46 |             attribute tireWidth : Real = 225.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:43:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:47:18: warning (namespace-distinguishability): Member name 'installationPosition' shadows TireInformationSystem::Tire::installationPosition
+│   47 |             part installationPosition : InstallationPosition {
+│      |                  ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:14: note: Inherited from here
+    └── iteration_01.sysml:43:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:48:22: warning (namespace-distinguishability): Member name 'location' shadows TireInformationSystem::InstallationPosition::location
+│   48 |                 part location : CoordinateVector {
+│      |                      ^^^^^^^^
+└── iteration_01.sysml:19:14: note: Inherited from here
+    └── iteration_01.sysml:47:41: note: Because TireInformationSystem::InstallationPosition is specialized through FeatureTyping
+
+iteration_01.sysml:49:31: warning (namespace-distinguishability): Member name 'x' shadows TireInformationSystem::CoordinateVector::x
+│   49 |                     attribute x : Real = 1.5;
+│      |                               ^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:48:33: note: Because TireInformationSystem::CoordinateVector is specialized through FeatureTyping
+
+iteration_01.sysml:50:31: warning (namespace-distinguishability): Member name 'y' shadows TireInformationSystem::CoordinateVector::y
+│   50 |                     attribute y : Real = 0.0;
+│      |                               ^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:48:33: note: Because TireInformationSystem::CoordinateVector is specialized through FeatureTyping
+
+iteration_01.sysml:51:31: warning (namespace-distinguishability): Member name 'z' shadows TireInformationSystem::CoordinateVector::z
+│   51 |                     attribute z : Real = 0.0;
+│      |                               ^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:48:33: note: Because TireInformationSystem::CoordinateVector is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'manufacturerName' shadows TireInformationSystem::Tire::manufacturerName
+│   57 |             attribute manufacturerName : Manufacturer = Manufacturer::Continental;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:56:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:58:23: warning (namespace-distinguishability): Member name 'rimDiameterInches' shadows TireInformationSystem::Tire::rimDiameterInches
+│   58 |             attribute rimDiameterInches : Real = 19.0;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:56:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'tireWidth' shadows TireInformationSystem::Tire::tireWidth
+│   59 |             attribute tireWidth : Real = 255.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:56:38: note: Because TireInformationSystem::Tire is specialized through FeatureTyping

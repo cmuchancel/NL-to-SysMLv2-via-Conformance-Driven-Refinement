@@ -1,0 +1,3 @@
+iteration_01.sysml:40:43: error (reference-error): No Feature named 'idle' found.
+    40 |     attribute status : VehicleUseStatus = idle;
+       |                                           ^^^^

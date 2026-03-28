@@ -1,0 +1,37 @@
+iteration_01.sysml:8:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         enum Stopping
+      |         ^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         enum Stopping
+      |         ^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         enum Stopping
+      |         ^^^^
+
+iteration_01.sysml:9:5: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |     }
+
+iteration_01.sysml:16:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    16 |         enum Distributed
+       |         ^^^^
+
+iteration_01.sysml:16:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    16 |         enum Distributed
+       |         ^^^^
+
+iteration_01.sysml:16:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    16 |         enum Distributed
+       |         ^^^^
+
+iteration_01.sysml:16:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    16 |         enum Distributed
+       |         ^^^^
+
+iteration_01.sysml:17:5: error (parsing-error): Expected a token. Did you forget ';'?
+    17 |     }
+
+iteration_01.sysml:48:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    48 |         attribute state : EngineState;
+       |                   ^^^^^

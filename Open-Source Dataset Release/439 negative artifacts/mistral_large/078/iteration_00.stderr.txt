@@ -1,0 +1,27 @@
+iteration_01.sysml:5:9: error (parsing-error): Unexpected identifier.
+    5 |         parked
+      |         ^^^^^^
+
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier.
+    6 |         driving
+      |         ^^^^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    8 |         arrived
+      |         ^^^^^^^
+
+iteration_01.sysml:13:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    13 |         rainy
+       |         ^^^^^
+
+iteration_01.sysml:30:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |         attribute state : VehicleState = VehicleState::parked;
+       |                   ^^^^^
+
+iteration_01.sysml:30:56: error (reference-error): No Feature named 'parked' found.
+    30 |         attribute state : VehicleState = VehicleState::parked;
+       |                                                        ^^^^^^
+
+iteration_01.sysml:51:76: error (reference-error): No Feature named 'clear' found.
+    51 |         attribute condition : EnvironmentCondition = EnvironmentCondition::clear;
+       |                                                                            ^^^^^

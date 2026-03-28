@@ -1,0 +1,293 @@
+iteration_01.sysml:114:23: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleLongitudinalDynamics::VehicleMassParameters::totalMass
+│   114 |             attribute totalMass : Real = 1500.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:113:27: note: Because VehicleLongitudinalDynamics::VehicleMassParameters is specialized through FeatureTyping
+
+iteration_01.sysml:115:23: warning (namespace-distinguishability): Member name 'rollingResistanceCoeff' shadows VehicleLongitudinalDynamics::VehicleMassParameters::rollingResistanceCoeff
+│   115 |             attribute rollingResistanceCoeff : Real = 0.015;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:113:27: note: Because VehicleLongitudinalDynamics::VehicleMassParameters is specialized through FeatureTyping
+
+iteration_01.sysml:116:23: warning (namespace-distinguishability): Member name 'aeroDragCoeff' shadows VehicleLongitudinalDynamics::VehicleMassParameters::aeroDragCoeff
+│   116 |             attribute aeroDragCoeff : Real = 0.3;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:113:27: note: Because VehicleLongitudinalDynamics::VehicleMassParameters is specialized through FeatureTyping
+
+iteration_01.sysml:117:23: warning (namespace-distinguishability): Member name 'frontalArea' shadows VehicleLongitudinalDynamics::VehicleMassParameters::frontalArea
+│   117 |             attribute frontalArea : Real = 2.2;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:113:27: note: Because VehicleLongitudinalDynamics::VehicleMassParameters is specialized through FeatureTyping
+
+iteration_01.sysml:118:23: warning (namespace-distinguishability): Member name 'airDensity' shadows VehicleLongitudinalDynamics::VehicleMassParameters::airDensity
+│   118 |             attribute airDensity : Real = 1.225;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:113:27: note: Because VehicleLongitudinalDynamics::VehicleMassParameters is specialized through FeatureTyping
+
+iteration_01.sysml:122:23: warning (namespace-distinguishability): Member name 'initialPosition' shadows VehicleLongitudinalDynamics::InitialConditions::initialPosition
+│   122 |             attribute initialPosition : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:121:31: note: Because VehicleLongitudinalDynamics::InitialConditions is specialized through FeatureTyping
+
+iteration_01.sysml:123:23: warning (namespace-distinguishability): Member name 'initialVelocity' shadows VehicleLongitudinalDynamics::InitialConditions::initialVelocity
+│   123 |             attribute initialVelocity : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:121:31: note: Because VehicleLongitudinalDynamics::InitialConditions is specialized through FeatureTyping
+
+iteration_01.sysml:124:23: warning (namespace-distinguishability): Member name 'timeStep' shadows VehicleLongitudinalDynamics::InitialConditions::timeStep
+│   124 |             attribute timeStep : Real = 0.1;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:121:31: note: Because VehicleLongitudinalDynamics::InitialConditions is specialized through FeatureTyping
+
+iteration_01.sysml:128:23: warning (namespace-distinguishability): Member name 'segmentIndex' shadows VehicleLongitudinalDynamics::PowerSegment::segmentIndex
+│   128 |             attribute segmentIndex : Integer = 1;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:127:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:129:23: warning (namespace-distinguishability): Member name 'powerOutput' shadows VehicleLongitudinalDynamics::PowerSegment::powerOutput
+│   129 |             attribute powerOutput : Real = 50000.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:127:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:130:23: warning (namespace-distinguishability): Member name 'segmentDuration' shadows VehicleLongitudinalDynamics::PowerSegment::segmentDuration
+│   130 |             attribute segmentDuration : Real = 10.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:127:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:131:23: warning (namespace-distinguishability): Member name 'startTime' shadows VehicleLongitudinalDynamics::PowerSegment::startTime
+│   131 |             attribute startTime : Real = 0.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:127:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:132:23: warning (namespace-distinguishability): Member name 'endTime' shadows VehicleLongitudinalDynamics::PowerSegment::endTime
+│   132 |             attribute endTime : Real = 10.0;
+│       |                       ^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:127:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:136:23: warning (namespace-distinguishability): Member name 'segmentIndex' shadows VehicleLongitudinalDynamics::PowerSegment::segmentIndex
+│   136 |             attribute segmentIndex : Integer = 2;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:135:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:137:23: warning (namespace-distinguishability): Member name 'powerOutput' shadows VehicleLongitudinalDynamics::PowerSegment::powerOutput
+│   137 |             attribute powerOutput : Real = 30000.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:135:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:138:23: warning (namespace-distinguishability): Member name 'segmentDuration' shadows VehicleLongitudinalDynamics::PowerSegment::segmentDuration
+│   138 |             attribute segmentDuration : Real = 10.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:135:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:139:23: warning (namespace-distinguishability): Member name 'startTime' shadows VehicleLongitudinalDynamics::PowerSegment::startTime
+│   139 |             attribute startTime : Real = 10.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:135:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:140:23: warning (namespace-distinguishability): Member name 'endTime' shadows VehicleLongitudinalDynamics::PowerSegment::endTime
+│   140 |             attribute endTime : Real = 20.0;
+│       |                       ^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:135:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:144:23: warning (namespace-distinguishability): Member name 'segmentIndex' shadows VehicleLongitudinalDynamics::PowerSegment::segmentIndex
+│   144 |             attribute segmentIndex : Integer = 3;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:143:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:145:23: warning (namespace-distinguishability): Member name 'powerOutput' shadows VehicleLongitudinalDynamics::PowerSegment::powerOutput
+│   145 |             attribute powerOutput : Real = 10000.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:143:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:146:23: warning (namespace-distinguishability): Member name 'segmentDuration' shadows VehicleLongitudinalDynamics::PowerSegment::segmentDuration
+│   146 |             attribute segmentDuration : Real = 10.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:143:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:147:23: warning (namespace-distinguishability): Member name 'startTime' shadows VehicleLongitudinalDynamics::PowerSegment::startTime
+│   147 |             attribute startTime : Real = 20.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:143:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:148:23: warning (namespace-distinguishability): Member name 'endTime' shadows VehicleLongitudinalDynamics::PowerSegment::endTime
+│   148 |             attribute endTime : Real = 30.0;
+│       |                       ^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:143:26: note: Because VehicleLongitudinalDynamics::PowerSegment is specialized through FeatureTyping
+
+iteration_01.sysml:152:23: warning (namespace-distinguishability): Member name 'currentTime' shadows VehicleLongitudinalDynamics::DynamicState::currentTime
+│   152 |             attribute currentTime : Real = 0.0;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:153:23: warning (namespace-distinguishability): Member name 'currentAcceleration' shadows VehicleLongitudinalDynamics::DynamicState::currentAcceleration
+│   153 |             attribute currentAcceleration : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:154:23: warning (namespace-distinguishability): Member name 'currentVelocity' shadows VehicleLongitudinalDynamics::DynamicState::currentVelocity
+│   154 |             attribute currentVelocity : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:155:23: warning (namespace-distinguishability): Member name 'currentPosition' shadows VehicleLongitudinalDynamics::DynamicState::currentPosition
+│   155 |             attribute currentPosition : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:156:23: warning (namespace-distinguishability): Member name 'currentPower' shadows VehicleLongitudinalDynamics::DynamicState::currentPower
+│   156 |             attribute currentPower : Real = 0.0;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:157:23: warning (namespace-distinguishability): Member name 'tractionForce' shadows VehicleLongitudinalDynamics::DynamicState::tractionForce
+│   157 |             attribute tractionForce : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:158:23: warning (namespace-distinguishability): Member name 'resistanceForce' shadows VehicleLongitudinalDynamics::DynamicState::resistanceForce
+│   158 |             attribute resistanceForce : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:159:23: warning (namespace-distinguishability): Member name 'netForce' shadows VehicleLongitudinalDynamics::DynamicState::netForce
+│   159 |             attribute netForce : Real = 0.0;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:160:23: warning (namespace-distinguishability): Member name 'phase' shadows VehicleLongitudinalDynamics::DynamicState::phase
+│   160 |             attribute phase : MotionPhase = MotionPhase::Accelerating;
+│       |                       ^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:151:30: note: Because VehicleLongitudinalDynamics::DynamicState is specialized through FeatureTyping
+
+iteration_01.sysml:164:23: warning (namespace-distinguishability): Member name 'gravity' shadows VehicleLongitudinalDynamics::DynamicsCalculationEngine::gravity
+│   164 |             attribute gravity : Real = 9.81;
+│       |                       ^^^^^^^
+└── iteration_01.sysml:83:19: note: Inherited from here
+    └── iteration_01.sysml:163:27: note: Because VehicleLongitudinalDynamics::DynamicsCalculationEngine is specialized through FeatureTyping
+
+iteration_01.sysml:165:23: warning (namespace-distinguishability): Member name 'simulationTime' shadows VehicleLongitudinalDynamics::DynamicsCalculationEngine::simulationTime
+│   165 |             attribute simulationTime : Real = 30.0;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:84:19: note: Inherited from here
+    └── iteration_01.sysml:163:27: note: Because VehicleLongitudinalDynamics::DynamicsCalculationEngine is specialized through FeatureTyping
+
+iteration_01.sysml:166:23: warning (namespace-distinguishability): Member name 'numberOfSteps' shadows VehicleLongitudinalDynamics::DynamicsCalculationEngine::numberOfSteps
+│   166 |             attribute numberOfSteps : Integer = 300;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:85:19: note: Inherited from here
+    └── iteration_01.sysml:163:27: note: Because VehicleLongitudinalDynamics::DynamicsCalculationEngine is specialized through FeatureTyping
+
+iteration_01.sysml:167:23: warning (namespace-distinguishability): Member name 'timeStep' shadows VehicleLongitudinalDynamics::DynamicsCalculationEngine::timeStep
+│   167 |             attribute timeStep : Real = 0.1;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:86:19: note: Inherited from here
+    └── iteration_01.sysml:163:27: note: Because VehicleLongitudinalDynamics::DynamicsCalculationEngine is specialized through FeatureTyping
+
+iteration_01.sysml:171:23: warning (namespace-distinguishability): Member name 'totalSimulationDuration' shadows VehicleLongitudinalDynamics::SimulationController::totalSimulationDuration
+│   171 |             attribute totalSimulationDuration : Real = 30.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:94:19: note: Inherited from here
+    └── iteration_01.sysml:170:30: note: Because VehicleLongitudinalDynamics::SimulationController is specialized through FeatureTyping
+
+iteration_01.sysml:172:23: warning (namespace-distinguishability): Member name 'timeStep' shadows VehicleLongitudinalDynamics::SimulationController::timeStep
+│   172 |             attribute timeStep : Real = 0.1;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:95:19: note: Inherited from here
+    └── iteration_01.sysml:170:30: note: Because VehicleLongitudinalDynamics::SimulationController is specialized through FeatureTyping
+
+iteration_01.sysml:173:23: warning (namespace-distinguishability): Member name 'numberOfSegments' shadows VehicleLongitudinalDynamics::SimulationController::numberOfSegments
+│   173 |             attribute numberOfSegments : Integer = 3;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:96:19: note: Inherited from here
+    └── iteration_01.sysml:170:30: note: Because VehicleLongitudinalDynamics::SimulationController is specialized through FeatureTyping
+
+iteration_01.sysml:177:23: warning (namespace-distinguishability): Member name 'totalSteps' shadows VehicleLongitudinalDynamics::OutputCollector::totalSteps
+│   177 |             attribute totalSteps : Integer = 300;
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:104:19: note: Inherited from here
+    └── iteration_01.sysml:176:32: note: Because VehicleLongitudinalDynamics::OutputCollector is specialized through FeatureTyping
+
+iteration_01.sysml:181:23: warning (namespace-distinguishability): Member name 'stepIndex' shadows VehicleLongitudinalDynamics::AccelerationSequence::stepIndex
+│   181 |             attribute stepIndex : Integer = 0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:180:28: note: Because VehicleLongitudinalDynamics::AccelerationSequence is specialized through FeatureTyping
+
+iteration_01.sysml:182:23: warning (namespace-distinguishability): Member name 'timeStamp' shadows VehicleLongitudinalDynamics::AccelerationSequence::timeStamp
+│   182 |             attribute timeStamp : Real = 0.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    └── iteration_01.sysml:180:28: note: Because VehicleLongitudinalDynamics::AccelerationSequence is specialized through FeatureTyping
+
+iteration_01.sysml:183:23: warning (namespace-distinguishability): Member name 'accelerationValue' shadows VehicleLongitudinalDynamics::AccelerationSequence::accelerationValue
+│   183 |             attribute accelerationValue : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:47:19: note: Inherited from here
+    └── iteration_01.sysml:180:28: note: Because VehicleLongitudinalDynamics::AccelerationSequence is specialized through FeatureTyping
+
+iteration_01.sysml:187:23: warning (namespace-distinguishability): Member name 'stepIndex' shadows VehicleLongitudinalDynamics::VelocitySequence::stepIndex
+│   187 |             attribute stepIndex : Integer = 0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    └── iteration_01.sysml:186:26: note: Because VehicleLongitudinalDynamics::VelocitySequence is specialized through FeatureTyping
+
+iteration_01.sysml:188:23: warning (namespace-distinguishability): Member name 'timeStamp' shadows VehicleLongitudinalDynamics::VelocitySequence::timeStamp
+│   188 |             attribute timeStamp : Real = 0.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:186:26: note: Because VehicleLongitudinalDynamics::VelocitySequence is specialized through FeatureTyping
+
+iteration_01.sysml:189:23: warning (namespace-distinguishability): Member name 'velocityValue' shadows VehicleLongitudinalDynamics::VelocitySequence::velocityValue
+│   189 |             attribute velocityValue : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:53:19: note: Inherited from here
+    └── iteration_01.sysml:186:26: note: Because VehicleLongitudinalDynamics::VelocitySequence is specialized through FeatureTyping
+
+iteration_01.sysml:193:23: warning (namespace-distinguishability): Member name 'stepIndex' shadows VehicleLongitudinalDynamics::PositionSequence::stepIndex
+│   193 |             attribute stepIndex : Integer = 0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:192:26: note: Because VehicleLongitudinalDynamics::PositionSequence is specialized through FeatureTyping
+
+iteration_01.sysml:194:23: warning (namespace-distinguishability): Member name 'timeStamp' shadows VehicleLongitudinalDynamics::PositionSequence::timeStamp
+│   194 |             attribute timeStamp : Real = 0.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    └── iteration_01.sysml:192:26: note: Because VehicleLongitudinalDynamics::PositionSequence is specialized through FeatureTyping
+
+iteration_01.sysml:195:23: warning (namespace-distinguishability): Member name 'positionValue' shadows VehicleLongitudinalDynamics::PositionSequence::positionValue
+│   195 |             attribute positionValue : Real = 0.0;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:192:26: note: Because VehicleLongitudinalDynamics::PositionSequence is specialized through FeatureTyping

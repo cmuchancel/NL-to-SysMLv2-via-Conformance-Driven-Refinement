@@ -1,0 +1,47 @@
+iteration_02.sysml:29:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   29 |         attribute mass = 2000.0;
+│      |                   ^^^^
+└── iteration_02.sysml:10:19: note: Inherited from here
+    └── iteration_02.sysml:28:30: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:30:14: warning (namespace-distinguishability): Member name 'vehicleState' shadows VehicleSystem::Vehicle::vehicleState
+│   30 |         part vehicleState : VehicleState {
+│      |              ^^^^^^^^^^^^
+└── iteration_02.sysml:11:14: note: Inherited from here
+    └── iteration_02.sysml:28:30: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:31:23: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::VehicleState::gear
+│   31 |             attribute gear = 0;
+│      |                       ^^^^
+└── iteration_02.sysml:5:19: note: Inherited from here
+    └── iteration_02.sysml:30:29: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:32:23: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleSystem::VehicleState::accelerator
+│   32 |             attribute accelerator = 0.0;
+│      |                       ^^^^^^^^^^^
+└── iteration_02.sysml:6:19: note: Inherited from here
+    └── iteration_02.sysml:30:29: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:37:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   37 |         attribute mass = 1500.0;
+│      |                   ^^^^
+└── iteration_02.sysml:10:19: note: Inherited from here
+    └── iteration_02.sysml:36:27: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:38:14: warning (namespace-distinguishability): Member name 'vehicleState' shadows VehicleSystem::Vehicle::vehicleState
+│   38 |         part vehicleState : VehicleState {
+│      |              ^^^^^^^^^^^^
+└── iteration_02.sysml:11:14: note: Inherited from here
+    └── iteration_02.sysml:36:27: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:39:23: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::VehicleState::gear
+│   39 |             attribute gear = 2;
+│      |                       ^^^^
+└── iteration_02.sysml:5:19: note: Inherited from here
+    └── iteration_02.sysml:38:29: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:40:23: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleSystem::VehicleState::accelerator
+│   40 |             attribute accelerator = 0.5;
+│      |                       ^^^^^^^^^^^
+└── iteration_02.sysml:6:19: note: Inherited from here
+    └── iteration_02.sysml:38:29: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping

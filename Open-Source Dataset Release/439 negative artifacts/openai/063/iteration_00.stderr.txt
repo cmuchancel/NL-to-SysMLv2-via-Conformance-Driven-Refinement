@@ -1,0 +1,31 @@
+iteration_01.sysml:13:21: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |     part def Engine : Component;
+
+iteration_01.sysml:14:27: error (parsing-error): Expected a token. Did you forget ';'?
+    14 |     part def Transmission : Component;
+
+iteration_01.sysml:15:22: error (parsing-error): Expected a token. Did you forget ';'?
+    15 |     part def Chassis : Component;
+
+iteration_01.sysml:16:29: error (parsing-error): Expected a token. Did you forget ';'?
+    16 |     part def OtherComponent : Component;
+
+iteration_01.sysml:10:41: error (reference-error): No Feature named 'kg' found.
+    10 |         attribute massUnit : MassUnit = kg;
+       |                                         ^^
+
+iteration_01.sysml:24:46: error (reference-error): No Feature named 'mass' found.
+    24 |         attribute totalMass : Real = chassis.mass + engine.mass + transmission.mass + other.mass;
+       |                                              ^^^^
+
+iteration_01.sysml:24:60: error (reference-error): No Feature named 'mass' found.
+    24 |         attribute totalMass : Real = chassis.mass + engine.mass + transmission.mass + other.mass;
+       |                                                            ^^^^
+
+iteration_01.sysml:24:80: error (reference-error): No Feature named 'mass' found.
+    24 |         attribute totalMass : Real = chassis.mass + engine.mass + transmission.mass + other.mass;
+       |                                                                                ^^^^
+
+iteration_01.sysml:24:93: error (reference-error): No Feature named 'mass' found.
+    24 |         attribute totalMass : Real = chassis.mass + engine.mass + transmission.mass + other.mass;
+       |                                                                                             ^^^^

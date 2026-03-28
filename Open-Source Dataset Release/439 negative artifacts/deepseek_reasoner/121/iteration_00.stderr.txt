@@ -1,0 +1,30 @@
+iteration_01.sysml:8:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         enum Electric
+      |         ^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         enum Electric
+      |         ^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         enum Electric
+      |         ^^^^
+
+iteration_01.sysml:9:5: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |     }
+
+iteration_01.sysml:14:12: error (reference-error): Expected Feature element but found PartDefinition (VehiclePowertrain::EngineComponent)
+    14 |         :> EngineComponent;
+       |            ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:18:12: error (reference-error): Expected Feature element but found PartDefinition (VehiclePowertrain::EngineComponent)
+    18 |         :> EngineComponent;
+       |            ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:22:12: error (reference-error): Expected Feature element but found PartDefinition (VehiclePowertrain::EngineComponent)
+    22 |         :> EngineComponent;
+       |            ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:26:12: error (reference-error): Expected Feature element but found PartDefinition (VehiclePowertrain::EngineComponent)
+    26 |         :> EngineComponent;
+       |            ^^^^^^^^^^^^^^^

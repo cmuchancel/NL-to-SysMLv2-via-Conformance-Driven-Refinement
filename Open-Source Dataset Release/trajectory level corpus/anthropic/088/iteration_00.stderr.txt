@@ -1,0 +1,203 @@
+iteration_01.sysml:15:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SafetyFeature::category
+│   15 |         attribute category : SafetyCategory = SafetyCategory::MANDATORY;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:14:26: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:16:19: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SafetyFeature::isRequired
+│   16 |         attribute isRequired : Boolean = true;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:14:26: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:20:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SafetyFeature::category
+│   20 |         attribute category : SafetyCategory = SafetyCategory::OPTIONAL;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:19:30: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:21:19: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SafetyFeature::isRequired
+│   21 |         attribute isRequired : Boolean = false;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:19:30: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:25:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SafetyFeature::category
+│   25 |         attribute category : SafetyCategory = SafetyCategory::MANDATORY;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:24:24: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:26:19: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SafetyFeature::isRequired
+│   26 |         attribute isRequired : Boolean = true;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:24:24: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:30:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SafetyFeature::category
+│   30 |         attribute category : SafetyCategory = SafetyCategory::OPTIONAL;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:29:30: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:31:19: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SafetyFeature::isRequired
+│   31 |         attribute isRequired : Boolean = false;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:29:30: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SafetyFeature::category
+│   35 |         attribute category : SafetyCategory = SafetyCategory::OPTIONAL;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:34:21: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SafetyFeature::isRequired
+│   36 |         attribute isRequired : Boolean = false;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:34:21: note: Because VehicleSafetyCompliance::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'count' shadows VehicleSafetyCompliance::Tire::count
+│   56 |             attribute count : Integer = 4;
+│      |                       ^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:55:22: note: Because VehicleSafetyCompliance::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:68:14: warning (namespace-distinguishability): Member name 'interior' shadows VehicleSafetyCompliance::Vehicle::interior
+│   68 |         part interior : VehicleInterior {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:62:14: note: Inherited from here
+    └── iteration_01.sysml:67:20: note: Because VehicleSafetyCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:69:18: warning (namespace-distinguishability): Member name 'seatBelt1' shadows VehicleSafetyCompliance::VehicleInterior::seatBelt1
+│   69 |             part seatBelt1 : SeatBelt {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:44:14: note: Inherited from here
+    └── iteration_01.sysml:68:25: note: Because VehicleSafetyCompliance::VehicleInterior is specialized through FeatureTyping
+
+iteration_01.sysml:70:27: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SeatBelt::category
+│   70 |                 attribute category : SafetyCategory = SafetyCategory::MANDATORY;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:69:30: note: Because VehicleSafetyCompliance::SeatBelt is specialized through FeatureTyping
+
+iteration_01.sysml:71:27: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SeatBelt::isRequired
+│   71 |                 attribute isRequired : Boolean = true;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:69:30: note: Because VehicleSafetyCompliance::SeatBelt is specialized through FeatureTyping
+
+iteration_01.sysml:73:18: warning (namespace-distinguishability): Member name 'seatBelt2' shadows VehicleSafetyCompliance::VehicleInterior::seatBelt2
+│   73 |             part seatBelt2 : SeatBelt {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:45:14: note: Inherited from here
+    └── iteration_01.sysml:68:25: note: Because VehicleSafetyCompliance::VehicleInterior is specialized through FeatureTyping
+
+iteration_01.sysml:74:27: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::SeatBelt::category
+│   74 |                 attribute category : SafetyCategory = SafetyCategory::MANDATORY;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:73:30: note: Because VehicleSafetyCompliance::SeatBelt is specialized through FeatureTyping
+
+iteration_01.sysml:75:27: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::SeatBelt::isRequired
+│   75 |                 attribute isRequired : Boolean = true;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:73:30: note: Because VehicleSafetyCompliance::SeatBelt is specialized through FeatureTyping
+
+iteration_01.sysml:77:18: warning (namespace-distinguishability): Member name 'driverAirbag' shadows VehicleSafetyCompliance::VehicleInterior::driverAirbag
+│   77 |             part driverAirbag : DriverAirbag {
+│      |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:46:14: note: Inherited from here
+    └── iteration_01.sysml:68:25: note: Because VehicleSafetyCompliance::VehicleInterior is specialized through FeatureTyping
+
+iteration_01.sysml:78:27: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::DriverAirbag::category
+│   78 |                 attribute category : SafetyCategory = SafetyCategory::OPTIONAL;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:77:33: note: Because VehicleSafetyCompliance::DriverAirbag is specialized through FeatureTyping
+
+iteration_01.sysml:79:27: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::DriverAirbag::isRequired
+│   79 |                 attribute isRequired : Boolean = false;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:77:33: note: Because VehicleSafetyCompliance::DriverAirbag is specialized through FeatureTyping
+
+iteration_01.sysml:82:14: warning (namespace-distinguishability): Member name 'body' shadows VehicleSafetyCompliance::Vehicle::body
+│   82 |         part body : VehicleBody {
+│      |              ^^^^
+└── iteration_01.sysml:63:14: note: Inherited from here
+    └── iteration_01.sysml:67:20: note: Because VehicleSafetyCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:83:18: warning (namespace-distinguishability): Member name 'bumper' shadows VehicleSafetyCompliance::VehicleBody::bumper
+│   83 |             part bumper : Bumper {
+│      |                  ^^^^^^
+└── iteration_01.sysml:50:14: note: Inherited from here
+    └── iteration_01.sysml:82:21: note: Because VehicleSafetyCompliance::VehicleBody is specialized through FeatureTyping
+
+iteration_01.sysml:84:27: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::Bumper::category
+│   84 |                 attribute category : SafetyCategory = SafetyCategory::MANDATORY;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:83:27: note: Because VehicleSafetyCompliance::Bumper is specialized through FeatureTyping
+
+iteration_01.sysml:85:27: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::Bumper::isRequired
+│   85 |                 attribute isRequired : Boolean = true;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:83:27: note: Because VehicleSafetyCompliance::Bumper is specialized through FeatureTyping
+
+iteration_01.sysml:87:18: warning (namespace-distinguishability): Member name 'keylessEntry' shadows VehicleSafetyCompliance::VehicleBody::keylessEntry
+│   87 |             part keylessEntry : KeylessEntry {
+│      |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:51:14: note: Inherited from here
+    └── iteration_01.sysml:82:21: note: Because VehicleSafetyCompliance::VehicleBody is specialized through FeatureTyping
+
+iteration_01.sysml:88:27: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::KeylessEntry::category
+│   88 |                 attribute category : SafetyCategory = SafetyCategory::OPTIONAL;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:87:33: note: Because VehicleSafetyCompliance::KeylessEntry is specialized through FeatureTyping
+
+iteration_01.sysml:89:27: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::KeylessEntry::isRequired
+│   89 |                 attribute isRequired : Boolean = false;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:87:33: note: Because VehicleSafetyCompliance::KeylessEntry is specialized through FeatureTyping
+
+iteration_01.sysml:92:14: warning (namespace-distinguishability): Member name 'chassis' shadows VehicleSafetyCompliance::Vehicle::chassis
+│   92 |         part chassis : ChassisSystem {
+│      |              ^^^^^^^
+└── iteration_01.sysml:64:14: note: Inherited from here
+    └── iteration_01.sysml:67:20: note: Because VehicleSafetyCompliance::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:93:18: warning (namespace-distinguishability): Member name 'tires' shadows VehicleSafetyCompliance::ChassisSystem::tires
+│   93 |             part tires : Tire {
+│      |                  ^^^^^
+└── iteration_01.sysml:55:14: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because VehicleSafetyCompliance::ChassisSystem is specialized through FeatureTyping
+
+iteration_01.sysml:94:27: warning (namespace-distinguishability): Member name 'count' shadows VehicleSafetyCompliance::Tire::count
+│   94 |                 attribute count : Integer = 4;
+│      |                           ^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:93:26: note: Because VehicleSafetyCompliance::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:96:18: warning (namespace-distinguishability): Member name 'abs' shadows VehicleSafetyCompliance::ChassisSystem::abs
+│   96 |             part abs : ABS {
+│      |                  ^^^
+└── iteration_01.sysml:58:14: note: Inherited from here
+    └── iteration_01.sysml:92:24: note: Because VehicleSafetyCompliance::ChassisSystem is specialized through FeatureTyping
+
+iteration_01.sysml:97:27: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyCompliance::ABS::category
+│   97 |                 attribute category : SafetyCategory = SafetyCategory::OPTIONAL;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:96:24: note: Because VehicleSafetyCompliance::ABS is specialized through FeatureTyping
+
+iteration_01.sysml:98:27: warning (namespace-distinguishability): Member name 'isRequired' shadows VehicleSafetyCompliance::ABS::isRequired
+│   98 |                 attribute isRequired : Boolean = false;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:96:24: note: Because VehicleSafetyCompliance::ABS is specialized through FeatureTyping

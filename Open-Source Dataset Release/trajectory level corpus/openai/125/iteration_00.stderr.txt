@@ -1,0 +1,125 @@
+iteration_01.sysml:13:21: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |   part def SeatBelt : VehicleComponent {
+
+iteration_01.sysml:18:19: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |   part def Bumper : VehicleComponent {
+
+iteration_01.sysml:23:19: error (parsing-error): Expected a token. Did you forget ';'?
+    23 |   part def Airbag : VehicleComponent {
+
+iteration_01.sysml:28:34: error (parsing-error): Expected a token. Did you forget ';'?
+    28 |   part def AntiLockBrakingSystem : VehicleComponent {
+
+iteration_01.sysml:33:24: error (parsing-error): Expected a token. Did you forget ';'?
+    33 |   part def AlarmDevice : VehicleComponent {
+
+iteration_01.sysml:38:31: error (parsing-error): Expected a token. Did you forget ';'?
+    38 |   part def KeylessEntrySystem : VehicleComponent {
+
+iteration_01.sysml:56:25: error (parsing-error): Expected a token. Did you forget ';'?
+    56 |   part def SafetyFilter : Filter {
+
+iteration_01.sysml:60:27: error (parsing-error): Expected a token. Did you forget ';'?
+    60 |   part def SecurityFilter : Filter {
+
+iteration_01.sysml:68:21: error (parsing-error): Expected a token. Did you forget ';'?
+    68 |   part def TreeView : Visualization {
+
+iteration_01.sysml:72:22: error (parsing-error): Expected a token. Did you forget ';'?
+    72 |   part def TableView : Visualization {
+
+iteration_01.sysml:14:15: warning (namespace-distinguishability): Member name 'featureType' shadows VehicleSafetySecurityModel::VehicleComponent::featureType
+│   14 |     attribute featureType : FeatureType = FeatureType::safety;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:9:15: note: Inherited from here
+    └── iteration_01.sysml:13:23: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:15:15: warning (namespace-distinguishability): Member name 'safetyLevel' shadows VehicleSafetySecurityModel::VehicleComponent::safetyLevel
+│   15 |     attribute safetyLevel : SafetyLevel = SafetyLevel::mandatory;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:10:15: note: Inherited from here
+    └── iteration_01.sysml:13:23: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:19:15: warning (namespace-distinguishability): Member name 'featureType' shadows VehicleSafetySecurityModel::VehicleComponent::featureType
+│   19 |     attribute featureType : FeatureType = FeatureType::safety;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:9:15: note: Inherited from here
+    └── iteration_01.sysml:18:21: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:20:15: warning (namespace-distinguishability): Member name 'safetyLevel' shadows VehicleSafetySecurityModel::VehicleComponent::safetyLevel
+│   20 |     attribute safetyLevel : SafetyLevel = SafetyLevel::mandatory;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:10:15: note: Inherited from here
+    └── iteration_01.sysml:18:21: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:24:15: warning (namespace-distinguishability): Member name 'featureType' shadows VehicleSafetySecurityModel::VehicleComponent::featureType
+│   24 |     attribute featureType : FeatureType = FeatureType::safety;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:9:15: note: Inherited from here
+    └── iteration_01.sysml:23:21: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:25:15: warning (namespace-distinguishability): Member name 'safetyLevel' shadows VehicleSafetySecurityModel::VehicleComponent::safetyLevel
+│   25 |     attribute safetyLevel : SafetyLevel = SafetyLevel::optional;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:10:15: note: Inherited from here
+    └── iteration_01.sysml:23:21: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:29:15: warning (namespace-distinguishability): Member name 'featureType' shadows VehicleSafetySecurityModel::VehicleComponent::featureType
+│   29 |     attribute featureType : FeatureType = FeatureType::safety;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:9:15: note: Inherited from here
+    └── iteration_01.sysml:28:36: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:30:15: warning (namespace-distinguishability): Member name 'safetyLevel' shadows VehicleSafetySecurityModel::VehicleComponent::safetyLevel
+│   30 |     attribute safetyLevel : SafetyLevel = SafetyLevel::optional;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:10:15: note: Inherited from here
+    └── iteration_01.sysml:28:36: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:34:15: warning (namespace-distinguishability): Member name 'featureType' shadows VehicleSafetySecurityModel::VehicleComponent::featureType
+│   34 |     attribute featureType : FeatureType = FeatureType::security;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:9:15: note: Inherited from here
+    └── iteration_01.sysml:33:26: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:35:15: warning (namespace-distinguishability): Member name 'safetyLevel' shadows VehicleSafetySecurityModel::VehicleComponent::safetyLevel
+│   35 |     attribute safetyLevel : SafetyLevel = SafetyLevel::notApplicable;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:10:15: note: Inherited from here
+    └── iteration_01.sysml:33:26: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:39:15: warning (namespace-distinguishability): Member name 'featureType' shadows VehicleSafetySecurityModel::VehicleComponent::featureType
+│   39 |     attribute featureType : FeatureType = FeatureType::security;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:9:15: note: Inherited from here
+    └── iteration_01.sysml:38:33: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:40:15: warning (namespace-distinguishability): Member name 'safetyLevel' shadows VehicleSafetySecurityModel::VehicleComponent::safetyLevel
+│   40 |     attribute safetyLevel : SafetyLevel = SafetyLevel::notApplicable;
+│      |               ^^^^^^^^^^^
+└── iteration_01.sysml:10:15: note: Inherited from here
+    └── iteration_01.sysml:38:33: note: Because VehicleSafetySecurityModel::VehicleComponent is specialized through FeatureTyping
+
+iteration_01.sysml:57:15: warning (namespace-distinguishability): Member name 'filterType' shadows VehicleSafetySecurityModel::Filter::filterType
+│   57 |     attribute filterType : FeatureType = FeatureType::safety;
+│      |               ^^^^^^^^^^
+└── iteration_01.sysml:53:15: note: Inherited from here
+    └── iteration_01.sysml:56:27: note: Because VehicleSafetySecurityModel::Filter is specialized through FeatureTyping
+
+iteration_01.sysml:61:15: warning (namespace-distinguishability): Member name 'filterType' shadows VehicleSafetySecurityModel::Filter::filterType
+│   61 |     attribute filterType : FeatureType = FeatureType::security;
+│      |               ^^^^^^^^^^
+└── iteration_01.sysml:53:15: note: Inherited from here
+    └── iteration_01.sysml:60:29: note: Because VehicleSafetySecurityModel::Filter is specialized through FeatureTyping
+
+iteration_01.sysml:69:15: warning (namespace-distinguishability): Member name 'viewType' shadows VehicleSafetySecurityModel::Visualization::viewType
+│   69 |     attribute viewType : ViewType = ViewType::tree;
+│      |               ^^^^^^^^
+└── iteration_01.sysml:65:15: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because VehicleSafetySecurityModel::Visualization is specialized through FeatureTyping
+
+iteration_01.sysml:73:15: warning (namespace-distinguishability): Member name 'viewType' shadows VehicleSafetySecurityModel::Visualization::viewType
+│   73 |     attribute viewType : ViewType = ViewType::table;
+│      |               ^^^^^^^^
+└── iteration_01.sysml:65:15: note: Inherited from here
+    └── iteration_01.sysml:72:24: note: Because VehicleSafetySecurityModel::Visualization is specialized through FeatureTyping

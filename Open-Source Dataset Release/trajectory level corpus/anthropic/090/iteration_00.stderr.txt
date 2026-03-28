@@ -1,0 +1,125 @@
+iteration_01.sysml:112:19: warning (namespace-distinguishability): Member name 'systemId' shadows RiskMetadataModel::RiskManagementSystem::systemId
+│   112 |         attribute systemId = "RMS-001";
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:102:19: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:113:19: warning (namespace-distinguishability): Member name 'systemName' shadows RiskMetadataModel::RiskManagementSystem::systemName
+│   113 |         attribute systemName = "Risk Metadata Management System";
+│       |                   ^^^^^^^^^^
+└── iteration_01.sysml:103:19: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:114:19: warning (namespace-distinguishability): Member name 'systemDescription' shadows RiskMetadataModel::RiskManagementSystem::systemDescription
+│   114 |         attribute systemDescription = "Systematic risk metadata modeling and management system";
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:104:19: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:116:14: warning (namespace-distinguishability): Member name 'repository' shadows RiskMetadataModel::RiskManagementSystem::repository
+│   116 |         part repository : RiskMetadataRepository {
+│       |              ^^^^^^^^^^
+└── iteration_01.sysml:105:14: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:117:23: warning (namespace-distinguishability): Member name 'repositoryId' shadows RiskMetadataModel::RiskMetadataRepository::repositoryId
+│   117 |             attribute repositoryId = "REPO-001";
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:75:19: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:118:23: warning (namespace-distinguishability): Member name 'repositoryName' shadows RiskMetadataModel::RiskMetadataRepository::repositoryName
+│   118 |             attribute repositoryName = "Central Risk Repository";
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:76:19: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'modelingLanguageCompatibility' shadows RiskMetadataModel::RiskMetadataRepository::modelingLanguageCompatibility
+│   119 |             attribute modelingLanguageCompatibility = "SysML v2";
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:77:19: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'version' shadows RiskMetadataModel::RiskMetadataRepository::version
+│   120 |             attribute version = "1.0.0";
+│       |                       ^^^^^^^
+└── iteration_01.sysml:78:19: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:122:18: warning (namespace-distinguishability): Member name 'allScenarios' shadows RiskMetadataModel::RiskMetadataRepository::allScenarios
+│   122 |             part allScenarios : Scenario[0..*];
+│       |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:81:14: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:123:18: warning (namespace-distinguishability): Member name 'allCauses' shadows RiskMetadataModel::RiskMetadataRepository::allCauses
+│   123 |             part allCauses : Cause[0..*];
+│       |                  ^^^^^^^^^
+└── iteration_01.sysml:82:14: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:124:18: warning (namespace-distinguishability): Member name 'allFailures' shadows RiskMetadataModel::RiskMetadataRepository::allFailures
+│   124 |             part allFailures : Failure[0..*];
+│       |                  ^^^^^^^^^^^
+└── iteration_01.sysml:83:14: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:125:18: warning (namespace-distinguishability): Member name 'allCausalRelationships' shadows RiskMetadataModel::RiskMetadataRepository::allCausalRelationships
+│   125 |             part allCausalRelationships : CausalRelationship[0..*];
+│       |                  ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:84:14: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:126:18: warning (namespace-distinguishability): Member name 'allRiskScenarios' shadows RiskMetadataModel::RiskMetadataRepository::allRiskScenarios
+│   126 |             part allRiskScenarios : RiskScenario[0..*];
+│       |                  ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:85:14: note: Inherited from here
+    └── iteration_01.sysml:116:27: note: Because RiskMetadataModel::RiskMetadataRepository is specialized through FeatureTyping
+
+iteration_01.sysml:129:14: warning (namespace-distinguishability): Member name 'externalInterface' shadows RiskMetadataModel::RiskManagementSystem::externalInterface
+│   129 |         part externalInterface : ExternalSystemInterface {
+│       |              ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:106:14: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:130:23: warning (namespace-distinguishability): Member name 'interfaceId' shadows RiskMetadataModel::ExternalSystemInterface::interfaceId
+│   130 |             attribute interfaceId = "EXT-001";
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:94:19: note: Inherited from here
+    └── iteration_01.sysml:129:34: note: Because RiskMetadataModel::ExternalSystemInterface is specialized through FeatureTyping
+
+iteration_01.sysml:131:23: warning (namespace-distinguishability): Member name 'interfaceName' shadows RiskMetadataModel::ExternalSystemInterface::interfaceName
+│   131 |             attribute interfaceName = "Systems Engineering Integration Interface";
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:95:19: note: Inherited from here
+    └── iteration_01.sysml:129:34: note: Because RiskMetadataModel::ExternalSystemInterface is specialized through FeatureTyping
+
+iteration_01.sysml:132:23: warning (namespace-distinguishability): Member name 'protocolVersion' shadows RiskMetadataModel::ExternalSystemInterface::protocolVersion
+│   132 |             attribute protocolVersion = "2.0";
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:96:19: note: Inherited from here
+    └── iteration_01.sysml:129:34: note: Because RiskMetadataModel::ExternalSystemInterface is specialized through FeatureTyping
+
+iteration_01.sysml:133:18: warning (namespace-distinguishability): Member name 'riskDataOut' shadows RiskMetadataModel::ExternalSystemInterface::riskDataOut
+│   133 |             port riskDataOut : RiskDataPort;
+│       |                  ^^^^^^^^^^^
+└── iteration_01.sysml:97:14: note: Inherited from here
+    └── iteration_01.sysml:129:34: note: Because RiskMetadataModel::ExternalSystemInterface is specialized through FeatureTyping
+
+iteration_01.sysml:134:18: warning (namespace-distinguishability): Member name 'riskDataIn' shadows RiskMetadataModel::ExternalSystemInterface::riskDataIn
+│   134 |             port riskDataIn : RiskDataPort;
+│       |                  ^^^^^^^^^^
+└── iteration_01.sysml:98:14: note: Inherited from here
+    └── iteration_01.sysml:129:34: note: Because RiskMetadataModel::ExternalSystemInterface is specialized through FeatureTyping
+
+iteration_01.sysml:137:14: warning (namespace-distinguishability): Member name 'systemRiskDataOut' shadows RiskMetadataModel::RiskManagementSystem::systemRiskDataOut
+│   137 |         port systemRiskDataOut : RiskDataPort;
+│       |              ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:107:14: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:138:14: warning (namespace-distinguishability): Member name 'systemRiskDataIn' shadows RiskMetadataModel::RiskManagementSystem::systemRiskDataIn
+│   138 |         port systemRiskDataIn : RiskDataPort;
+│       |              ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:108:14: note: Inherited from here
+    └── iteration_01.sysml:111:23: note: Because RiskMetadataModel::RiskManagementSystem is specialized through FeatureTyping

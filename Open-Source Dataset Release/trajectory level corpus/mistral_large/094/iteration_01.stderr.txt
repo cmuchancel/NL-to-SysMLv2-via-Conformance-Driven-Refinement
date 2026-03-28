@@ -1,0 +1,27 @@
+iteration_02.sysml:33:45: error (parsing-error): Unexpected 'DECIMAL_VALUE'.
+    33 |         attribute torque : Torque = (value: 350, unit: "N·m");
+       |                                             ^^^
+
+iteration_02.sysml:33:50: error (parsing-error): Unexpected identifier.
+    33 |         attribute torque : Torque = (value: 350, unit: "N·m");
+       |                                                  ^^^^
+
+iteration_02.sysml:46:48: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ";", "{", "from", ",", "to", "locale", "[", ".", "if", "(", ")", "=", "REGULAR_COMMENT", "then", "accept", "via", "do"].
+    46 |     connect myCar.engine to myCar.transmission using PowerOutput;
+       |                                                ^^^^^
+
+iteration_02.sysml:30:18: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveDomain::Automobile)
+    30 |         part :>> Automobile;
+       |                  ^^^^^^^^^^
+
+iteration_02.sysml:31:25: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveDomain::Engine)
+    31 |         part engine :>> Engine;
+       |                         ^^^^^^
+
+iteration_02.sysml:32:31: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveDomain::Transmission)
+    32 |         part transmission :>> Transmission;
+       |                               ^^^^^^^^^^^^
+
+iteration_02.sysml:33:38: error (reference-error): No Feature named 'value' found.
+    33 |         attribute torque : Torque = (value: 350, unit: "N·m");
+       |                                      ^^^^^

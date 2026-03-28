@@ -1,0 +1,5 @@
+iteration_01.sysml:14:23: warning (namespace-distinguishability): Member name 'color' shadows TrafficSignalSystemPkg::TrafficSignal::color
+│   14 |             attribute color : TrafficColor = TrafficColor::green;
+│      |                       ^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:13:28: note: Because TrafficSignalSystemPkg::TrafficSignal is specialized through FeatureTyping

@@ -1,0 +1,95 @@
+iteration_01.sysml:58:14: warning (namespace-distinguishability): Member name 'vehicle' shadows VehicleTrailerCouplingSystem::CouplingSystem::vehicle
+│   58 |         part vehicle : Vehicle {
+│      |              ^^^^^^^
+└── iteration_01.sysml:48:14: note: Inherited from here
+    └── iteration_01.sysml:57:35: note: Because VehicleTrailerCouplingSystem::CouplingSystem is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'make' shadows VehicleTrailerCouplingSystem::Vehicle::make
+│   59 |             attribute make : String = "Toyota";
+│      |                       ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:58:24: note: Because VehicleTrailerCouplingSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:60:23: warning (namespace-distinguishability): Member name 'model' shadows VehicleTrailerCouplingSystem::Vehicle::model
+│   60 |             attribute model : String = "Tundra";
+│      |                       ^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:58:24: note: Because VehicleTrailerCouplingSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'year' shadows VehicleTrailerCouplingSystem::Vehicle::year
+│   61 |             attribute year : Integer = 2023;
+│      |                       ^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:58:24: note: Because VehicleTrailerCouplingSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:64:14: warning (namespace-distinguishability): Member name 'trailer' shadows VehicleTrailerCouplingSystem::CouplingSystem::trailer
+│   64 |         part trailer : Trailer {
+│      |              ^^^^^^^
+└── iteration_01.sysml:49:14: note: Inherited from here
+    └── iteration_01.sysml:57:35: note: Because VehicleTrailerCouplingSystem::CouplingSystem is specialized through FeatureTyping
+
+iteration_01.sysml:65:23: warning (namespace-distinguishability): Member name 'make' shadows VehicleTrailerCouplingSystem::Trailer::make
+│   65 |             attribute make : String = "Airstream";
+│      |                       ^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:64:24: note: Because VehicleTrailerCouplingSystem::Trailer is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'model' shadows VehicleTrailerCouplingSystem::Trailer::model
+│   66 |             attribute model : String = "Classic";
+│      |                       ^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:64:24: note: Because VehicleTrailerCouplingSystem::Trailer is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'loadCapacity' shadows VehicleTrailerCouplingSystem::Trailer::loadCapacity
+│   67 |             attribute loadCapacity : Real = 5000.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:64:24: note: Because VehicleTrailerCouplingSystem::Trailer is specialized through FeatureTyping
+
+iteration_01.sysml:70:14: warning (namespace-distinguishability): Member name 'hitch' shadows VehicleTrailerCouplingSystem::CouplingSystem::hitch
+│   70 |         part hitch : TowHitch {
+│      |              ^^^^^
+└── iteration_01.sysml:50:14: note: Inherited from here
+    └── iteration_01.sysml:57:35: note: Because VehicleTrailerCouplingSystem::CouplingSystem is specialized through FeatureTyping
+
+iteration_01.sysml:71:18: warning (namespace-distinguishability): Member name 'ball' shadows VehicleTrailerCouplingSystem::TowHitch::ball
+│   71 |             part ball : CouplingBall {
+│      |                  ^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:70:22: note: Because VehicleTrailerCouplingSystem::TowHitch is specialized through FeatureTyping
+
+iteration_01.sysml:72:27: warning (namespace-distinguishability): Member name 'diameter' shadows VehicleTrailerCouplingSystem::CouplingBall::diameter
+│   72 |                 attribute diameter : Real = 2.0;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:71:25: note: Because VehicleTrailerCouplingSystem::CouplingBall is specialized through FeatureTyping
+
+iteration_01.sysml:73:27: warning (namespace-distinguishability): Member name 'material' shadows VehicleTrailerCouplingSystem::CouplingBall::material
+│   73 |                 attribute material : String = "Steel";
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:71:25: note: Because VehicleTrailerCouplingSystem::CouplingBall is specialized through FeatureTyping
+
+iteration_01.sysml:75:18: warning (namespace-distinguishability): Member name 'connector' shadows VehicleTrailerCouplingSystem::TowHitch::connector
+│   75 |             part connector : TrailerConnector {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:21:14: note: Inherited from here
+    └── iteration_01.sysml:70:22: note: Because VehicleTrailerCouplingSystem::TowHitch is specialized through FeatureTyping
+
+iteration_01.sysml:76:27: warning (namespace-distinguishability): Member name 'socketSize' shadows VehicleTrailerCouplingSystem::TrailerConnector::socketSize
+│   76 |                 attribute socketSize : Real = 2.0;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:75:30: note: Because VehicleTrailerCouplingSystem::TrailerConnector is specialized through FeatureTyping
+
+iteration_01.sysml:77:27: warning (namespace-distinguishability): Member name 'material' shadows VehicleTrailerCouplingSystem::TrailerConnector::material
+│   77 |                 attribute material : String = "Steel";
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:75:30: note: Because VehicleTrailerCouplingSystem::TrailerConnector is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'status' shadows VehicleTrailerCouplingSystem::TowHitch::status
+│   79 |             attribute status : ConnectionStatus = ConnectionStatus::Connected;
+│      |                       ^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:70:22: note: Because VehicleTrailerCouplingSystem::TowHitch is specialized through FeatureTyping

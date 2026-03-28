@@ -1,0 +1,19 @@
+iteration_02.sysml:19:36: error (parsing-error): Unexpected identifier.
+    19 |     port servicePort : ServicePort in service;
+       |                                    ^^
+
+iteration_02.sysml:20:30: error (parsing-error): Unexpected identifier.
+    20 |     port dataPort : DataPort in data;
+       |                              ^^
+
+iteration_02.sysml:22:36: error (reference-error): No Feature named 'servicePort' found.
+    22 |     connect application to service.servicePort;
+       |                                    ^^^^^^^^^^^
+
+iteration_02.sysml:23:21: error (reference-error): No Feature named 'servicePort' found.
+    23 |     connect service.servicePort to data.dataPort;
+       |                     ^^^^^^^^^^^
+
+iteration_02.sysml:23:41: error (reference-error): No Feature named 'dataPort' found.
+    23 |     connect service.servicePort to data.dataPort;
+       |                                         ^^^^^^^^

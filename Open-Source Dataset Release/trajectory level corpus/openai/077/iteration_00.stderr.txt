@@ -1,0 +1,9 @@
+iteration_01.sysml:16:19: error (parsing-error): Expected a token. Did you forget ';'?
+    16 |   part def Driver : Person {
+
+iteration_01.sysml:20:22: error (parsing-error): Expected a token. Did you forget ';'?
+    20 |   part def Passenger : Person {
+
+iteration_01.sysml:30:15: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |     attribute state : DoorState;
+       |               ^^^^^

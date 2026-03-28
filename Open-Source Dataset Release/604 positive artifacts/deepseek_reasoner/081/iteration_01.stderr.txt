@@ -1,0 +1,59 @@
+iteration_02.sysml:24:18: warning (namespace-distinguishability): Member name 'cylinders' shadows AutomotiveConfiguration::Engine::cylinders
+│   24 |             part cylinders[4] : Cylinder;
+│      |                  ^^^^^^^^^
+└── iteration_02.sysml:19:14: note: Inherited from here
+    └── iteration_02.sysml:23:23: note: Because AutomotiveConfiguration::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:30:18: warning (namespace-distinguishability): Member name 'cylinders' shadows AutomotiveConfiguration::Engine::cylinders
+│   30 |             part cylinders[6] : Cylinder;
+│      |                  ^^^^^^^^^
+└── iteration_02.sysml:19:14: note: Inherited from here
+    └── iteration_02.sysml:29:23: note: Because AutomotiveConfiguration::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:53:18: warning (namespace-distinguishability): Member name 'powertrain' shadows AutomotiveConfiguration::Vehicle::powertrain
+│   53 |             part powertrain : FourCylinderEngine {
+│      |                  ^^^^^^^^^^
+└── iteration_02.sysml:47:14: note: Inherited from here
+    └── iteration_02.sysml:52:20: note: Because AutomotiveConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:54:22: warning (namespace-distinguishability): Member name 'engine' shadows AutomotiveConfiguration::FourCylinderEngine::engine
+│   54 |                 part engine : Engine {
+│      |                      ^^^^^^
+└── iteration_02.sysml:23:14: note: Inherited from here
+    └── iteration_02.sysml:53:31: note: Because AutomotiveConfiguration::FourCylinderEngine is specialized through FeatureTyping
+
+iteration_02.sysml:55:26: warning (namespace-distinguishability): Member name 'cylinders' shadows AutomotiveConfiguration::Engine::cylinders
+│   55 |                     part cylinders[4] : Cylinder;
+│      |                          ^^^^^^^^^
+└── iteration_02.sysml:19:14: note: Inherited from here
+    └── iteration_02.sysml:54:31: note: Because AutomotiveConfiguration::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:58:18: warning (namespace-distinguishability): Member name 'gearbox' shadows AutomotiveConfiguration::Vehicle::gearbox
+│   58 |             part gearbox : ManualTransmission;
+│      |                  ^^^^^^^
+└── iteration_02.sysml:48:14: note: Inherited from here
+    └── iteration_02.sysml:52:20: note: Because AutomotiveConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:64:18: warning (namespace-distinguishability): Member name 'powertrain' shadows AutomotiveConfiguration::Vehicle::powertrain
+│   64 |             part powertrain : SixCylinderEngine {
+│      |                  ^^^^^^^^^^
+└── iteration_02.sysml:47:14: note: Inherited from here
+    └── iteration_02.sysml:63:20: note: Because AutomotiveConfiguration::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:65:22: warning (namespace-distinguishability): Member name 'engine' shadows AutomotiveConfiguration::SixCylinderEngine::engine
+│   65 |                 part engine : Engine {
+│      |                      ^^^^^^
+└── iteration_02.sysml:29:14: note: Inherited from here
+    └── iteration_02.sysml:64:31: note: Because AutomotiveConfiguration::SixCylinderEngine is specialized through FeatureTyping
+
+iteration_02.sysml:66:26: warning (namespace-distinguishability): Member name 'cylinders' shadows AutomotiveConfiguration::Engine::cylinders
+│   66 |                     part cylinders[6] : Cylinder;
+│      |                          ^^^^^^^^^
+└── iteration_02.sysml:19:14: note: Inherited from here
+    └── iteration_02.sysml:65:31: note: Because AutomotiveConfiguration::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:69:18: warning (namespace-distinguishability): Member name 'gearbox' shadows AutomotiveConfiguration::Vehicle::gearbox
+│   69 |             part gearbox : AutomaticTransmission;
+│      |                  ^^^^^^^
+└── iteration_02.sysml:48:14: note: Inherited from here
+    └── iteration_02.sysml:63:20: note: Because AutomotiveConfiguration::Vehicle is specialized through FeatureTyping

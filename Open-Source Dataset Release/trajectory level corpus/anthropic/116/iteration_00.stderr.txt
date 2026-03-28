@@ -1,0 +1,226 @@
+iteration_01.sysml:52:19: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    52 |         attribute variant : VariantKind;
+       |                   ^^^^^^^
+
+iteration_01.sysml:140:27: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    140 |                 attribute variant = VariantKind::VariantA;
+        |                           ^^^^^^^
+
+iteration_01.sysml:173:27: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    173 |                 attribute variant = VariantKind::VariantA;
+        |                           ^^^^^^^
+
+iteration_01.sysml:177:27: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    177 |                 attribute variant = VariantKind::VariantB;
+        |                           ^^^^^^^
+
+iteration_01.sysml:117:19: warning (namespace-distinguishability): Member name 'configId' shadows VehicleModularPlatform::VehicleConfigA::configId
+│   117 |         attribute configId = 1;
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:97:19: note: Inherited from here
+    └── iteration_01.sysml:116:28: note: Because VehicleModularPlatform::VehicleConfigA is specialized through FeatureTyping
+
+iteration_01.sysml:118:19: warning (namespace-distinguishability): Member name 'maxLoad' shadows VehicleModularPlatform::VehicleConfigA::maxLoad
+│   118 |         attribute maxLoad = 5000.0;
+│       |                   ^^^^^^^
+└── iteration_01.sysml:99:19: note: Inherited from here
+    └── iteration_01.sysml:116:28: note: Because VehicleModularPlatform::VehicleConfigA is specialized through FeatureTyping
+
+iteration_01.sysml:119:19: warning (namespace-distinguishability): Member name 'isValidConfig' shadows VehicleModularPlatform::VehicleConfigA::isValidConfig
+│   119 |         attribute isValidConfig = true;
+│       |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:100:19: note: Inherited from here
+    └── iteration_01.sysml:116:28: note: Because VehicleModularPlatform::VehicleConfigA is specialized through FeatureTyping
+
+iteration_01.sysml:121:23: warning (namespace-distinguishability): Member name 'subsystemId' shadows VehicleModularPlatform::SubsystemA::subsystemId
+│   121 |             attribute subsystemId = 101;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:62:19: note: Inherited from here
+    ├── iteration_01.sysml:101:24: note: Because VehicleModularPlatform::SubsystemA is specialized through FeatureTyping
+    └── iteration_01.sysml:120:18: note: Because VehicleModularPlatform::VehicleConfigA::subsysA is specialized through Redefinition
+
+iteration_01.sysml:122:23: warning (namespace-distinguishability): Member name 'config' shadows VehicleModularPlatform::SubsystemA::config
+│   122 |             attribute config = ConfigKind::ConfigA;
+│       |                       ^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    ├── iteration_01.sysml:101:24: note: Because VehicleModularPlatform::SubsystemA is specialized through FeatureTyping
+    └── iteration_01.sysml:120:18: note: Because VehicleModularPlatform::VehicleConfigA::subsysA is specialized through Redefinition
+
+iteration_01.sysml:124:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part1::componentId
+│   124 |                 attribute componentId = 1;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    ├── iteration_01.sysml:65:26: note: Because VehicleModularPlatform::Part1 is specialized through FeatureTyping
+    └── iteration_01.sysml:123:22: note: Because VehicleModularPlatform::SubsystemA::compPart1 is specialized through Redefinition
+
+iteration_01.sysml:125:27: warning (namespace-distinguishability): Member name 'isActive' shadows VehicleModularPlatform::Part1::isActive
+│   125 |                 attribute isActive = true;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    ├── iteration_01.sysml:65:26: note: Because VehicleModularPlatform::Part1 is specialized through FeatureTyping
+    └── iteration_01.sysml:123:22: note: Because VehicleModularPlatform::SubsystemA::compPart1 is specialized through Redefinition
+
+iteration_01.sysml:128:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part2::componentId
+│   128 |                 attribute componentId = 2;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    ├── iteration_01.sysml:66:26: note: Because VehicleModularPlatform::Part2 is specialized through FeatureTyping
+    └── iteration_01.sysml:127:22: note: Because VehicleModularPlatform::SubsystemA::compPart2 is specialized through Redefinition
+
+iteration_01.sysml:129:27: warning (namespace-distinguishability): Member name 'weight' shadows VehicleModularPlatform::Part2::weight
+│   129 |                 attribute weight = 12.5;
+│       |                           ^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    ├── iteration_01.sysml:66:26: note: Because VehicleModularPlatform::Part2 is specialized through FeatureTyping
+    └── iteration_01.sysml:127:22: note: Because VehicleModularPlatform::SubsystemA::compPart2 is specialized through Redefinition
+
+iteration_01.sysml:132:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part3::componentId
+│   132 |                 attribute componentId = 3;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    ├── iteration_01.sysml:67:26: note: Because VehicleModularPlatform::Part3 is specialized through FeatureTyping
+    └── iteration_01.sysml:131:22: note: Because VehicleModularPlatform::SubsystemA::compPart3 is specialized through Redefinition
+
+iteration_01.sysml:136:23: warning (namespace-distinguishability): Member name 'subsystemId' shadows VehicleModularPlatform::SubsystemB::subsystemId
+│   136 |             attribute subsystemId = 201;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:80:19: note: Inherited from here
+    ├── iteration_01.sysml:102:24: note: Because VehicleModularPlatform::SubsystemB is specialized through FeatureTyping
+    └── iteration_01.sysml:135:18: note: Because VehicleModularPlatform::VehicleConfigA::subsysB is specialized through Redefinition
+
+iteration_01.sysml:137:23: warning (namespace-distinguishability): Member name 'config' shadows VehicleModularPlatform::SubsystemB::config
+│   137 |             attribute config = ConfigKind::ConfigA;
+│       |                       ^^^^^^
+└── iteration_01.sysml:81:19: note: Inherited from here
+    ├── iteration_01.sysml:102:24: note: Because VehicleModularPlatform::SubsystemB is specialized through FeatureTyping
+    └── iteration_01.sysml:135:18: note: Because VehicleModularPlatform::VehicleConfigA::subsysB is specialized through Redefinition
+
+iteration_01.sysml:139:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part5::componentId
+│   139 |                 attribute componentId = 5;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    ├── iteration_01.sysml:83:26: note: Because VehicleModularPlatform::Part5 is specialized through FeatureTyping
+    └── iteration_01.sysml:138:22: note: Because VehicleModularPlatform::SubsystemB::compPart5 is specialized through Redefinition
+
+iteration_01.sysml:143:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part6::componentId
+│   143 |                 attribute componentId = 6;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    ├── iteration_01.sysml:84:26: note: Because VehicleModularPlatform::Part6 is specialized through FeatureTyping
+    └── iteration_01.sysml:142:22: note: Because VehicleModularPlatform::SubsystemB::compPart6 is specialized through Redefinition
+
+iteration_01.sysml:144:27: warning (namespace-distinguishability): Member name 'rating' shadows VehicleModularPlatform::Part6::rating
+│   144 |                 attribute rating = 9.8;
+│       |                           ^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    ├── iteration_01.sysml:84:26: note: Because VehicleModularPlatform::Part6 is specialized through FeatureTyping
+    └── iteration_01.sysml:142:22: note: Because VehicleModularPlatform::SubsystemB::compPart6 is specialized through Redefinition
+
+iteration_01.sysml:150:19: warning (namespace-distinguishability): Member name 'configId' shadows VehicleModularPlatform::VehicleConfigB::configId
+│   150 |         attribute configId = 2;
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:107:19: note: Inherited from here
+    └── iteration_01.sysml:149:29: note: Because VehicleModularPlatform::VehicleConfigB is specialized through FeatureTyping
+
+iteration_01.sysml:151:19: warning (namespace-distinguishability): Member name 'maxLoad' shadows VehicleModularPlatform::VehicleConfigB::maxLoad
+│   151 |         attribute maxLoad = 8000.0;
+│       |                   ^^^^^^^
+└── iteration_01.sysml:109:19: note: Inherited from here
+    └── iteration_01.sysml:149:29: note: Because VehicleModularPlatform::VehicleConfigB is specialized through FeatureTyping
+
+iteration_01.sysml:152:19: warning (namespace-distinguishability): Member name 'isValidConfig' shadows VehicleModularPlatform::VehicleConfigB::isValidConfig
+│   152 |         attribute isValidConfig = true;
+│       |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:110:19: note: Inherited from here
+    └── iteration_01.sysml:149:29: note: Because VehicleModularPlatform::VehicleConfigB is specialized through FeatureTyping
+
+iteration_01.sysml:154:23: warning (namespace-distinguishability): Member name 'subsystemId' shadows VehicleModularPlatform::SubsystemAVariant::subsystemId
+│   154 |             attribute subsystemId = 102;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    ├── iteration_01.sysml:111:25: note: Because VehicleModularPlatform::SubsystemAVariant is specialized through FeatureTyping
+    └── iteration_01.sysml:153:18: note: Because VehicleModularPlatform::VehicleConfigB::subsysAv is specialized through Redefinition
+
+iteration_01.sysml:155:23: warning (namespace-distinguishability): Member name 'config' shadows VehicleModularPlatform::SubsystemAVariant::config
+│   155 |             attribute config = ConfigKind::ConfigB;
+│       |                       ^^^^^^
+└── iteration_01.sysml:72:19: note: Inherited from here
+    ├── iteration_01.sysml:111:25: note: Because VehicleModularPlatform::SubsystemAVariant is specialized through FeatureTyping
+    └── iteration_01.sysml:153:18: note: Because VehicleModularPlatform::VehicleConfigB::subsysAv is specialized through Redefinition
+
+iteration_01.sysml:157:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part1::componentId
+│   157 |                 attribute componentId = 11;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    ├── iteration_01.sysml:74:26: note: Because VehicleModularPlatform::Part1 is specialized through FeatureTyping
+    └── iteration_01.sysml:156:22: note: Because VehicleModularPlatform::SubsystemAVariant::compPart1 is specialized through Redefinition
+
+iteration_01.sysml:158:27: warning (namespace-distinguishability): Member name 'isActive' shadows VehicleModularPlatform::Part1::isActive
+│   158 |                 attribute isActive = true;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    ├── iteration_01.sysml:74:26: note: Because VehicleModularPlatform::Part1 is specialized through FeatureTyping
+    └── iteration_01.sysml:156:22: note: Because VehicleModularPlatform::SubsystemAVariant::compPart1 is specialized through Redefinition
+
+iteration_01.sysml:161:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part4::componentId
+│   161 |                 attribute componentId = 14;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    ├── iteration_01.sysml:75:26: note: Because VehicleModularPlatform::Part4 is specialized through FeatureTyping
+    └── iteration_01.sysml:160:22: note: Because VehicleModularPlatform::SubsystemAVariant::compPart4 is specialized through Redefinition
+
+iteration_01.sysml:162:27: warning (namespace-distinguishability): Member name 'capacity' shadows VehicleModularPlatform::Part4::capacity
+│   162 |                 attribute capacity = 200.0;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:47:19: note: Inherited from here
+    ├── iteration_01.sysml:75:26: note: Because VehicleModularPlatform::Part4 is specialized through FeatureTyping
+    └── iteration_01.sysml:160:22: note: Because VehicleModularPlatform::SubsystemAVariant::compPart4 is specialized through Redefinition
+
+iteration_01.sysml:165:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part3::componentId
+│   165 |                 attribute componentId = 13;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    ├── iteration_01.sysml:76:26: note: Because VehicleModularPlatform::Part3 is specialized through FeatureTyping
+    └── iteration_01.sysml:164:22: note: Because VehicleModularPlatform::SubsystemAVariant::compPart3 is specialized through Redefinition
+
+iteration_01.sysml:169:23: warning (namespace-distinguishability): Member name 'subsystemId' shadows VehicleModularPlatform::SubsystemBVariant::subsystemId
+│   169 |             attribute subsystemId = 202;
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:88:19: note: Inherited from here
+    ├── iteration_01.sysml:112:25: note: Because VehicleModularPlatform::SubsystemBVariant is specialized through FeatureTyping
+    └── iteration_01.sysml:168:18: note: Because VehicleModularPlatform::VehicleConfigB::subsysBv is specialized through Redefinition
+
+iteration_01.sysml:170:23: warning (namespace-distinguishability): Member name 'config' shadows VehicleModularPlatform::SubsystemBVariant::config
+│   170 |             attribute config = ConfigKind::ConfigB;
+│       |                       ^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    ├── iteration_01.sysml:112:25: note: Because VehicleModularPlatform::SubsystemBVariant is specialized through FeatureTyping
+    └── iteration_01.sysml:168:18: note: Because VehicleModularPlatform::VehicleConfigB::subsysBv is specialized through Redefinition
+
+iteration_01.sysml:172:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part5::componentId
+│   172 |                 attribute componentId = 51;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    ├── iteration_01.sysml:91:27: note: Because VehicleModularPlatform::Part5 is specialized through FeatureTyping
+    └── iteration_01.sysml:171:22: note: Because VehicleModularPlatform::SubsystemBVariant::compPart5a is specialized through Redefinition
+
+iteration_01.sysml:176:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part5::componentId
+│   176 |                 attribute componentId = 52;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    ├── iteration_01.sysml:92:27: note: Because VehicleModularPlatform::Part5 is specialized through FeatureTyping
+    └── iteration_01.sysml:175:22: note: Because VehicleModularPlatform::SubsystemBVariant::compPart5b is specialized through Redefinition
+
+iteration_01.sysml:180:27: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleModularPlatform::Part6::componentId
+│   180 |                 attribute componentId = 61;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    ├── iteration_01.sysml:93:26: note: Because VehicleModularPlatform::Part6 is specialized through FeatureTyping
+    └── iteration_01.sysml:179:22: note: Because VehicleModularPlatform::SubsystemBVariant::compPart6 is specialized through Redefinition
+
+iteration_01.sysml:181:27: warning (namespace-distinguishability): Member name 'rating' shadows VehicleModularPlatform::Part6::rating
+│   181 |                 attribute rating = 7.5;
+│       |                           ^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    ├── iteration_01.sysml:93:26: note: Because VehicleModularPlatform::Part6 is specialized through FeatureTyping
+    └── iteration_01.sysml:179:22: note: Because VehicleModularPlatform::SubsystemBVariant::compPart6 is specialized through Redefinition

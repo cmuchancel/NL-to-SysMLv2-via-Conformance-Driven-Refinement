@@ -1,0 +1,35 @@
+iteration_01.sysml:15:5: error (parsing-error): Unexpected '}'.
+    15 |     }
+       |     ^
+
+iteration_01.sysml:6:25: error (reference-error): No Type named 'string' found.
+    6 |         attribute VIN : string;
+      |                         ^^^^^^
+
+iteration_01.sysml:7:26: error (reference-error): No Type named 'string' found.
+    7 |         attribute make : string;
+      |                          ^^^^^^
+
+iteration_01.sysml:8:27: error (reference-error): No Type named 'string' found.
+    8 |         attribute model : string;
+      |                           ^^^^^^
+
+iteration_01.sysml:9:26: error (reference-error): No Type named 'integer' found.
+    9 |         attribute year : integer;
+      |                          ^^^^^^^
+
+iteration_01.sysml:10:28: error (reference-error): No Type named 'TorqueValue' found.
+    10 |         attribute torque : TorqueValue;
+       |                            ^^^^^^^^^^^
+
+iteration_01.sysml:18:27: error (reference-error): No Type named 'string' found.
+    18 |         attribute title : string;
+       |                           ^^^^^^
+
+iteration_01.sysml:19:29: error (reference-error): No Type named 'string' found.
+    19 |         attribute content : string;
+       |                             ^^^^^^
+
+iteration_01.sysml:20:38: error (reference-error): No Type named 'string' found.
+    20 |         attribute referencedObject : string[1..*];
+       |                                      ^^^^^^

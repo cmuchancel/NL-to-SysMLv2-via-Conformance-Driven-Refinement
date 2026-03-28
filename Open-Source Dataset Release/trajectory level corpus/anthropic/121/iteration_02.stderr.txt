@@ -1,0 +1,2849 @@
+iteration_03.sysml:227:45: error (internal-error): I don't know how to parse field 'heritage' for Namespace
+    227 | part vehiclePowertrainConfigurationSystem : VehiclePowertrainSystem {
+        |                                             ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_03.sysml:831:33: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_03.sysml:831:33: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_03.sysml:831:33: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_03.sysml:831:33: error (parsing-error): Expected a token. Did you forget ';'? (no source underlining available since segment is out of bounds)
+
+iteration_03.sysml:235:19: warning (namespace-distinguishability): Member name 'powertrainId' shadows Powertrain::powertrainId
+│   235 |         attribute powertrainId = 101;
+│       |                   ^^^^^^^^^^^^
+└── iteration_03.sysml:196:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:236:19: warning (namespace-distinguishability): Member name 'vehicleClass' shadows Powertrain::vehicleClass
+│   236 |         attribute vehicleClass = "Passenger Car";
+│       |                   ^^^^^^^^^^^^
+└── iteration_03.sysml:197:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:237:19: warning (namespace-distinguishability): Member name 'targetPower' shadows Powertrain::targetPower
+│   237 |         attribute targetPower = 150.0;
+│       |                   ^^^^^^^^^^^
+└── iteration_03.sysml:198:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:238:19: warning (namespace-distinguishability): Member name 'targetEfficiency' shadows Powertrain::targetEfficiency
+│   238 |         attribute targetEfficiency = 0.38;
+│       |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:199:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:239:19: warning (namespace-distinguishability): Member name 'targetReliability' shadows Powertrain::targetReliability
+│   239 |         attribute targetReliability = 0.95;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:200:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:240:19: warning (namespace-distinguishability): Member name 'targetCost' shadows Powertrain::targetCost
+│   240 |         attribute targetCost = 5000.0;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:201:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:241:19: warning (namespace-distinguishability): Member name 'targetMass' shadows Powertrain::targetMass
+│   241 |         attribute targetMass = 180.0;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:202:15: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:243:14: warning (namespace-distinguishability): Member name 'selectedEngine' shadows Powertrain::selectedEngine
+│   243 |         part selectedEngine : Engine {
+│       |              ^^^^^^^^^^^^^^
+└── iteration_03.sysml:206:10: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:244:23: warning (namespace-distinguishability): Member name 'engineId' shadows Engine::engineId
+│   244 |             attribute engineId = 201;
+│       |                       ^^^^^^^^
+└── iteration_03.sysml:63:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:245:23: warning (namespace-distinguishability): Member name 'engineType' shadows Engine::engineType
+│   245 |             attribute engineType = EngineType::FourCylinder;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:64:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:246:23: warning (namespace-distinguishability): Member name 'numberOfCylinders' shadows Engine::numberOfCylinders
+│   246 |             attribute numberOfCylinders = 4;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:65:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:247:23: warning (namespace-distinguishability): Member name 'totalDisplacement' shadows Engine::totalDisplacement
+│   247 |             attribute totalDisplacement = 2.0;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:66:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:248:23: warning (namespace-distinguishability): Member name 'maxPower' shadows Engine::maxPower
+│   248 |             attribute maxPower = 155.0;
+│       |                       ^^^^^^^^
+└── iteration_03.sysml:67:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:249:23: warning (namespace-distinguishability): Member name 'maxTorque' shadows Engine::maxTorque
+│   249 |             attribute maxTorque = 280.0;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:68:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:250:23: warning (namespace-distinguishability): Member name 'engineMass' shadows Engine::engineMass
+│   250 |             attribute engineMass = 140.0;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:69:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:251:23: warning (namespace-distinguishability): Member name 'thermalEfficiency' shadows Engine::thermalEfficiency
+│   251 |             attribute thermalEfficiency = 0.39;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:70:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:252:23: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows Engine::reliabilityScore
+│   252 |             attribute reliabilityScore = 0.96;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:71:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:253:23: warning (namespace-distinguishability): Member name 'manufacturingCost' shadows Engine::manufacturingCost
+│   253 |             attribute manufacturingCost = 4500.0;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:72:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:254:23: warning (namespace-distinguishability): Member name 'fuelConsumption' shadows Engine::fuelConsumption
+│   254 |             attribute fuelConsumption = 7.2;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:73:15: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:256:18: warning (namespace-distinguishability): Member name 'crankshaft' shadows Engine::crankshaft
+│   256 |             part crankshaft : Crankshaft {
+│       |                  ^^^^^^^^^^
+└── iteration_03.sysml:74:10: note: Inherited from here
+    └── iteration_03.sysml:243:31: note: Because Engine is specialized through FeatureTyping
+
+iteration_03.sysml:257:27: warning (namespace-distinguishability): Member name 'crankshaftId' shadows Crankshaft::crankshaftId
+│   257 |                 attribute crankshaftId = 301;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:48:15: note: Inherited from here
+    └── iteration_03.sysml:256:31: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:258:27: warning (namespace-distinguishability): Member name 'length' shadows Crankshaft::length
+│   258 |                 attribute length = 0.45;
+│       |                           ^^^^^^
+└── iteration_03.sysml:49:15: note: Inherited from here
+    └── iteration_03.sysml:256:31: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:259:27: warning (namespace-distinguishability): Member name 'mass' shadows Crankshaft::mass
+│   259 |                 attribute mass = 12.0;
+│       |                           ^^^^
+└── iteration_03.sysml:50:15: note: Inherited from here
+    └── iteration_03.sysml:256:31: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:260:27: warning (namespace-distinguishability): Member name 'material' shadows Crankshaft::material
+│   260 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:51:15: note: Inherited from here
+    └── iteration_03.sysml:256:31: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:261:27: warning (namespace-distinguishability): Member name 'numberOfJournals' shadows Crankshaft::numberOfJournals
+│   261 |                 attribute numberOfJournals = 5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:52:15: note: Inherited from here
+    └── iteration_03.sysml:256:31: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:265:14: warning (namespace-distinguishability): Member name 'tradeoff' shadows Powertrain::tradeoff
+│   265 |         part tradeoff : TradeoffAnalysis {
+│       |              ^^^^^^^^
+└── iteration_03.sysml:207:10: note: Inherited from here
+    └── iteration_03.sysml:234:23: note: Because Powertrain is specialized through FeatureTyping
+
+iteration_03.sysml:266:23: warning (namespace-distinguishability): Member name 'analysisId' shadows TradeoffAnalysis::analysisId
+│   266 |             attribute analysisId = 401;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:160:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:267:23: warning (namespace-distinguishability): Member name 'analysisName' shadows TradeoffAnalysis::analysisName
+│   267 |             attribute analysisName = "Powertrain Engine Selection Analysis";
+│       |                       ^^^^^^^^^^^^
+└── iteration_03.sysml:161:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:268:23: warning (namespace-distinguishability): Member name 'numberOfCandidates' shadows TradeoffAnalysis::numberOfCandidates
+│   268 |             attribute numberOfCandidates = 3;
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:162:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:269:23: warning (namespace-distinguishability): Member name 'bestCandidateId' shadows TradeoffAnalysis::bestCandidateId
+│   269 |             attribute bestCandidateId = 1;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:163:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:270:23: warning (namespace-distinguishability): Member name 'bestCompositeScore' shadows TradeoffAnalysis::bestCompositeScore
+│   270 |             attribute bestCompositeScore = 0.87;
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:164:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:271:23: warning (namespace-distinguishability): Member name 'recommendation' shadows TradeoffAnalysis::recommendation
+│   271 |             attribute recommendation = RecommendationStatus::Recommended;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_03.sysml:165:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:272:23: warning (namespace-distinguishability): Member name 'selectionRationale' shadows TradeoffAnalysis::selectionRationale
+│   272 |             attribute selectionRationale = "Four-cylinder engine achieves best balance of power efficiency and cost";
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:166:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:273:23: warning (namespace-distinguishability): Member name 'transparencyNote' shadows TradeoffAnalysis::transparencyNote
+│   273 |             attribute transparencyNote = "Composite score computed using weighted sum of normalized KPI scores";
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:167:15: note: Inherited from here
+    └── iteration_03.sysml:265:25: note: Because TradeoffAnalysis is specialized through FeatureTyping
+
+iteration_03.sysml:278:19: warning (namespace-distinguishability): Member name 'candidateId' shadows EngineCandidate::candidateId
+│   278 |         attribute candidateId = 1;
+│       |                   ^^^^^^^^^^^
+└── iteration_03.sysml:171:15: note: Inherited from here
+    └── iteration_03.sysml:277:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:279:19: warning (namespace-distinguishability): Member name 'candidateName' shadows EngineCandidate::candidateName
+│   279 |         attribute candidateName = "Four Cylinder 2.0L";
+│       |                   ^^^^^^^^^^^^^
+└── iteration_03.sysml:172:15: note: Inherited from here
+    └── iteration_03.sysml:277:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:280:19: warning (namespace-distinguishability): Member name 'compositeScore' shadows EngineCandidate::compositeScore
+│   280 |         attribute compositeScore = 0.87;
+│       |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:173:15: note: Inherited from here
+    └── iteration_03.sysml:277:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:281:19: warning (namespace-distinguishability): Member name 'recommendation' shadows EngineCandidate::recommendation
+│   281 |         attribute recommendation = RecommendationStatus::Recommended;
+│       |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:174:15: note: Inherited from here
+    └── iteration_03.sysml:277:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:282:19: warning (namespace-distinguishability): Member name 'rationaleExplanation' shadows EngineCandidate::rationaleExplanation
+│   282 |         attribute rationaleExplanation = "Optimal balance of fuel efficiency cost and adequate power output for passenger car segment";
+│       |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:175:15: note: Inherited from here
+    └── iteration_03.sysml:277:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:284:14: warning (namespace-distinguishability): Member name 'metrics' shadows EngineCandidate::metrics
+│   284 |         part metrics : PerformanceMetrics {
+│       |              ^^^^^^^
+└── iteration_03.sysml:176:10: note: Inherited from here
+    └── iteration_03.sysml:277:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:285:23: warning (namespace-distinguishability): Member name 'powerWeight' shadows PerformanceMetrics::powerWeight
+│   285 |             attribute powerWeight = 0.25;
+│       |                       ^^^^^^^^^^^
+└── iteration_03.sysml:141:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:286:23: warning (namespace-distinguishability): Member name 'efficiencyWeight' shadows PerformanceMetrics::efficiencyWeight
+│   286 |             attribute efficiencyWeight = 0.30;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:142:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:287:23: warning (namespace-distinguishability): Member name 'reliabilityWeight' shadows PerformanceMetrics::reliabilityWeight
+│   287 |             attribute reliabilityWeight = 0.20;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:143:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:288:23: warning (namespace-distinguishability): Member name 'costWeight' shadows PerformanceMetrics::costWeight
+│   288 |             attribute costWeight = 0.15;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:144:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:289:23: warning (namespace-distinguishability): Member name 'massWeight' shadows PerformanceMetrics::massWeight
+│   289 |             attribute massWeight = 0.10;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:145:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:290:23: warning (namespace-distinguishability): Member name 'powerScore' shadows PerformanceMetrics::powerScore
+│   290 |             attribute powerScore = 0.78;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:146:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:291:23: warning (namespace-distinguishability): Member name 'efficiencyScore' shadows PerformanceMetrics::efficiencyScore
+│   291 |             attribute efficiencyScore = 0.92;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:147:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:292:23: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows PerformanceMetrics::reliabilityScore
+│   292 |             attribute reliabilityScore = 0.96;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:148:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:293:23: warning (namespace-distinguishability): Member name 'costScore' shadows PerformanceMetrics::costScore
+│   293 |             attribute costScore = 0.90;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:149:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:294:23: warning (namespace-distinguishability): Member name 'massScore' shadows PerformanceMetrics::massScore
+│   294 |             attribute massScore = 0.88;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:150:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:295:23: warning (namespace-distinguishability): Member name 'compositeScore' shadows PerformanceMetrics::compositeScore
+│   295 |             attribute compositeScore = 0.87;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_03.sysml:151:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:296:23: warning (namespace-distinguishability): Member name 'powerRating' shadows PerformanceMetrics::powerRating
+│   296 |             attribute powerRating = EvaluationRating::Good;
+│       |                       ^^^^^^^^^^^
+└── iteration_03.sysml:152:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:297:23: warning (namespace-distinguishability): Member name 'efficiencyRating' shadows PerformanceMetrics::efficiencyRating
+│   297 |             attribute efficiencyRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:153:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:298:23: warning (namespace-distinguishability): Member name 'reliabilityRating' shadows PerformanceMetrics::reliabilityRating
+│   298 |             attribute reliabilityRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:154:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:299:23: warning (namespace-distinguishability): Member name 'costRating' shadows PerformanceMetrics::costRating
+│   299 |             attribute costRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:155:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:300:23: warning (namespace-distinguishability): Member name 'overallRating' shadows PerformanceMetrics::overallRating
+│   300 |             attribute overallRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_03.sysml:156:15: note: Inherited from here
+    └── iteration_03.sysml:284:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:305:19: warning (namespace-distinguishability): Member name 'candidateId' shadows EngineCandidate::candidateId
+│   305 |         attribute candidateId = 2;
+│       |                   ^^^^^^^^^^^
+└── iteration_03.sysml:171:15: note: Inherited from here
+    └── iteration_03.sysml:304:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:306:19: warning (namespace-distinguishability): Member name 'candidateName' shadows EngineCandidate::candidateName
+│   306 |         attribute candidateName = "Six Cylinder 3.0L";
+│       |                   ^^^^^^^^^^^^^
+└── iteration_03.sysml:172:15: note: Inherited from here
+    └── iteration_03.sysml:304:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:307:19: warning (namespace-distinguishability): Member name 'compositeScore' shadows EngineCandidate::compositeScore
+│   307 |         attribute compositeScore = 0.74;
+│       |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:173:15: note: Inherited from here
+    └── iteration_03.sysml:304:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:308:19: warning (namespace-distinguishability): Member name 'recommendation' shadows EngineCandidate::recommendation
+│   308 |         attribute recommendation = RecommendationStatus::NotRecommended;
+│       |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:174:15: note: Inherited from here
+    └── iteration_03.sysml:304:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:309:19: warning (namespace-distinguishability): Member name 'rationaleExplanation' shadows EngineCandidate::rationaleExplanation
+│   309 |         attribute rationaleExplanation = "Higher power but lower fuel efficiency and higher cost reduce overall composite score";
+│       |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:175:15: note: Inherited from here
+    └── iteration_03.sysml:304:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:311:14: warning (namespace-distinguishability): Member name 'metrics' shadows EngineCandidate::metrics
+│   311 |         part metrics : PerformanceMetrics {
+│       |              ^^^^^^^
+└── iteration_03.sysml:176:10: note: Inherited from here
+    └── iteration_03.sysml:304:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:312:23: warning (namespace-distinguishability): Member name 'powerWeight' shadows PerformanceMetrics::powerWeight
+│   312 |             attribute powerWeight = 0.25;
+│       |                       ^^^^^^^^^^^
+└── iteration_03.sysml:141:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:313:23: warning (namespace-distinguishability): Member name 'efficiencyWeight' shadows PerformanceMetrics::efficiencyWeight
+│   313 |             attribute efficiencyWeight = 0.30;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:142:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:314:23: warning (namespace-distinguishability): Member name 'reliabilityWeight' shadows PerformanceMetrics::reliabilityWeight
+│   314 |             attribute reliabilityWeight = 0.20;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:143:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:315:23: warning (namespace-distinguishability): Member name 'costWeight' shadows PerformanceMetrics::costWeight
+│   315 |             attribute costWeight = 0.15;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:144:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:316:23: warning (namespace-distinguishability): Member name 'massWeight' shadows PerformanceMetrics::massWeight
+│   316 |             attribute massWeight = 0.10;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:145:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:317:23: warning (namespace-distinguishability): Member name 'powerScore' shadows PerformanceMetrics::powerScore
+│   317 |             attribute powerScore = 0.92;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:146:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:318:23: warning (namespace-distinguishability): Member name 'efficiencyScore' shadows PerformanceMetrics::efficiencyScore
+│   318 |             attribute efficiencyScore = 0.72;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:147:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:319:23: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows PerformanceMetrics::reliabilityScore
+│   319 |             attribute reliabilityScore = 0.90;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:148:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:320:23: warning (namespace-distinguishability): Member name 'costScore' shadows PerformanceMetrics::costScore
+│   320 |             attribute costScore = 0.65;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:149:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:321:23: warning (namespace-distinguishability): Member name 'massScore' shadows PerformanceMetrics::massScore
+│   321 |             attribute massScore = 0.70;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:150:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:322:23: warning (namespace-distinguishability): Member name 'compositeScore' shadows PerformanceMetrics::compositeScore
+│   322 |             attribute compositeScore = 0.74;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_03.sysml:151:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:323:23: warning (namespace-distinguishability): Member name 'powerRating' shadows PerformanceMetrics::powerRating
+│   323 |             attribute powerRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^^
+└── iteration_03.sysml:152:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:324:23: warning (namespace-distinguishability): Member name 'efficiencyRating' shadows PerformanceMetrics::efficiencyRating
+│   324 |             attribute efficiencyRating = EvaluationRating::Good;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:153:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:325:23: warning (namespace-distinguishability): Member name 'reliabilityRating' shadows PerformanceMetrics::reliabilityRating
+│   325 |             attribute reliabilityRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:154:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:326:23: warning (namespace-distinguishability): Member name 'costRating' shadows PerformanceMetrics::costRating
+│   326 |             attribute costRating = EvaluationRating::Fair;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:155:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:327:23: warning (namespace-distinguishability): Member name 'overallRating' shadows PerformanceMetrics::overallRating
+│   327 |             attribute overallRating = EvaluationRating::Good;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_03.sysml:156:15: note: Inherited from here
+    └── iteration_03.sysml:311:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:332:19: warning (namespace-distinguishability): Member name 'candidateId' shadows EngineCandidate::candidateId
+│   332 |         attribute candidateId = 3;
+│       |                   ^^^^^^^^^^^
+└── iteration_03.sysml:171:15: note: Inherited from here
+    └── iteration_03.sysml:331:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:333:19: warning (namespace-distinguishability): Member name 'candidateName' shadows EngineCandidate::candidateName
+│   333 |         attribute candidateName = "Eight Cylinder 5.0L";
+│       |                   ^^^^^^^^^^^^^
+└── iteration_03.sysml:172:15: note: Inherited from here
+    └── iteration_03.sysml:331:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:334:19: warning (namespace-distinguishability): Member name 'compositeScore' shadows EngineCandidate::compositeScore
+│   334 |         attribute compositeScore = 0.58;
+│       |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:173:15: note: Inherited from here
+    └── iteration_03.sysml:331:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:335:19: warning (namespace-distinguishability): Member name 'recommendation' shadows EngineCandidate::recommendation
+│   335 |         attribute recommendation = RecommendationStatus::NotRecommended;
+│       |                   ^^^^^^^^^^^^^^
+└── iteration_03.sysml:174:15: note: Inherited from here
+    └── iteration_03.sysml:331:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:336:19: warning (namespace-distinguishability): Member name 'rationaleExplanation' shadows EngineCandidate::rationaleExplanation
+│   336 |         attribute rationaleExplanation = "Highest power but poor fuel efficiency and high cost make it unsuitable for standard passenger car";
+│       |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:175:15: note: Inherited from here
+    └── iteration_03.sysml:331:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:338:14: warning (namespace-distinguishability): Member name 'metrics' shadows EngineCandidate::metrics
+│   338 |         part metrics : PerformanceMetrics {
+│       |              ^^^^^^^
+└── iteration_03.sysml:176:10: note: Inherited from here
+    └── iteration_03.sysml:331:26: note: Because EngineCandidate is specialized through FeatureTyping
+
+iteration_03.sysml:339:23: warning (namespace-distinguishability): Member name 'powerWeight' shadows PerformanceMetrics::powerWeight
+│   339 |             attribute powerWeight = 0.25;
+│       |                       ^^^^^^^^^^^
+└── iteration_03.sysml:141:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:340:23: warning (namespace-distinguishability): Member name 'efficiencyWeight' shadows PerformanceMetrics::efficiencyWeight
+│   340 |             attribute efficiencyWeight = 0.30;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:142:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:341:23: warning (namespace-distinguishability): Member name 'reliabilityWeight' shadows PerformanceMetrics::reliabilityWeight
+│   341 |             attribute reliabilityWeight = 0.20;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:143:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:342:23: warning (namespace-distinguishability): Member name 'costWeight' shadows PerformanceMetrics::costWeight
+│   342 |             attribute costWeight = 0.15;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:144:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:343:23: warning (namespace-distinguishability): Member name 'massWeight' shadows PerformanceMetrics::massWeight
+│   343 |             attribute massWeight = 0.10;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:145:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:344:23: warning (namespace-distinguishability): Member name 'powerScore' shadows PerformanceMetrics::powerScore
+│   344 |             attribute powerScore = 0.98;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:146:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:345:23: warning (namespace-distinguishability): Member name 'efficiencyScore' shadows PerformanceMetrics::efficiencyScore
+│   345 |             attribute efficiencyScore = 0.45;
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:147:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:346:23: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows PerformanceMetrics::reliabilityScore
+│   346 |             attribute reliabilityScore = 0.85;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:148:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:347:23: warning (namespace-distinguishability): Member name 'costScore' shadows PerformanceMetrics::costScore
+│   347 |             attribute costScore = 0.40;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:149:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:348:23: warning (namespace-distinguishability): Member name 'massScore' shadows PerformanceMetrics::massScore
+│   348 |             attribute massScore = 0.45;
+│       |                       ^^^^^^^^^
+└── iteration_03.sysml:150:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:349:23: warning (namespace-distinguishability): Member name 'compositeScore' shadows PerformanceMetrics::compositeScore
+│   349 |             attribute compositeScore = 0.58;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_03.sysml:151:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:350:23: warning (namespace-distinguishability): Member name 'powerRating' shadows PerformanceMetrics::powerRating
+│   350 |             attribute powerRating = EvaluationRating::Excellent;
+│       |                       ^^^^^^^^^^^
+└── iteration_03.sysml:152:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:351:23: warning (namespace-distinguishability): Member name 'efficiencyRating' shadows PerformanceMetrics::efficiencyRating
+│   351 |             attribute efficiencyRating = EvaluationRating::Poor;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:153:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:352:23: warning (namespace-distinguishability): Member name 'reliabilityRating' shadows PerformanceMetrics::reliabilityRating
+│   352 |             attribute reliabilityRating = EvaluationRating::Good;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:154:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:353:23: warning (namespace-distinguishability): Member name 'costRating' shadows PerformanceMetrics::costRating
+│   353 |             attribute costRating = EvaluationRating::Poor;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:155:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:354:23: warning (namespace-distinguishability): Member name 'overallRating' shadows PerformanceMetrics::overallRating
+│   354 |             attribute overallRating = EvaluationRating::Fair;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_03.sysml:156:15: note: Inherited from here
+    └── iteration_03.sysml:338:24: note: Because PerformanceMetrics is specialized through FeatureTyping
+
+iteration_03.sysml:359:19: warning (namespace-distinguishability): Member name 'engineId' shadows FourCylinderEngine::engineId
+│   359 |         attribute engineId = 501;
+│       |                   ^^^^^^^^
+└── iteration_03.sysml:78:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:360:19: warning (namespace-distinguishability): Member name 'engineType' shadows FourCylinderEngine::engineType
+│   360 |         attribute engineType = EngineType::FourCylinder;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:79:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:361:19: warning (namespace-distinguishability): Member name 'numberOfCylinders' shadows FourCylinderEngine::numberOfCylinders
+│   361 |         attribute numberOfCylinders = 4;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:80:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:362:19: warning (namespace-distinguishability): Member name 'totalDisplacement' shadows FourCylinderEngine::totalDisplacement
+│   362 |         attribute totalDisplacement = 2.0;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:81:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:363:19: warning (namespace-distinguishability): Member name 'maxPower' shadows FourCylinderEngine::maxPower
+│   363 |         attribute maxPower = 155.0;
+│       |                   ^^^^^^^^
+└── iteration_03.sysml:82:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:364:19: warning (namespace-distinguishability): Member name 'maxTorque' shadows FourCylinderEngine::maxTorque
+│   364 |         attribute maxTorque = 280.0;
+│       |                   ^^^^^^^^^
+└── iteration_03.sysml:83:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:365:19: warning (namespace-distinguishability): Member name 'engineMass' shadows FourCylinderEngine::engineMass
+│   365 |         attribute engineMass = 140.0;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:84:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:366:19: warning (namespace-distinguishability): Member name 'thermalEfficiency' shadows FourCylinderEngine::thermalEfficiency
+│   366 |         attribute thermalEfficiency = 0.39;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:85:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:367:19: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows FourCylinderEngine::reliabilityScore
+│   367 |         attribute reliabilityScore = 0.96;
+│       |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:86:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:368:19: warning (namespace-distinguishability): Member name 'manufacturingCost' shadows FourCylinderEngine::manufacturingCost
+│   368 |         attribute manufacturingCost = 4500.0;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:87:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:369:19: warning (namespace-distinguishability): Member name 'fuelConsumption' shadows FourCylinderEngine::fuelConsumption
+│   369 |         attribute fuelConsumption = 7.2;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:88:15: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:371:14: warning (namespace-distinguishability): Member name 'crankshaft' shadows FourCylinderEngine::crankshaft
+│   371 |         part crankshaft : Crankshaft {
+│       |              ^^^^^^^^^^
+└── iteration_03.sysml:89:10: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:372:23: warning (namespace-distinguishability): Member name 'crankshaftId' shadows Crankshaft::crankshaftId
+│   372 |             attribute crankshaftId = 601;
+│       |                       ^^^^^^^^^^^^
+└── iteration_03.sysml:48:15: note: Inherited from here
+    └── iteration_03.sysml:371:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:373:23: warning (namespace-distinguishability): Member name 'length' shadows Crankshaft::length
+│   373 |             attribute length = 0.45;
+│       |                       ^^^^^^
+└── iteration_03.sysml:49:15: note: Inherited from here
+    └── iteration_03.sysml:371:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:374:23: warning (namespace-distinguishability): Member name 'mass' shadows Crankshaft::mass
+│   374 |             attribute mass = 12.0;
+│       |                       ^^^^
+└── iteration_03.sysml:50:15: note: Inherited from here
+    └── iteration_03.sysml:371:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:375:23: warning (namespace-distinguishability): Member name 'material' shadows Crankshaft::material
+│   375 |             attribute material = "Forged Steel";
+│       |                       ^^^^^^^^
+└── iteration_03.sysml:51:15: note: Inherited from here
+    └── iteration_03.sysml:371:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:376:23: warning (namespace-distinguishability): Member name 'numberOfJournals' shadows Crankshaft::numberOfJournals
+│   376 |             attribute numberOfJournals = 5;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:52:15: note: Inherited from here
+    └── iteration_03.sysml:371:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:379:14: warning (namespace-distinguishability): Member name 'assembly1' shadows FourCylinderEngine::assembly1
+│   379 |         part assembly1 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:90:10: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:380:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   380 |             attribute assemblyId = 701;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:379:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:381:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   381 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:379:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:382:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   382 |                 attribute cylinderId = 801;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:381:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:383:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   383 |                 attribute bore = 0.086;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:381:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:384:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   384 |                 attribute stroke = 0.086;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:381:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:385:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   385 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:381:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:386:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   386 |                 attribute compressionRatio = 10.5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:381:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:388:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   388 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:379:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:389:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   389 |                 attribute pistonId = 901;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:388:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:390:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   390 |                 attribute mass = 0.35;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:388:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:391:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   391 |                 attribute diameter = 0.086;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:388:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:392:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   392 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:388:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:394:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   394 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:379:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:395:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   395 |                 attribute rodId = 1001;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:394:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:396:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   396 |                 attribute length = 0.145;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:394:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:397:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   397 |                 attribute mass = 0.55;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:394:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:398:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   398 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:394:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:402:14: warning (namespace-distinguishability): Member name 'assembly2' shadows FourCylinderEngine::assembly2
+│   402 |         part assembly2 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:91:10: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:403:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   403 |             attribute assemblyId = 702;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:402:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:404:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   404 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:402:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:405:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   405 |                 attribute cylinderId = 802;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:404:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:406:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   406 |                 attribute bore = 0.086;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:404:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:407:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   407 |                 attribute stroke = 0.086;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:404:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:408:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   408 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:404:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:409:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   409 |                 attribute compressionRatio = 10.5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:404:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:411:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   411 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:402:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:412:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   412 |                 attribute pistonId = 902;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:411:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:413:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   413 |                 attribute mass = 0.35;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:411:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:414:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   414 |                 attribute diameter = 0.086;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:411:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:415:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   415 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:411:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:417:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   417 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:402:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:418:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   418 |                 attribute rodId = 1002;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:417:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:419:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   419 |                 attribute length = 0.145;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:417:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:420:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   420 |                 attribute mass = 0.55;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:417:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:421:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   421 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:417:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:425:14: warning (namespace-distinguishability): Member name 'assembly3' shadows FourCylinderEngine::assembly3
+│   425 |         part assembly3 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:92:10: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:426:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   426 |             attribute assemblyId = 703;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:425:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:427:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   427 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:425:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:428:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   428 |                 attribute cylinderId = 803;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:427:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:429:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   429 |                 attribute bore = 0.086;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:427:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:430:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   430 |                 attribute stroke = 0.086;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:427:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:431:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   431 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:427:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:432:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   432 |                 attribute compressionRatio = 10.5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:427:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:434:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   434 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:425:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:435:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   435 |                 attribute pistonId = 903;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:434:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:436:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   436 |                 attribute mass = 0.35;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:434:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:437:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   437 |                 attribute diameter = 0.086;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:434:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:438:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   438 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:434:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:440:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   440 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:425:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:441:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   441 |                 attribute rodId = 1003;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:440:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:442:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   442 |                 attribute length = 0.145;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:440:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:443:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   443 |                 attribute mass = 0.55;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:440:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:444:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   444 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:440:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:448:14: warning (namespace-distinguishability): Member name 'assembly4' shadows FourCylinderEngine::assembly4
+│   448 |         part assembly4 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:93:10: note: Inherited from here
+    └── iteration_03.sysml:358:26: note: Because FourCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:449:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   449 |             attribute assemblyId = 704;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:448:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:450:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   450 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:448:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:451:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   451 |                 attribute cylinderId = 804;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:450:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:452:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   452 |                 attribute bore = 0.086;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:450:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:453:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   453 |                 attribute stroke = 0.086;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:450:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:454:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   454 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:450:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:455:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   455 |                 attribute compressionRatio = 10.5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:450:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:457:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   457 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:448:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:458:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   458 |                 attribute pistonId = 904;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:457:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:459:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   459 |                 attribute mass = 0.35;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:457:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:460:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   460 |                 attribute diameter = 0.086;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:457:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:461:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   461 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:457:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:463:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   463 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:448:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:464:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   464 |                 attribute rodId = 1004;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:463:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:465:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   465 |                 attribute length = 0.145;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:463:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:466:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   466 |                 attribute mass = 0.55;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:463:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:467:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   467 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:463:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:473:19: warning (namespace-distinguishability): Member name 'engineId' shadows SixCylinderEngine::engineId
+│   473 |         attribute engineId = 502;
+│       |                   ^^^^^^^^
+└── iteration_03.sysml:97:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:474:19: warning (namespace-distinguishability): Member name 'engineType' shadows SixCylinderEngine::engineType
+│   474 |         attribute engineType = EngineType::SixCylinder;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:98:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:475:19: warning (namespace-distinguishability): Member name 'numberOfCylinders' shadows SixCylinderEngine::numberOfCylinders
+│   475 |         attribute numberOfCylinders = 6;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:99:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:476:19: warning (namespace-distinguishability): Member name 'totalDisplacement' shadows SixCylinderEngine::totalDisplacement
+│   476 |         attribute totalDisplacement = 3.0;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:100:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:477:19: warning (namespace-distinguishability): Member name 'maxPower' shadows SixCylinderEngine::maxPower
+│   477 |         attribute maxPower = 220.0;
+│       |                   ^^^^^^^^
+└── iteration_03.sysml:101:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:478:19: warning (namespace-distinguishability): Member name 'maxTorque' shadows SixCylinderEngine::maxTorque
+│   478 |         attribute maxTorque = 380.0;
+│       |                   ^^^^^^^^^
+└── iteration_03.sysml:102:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:479:19: warning (namespace-distinguishability): Member name 'engineMass' shadows SixCylinderEngine::engineMass
+│   479 |         attribute engineMass = 195.0;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:103:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:480:19: warning (namespace-distinguishability): Member name 'thermalEfficiency' shadows SixCylinderEngine::thermalEfficiency
+│   480 |         attribute thermalEfficiency = 0.36;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:104:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:481:19: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows SixCylinderEngine::reliabilityScore
+│   481 |         attribute reliabilityScore = 0.90;
+│       |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:105:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:482:19: warning (namespace-distinguishability): Member name 'manufacturingCost' shadows SixCylinderEngine::manufacturingCost
+│   482 |         attribute manufacturingCost = 7200.0;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:106:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:483:19: warning (namespace-distinguishability): Member name 'fuelConsumption' shadows SixCylinderEngine::fuelConsumption
+│   483 |         attribute fuelConsumption = 9.8;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:107:15: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:485:14: warning (namespace-distinguishability): Member name 'crankshaft' shadows SixCylinderEngine::crankshaft
+│   485 |         part crankshaft : Crankshaft {
+│       |              ^^^^^^^^^^
+└── iteration_03.sysml:108:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:486:23: warning (namespace-distinguishability): Member name 'crankshaftId' shadows Crankshaft::crankshaftId
+│   486 |             attribute crankshaftId = 602;
+│       |                       ^^^^^^^^^^^^
+└── iteration_03.sysml:48:15: note: Inherited from here
+    └── iteration_03.sysml:485:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:487:23: warning (namespace-distinguishability): Member name 'length' shadows Crankshaft::length
+│   487 |             attribute length = 0.60;
+│       |                       ^^^^^^
+└── iteration_03.sysml:49:15: note: Inherited from here
+    └── iteration_03.sysml:485:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:488:23: warning (namespace-distinguishability): Member name 'mass' shadows Crankshaft::mass
+│   488 |             attribute mass = 18.0;
+│       |                       ^^^^
+└── iteration_03.sysml:50:15: note: Inherited from here
+    └── iteration_03.sysml:485:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:489:23: warning (namespace-distinguishability): Member name 'material' shadows Crankshaft::material
+│   489 |             attribute material = "Forged Steel";
+│       |                       ^^^^^^^^
+└── iteration_03.sysml:51:15: note: Inherited from here
+    └── iteration_03.sysml:485:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:490:23: warning (namespace-distinguishability): Member name 'numberOfJournals' shadows Crankshaft::numberOfJournals
+│   490 |             attribute numberOfJournals = 7;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:52:15: note: Inherited from here
+    └── iteration_03.sysml:485:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:493:14: warning (namespace-distinguishability): Member name 'assembly1' shadows SixCylinderEngine::assembly1
+│   493 |         part assembly1 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:109:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:494:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   494 |             attribute assemblyId = 711;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:493:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:495:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   495 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:493:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:496:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   496 |                 attribute cylinderId = 811;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:495:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:497:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   497 |                 attribute bore = 0.089;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:495:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:498:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   498 |                 attribute stroke = 0.080;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:495:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:499:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   499 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:495:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:500:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   500 |                 attribute compressionRatio = 10.2;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:495:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:502:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   502 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:493:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:503:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   503 |                 attribute pistonId = 911;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:502:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:504:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   504 |                 attribute mass = 0.38;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:502:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:505:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   505 |                 attribute diameter = 0.089;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:502:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:506:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   506 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:502:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:508:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   508 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:493:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:509:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   509 |                 attribute rodId = 1011;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:508:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:510:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   510 |                 attribute length = 0.150;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:508:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:511:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   511 |                 attribute mass = 0.58;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:508:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:512:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   512 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:508:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:516:14: warning (namespace-distinguishability): Member name 'assembly2' shadows SixCylinderEngine::assembly2
+│   516 |         part assembly2 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:110:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:517:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   517 |             attribute assemblyId = 712;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:516:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:518:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   518 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:516:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:519:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   519 |                 attribute cylinderId = 812;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:518:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:520:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   520 |                 attribute bore = 0.089;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:518:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:521:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   521 |                 attribute stroke = 0.080;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:518:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:522:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   522 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:518:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:523:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   523 |                 attribute compressionRatio = 10.2;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:518:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:525:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   525 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:516:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:526:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   526 |                 attribute pistonId = 912;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:525:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:527:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   527 |                 attribute mass = 0.38;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:525:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:528:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   528 |                 attribute diameter = 0.089;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:525:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:529:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   529 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:525:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:531:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   531 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:516:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:532:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   532 |                 attribute rodId = 1012;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:531:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:533:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   533 |                 attribute length = 0.150;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:531:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:534:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   534 |                 attribute mass = 0.58;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:531:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:535:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   535 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:531:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:539:14: warning (namespace-distinguishability): Member name 'assembly3' shadows SixCylinderEngine::assembly3
+│   539 |         part assembly3 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:111:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:540:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   540 |             attribute assemblyId = 713;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:539:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:541:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   541 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:539:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:542:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   542 |                 attribute cylinderId = 813;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:541:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:543:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   543 |                 attribute bore = 0.089;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:541:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:544:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   544 |                 attribute stroke = 0.080;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:541:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:545:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   545 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:541:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:546:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   546 |                 attribute compressionRatio = 10.2;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:541:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:548:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   548 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:539:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:549:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   549 |                 attribute pistonId = 913;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:548:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:550:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   550 |                 attribute mass = 0.38;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:548:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:551:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   551 |                 attribute diameter = 0.089;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:548:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:552:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   552 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:548:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:554:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   554 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:539:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:555:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   555 |                 attribute rodId = 1013;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:554:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:556:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   556 |                 attribute length = 0.150;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:554:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:557:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   557 |                 attribute mass = 0.58;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:554:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:558:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   558 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:554:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:562:14: warning (namespace-distinguishability): Member name 'assembly4' shadows SixCylinderEngine::assembly4
+│   562 |         part assembly4 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:112:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:563:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   563 |             attribute assemblyId = 714;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:562:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:564:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   564 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:562:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:565:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   565 |                 attribute cylinderId = 814;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:564:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:566:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   566 |                 attribute bore = 0.089;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:564:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:567:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   567 |                 attribute stroke = 0.080;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:564:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:568:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   568 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:564:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:569:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   569 |                 attribute compressionRatio = 10.2;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:564:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:571:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   571 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:562:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:572:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   572 |                 attribute pistonId = 914;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:571:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:573:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   573 |                 attribute mass = 0.38;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:571:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:574:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   574 |                 attribute diameter = 0.089;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:571:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:575:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   575 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:571:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:577:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   577 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:562:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:578:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   578 |                 attribute rodId = 1014;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:577:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:579:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   579 |                 attribute length = 0.150;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:577:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:580:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   580 |                 attribute mass = 0.58;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:577:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:581:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   581 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:577:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:585:14: warning (namespace-distinguishability): Member name 'assembly5' shadows SixCylinderEngine::assembly5
+│   585 |         part assembly5 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:113:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:586:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   586 |             attribute assemblyId = 715;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:585:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:587:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   587 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:585:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:588:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   588 |                 attribute cylinderId = 815;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:587:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:589:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   589 |                 attribute bore = 0.089;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:587:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:590:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   590 |                 attribute stroke = 0.080;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:587:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:591:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   591 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:587:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:592:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   592 |                 attribute compressionRatio = 10.2;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:587:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:594:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   594 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:585:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:595:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   595 |                 attribute pistonId = 915;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:594:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:596:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   596 |                 attribute mass = 0.38;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:594:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:597:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   597 |                 attribute diameter = 0.089;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:594:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:598:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   598 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:594:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:600:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   600 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:585:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:601:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   601 |                 attribute rodId = 1015;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:600:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:602:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   602 |                 attribute length = 0.150;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:600:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:603:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   603 |                 attribute mass = 0.58;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:600:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:604:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   604 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:600:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:608:14: warning (namespace-distinguishability): Member name 'assembly6' shadows SixCylinderEngine::assembly6
+│   608 |         part assembly6 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:114:10: note: Inherited from here
+    └── iteration_03.sysml:472:25: note: Because SixCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:609:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   609 |             attribute assemblyId = 716;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:608:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:610:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   610 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:608:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:611:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   611 |                 attribute cylinderId = 816;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:610:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:612:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   612 |                 attribute bore = 0.089;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:610:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:613:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   613 |                 attribute stroke = 0.080;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:610:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:614:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   614 |                 attribute displacement = 0.5;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:610:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:615:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   615 |                 attribute compressionRatio = 10.2;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:610:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:617:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   617 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:608:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:618:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   618 |                 attribute pistonId = 916;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:617:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:619:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   619 |                 attribute mass = 0.38;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:617:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:620:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   620 |                 attribute diameter = 0.089;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:617:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:621:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   621 |                 attribute material = "Aluminum Alloy";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:617:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:623:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   623 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:608:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:624:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   624 |                 attribute rodId = 1016;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:623:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:625:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   625 |                 attribute length = 0.150;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:623:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:626:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   626 |                 attribute mass = 0.58;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:623:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:627:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   627 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:623:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:633:19: warning (namespace-distinguishability): Member name 'engineId' shadows EightCylinderEngine::engineId
+│   633 |         attribute engineId = 503;
+│       |                   ^^^^^^^^
+└── iteration_03.sysml:118:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:634:19: warning (namespace-distinguishability): Member name 'engineType' shadows EightCylinderEngine::engineType
+│   634 |         attribute engineType = EngineType::EightCylinder;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:119:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:635:19: warning (namespace-distinguishability): Member name 'numberOfCylinders' shadows EightCylinderEngine::numberOfCylinders
+│   635 |         attribute numberOfCylinders = 8;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:120:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:636:19: warning (namespace-distinguishability): Member name 'totalDisplacement' shadows EightCylinderEngine::totalDisplacement
+│   636 |         attribute totalDisplacement = 5.0;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:121:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:637:19: warning (namespace-distinguishability): Member name 'maxPower' shadows EightCylinderEngine::maxPower
+│   637 |         attribute maxPower = 380.0;
+│       |                   ^^^^^^^^
+└── iteration_03.sysml:122:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:638:19: warning (namespace-distinguishability): Member name 'maxTorque' shadows EightCylinderEngine::maxTorque
+│   638 |         attribute maxTorque = 620.0;
+│       |                   ^^^^^^^^^
+└── iteration_03.sysml:123:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:639:19: warning (namespace-distinguishability): Member name 'engineMass' shadows EightCylinderEngine::engineMass
+│   639 |         attribute engineMass = 280.0;
+│       |                   ^^^^^^^^^^
+└── iteration_03.sysml:124:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:640:19: warning (namespace-distinguishability): Member name 'thermalEfficiency' shadows EightCylinderEngine::thermalEfficiency
+│   640 |         attribute thermalEfficiency = 0.30;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:125:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:641:19: warning (namespace-distinguishability): Member name 'reliabilityScore' shadows EightCylinderEngine::reliabilityScore
+│   641 |         attribute reliabilityScore = 0.85;
+│       |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:126:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:642:19: warning (namespace-distinguishability): Member name 'manufacturingCost' shadows EightCylinderEngine::manufacturingCost
+│   642 |         attribute manufacturingCost = 12000.0;
+│       |                   ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:127:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:643:19: warning (namespace-distinguishability): Member name 'fuelConsumption' shadows EightCylinderEngine::fuelConsumption
+│   643 |         attribute fuelConsumption = 14.5;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_03.sysml:128:15: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:645:14: warning (namespace-distinguishability): Member name 'crankshaft' shadows EightCylinderEngine::crankshaft
+│   645 |         part crankshaft : Crankshaft {
+│       |              ^^^^^^^^^^
+└── iteration_03.sysml:129:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:646:23: warning (namespace-distinguishability): Member name 'crankshaftId' shadows Crankshaft::crankshaftId
+│   646 |             attribute crankshaftId = 603;
+│       |                       ^^^^^^^^^^^^
+└── iteration_03.sysml:48:15: note: Inherited from here
+    └── iteration_03.sysml:645:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:647:23: warning (namespace-distinguishability): Member name 'length' shadows Crankshaft::length
+│   647 |             attribute length = 0.75;
+│       |                       ^^^^^^
+└── iteration_03.sysml:49:15: note: Inherited from here
+    └── iteration_03.sysml:645:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:648:23: warning (namespace-distinguishability): Member name 'mass' shadows Crankshaft::mass
+│   648 |             attribute mass = 26.0;
+│       |                       ^^^^
+└── iteration_03.sysml:50:15: note: Inherited from here
+    └── iteration_03.sysml:645:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:649:23: warning (namespace-distinguishability): Member name 'material' shadows Crankshaft::material
+│   649 |             attribute material = "Forged Steel";
+│       |                       ^^^^^^^^
+└── iteration_03.sysml:51:15: note: Inherited from here
+    └── iteration_03.sysml:645:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:650:23: warning (namespace-distinguishability): Member name 'numberOfJournals' shadows Crankshaft::numberOfJournals
+│   650 |             attribute numberOfJournals = 9;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:52:15: note: Inherited from here
+    └── iteration_03.sysml:645:27: note: Because Crankshaft is specialized through FeatureTyping
+
+iteration_03.sysml:653:14: warning (namespace-distinguishability): Member name 'assembly1' shadows EightCylinderEngine::assembly1
+│   653 |         part assembly1 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:130:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:654:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   654 |             attribute assemblyId = 721;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:653:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:655:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   655 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:653:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:656:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   656 |                 attribute cylinderId = 821;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:655:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:657:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   657 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:655:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:658:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   658 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:655:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:659:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   659 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:655:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:660:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   660 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:655:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:662:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   662 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:653:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:663:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   663 |                 attribute pistonId = 921;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:662:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:664:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   664 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:662:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:665:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   665 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:662:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:666:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   666 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:662:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:668:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   668 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:653:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:669:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   669 |                 attribute rodId = 1021;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:668:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:670:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   670 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:668:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:671:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   671 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:668:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:672:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   672 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:668:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:676:14: warning (namespace-distinguishability): Member name 'assembly2' shadows EightCylinderEngine::assembly2
+│   676 |         part assembly2 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:131:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:677:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   677 |             attribute assemblyId = 722;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:676:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:678:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   678 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:676:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:679:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   679 |                 attribute cylinderId = 822;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:678:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:680:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   680 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:678:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:681:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   681 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:678:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:682:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   682 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:678:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:683:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   683 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:678:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:685:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   685 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:676:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:686:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   686 |                 attribute pistonId = 922;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:685:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:687:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   687 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:685:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:688:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   688 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:685:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:689:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   689 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:685:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:691:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   691 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:676:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:692:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   692 |                 attribute rodId = 1022;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:691:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:693:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   693 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:691:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:694:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   694 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:691:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:695:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   695 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:691:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:699:14: warning (namespace-distinguishability): Member name 'assembly3' shadows EightCylinderEngine::assembly3
+│   699 |         part assembly3 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:132:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:700:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   700 |             attribute assemblyId = 723;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:699:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:701:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   701 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:699:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:702:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   702 |                 attribute cylinderId = 823;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:701:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:703:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   703 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:701:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:704:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   704 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:701:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:705:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   705 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:701:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:706:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   706 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:701:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:708:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   708 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:699:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:709:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   709 |                 attribute pistonId = 923;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:708:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:710:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   710 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:708:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:711:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   711 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:708:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:712:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   712 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:708:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:714:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   714 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:699:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:715:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   715 |                 attribute rodId = 1023;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:714:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:716:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   716 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:714:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:717:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   717 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:714:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:718:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   718 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:714:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:722:14: warning (namespace-distinguishability): Member name 'assembly4' shadows EightCylinderEngine::assembly4
+│   722 |         part assembly4 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:133:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:723:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   723 |             attribute assemblyId = 724;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:722:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:724:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   724 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:722:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:725:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   725 |                 attribute cylinderId = 824;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:724:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:726:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   726 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:724:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:727:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   727 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:724:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:728:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   728 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:724:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:729:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   729 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:724:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:731:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   731 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:722:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:732:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   732 |                 attribute pistonId = 924;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:731:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:733:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   733 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:731:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:734:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   734 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:731:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:735:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   735 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:731:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:737:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   737 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:722:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:738:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   738 |                 attribute rodId = 1024;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:737:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:739:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   739 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:737:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:740:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   740 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:737:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:741:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   741 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:737:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:745:14: warning (namespace-distinguishability): Member name 'assembly5' shadows EightCylinderEngine::assembly5
+│   745 |         part assembly5 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:134:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:746:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   746 |             attribute assemblyId = 725;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:745:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:747:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   747 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:745:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:748:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   748 |                 attribute cylinderId = 825;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:747:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:749:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   749 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:747:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:750:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   750 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:747:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:751:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   751 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:747:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:752:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   752 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:747:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:754:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   754 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:745:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:755:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   755 |                 attribute pistonId = 925;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:754:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:756:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   756 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:754:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:757:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   757 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:754:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:758:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   758 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:754:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:760:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   760 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:745:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:761:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   761 |                 attribute rodId = 1025;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:760:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:762:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   762 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:760:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:763:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   763 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:760:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:764:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   764 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:760:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:768:14: warning (namespace-distinguishability): Member name 'assembly6' shadows EightCylinderEngine::assembly6
+│   768 |         part assembly6 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:135:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:769:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   769 |             attribute assemblyId = 726;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:768:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:770:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   770 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:768:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:771:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   771 |                 attribute cylinderId = 826;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:770:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:772:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   772 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:770:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:773:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   773 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:770:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:774:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   774 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:770:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:775:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   775 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:770:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:777:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   777 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:768:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:778:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   778 |                 attribute pistonId = 926;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:777:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:779:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   779 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:777:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:780:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   780 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:777:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:781:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   781 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:777:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:783:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   783 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:768:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:784:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   784 |                 attribute rodId = 1026;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:783:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:785:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   785 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:783:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:786:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   786 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:783:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:787:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   787 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:783:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:791:14: warning (namespace-distinguishability): Member name 'assembly7' shadows EightCylinderEngine::assembly7
+│   791 |         part assembly7 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:136:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:792:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   792 |             attribute assemblyId = 727;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:791:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:793:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   793 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:791:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:794:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   794 |                 attribute cylinderId = 827;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:793:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:795:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   795 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:793:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:796:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   796 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:793:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:797:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   797 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:793:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:798:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   798 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:793:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:800:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   800 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:791:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:801:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   801 |                 attribute pistonId = 927;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:800:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:802:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   802 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:800:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:803:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   803 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:800:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:804:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   804 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:800:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:806:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   806 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:791:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:807:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   807 |                 attribute rodId = 1027;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:806:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:808:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   808 |                 attribute length = 0.158;
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:806:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:809:27: warning (namespace-distinguishability): Member name 'mass' shadows ConnectingRod::mass
+│   809 |                 attribute mass = 0.68;
+│       |                           ^^^^
+└── iteration_03.sysml:43:15: note: Inherited from here
+    └── iteration_03.sysml:806:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:810:27: warning (namespace-distinguishability): Member name 'material' shadows ConnectingRod::material
+│   810 |                 attribute material = "Forged Steel";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:44:15: note: Inherited from here
+    └── iteration_03.sysml:806:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:814:14: warning (namespace-distinguishability): Member name 'assembly8' shadows EightCylinderEngine::assembly8
+│   814 |         part assembly8 : CylinderAssembly {
+│       |              ^^^^^^^^^
+└── iteration_03.sysml:137:10: note: Inherited from here
+    └── iteration_03.sysml:632:27: note: Because EightCylinderEngine is specialized through FeatureTyping
+
+iteration_03.sysml:815:23: warning (namespace-distinguishability): Member name 'assemblyId' shadows CylinderAssembly::assemblyId
+│   815 |             attribute assemblyId = 728;
+│       |                       ^^^^^^^^^^
+└── iteration_03.sysml:56:15: note: Inherited from here
+    └── iteration_03.sysml:814:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:816:18: warning (namespace-distinguishability): Member name 'cylinder' shadows CylinderAssembly::cylinder
+│   816 |             part cylinder : Cylinder {
+│       |                  ^^^^^^^^
+└── iteration_03.sysml:57:10: note: Inherited from here
+    └── iteration_03.sysml:814:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:817:27: warning (namespace-distinguishability): Member name 'cylinderId' shadows Cylinder::cylinderId
+│   817 |                 attribute cylinderId = 828;
+│       |                           ^^^^^^^^^^
+└── iteration_03.sysml:26:15: note: Inherited from here
+    └── iteration_03.sysml:816:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:818:27: warning (namespace-distinguishability): Member name 'bore' shadows Cylinder::bore
+│   818 |                 attribute bore = 0.099;
+│       |                           ^^^^
+└── iteration_03.sysml:27:15: note: Inherited from here
+    └── iteration_03.sysml:816:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:819:27: warning (namespace-distinguishability): Member name 'stroke' shadows Cylinder::stroke
+│   819 |                 attribute stroke = 0.082;
+│       |                           ^^^^^^
+└── iteration_03.sysml:28:15: note: Inherited from here
+    └── iteration_03.sysml:816:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:820:27: warning (namespace-distinguishability): Member name 'displacement' shadows Cylinder::displacement
+│   820 |                 attribute displacement = 0.625;
+│       |                           ^^^^^^^^^^^^
+└── iteration_03.sysml:29:15: note: Inherited from here
+    └── iteration_03.sysml:816:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:821:27: warning (namespace-distinguishability): Member name 'compressionRatio' shadows Cylinder::compressionRatio
+│   821 |                 attribute compressionRatio = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:30:15: note: Inherited from here
+    └── iteration_03.sysml:816:29: note: Because Cylinder is specialized through FeatureTyping
+
+iteration_03.sysml:823:18: warning (namespace-distinguishability): Member name 'piston' shadows CylinderAssembly::piston
+│   823 |             part piston : Piston {
+│       |                  ^^^^^^
+└── iteration_03.sysml:58:10: note: Inherited from here
+    └── iteration_03.sysml:814:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:824:27: warning (namespace-distinguishability): Member name 'pistonId' shadows Piston::pistonId
+│   824 |                 attribute pistonId = 928;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:34:15: note: Inherited from here
+    └── iteration_03.sysml:823:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:825:27: warning (namespace-distinguishability): Member name 'mass' shadows Piston::mass
+│   825 |                 attribute mass = 0.45;
+│       |                           ^^^^
+└── iteration_03.sysml:35:15: note: Inherited from here
+    └── iteration_03.sysml:823:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:826:27: warning (namespace-distinguishability): Member name 'diameter' shadows Piston::diameter
+│   826 |                 attribute diameter = 0.099;
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:36:15: note: Inherited from here
+    └── iteration_03.sysml:823:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:827:27: warning (namespace-distinguishability): Member name 'material' shadows Piston::material
+│   827 |                 attribute material = "Forged Aluminum";
+│       |                           ^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:823:27: note: Because Piston is specialized through FeatureTyping
+
+iteration_03.sysml:829:18: warning (namespace-distinguishability): Member name 'connectingRod' shadows CylinderAssembly::connectingRod
+│   829 |             part connectingRod : ConnectingRod {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_03.sysml:59:10: note: Inherited from here
+    └── iteration_03.sysml:814:26: note: Because CylinderAssembly is specialized through FeatureTyping
+
+iteration_03.sysml:830:27: warning (namespace-distinguishability): Member name 'rodId' shadows ConnectingRod::rodId
+│   830 |                 attribute rodId = 1028;
+│       |                           ^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:829:34: note: Because ConnectingRod is specialized through FeatureTyping
+
+iteration_03.sysml:831:27: warning (namespace-distinguishability): Member name 'length' shadows ConnectingRod::length
+│   831 |                 attribute length
+│       |                           ^^^^^^
+└── iteration_03.sysml:42:15: note: Inherited from here
+    └── iteration_03.sysml:829:34: note: Because ConnectingRod is specialized through FeatureTyping

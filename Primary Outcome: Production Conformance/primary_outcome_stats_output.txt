@@ -1,0 +1,5 @@
+Scanning: 604 positive artifacts
+
+Total prompt-level cases: 604
+Single-shot production conformance: 309/604 (51.16%)
+Final pipeline production conformance: 604/604 (100.00%)

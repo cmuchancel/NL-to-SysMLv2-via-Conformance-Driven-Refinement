@@ -1,0 +1,43 @@
+iteration_01.sysml:15:46: error (parsing-error): Unexpected '::', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "@", "as", "#", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    15 |         attribute hubDiameter : Length = 18.0::in;
+       |                                              ^^
+
+iteration_01.sysml:16:45: error (parsing-error): Unexpected ';'.
+    16 |         attribute width : Length = 245.0::mm;
+       |                                             ^
+
+iteration_01.sysml:21:43: error (parsing-error): Unexpected ';'.
+    21 |         attribute mass : Mass = 1200.0::kg;
+       |                                           ^
+
+iteration_01.sysml:22:44: error (parsing-error): Unexpected ';'.
+    22 |         attribute length : Length = 4.82::m;
+       |                                            ^
+
+iteration_01.sysml:24:13: warning (namespace-distinguishability): Member name 'position' shadows AutomotiveComponentModel::Wheel::position
+│   24 |             position = WheelPosition::LEFT;
+│      |             ^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:23:31: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:27:13: warning (namespace-distinguishability): Member name 'position' shadows AutomotiveComponentModel::Wheel::position
+│   27 |             position = WheelPosition::RIGHT;
+│      |             ^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:26:32: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:15:33: error (reference-error): No Type named 'Length' found.
+    15 |         attribute hubDiameter : Length = 18.0::in;
+       |                                 ^^^^^^
+
+iteration_01.sysml:16:27: error (reference-error): No Type named 'Length' found.
+    16 |         attribute width : Length = 245.0::mm;
+       |                           ^^^^^^
+
+iteration_01.sysml:21:26: error (reference-error): No Type named 'Mass' found.
+    21 |         attribute mass : Mass = 1200.0::kg;
+       |                          ^^^^
+
+iteration_01.sysml:22:28: error (reference-error): No Type named 'Length' found.
+    22 |         attribute length : Length = 4.82::m;
+       |                            ^^^^^^

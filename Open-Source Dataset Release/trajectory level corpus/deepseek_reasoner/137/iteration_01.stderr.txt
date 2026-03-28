@@ -1,0 +1,63 @@
+iteration_02.sysml:16:42: error (parsing-error): Unexpected 'in', expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    16 |         attribute hubDiameter : Length = in(18.0);
+       |                                          ^^
+
+iteration_02.sysml:17:36: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    17 |         attribute width : Length = mm(245.0);
+       |                                    ^^
+
+iteration_02.sysml:23:33: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    23 |         attribute mass : Mass = kg(1200.0);
+       |                                 ^^
+
+iteration_02.sysml:24:37: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    24 |         attribute length : Length = m(4.82);
+       |                                     ^
+
+iteration_02.sysml:26:13: warning (namespace-distinguishability): Member name 'position' shadows AutomotiveComponentModel::Wheel::position
+│   26 |             position = WheelPosition::LEFT;
+│      |             ^^^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:25:31: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:29:13: warning (namespace-distinguishability): Member name 'position' shadows AutomotiveComponentModel::Wheel::position
+│   29 |             position = WheelPosition::RIGHT;
+│      |             ^^^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:28:32: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:11:28: error (reference-error): No Type named 'Length' found.
+    11 |         attribute height : Length;
+       |                            ^^^^^^
+
+iteration_02.sysml:16:33: error (reference-error): No Type named 'Length' found.
+    16 |         attribute hubDiameter : Length = in(18.0);
+       |                                 ^^^^^^
+
+iteration_02.sysml:17:27: error (reference-error): No Type named 'Length' found.
+    17 |         attribute width : Length = mm(245.0);
+       |                           ^^^^^^
+
+iteration_02.sysml:17:36: error (reference-error): No Type named 'mm' found.
+    17 |         attribute width : Length = mm(245.0);
+       |                                    ^^
+
+iteration_02.sysml:18:35: error (reference-error): No Type named 'Length' found.
+    18 |         attribute outerDiameter : Length = hubDiameter + 2 * tire.height;
+       |                                   ^^^^^^
+
+iteration_02.sysml:23:26: error (reference-error): No Type named 'Mass' found.
+    23 |         attribute mass : Mass = kg(1200.0);
+       |                          ^^^^
+
+iteration_02.sysml:23:33: error (reference-error): No Type named 'kg' found.
+    23 |         attribute mass : Mass = kg(1200.0);
+       |                                 ^^
+
+iteration_02.sysml:24:28: error (reference-error): No Type named 'Length' found.
+    24 |         attribute length : Length = m(4.82);
+       |                            ^^^^^^
+
+iteration_02.sysml:24:37: error (reference-error): No Type named 'm' found.
+    24 |         attribute length : Length = m(4.82);
+       |                                     ^

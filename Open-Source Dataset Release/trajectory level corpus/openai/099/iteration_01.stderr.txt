@@ -1,0 +1,29 @@
+iteration_02.sysml:20:10: warning (namespace-distinguishability): Member name 'axle' shadows VehicleStructuralArchitecture::AxleAssembly::axle
+│   20 |     part axle : FrontAxle;
+│      |          ^^^^
+└── iteration_02.sysml:14:10: note: Inherited from here
+    └── iteration_02.sysml:19:42: note: Because VehicleStructuralArchitecture::AxleAssembly is specialized through Subclassification
+
+iteration_02.sysml:24:10: warning (namespace-distinguishability): Member name 'axle' shadows VehicleStructuralArchitecture::AxleAssembly::axle
+│   24 |     part axle : RearAxle;
+│      |          ^^^^
+└── iteration_02.sysml:14:10: note: Inherited from here
+    └── iteration_02.sysml:23:41: note: Because VehicleStructuralArchitecture::AxleAssembly is specialized through Subclassification
+
+iteration_02.sysml:28:10: warning (namespace-distinguishability): Member name 'axle' shadows VehicleStructuralArchitecture::FrontAxleAssembly::axle
+│   28 |     part axle : SteerableFrontAxle;
+│      |          ^^^^
+└── iteration_02.sysml:20:10: note: Inherited from here
+    └── iteration_02.sysml:27:51: note: Because VehicleStructuralArchitecture::FrontAxleAssembly is specialized through Subclassification
+
+iteration_02.sysml:38:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   38 |     attribute mass : Real = 1750;
+│      |               ^^^^
+└── iteration_02.sysml:32:15: note: Inherited from here
+    └── iteration_02.sysml:37:38: note: Because VehicleStructuralArchitecture::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:42:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   42 |     attribute mass : Real = 2000;
+│      |               ^^^^
+└── iteration_02.sysml:32:15: note: Inherited from here
+    └── iteration_02.sysml:41:38: note: Because VehicleStructuralArchitecture::Vehicle is specialized through Subclassification

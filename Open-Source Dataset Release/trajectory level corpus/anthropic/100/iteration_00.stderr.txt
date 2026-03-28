@@ -1,0 +1,9 @@
+iteration_01.sysml:27:28: error (feature-value-overriding): Cannot override a binding feature value
+│   27 |         attribute :>> mass = 1750;
+│      |                            ^^^^^^
+└── iteration_01.sysml:21:31: note: Redefined binding feature value here
+
+iteration_01.sysml:45:28: error (feature-value-overriding): Cannot override a binding feature value
+│   45 |         attribute :>> mass = 2000;
+│      |                            ^^^^^^
+└── iteration_01.sysml:21:31: note: Redefined binding feature value here

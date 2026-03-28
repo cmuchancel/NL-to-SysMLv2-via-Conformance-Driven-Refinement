@@ -1,0 +1,7 @@
+iteration_01.sysml:11:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    11 |         item warning : OverTempWarning;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:18:44: error (reference-error): No Feature named 'normal' found.
+    18 |         attribute status : VehicleStatus = normal;
+       |                                            ^^^^^^

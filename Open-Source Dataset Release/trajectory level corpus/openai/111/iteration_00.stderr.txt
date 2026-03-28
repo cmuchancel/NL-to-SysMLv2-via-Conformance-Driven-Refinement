@@ -1,0 +1,130 @@
+iteration_01.sysml:2:3: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |   private import ScalarValues::*;
+
+iteration_01.sysml:12:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    12 |     part gearbox : Gearbox;
+       |     ^^^^
+
+iteration_01.sysml:13:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    13 |   end;
+
+iteration_01.sysml:16:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    16 |     part gearbox : Gearbox;
+       |     ^^^^
+
+iteration_01.sysml:18:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    18 |   end;
+
+iteration_01.sysml:21:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    21 |     item vehicle : VehicleWithoutGearboxEngine;
+       |     ^^^^
+
+iteration_01.sysml:22:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    22 |   end;
+
+iteration_01.sysml:25:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    25 |     item gearbox : GearboxItem;
+       |     ^^^^
+
+iteration_01.sysml:26:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    26 |   end;
+
+iteration_01.sysml:29:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    29 |     item vehicle : VehicleWithGearbox;
+       |     ^^^^
+
+iteration_01.sysml:30:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    30 |   end;
+
+iteration_01.sysml:33:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    33 |     item vehicle : VehicleWithGearbox;
+       |     ^^^^
+
+iteration_01.sysml:34:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    34 |   end;
+
+iteration_01.sysml:37:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    37 |     item engine : EngineItem;
+       |     ^^^^
+
+iteration_01.sysml:38:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    38 |   end;
+
+iteration_01.sysml:41:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    41 |     item vehicle : FullyAssembledVehicle;
+       |     ^^^^
+
+iteration_01.sysml:42:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    42 |   end;
+
+iteration_01.sysml:45:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    45 |     port inVehicle : VehicleWithoutGearboxIn;
+       |     ^^^^
+
+iteration_01.sysml:48:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    48 |   end;
+
+iteration_01.sysml:51:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    51 |     port inVehicle : VehicleWithGearboxIn;
+       |     ^^^^
+
+iteration_01.sysml:54:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    54 |   end;
+
+iteration_01.sysml:57:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    57 |     port inVehicle : VehicleWithoutGearboxIn;
+       |     ^^^^
+
+iteration_01.sysml:70:6: error (parsing-error): Expected a token. Did you forget an identifier?
+    70 |   end;
+
+iteration_01.sysml:71:4: error (parsing-error): Expected a token. Did you forget an identifier?
+    71 | end;
+
+iteration_01.sysml:53:10: warning (namespace-distinguishability): Member name 'outVehicle' shadows outVehicle
+│   53 |     port outVehicle : FullyAssembledVehicleOut;
+│      |          ^^^^^^^^^^
+└── iteration_01.sysml:47:10: note: First declared here
+
+iteration_01.sysml:58:10: warning (namespace-distinguishability): Member name 'inGearbox' shadows inGearbox
+│   58 |     port inGearbox : GearboxIn;
+│      |          ^^^^^^^^^
+└── iteration_01.sysml:46:10: note: First declared here
+
+iteration_01.sysml:59:10: warning (namespace-distinguishability): Member name 'inEngine' shadows inEngine
+│   59 |     port inEngine : EngineIn;
+│      |          ^^^^^^^^
+└── iteration_01.sysml:52:10: note: First declared here
+
+iteration_01.sysml:60:10: warning (namespace-distinguishability): Member name 'outVehicle' shadows outVehicle
+│   60 |     port outVehicle : FullyAssembledVehicleOut;
+│      |          ^^^^^^^^^^
+└── iteration_01.sysml:47:10: note: First declared here
+
+iteration_01.sysml:65:13: error (reference-error): No Feature named 'inVehicle' found.
+    65 |     connect inVehicle to step1.inVehicle;
+       |             ^^^^^^^^^
+
+iteration_01.sysml:65:32: error (reference-error): No Feature named 'inVehicle' found.
+    65 |     connect inVehicle to step1.inVehicle;
+       |                                ^^^^^^^^^
+
+iteration_01.sysml:66:32: error (reference-error): No Feature named 'inGearbox' found.
+    66 |     connect inGearbox to step1.inGearbox;
+       |                                ^^^^^^^^^
+
+iteration_01.sysml:67:19: error (reference-error): No Feature named 'outVehicle' found.
+    67 |     connect step1.outVehicle to step2.inVehicle;
+       |                   ^^^^^^^^^^
+
+iteration_01.sysml:67:39: error (reference-error): No Feature named 'inVehicle' found.
+    67 |     connect step1.outVehicle to step2.inVehicle;
+       |                                       ^^^^^^^^^
+
+iteration_01.sysml:68:31: error (reference-error): No Feature named 'inEngine' found.
+    68 |     connect inEngine to step2.inEngine;
+       |                               ^^^^^^^^
+
+iteration_01.sysml:69:19: error (reference-error): No Feature named 'outVehicle' found.
+    69 |     connect step2.outVehicle to outVehicle;
+       |                   ^^^^^^^^^^

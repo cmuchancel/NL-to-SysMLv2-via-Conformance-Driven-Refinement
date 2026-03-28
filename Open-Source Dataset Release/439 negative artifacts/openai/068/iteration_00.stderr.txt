@@ -1,0 +1,31 @@
+iteration_01.sysml:5:24: error (reference-error): No Type named 'Torque' found.
+    5 |     attribute torque : Torque;
+      |                        ^^^^^^
+
+iteration_01.sysml:6:23: error (reference-error): No Type named 'Speed' found.
+    6 |     attribute speed : Speed;
+      |                       ^^^^^
+
+iteration_01.sysml:11:27: error (reference-error): No Type named 'Torque' found.
+    11 |     attribute maxTorque : Torque = 300;
+       |                           ^^^^^^
+
+iteration_01.sysml:12:28: error (reference-error): No Type named 'Speed' found.
+    12 |     attribute ratedSpeed : Speed = 4000;
+       |                            ^^^^^
+
+iteration_01.sysml:25:26: error (reference-error): No Type named 'Mass' found.
+    25 |     attribute curbMass : Mass = 1450;
+       |                          ^^^^
+
+iteration_01.sysml:26:26: error (reference-error): No Type named 'Mass' found.
+    26 |     attribute fuelMass : Mass = 50;
+       |                          ^^^^
+
+iteration_01.sysml:27:27: error (reference-error): No Type named 'Mass' found.
+    27 |     attribute totalMass : Mass = 1500;
+       |                           ^^^^
+
+iteration_01.sysml:28:30: error (reference-error): No Type named 'Mass' found.
+    28 |     attribute maxMassLimit : Mass = 2000;
+       |                              ^^^^

@@ -1,0 +1,35 @@
+iteration_02.sysml:68:19: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   68 |         attribute engineType = EngineType::SixCylinder;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:25:19: note: Inherited from here
+    └── iteration_02.sysml:67:34: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:72:19: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   72 |         attribute transmissionType = TransmissionType::Automatic;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:29:19: note: Inherited from here
+    └── iteration_02.sysml:71:40: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_02.sysml:76:19: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::Wheel::wheelType
+│   76 |         attribute wheelType = WheelType::WideRim;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:33:19: note: Inherited from here
+    └── iteration_02.sysml:75:34: note: Because VehicleProductLineConfiguration::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:80:19: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   80 |         attribute engineType = EngineType::FourCylinder;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:25:19: note: Inherited from here
+    └── iteration_02.sysml:79:38: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:84:19: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   84 |         attribute transmissionType = TransmissionType::Manual;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:29:19: note: Inherited from here
+    └── iteration_02.sysml:83:44: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_02.sysml:88:19: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::Wheel::wheelType
+│   88 |         attribute wheelType = WheelType::NarrowRim;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:33:19: note: Inherited from here
+    └── iteration_02.sysml:87:38: note: Because VehicleProductLineConfiguration::Wheel is specialized through FeatureTyping

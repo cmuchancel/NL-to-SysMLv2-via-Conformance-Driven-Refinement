@@ -1,0 +1,39 @@
+iteration_01.sysml:62:17: warning (namespace-distinguishability): Member name 'option' shadows SystemDataModel::DiameterOptionValue::option
+│   62 |       attribute option : DiameterOption = DiameterOption::small;
+│      |                 ^^^^^^
+└── iteration_01.sysml:56:15: note: Inherited from here
+    └── iteration_01.sysml:61:18: note: Because SystemDataModel::DiameterOptionValue is specialized through FeatureTyping
+
+iteration_01.sysml:63:17: warning (namespace-distinguishability): Member name 'diameterMM' shadows SystemDataModel::DiameterOptionValue::diameterMM
+│   63 |       attribute diameterMM : Real = 60.0;
+│      |                 ^^^^^^^^^^
+└── iteration_01.sysml:57:15: note: Inherited from here
+    └── iteration_01.sysml:61:18: note: Because SystemDataModel::DiameterOptionValue is specialized through FeatureTyping
+
+iteration_01.sysml:66:17: warning (namespace-distinguishability): Member name 'option' shadows SystemDataModel::DiameterOptionValue::option
+│   66 |       attribute option : DiameterOption = DiameterOption::medium;
+│      |                 ^^^^^^
+└── iteration_01.sysml:56:15: note: Inherited from here
+    └── iteration_01.sysml:65:19: note: Because SystemDataModel::DiameterOptionValue is specialized through FeatureTyping
+
+iteration_01.sysml:67:17: warning (namespace-distinguishability): Member name 'diameterMM' shadows SystemDataModel::DiameterOptionValue::diameterMM
+│   67 |       attribute diameterMM : Real = 70.0;
+│      |                 ^^^^^^^^^^
+└── iteration_01.sysml:57:15: note: Inherited from here
+    └── iteration_01.sysml:65:19: note: Because SystemDataModel::DiameterOptionValue is specialized through FeatureTyping
+
+iteration_01.sysml:70:17: warning (namespace-distinguishability): Member name 'option' shadows SystemDataModel::DiameterOptionValue::option
+│   70 |       attribute option : DiameterOption = DiameterOption::large;
+│      |                 ^^^^^^
+└── iteration_01.sysml:56:15: note: Inherited from here
+    └── iteration_01.sysml:69:18: note: Because SystemDataModel::DiameterOptionValue is specialized through FeatureTyping
+
+iteration_01.sysml:71:17: warning (namespace-distinguishability): Member name 'diameterMM' shadows SystemDataModel::DiameterOptionValue::diameterMM
+│   71 |       attribute diameterMM : Real = 80.0;
+│      |                 ^^^^^^^^^^
+└── iteration_01.sysml:57:15: note: Inherited from here
+    └── iteration_01.sysml:69:18: note: Because SystemDataModel::DiameterOptionValue is specialized through FeatureTyping
+
+iteration_01.sysml:15:23: error (reference-error): No Type named 'DateTime' found.
+    15 |     attribute value : DateTime;
+       |                       ^^^^^^^^

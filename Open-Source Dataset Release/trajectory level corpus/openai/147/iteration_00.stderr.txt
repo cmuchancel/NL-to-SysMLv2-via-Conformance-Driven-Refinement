@@ -1,0 +1,65 @@
+iteration_01.sysml:20:15: warning (namespace-distinguishability): Member name 'name' shadows AlloySystem::Material::name
+│   20 |     attribute name = "Iron";
+│      |               ^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:19:15: note: Because AlloySystem::Material is specialized through FeatureTyping
+
+iteration_01.sysml:21:15: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloySystem::Material::atomicMass
+│   21 |     attribute atomicMass = 55.845;
+│      |               ^^^^^^^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:19:15: note: Because AlloySystem::Material is specialized through FeatureTyping
+
+iteration_01.sysml:25:15: warning (namespace-distinguishability): Member name 'name' shadows AlloySystem::Material::name
+│   25 |     attribute name = "Carbon";
+│      |               ^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:24:17: note: Because AlloySystem::Material is specialized through FeatureTyping
+
+iteration_01.sysml:26:15: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloySystem::Material::atomicMass
+│   26 |     attribute atomicMass = 12.011;
+│      |               ^^^^^^^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:24:17: note: Because AlloySystem::Material is specialized through FeatureTyping
+
+iteration_01.sysml:30:15: warning (namespace-distinguishability): Member name 'name' shadows AlloySystem::Material::name
+│   30 |     attribute name = "Manganese";
+│      |               ^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:29:20: note: Because AlloySystem::Material is specialized through FeatureTyping
+
+iteration_01.sysml:31:15: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloySystem::Material::atomicMass
+│   31 |     attribute atomicMass = 54.938;
+│      |               ^^^^^^^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:29:20: note: Because AlloySystem::Material is specialized through FeatureTyping
+
+iteration_01.sysml:35:15: warning (namespace-distinguishability): Member name 'tensileStrength' shadows AlloySystem::Alloy::tensileStrength
+│   35 |     attribute tensileStrength = 980;
+│      |               ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:15: note: Inherited from here
+    └── iteration_01.sysml:34:19: note: Because AlloySystem::Alloy is specialized through FeatureTyping
+
+iteration_01.sysml:37:12: warning (namespace-distinguishability): Member name 'material' shadows AlloySystem::Component::material
+│   37 |       part material = iron;
+│      |            ^^^^^^^^
+└── iteration_01.sysml:10:10: note: Inherited from here
+    └── iteration_01.sysml:36:21: note: Because AlloySystem::Component is specialized through FeatureTyping
+
+iteration_01.sysml:38:17: warning (namespace-distinguishability): Member name 'massFraction' shadows AlloySystem::Component::massFraction
+│   38 |       attribute massFraction = 0.98;
+│      |                 ^^^^^^^^^^^^
+└── iteration_01.sysml:11:15: note: Inherited from here
+    └── iteration_01.sysml:36:21: note: Because AlloySystem::Component is specialized through FeatureTyping
+
+iteration_01.sysml:41:12: warning (namespace-distinguishability): Member name 'material' shadows AlloySystem::Component::material
+│   41 |       part material = carbon;
+│      |            ^^^^^^^^
+└── iteration_01.sysml:10:10: note: Inherited from here
+    └── iteration_01.sysml:40:23: note: Because AlloySystem::Component is specialized through FeatureTyping
+
+iteration_01.sysml:42:17: warning (namespace-distinguishability): Member name 'massFraction' shadows AlloySystem::Component::massFraction
+│   42 |       attribute massFraction = 0.02;
+│      |                 ^^^^^^^^^^^^
+└── iteration_01.sysml:11:15: note: Inherited from here
+    └── iteration_01.sysml:40:23: note: Because AlloySystem::Component is specialized through FeatureTyping

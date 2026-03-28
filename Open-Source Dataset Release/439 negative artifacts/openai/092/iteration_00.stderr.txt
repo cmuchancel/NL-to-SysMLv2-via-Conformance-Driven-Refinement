@@ -1,0 +1,95 @@
+iteration_01.sysml:24:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    24 |     item data : DataPacket;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:28:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    28 |     item power : PowerFlow;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:32:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    32 |     item control : ControlSignal;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:36:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    36 |     item status : StatusReport;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:40:45: error (reference-error): No Feature named 'SensingActuation' found.
+    40 |     attribute capability : CapabilityKind = SensingActuation;
+       |                                             ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:41:41: error (reference-error): No Feature named 'Monitor' found.
+    41 |     attribute function : FunctionKind = Monitor;
+       |                                         ^^^^^^^
+
+iteration_01.sysml:47:45: error (reference-error): No Feature named 'SensingActuation' found.
+    47 |     attribute capability : CapabilityKind = SensingActuation;
+       |                                             ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:48:41: error (reference-error): No Feature named 'Interface' found.
+    48 |     attribute function : FunctionKind = Interface;
+       |                                         ^^^^^^^^^
+
+iteration_01.sysml:54:45: error (reference-error): No Feature named 'StructuralControl' found.
+    54 |     attribute capability : CapabilityKind = StructuralControl;
+       |                                             ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:55:41: error (reference-error): No Feature named 'Compute' found.
+    55 |     attribute function : FunctionKind = Compute;
+       |                                         ^^^^^^^
+
+iteration_01.sysml:62:45: error (reference-error): No Feature named 'StructuralControl' found.
+    62 |     attribute capability : CapabilityKind = StructuralControl;
+       |                                             ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:63:41: error (reference-error): No Feature named 'Compute' found.
+    63 |     attribute function : FunctionKind = Compute;
+       |                                         ^^^^^^^
+
+iteration_01.sysml:76:45: error (reference-error): No Feature named 'PowerManagement' found.
+    76 |     attribute capability : CapabilityKind = PowerManagement;
+       |                                             ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:77:41: error (reference-error): No Feature named 'Distribute' found.
+    77 |     attribute function : FunctionKind = Distribute;
+       |                                         ^^^^^^^^^^
+
+iteration_01.sysml:83:45: error (reference-error): No Feature named 'PowerManagement' found.
+    83 |     attribute capability : CapabilityKind = PowerManagement;
+       |                                             ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:84:41: error (reference-error): No Feature named 'Distribute' found.
+    84 |     attribute function : FunctionKind = Distribute;
+       |                                         ^^^^^^^^^^
+
+iteration_01.sysml:91:45: error (reference-error): No Feature named 'PowerManagement' found.
+    91 |     attribute capability : CapabilityKind = PowerManagement;
+       |                                             ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:92:41: error (reference-error): No Feature named 'Distribute' found.
+    92 |     attribute function : FunctionKind = Distribute;
+       |                                         ^^^^^^^^^^
+
+iteration_01.sysml:103:45: error (reference-error): No Feature named 'CommunicationHandling' found.
+    103 |     attribute capability : CapabilityKind = CommunicationHandling;
+        |                                             ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:104:41: error (reference-error): No Feature named 'Interface' found.
+    104 |     attribute function : FunctionKind = Interface;
+        |                                         ^^^^^^^^^
+
+iteration_01.sysml:111:45: error (reference-error): No Feature named 'CommunicationHandling' found.
+    111 |     attribute capability : CapabilityKind = CommunicationHandling;
+        |                                             ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:112:41: error (reference-error): No Feature named 'Interface' found.
+    112 |     attribute function : FunctionKind = Interface;
+        |                                         ^^^^^^^^^
+
+iteration_01.sysml:123:45: error (reference-error): No Feature named 'StructuralControl' found.
+    123 |     attribute capability : CapabilityKind = StructuralControl;
+        |                                             ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:124:41: error (reference-error): No Feature named 'Interface' found.
+    124 |     attribute function : FunctionKind = Interface;
+        |                                         ^^^^^^^^^

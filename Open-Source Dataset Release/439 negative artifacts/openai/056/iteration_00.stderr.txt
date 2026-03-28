@@ -1,0 +1,19 @@
+iteration_01.sysml:8:15: warning (namespace-distinguishability): Member name 'totalMass' shadows MassAggregation::ObjectWithMass::totalMass
+│   8 |     attribute totalMass : Real = simpleMass;
+│     |               ^^^^^^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:7:36: note: Because MassAggregation::ObjectWithMass is specialized through Subclassification
+
+iteration_01.sysml:12:15: warning (namespace-distinguishability): Member name 'totalMass' shadows MassAggregation::ObjectWithMass::totalMass
+│   12 |     attribute totalMass : Real = simpleMass + sum(subcomponents.totalMass);
+│      |               ^^^^^^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:10:39: note: Because MassAggregation::ObjectWithMass is specialized through Subclassification
+
+iteration_01.sysml:12:47: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    12 |     attribute totalMass : Real = simpleMass + sum(subcomponents.totalMass);
+       |                                               ^^^
+
+iteration_01.sysml:12:47: error (reference-error): No Type named 'sum' found.
+    12 |     attribute totalMass : Real = simpleMass + sum(subcomponents.totalMass);
+       |                                               ^^^

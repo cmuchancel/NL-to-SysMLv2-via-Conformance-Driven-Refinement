@@ -1,0 +1,53 @@
+iteration_01.sysml:19:18: warning (namespace-distinguishability): Member name 'torqueOut' shadows PowerSystem::Engine::torqueOut
+│   19 |             port torqueOut : TorquePort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:13:14: note: Inherited from here
+    └── iteration_01.sysml:18:23: note: Because PowerSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:20:18: warning (namespace-distinguishability): Member name 'powerIn' shadows PowerSystem::Engine::powerIn
+│   20 |             port powerIn : PowerPort;
+│      |                  ^^^^^^^
+└── iteration_01.sysml:14:14: note: Inherited from here
+    └── iteration_01.sysml:18:23: note: Because PowerSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:29:18: warning (namespace-distinguishability): Member name 'torqueOut' shadows PowerSystem::TorqueGenerator::torqueOut
+│   29 |             port torqueOut : TorquePort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:8:14: note: Inherited from here
+    └── iteration_01.sysml:28:32: note: Because PowerSystem::TorqueGenerator is specialized through FeatureTyping
+
+iteration_01.sysml:30:18: warning (namespace-distinguishability): Member name 'powerIn' shadows PowerSystem::TorqueGenerator::powerIn
+│   30 |             port powerIn : PowerPort;
+│      |                  ^^^^^^^
+└── iteration_01.sysml:9:14: note: Inherited from here
+    └── iteration_01.sysml:28:32: note: Because PowerSystem::TorqueGenerator is specialized through FeatureTyping
+
+iteration_01.sysml:33:18: warning (namespace-distinguishability): Member name 'engine' shadows PowerSystem::Powertrain::engine
+│   33 |             part engine : Engine {
+│      |                  ^^^^^^
+└── iteration_01.sysml:18:14: note: Inherited from here
+    └── iteration_01.sysml:32:27: note: Because PowerSystem::Powertrain is specialized through FeatureTyping
+
+iteration_01.sysml:34:22: warning (namespace-distinguishability): Member name 'torqueOut' shadows PowerSystem::Engine::torqueOut
+│   34 |                 port torqueOut : TorquePort;
+│      |                      ^^^^^^^^^
+└── iteration_01.sysml:13:14: note: Inherited from here
+    └── iteration_01.sysml:33:27: note: Because PowerSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:35:22: warning (namespace-distinguishability): Member name 'powerIn' shadows PowerSystem::Engine::powerIn
+│   35 |                 port powerIn : PowerPort;
+│      |                      ^^^^^^^
+└── iteration_01.sysml:14:14: note: Inherited from here
+    └── iteration_01.sysml:33:27: note: Because PowerSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:37:18: warning (namespace-distinguishability): Member name 'torqueOut' shadows PowerSystem::Powertrain::torqueOut
+│   37 |             port torqueOut : TorquePort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:22:14: note: Inherited from here
+    └── iteration_01.sysml:32:27: note: Because PowerSystem::Powertrain is specialized through FeatureTyping
+
+iteration_01.sysml:38:18: warning (namespace-distinguishability): Member name 'powerIn' shadows PowerSystem::Powertrain::powerIn
+│   38 |             port powerIn : PowerPort;
+│      |                  ^^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:32:27: note: Because PowerSystem::Powertrain is specialized through FeatureTyping

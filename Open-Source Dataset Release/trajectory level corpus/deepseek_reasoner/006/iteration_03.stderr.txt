@@ -1,0 +1,113 @@
+iteration_04.sysml:17:19: warning (namespace-distinguishability): Member name 'level' shadows InformationClassification::TrafficLightInfo::level
+│   17 |         attribute level = InformationLevel::unclassified;
+│      |                   ^^^^^
+└── iteration_04.sysml:11:19: note: Inherited from here
+    └── iteration_04.sysml:16:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:18:19: warning (namespace-distinguishability): Member name 'code' shadows InformationClassification::TrafficLightInfo::code
+│   18 |         attribute code = "uncl";
+│      |                   ^^^^
+└── iteration_04.sysml:12:19: note: Inherited from here
+    └── iteration_04.sysml:16:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:19:19: warning (namespace-distinguishability): Member name 'color' shadows InformationClassification::TrafficLightInfo::color
+│   19 |         attribute color = "green";
+│      |                   ^^^^^
+└── iteration_04.sysml:13:19: note: Inherited from here
+    └── iteration_04.sysml:16:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:23:19: warning (namespace-distinguishability): Member name 'level' shadows InformationClassification::TrafficLightInfo::level
+│   23 |         attribute level = InformationLevel::confidential;
+│      |                   ^^^^^
+└── iteration_04.sysml:11:19: note: Inherited from here
+    └── iteration_04.sysml:22:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:24:19: warning (namespace-distinguishability): Member name 'code' shadows InformationClassification::TrafficLightInfo::code
+│   24 |         attribute code = "conf";
+│      |                   ^^^^
+└── iteration_04.sysml:12:19: note: Inherited from here
+    └── iteration_04.sysml:22:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:25:19: warning (namespace-distinguishability): Member name 'color' shadows InformationClassification::TrafficLightInfo::color
+│   25 |         attribute color = "yellow";
+│      |                   ^^^^^
+└── iteration_04.sysml:13:19: note: Inherited from here
+    └── iteration_04.sysml:22:29: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:29:19: warning (namespace-distinguishability): Member name 'level' shadows InformationClassification::TrafficLightInfo::level
+│   29 |         attribute level = InformationLevel::secret;
+│      |                   ^^^^^
+└── iteration_04.sysml:11:19: note: Inherited from here
+    └── iteration_04.sysml:28:23: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:30:19: warning (namespace-distinguishability): Member name 'code' shadows InformationClassification::TrafficLightInfo::code
+│   30 |         attribute code = "secr";
+│      |                   ^^^^
+└── iteration_04.sysml:12:19: note: Inherited from here
+    └── iteration_04.sysml:28:23: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:31:19: warning (namespace-distinguishability): Member name 'color' shadows InformationClassification::TrafficLightInfo::color
+│   31 |         attribute color = "red";
+│      |                   ^^^^^
+└── iteration_04.sysml:13:19: note: Inherited from here
+    └── iteration_04.sysml:28:23: note: Because InformationClassification::TrafficLightInfo is specialized through FeatureTyping
+
+iteration_04.sysml:48:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   48 |         attribute grade = Grade::A;
+│      |                   ^^^^^
+└── iteration_04.sysml:43:19: note: Inherited from here
+    └── iteration_04.sysml:47:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:49:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   49 |         attribute points = 4.0;
+│      |                   ^^^^^^
+└── iteration_04.sysml:44:19: note: Inherited from here
+    └── iteration_04.sysml:47:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:53:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   53 |         attribute grade = Grade::B;
+│      |                   ^^^^^
+└── iteration_04.sysml:43:19: note: Inherited from here
+    └── iteration_04.sysml:52:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:54:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   54 |         attribute points = 3.0;
+│      |                   ^^^^^^
+└── iteration_04.sysml:44:19: note: Inherited from here
+    └── iteration_04.sysml:52:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:58:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   58 |         attribute grade = Grade::C;
+│      |                   ^^^^^
+└── iteration_04.sysml:43:19: note: Inherited from here
+    └── iteration_04.sysml:57:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:59:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   59 |         attribute points = 2.0;
+│      |                   ^^^^^^
+└── iteration_04.sysml:44:19: note: Inherited from here
+    └── iteration_04.sysml:57:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:63:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   63 |         attribute grade = Grade::D;
+│      |                   ^^^^^
+└── iteration_04.sysml:43:19: note: Inherited from here
+    └── iteration_04.sysml:62:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:64:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   64 |         attribute points = 1.0;
+│      |                   ^^^^^^
+└── iteration_04.sysml:44:19: note: Inherited from here
+    └── iteration_04.sysml:62:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:68:19: warning (namespace-distinguishability): Member name 'grade' shadows InformationClassification::GradeInfo::grade
+│   68 |         attribute grade = Grade::F;
+│      |                   ^^^^^
+└── iteration_04.sysml:43:19: note: Inherited from here
+    └── iteration_04.sysml:67:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping
+
+iteration_04.sysml:69:19: warning (namespace-distinguishability): Member name 'points' shadows InformationClassification::GradeInfo::points
+│   69 |         attribute points = 0.0;
+│      |                   ^^^^^^
+└── iteration_04.sysml:44:19: note: Inherited from here
+    └── iteration_04.sysml:67:19: note: Because InformationClassification::GradeInfo is specialized through FeatureTyping

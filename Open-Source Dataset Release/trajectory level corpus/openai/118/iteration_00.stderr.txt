@@ -1,0 +1,75 @@
+iteration_01.sysml:19:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    19 |     item torque : Torque;
+       |     ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:53:10: warning (namespace-distinguishability): Member name 'vehicle2000' shadows AutomobileSystem::AutomobileSpecSystem::vehicle2000
+│   53 |     part vehicle2000 : Vehicle {
+│      |          ^^^^^^^^^^^
+└── iteration_01.sysml:48:10: note: Inherited from here
+    └── iteration_01.sysml:52:17: note: Because AutomobileSystem::AutomobileSpecSystem is specialized through FeatureTyping
+
+iteration_01.sysml:54:7: warning (namespace-distinguishability): Member name 'actualMass' shadows AutomobileSystem::Vehicle::actualMass
+│   54 |       actualMass = 1980.0;
+│      |       ^^^^^^^^^^
+└── iteration_01.sysml:39:15: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:55:7: warning (namespace-distinguishability): Member name 'maxMass' shadows AutomobileSystem::Vehicle::maxMass
+│   55 |       maxMass = 2000.0;
+│      |       ^^^^^^^
+└── iteration_01.sysml:40:15: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:56:7: warning (namespace-distinguishability): Member name 'massGrade' shadows AutomobileSystem::Vehicle::massGrade
+│   56 |       massGrade = MassGrade::kg2000;
+│      |       ^^^^^^^^^
+└── iteration_01.sysml:41:15: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:57:7: warning (namespace-distinguishability): Member name 'fuelStatus' shadows AutomobileSystem::Vehicle::fuelStatus
+│   57 |       fuelStatus = FuelStatus::full;
+│      |       ^^^^^^^^^^
+└── iteration_01.sysml:42:15: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:58:7: warning (namespace-distinguishability): Member name 'reliabilityLevel' shadows AutomobileSystem::Vehicle::reliabilityLevel
+│   58 |       reliabilityLevel = 0.98;
+│      |       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:43:15: note: Inherited from here
+    └── iteration_01.sysml:53:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:60:10: warning (namespace-distinguishability): Member name 'vehicle2500' shadows AutomobileSystem::AutomobileSpecSystem::vehicle2500
+│   60 |     part vehicle2500 : Vehicle {
+│      |          ^^^^^^^^^^^
+└── iteration_01.sysml:49:10: note: Inherited from here
+    └── iteration_01.sysml:52:17: note: Because AutomobileSystem::AutomobileSpecSystem is specialized through FeatureTyping
+
+iteration_01.sysml:61:7: warning (namespace-distinguishability): Member name 'actualMass' shadows AutomobileSystem::Vehicle::actualMass
+│   61 |       actualMass = 2450.0;
+│      |       ^^^^^^^^^^
+└── iteration_01.sysml:39:15: note: Inherited from here
+    └── iteration_01.sysml:60:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:62:7: warning (namespace-distinguishability): Member name 'maxMass' shadows AutomobileSystem::Vehicle::maxMass
+│   62 |       maxMass = 2500.0;
+│      |       ^^^^^^^
+└── iteration_01.sysml:40:15: note: Inherited from here
+    └── iteration_01.sysml:60:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:63:7: warning (namespace-distinguishability): Member name 'massGrade' shadows AutomobileSystem::Vehicle::massGrade
+│   63 |       massGrade = MassGrade::kg2500;
+│      |       ^^^^^^^^^
+└── iteration_01.sysml:41:15: note: Inherited from here
+    └── iteration_01.sysml:60:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:64:7: warning (namespace-distinguishability): Member name 'fuelStatus' shadows AutomobileSystem::Vehicle::fuelStatus
+│   64 |       fuelStatus = FuelStatus::empty;
+│      |       ^^^^^^^^^^
+└── iteration_01.sysml:42:15: note: Inherited from here
+    └── iteration_01.sysml:60:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:65:7: warning (namespace-distinguishability): Member name 'reliabilityLevel' shadows AutomobileSystem::Vehicle::reliabilityLevel
+│   65 |       reliabilityLevel = 0.97;
+│      |       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:43:15: note: Inherited from here
+    └── iteration_01.sysml:60:24: note: Because AutomobileSystem::Vehicle is specialized through FeatureTyping

@@ -1,0 +1,98 @@
+iteration_01.sysml:2:3: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |   private import ScalarValues::*;
+
+iteration_01.sysml:18:31: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |   part def FourCylinderEngine : Engine {
+
+iteration_01.sysml:22:30: error (parsing-error): Expected a token. Did you forget ';'?
+    22 |   part def SixCylinderEngine : Engine {
+
+iteration_01.sysml:30:31: error (parsing-error): Expected a token. Did you forget ';'?
+    30 |   part def ManualTransmission : Transmission {
+
+iteration_01.sysml:34:34: error (parsing-error): Expected a token. Did you forget ';'?
+    34 |   part def AutomaticTransmission : Transmission {
+
+iteration_01.sysml:44:38: error (parsing-error): Expected a token. Did you forget ';'?
+    44 |   part def FourCylinderManualVehicle : Vehicle {
+
+iteration_01.sysml:50:40: error (parsing-error): Expected a token. Did you forget ';'?
+    50 |   part def SixCylinderAutomaticVehicle : Vehicle {
+
+iteration_01.sysml:58:12: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:19:15: warning (namespace-distinguishability): Member name 'type' shadows Engine::type
+│   19 |     attribute type : EngineType = FourCylinder;
+│      |               ^^^^
+└── iteration_01.sysml:15:15: note: Inherited from here
+    └── iteration_01.sysml:18:33: note: Because Engine is specialized through FeatureTyping
+
+iteration_01.sysml:23:15: warning (namespace-distinguishability): Member name 'type' shadows Engine::type
+│   23 |     attribute type : EngineType = SixCylinder;
+│      |               ^^^^
+└── iteration_01.sysml:15:15: note: Inherited from here
+    └── iteration_01.sysml:22:32: note: Because Engine is specialized through FeatureTyping
+
+iteration_01.sysml:31:15: warning (namespace-distinguishability): Member name 'type' shadows Transmission::type
+│   31 |     attribute type : TransmissionType = Manual;
+│      |               ^^^^
+└── iteration_01.sysml:27:15: note: Inherited from here
+    └── iteration_01.sysml:30:33: note: Because Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:35:15: warning (namespace-distinguishability): Member name 'type' shadows Transmission::type
+│   35 |     attribute type : TransmissionType = Automatic;
+│      |               ^^^^
+└── iteration_01.sysml:27:15: note: Inherited from here
+    └── iteration_01.sysml:34:36: note: Because Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:45:15: warning (namespace-distinguishability): Member name 'highPerformance' shadows Vehicle::highPerformance
+│   45 |     attribute highPerformance : Boolean = false;
+│      |               ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:15: note: Inherited from here
+    └── iteration_01.sysml:44:40: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:46:10: warning (namespace-distinguishability): Member name 'engine' shadows Vehicle::engine
+│   46 |     part engine : FourCylinderEngine;
+│      |          ^^^^^^
+└── iteration_01.sysml:40:10: note: Inherited from here
+    └── iteration_01.sysml:44:40: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:47:10: warning (namespace-distinguishability): Member name 'transmission' shadows Vehicle::transmission
+│   47 |     part transmission : ManualTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:41:10: note: Inherited from here
+    └── iteration_01.sysml:44:40: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:51:15: warning (namespace-distinguishability): Member name 'highPerformance' shadows Vehicle::highPerformance
+│   51 |     attribute highPerformance : Boolean = true;
+│      |               ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:15: note: Inherited from here
+    └── iteration_01.sysml:50:42: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:52:10: warning (namespace-distinguishability): Member name 'engine' shadows Vehicle::engine
+│   52 |     part engine : SixCylinderEngine;
+│      |          ^^^^^^
+└── iteration_01.sysml:40:10: note: Inherited from here
+    └── iteration_01.sysml:50:42: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:53:10: warning (namespace-distinguishability): Member name 'transmission' shadows Vehicle::transmission
+│   53 |     part transmission : AutomaticTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:41:10: note: Inherited from here
+    └── iteration_01.sysml:50:42: note: Because Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:19:35: error (reference-error): No Feature named 'FourCylinder' found.
+    19 |     attribute type : EngineType = FourCylinder;
+       |                                   ^^^^^^^^^^^^
+
+iteration_01.sysml:23:35: error (reference-error): No Feature named 'SixCylinder' found.
+    23 |     attribute type : EngineType = SixCylinder;
+       |                                   ^^^^^^^^^^^
+
+iteration_01.sysml:31:41: error (reference-error): No Feature named 'Manual' found.
+    31 |     attribute type : TransmissionType = Manual;
+       |                                         ^^^^^^
+
+iteration_01.sysml:35:41: error (reference-error): No Feature named 'Automatic' found.
+    35 |     attribute type : TransmissionType = Automatic;
+       |                                         ^^^^^^^^^

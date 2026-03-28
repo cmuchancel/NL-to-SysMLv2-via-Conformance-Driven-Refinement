@@ -1,0 +1,70 @@
+iteration_01.sysml:17:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    17 |     part def Metal extends Substance {
+       |              ^^^^^
+
+iteration_01.sysml:17:20: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    17 |     part def Metal extends Substance {
+       |                    ^^^^^^^
+
+iteration_01.sysml:17:28: warning (namespace-distinguishability): Member name 'Substance' shadows MaterialsScience::Substance
+│   17 |     part def Metal extends Substance {
+│      |                            ^^^^^^^^^
+└── iteration_01.sysml:11:14: note: First declared here
+
+iteration_01.sysml:51:19: warning (namespace-distinguishability): Member name 'name' shadows MaterialsScience::Alloy::name
+│   51 |         attribute name : String = "Steel 980";
+│      |                   ^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:50:21: note: Because MaterialsScience::Alloy is specialized through FeatureTyping
+
+iteration_01.sysml:52:19: warning (namespace-distinguishability): Member name 'tensileStrength' shadows MaterialsScience::Alloy::tensileStrength
+│   52 |         attribute tensileStrength : Real = 980.0;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:50:21: note: Because MaterialsScience::Alloy is specialized through FeatureTyping
+
+iteration_01.sysml:54:14: warning (namespace-distinguishability): Member name 'components' shadows MaterialsScience::Alloy::components
+│   54 |         part components : Component[2] {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:25:14: note: Inherited from here
+    └── iteration_01.sysml:50:21: note: Because MaterialsScience::Alloy is specialized through FeatureTyping
+
+iteration_01.sysml:56:27: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsScience::Component::massFraction
+│   56 |                 attribute massFraction : Real = 98.0;
+│      |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:55:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_01.sysml:57:22: warning (namespace-distinguishability): Member name 'material' shadows MaterialsScience::Component::material
+│   57 |                 part material = iron;
+│      |                      ^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:55:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_01.sysml:60:27: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsScience::Component::massFraction
+│   60 |                 attribute massFraction : Real = 2.0;
+│      |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:59:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_01.sysml:61:22: warning (namespace-distinguishability): Member name 'material' shadows MaterialsScience::Component::material
+│   61 |                 part material = carbon;
+│      |                      ^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:59:31: note: Because MaterialsScience::Component is specialized through FeatureTyping
+
+iteration_01.sysml:32:25: error (reference-error): No Type named 'Metal' found.
+    32 |         part material : Metal;
+       |                         ^^^^^
+
+iteration_01.sysml:35:17: error (reference-error): No Type named 'Metal' found.
+    35 |     part iron : Metal {
+       |                 ^^^^^
+
+iteration_01.sysml:40:19: error (reference-error): No Type named 'Metal' found.
+    40 |     part carbon : Metal {
+       |                   ^^^^^
+
+iteration_01.sysml:45:22: error (reference-error): No Type named 'Metal' found.
+    45 |     part manganese : Metal {
+       |                      ^^^^^

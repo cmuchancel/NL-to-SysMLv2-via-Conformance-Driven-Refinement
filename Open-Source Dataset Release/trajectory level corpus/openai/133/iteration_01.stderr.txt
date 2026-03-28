@@ -1,0 +1,15 @@
+iteration_02.sysml:8:14: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    8 |         item ref msg: CANMessage;
+      |              ^^^
+
+iteration_02.sysml:12:14: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    12 |         item ref data: SensorData;
+       |              ^^^
+
+iteration_02.sysml:8:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    8 |         item ref msg: CANMessage;
+      |         ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:12:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    12 |         item ref data: SensorData;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^

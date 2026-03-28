@@ -1,0 +1,53 @@
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'driverName' shadows CruiseControlSystem::Driver::driverName
+│   87 |             attribute driverName = "Driver1";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:54:19: note: Inherited from here
+    └── iteration_01.sysml:86:23: note: Because CruiseControlSystem::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:92:23: warning (namespace-distinguishability): Member name 'sensorId' shadows CruiseControlSystem::SpeedSensor::sensorId
+│   92 |             attribute sensorId = "SpeedSensor1";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:91:28: note: Because CruiseControlSystem::SpeedSensor is specialized through FeatureTyping
+
+iteration_01.sysml:93:23: warning (namespace-distinguishability): Member name 'measuredSpeed' shadows CruiseControlSystem::SpeedSensor::measuredSpeed
+│   93 |             attribute measuredSpeed : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:91:28: note: Because CruiseControlSystem::SpeedSensor is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'controllerId' shadows CruiseControlSystem::CruiseController::controllerId
+│   97 |             attribute controllerId = "CruiseController1";
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:65:19: note: Inherited from here
+    └── iteration_01.sysml:96:33: note: Because CruiseControlSystem::CruiseController is specialized through FeatureTyping
+
+iteration_01.sysml:98:23: warning (namespace-distinguishability): Member name 'setSpeed' shadows CruiseControlSystem::CruiseController::setSpeed
+│   98 |             attribute setSpeed : Real = 0.0;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:66:19: note: Inherited from here
+    └── iteration_01.sysml:96:33: note: Because CruiseControlSystem::CruiseController is specialized through FeatureTyping
+
+iteration_01.sysml:99:23: warning (namespace-distinguishability): Member name 'actualSpeed' shadows CruiseControlSystem::CruiseController::actualSpeed
+│   99 |             attribute actualSpeed : Real = 0.0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:67:19: note: Inherited from here
+    └── iteration_01.sysml:96:33: note: Because CruiseControlSystem::CruiseController is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'engineControllerId' shadows CruiseControlSystem::EngineController::engineControllerId
+│   103 |             attribute engineControllerId = "EngineController1";
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:74:19: note: Inherited from here
+    └── iteration_01.sysml:102:33: note: Because CruiseControlSystem::EngineController is specialized through FeatureTyping
+
+iteration_01.sysml:107:23: warning (namespace-distinguishability): Member name 'engineId' shadows CruiseControlSystem::Engine::engineId
+│   107 |             attribute engineId = "Engine1";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:80:19: note: Inherited from here
+    └── iteration_01.sysml:106:23: note: Because CruiseControlSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:108:23: warning (namespace-distinguishability): Member name 'fuelFlow' shadows CruiseControlSystem::Engine::fuelFlow
+│   108 |             attribute fuelFlow : Real = 0.0;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:81:19: note: Inherited from here
+    └── iteration_01.sysml:106:23: note: Because CruiseControlSystem::Engine is specialized through FeatureTyping

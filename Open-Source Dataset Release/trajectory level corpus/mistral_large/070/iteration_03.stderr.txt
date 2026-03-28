@@ -1,0 +1,89 @@
+iteration_04.sysml:47:19: warning (namespace-distinguishability): Member name 'emptyMass' shadows VehicleSystem::Vehicle::emptyMass
+│   47 |         attribute emptyMass : Mass {
+│      |                   ^^^^^^^^^
+└── iteration_04.sysml:14:19: note: Inherited from here
+    └── iteration_04.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:48:13: warning (namespace-distinguishability): Member name 'value' shadows VehicleSystem::Mass::value
+│   48 |             value = 1500;
+│      |             ^^^^^
+└── iteration_04.sysml:9:19: note: Inherited from here
+    └── iteration_04.sysml:47:31: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:49:13: warning (namespace-distinguishability): Member name 'unit' shadows VehicleSystem::Mass::unit
+│   49 |             unit = MassUnit::kilogram;
+│      |             ^^^^
+└── iteration_04.sysml:10:19: note: Inherited from here
+    └── iteration_04.sysml:47:31: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:51:19: warning (namespace-distinguishability): Member name 'fullMass' shadows VehicleSystem::Vehicle::fullMass
+│   51 |         attribute fullMass : Mass {
+│      |                   ^^^^^^^^
+└── iteration_04.sysml:15:19: note: Inherited from here
+    └── iteration_04.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:52:13: warning (namespace-distinguishability): Member name 'value' shadows VehicleSystem::Mass::value
+│   52 |             value = 2000;
+│      |             ^^^^^
+└── iteration_04.sysml:9:19: note: Inherited from here
+    └── iteration_04.sysml:51:30: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:53:13: warning (namespace-distinguishability): Member name 'unit' shadows VehicleSystem::Mass::unit
+│   53 |             unit = MassUnit::kilogram;
+│      |             ^^^^
+└── iteration_04.sysml:10:19: note: Inherited from here
+    └── iteration_04.sysml:51:30: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:55:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   55 |         part engine : Engine;
+│      |              ^^^^^^
+└── iteration_04.sysml:16:14: note: Inherited from here
+    └── iteration_04.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:56:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleSystem::Vehicle::transmission
+│   56 |         part transmission : Transmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_04.sysml:17:14: note: Inherited from here
+    └── iteration_04.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:57:14: warning (namespace-distinguishability): Member name 'clutch' shadows VehicleSystem::Vehicle::clutch
+│   57 |         part clutch : Clutch;
+│      |              ^^^^^^
+└── iteration_04.sysml:18:14: note: Inherited from here
+    └── iteration_04.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:64:19: warning (namespace-distinguishability): Member name 'maxEmptyMass' shadows VehicleSystem::MassRequirement::maxEmptyMass
+│   64 |         attribute maxEmptyMass : Mass {
+│      |                   ^^^^^^^^^^^^
+└── iteration_04.sysml:38:19: note: Inherited from here
+    └── iteration_04.sysml:63:27: note: Because VehicleSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_04.sysml:65:13: warning (namespace-distinguishability): Member name 'value' shadows VehicleSystem::Mass::value
+│   65 |             value = 1500;
+│      |             ^^^^^
+└── iteration_04.sysml:9:19: note: Inherited from here
+    └── iteration_04.sysml:64:34: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:66:13: warning (namespace-distinguishability): Member name 'unit' shadows VehicleSystem::Mass::unit
+│   66 |             unit = MassUnit::kilogram;
+│      |             ^^^^
+└── iteration_04.sysml:10:19: note: Inherited from here
+    └── iteration_04.sysml:64:34: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:68:19: warning (namespace-distinguishability): Member name 'maxFullMass' shadows VehicleSystem::MassRequirement::maxFullMass
+│   68 |         attribute maxFullMass : Mass {
+│      |                   ^^^^^^^^^^^
+└── iteration_04.sysml:39:19: note: Inherited from here
+    └── iteration_04.sysml:63:27: note: Because VehicleSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_04.sysml:69:13: warning (namespace-distinguishability): Member name 'value' shadows VehicleSystem::Mass::value
+│   69 |             value = 2000;
+│      |             ^^^^^
+└── iteration_04.sysml:9:19: note: Inherited from here
+    └── iteration_04.sysml:68:33: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_04.sysml:70:13: warning (namespace-distinguishability): Member name 'unit' shadows VehicleSystem::Mass::unit
+│   70 |             unit = MassUnit::kilogram;
+│      |             ^^^^
+└── iteration_04.sysml:10:19: note: Inherited from here
+    └── iteration_04.sysml:68:33: note: Because VehicleSystem::Mass is specialized through FeatureTyping

@@ -1,0 +1,47 @@
+iteration_01.sysml:43:19: warning (namespace-distinguishability): Member name 'mass' shadows AutomotiveComponentModel::Vehicle::mass
+│   43 |         attribute mass : ScalarValues::Real = 1200;
+│      |                   ^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:42:20: note: Because AutomotiveComponentModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:44:19: warning (namespace-distinguishability): Member name 'length' shadows AutomotiveComponentModel::Vehicle::length
+│   44 |         attribute length : ScalarValues::Real = 4.82;
+│      |                   ^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:42:20: note: Because AutomotiveComponentModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:45:14: warning (namespace-distinguishability): Member name 'leftFrontWheel' shadows AutomotiveComponentModel::Vehicle::leftFrontWheel
+│   45 |         part leftFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:42:20: note: Because AutomotiveComponentModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'hubDiameter' shadows AutomotiveComponentModel::Wheel::hubDiameter
+│   46 |             attribute hubDiameter : ScalarValues::Real = 18;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:45:31: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'width' shadows AutomotiveComponentModel::Wheel::width
+│   47 |             attribute width : ScalarValues::Real = 245;
+│      |                       ^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:45:31: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:49:14: warning (namespace-distinguishability): Member name 'rightFrontWheel' shadows AutomotiveComponentModel::Vehicle::rightFrontWheel
+│   49 |         part rightFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:14: note: Inherited from here
+    └── iteration_01.sysml:42:20: note: Because AutomotiveComponentModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:50:23: warning (namespace-distinguishability): Member name 'hubDiameter' shadows AutomotiveComponentModel::Wheel::hubDiameter
+│   50 |             attribute hubDiameter : ScalarValues::Real = 18;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:49:32: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:51:23: warning (namespace-distinguishability): Member name 'width' shadows AutomotiveComponentModel::Wheel::width
+│   51 |             attribute width : ScalarValues::Real = 245;
+│      |                       ^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:49:32: note: Because AutomotiveComponentModel::Wheel is specialized through FeatureTyping

@@ -1,0 +1,149 @@
+iteration_01.sysml:98:19: warning (namespace-distinguishability): Member name 'systemName' shadows VehicleSimulation::SimulationSystem::systemName
+│   98 |         attribute systemName = "VehicleMotionSimulator";
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:88:19: note: Inherited from here
+    └── iteration_01.sysml:97:29: note: Because VehicleSimulation::SimulationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:99:19: warning (namespace-distinguishability): Member name 'systemVersion' shadows VehicleSimulation::SimulationSystem::systemVersion
+│   99 |         attribute systemVersion = "1.0";
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    └── iteration_01.sysml:97:29: note: Because VehicleSimulation::SimulationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:101:14: warning (namespace-distinguishability): Member name 'simulator' shadows VehicleSimulation::SimulationSystem::simulator
+│   101 |         part simulator : VehicleSimulator {
+│       |              ^^^^^^^^^
+└── iteration_01.sysml:91:14: note: Inherited from here
+    └── iteration_01.sysml:97:29: note: Because VehicleSimulation::SimulationSystem is specialized through FeatureTyping
+
+iteration_01.sysml:102:23: warning (namespace-distinguishability): Member name 'simulatorId' shadows VehicleSimulation::VehicleSimulator::simulatorId
+│   102 |             attribute simulatorId = "SIM-001";
+│       |                       ^^^^^^^^^^^
+└── iteration_01.sysml:74:19: note: Inherited from here
+    └── iteration_01.sysml:101:26: note: Because VehicleSimulation::VehicleSimulator is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'status' shadows VehicleSimulation::VehicleSimulator::status
+│   103 |             attribute status = SimulationStatus::Running;
+│       |                       ^^^^^^
+└── iteration_01.sysml:75:19: note: Inherited from here
+    └── iteration_01.sysml:101:26: note: Because VehicleSimulation::VehicleSimulator is specialized through FeatureTyping
+
+iteration_01.sysml:105:18: warning (namespace-distinguishability): Member name 'vehicleParams' shadows VehicleSimulation::VehicleSimulator::vehicleParams
+│   105 |             part vehicleParams : VehicleParameters {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:81:14: note: Inherited from here
+    └── iteration_01.sysml:101:26: note: Because VehicleSimulation::VehicleSimulator is specialized through FeatureTyping
+
+iteration_01.sysml:106:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSimulation::VehicleParameters::mass
+│   106 |                 attribute mass = 1000.0;
+│       |                           ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:105:34: note: Because VehicleSimulation::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:107:27: warning (namespace-distinguishability): Member name 'initialPosition' shadows VehicleSimulation::VehicleParameters::initialPosition
+│   107 |                 attribute initialPosition = 0.0;
+│       |                           ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:105:34: note: Because VehicleSimulation::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:108:27: warning (namespace-distinguishability): Member name 'initialVelocity' shadows VehicleSimulation::VehicleParameters::initialVelocity
+│   108 |                 attribute initialVelocity = 0.0;
+│       |                           ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:105:34: note: Because VehicleSimulation::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:109:27: warning (namespace-distinguishability): Member name 'timeInterval' shadows VehicleSimulation::VehicleParameters::timeInterval
+│   109 |                 attribute timeInterval = 0.1;
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:105:34: note: Because VehicleSimulation::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:112:18: warning (namespace-distinguishability): Member name 'powerSequence' shadows VehicleSimulation::VehicleSimulator::powerSequence
+│   112 |             part powerSequence : PowerSequence {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:82:14: note: Inherited from here
+    └── iteration_01.sysml:101:26: note: Because VehicleSimulation::VehicleSimulator is specialized through FeatureTyping
+
+iteration_01.sysml:113:27: warning (namespace-distinguishability): Member name 'totalSteps' shadows VehicleSimulation::PowerSequence::totalSteps
+│   113 |                 attribute totalSteps = 10.0;
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:112:34: note: Because VehicleSimulation::PowerSequence is specialized through FeatureTyping
+
+iteration_01.sysml:116:18: warning (namespace-distinguishability): Member name 'motionCalc' shadows VehicleSimulation::VehicleSimulator::motionCalc
+│   116 |             part motionCalc : MotionCalculator {
+│       |                  ^^^^^^^^^^
+└── iteration_01.sysml:83:14: note: Inherited from here
+    └── iteration_01.sysml:101:26: note: Because VehicleSimulation::VehicleSimulator is specialized through FeatureTyping
+
+iteration_01.sysml:117:27: warning (namespace-distinguishability): Member name 'currentTime' shadows VehicleSimulation::MotionCalculator::currentTime
+│   117 |                 attribute currentTime = 0.0;
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:118:27: warning (namespace-distinguishability): Member name 'currentVelocity' shadows VehicleSimulation::MotionCalculator::currentVelocity
+│   118 |                 attribute currentVelocity = 0.0;
+│       |                           ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:119:27: warning (namespace-distinguishability): Member name 'currentPosition' shadows VehicleSimulation::MotionCalculator::currentPosition
+│   119 |                 attribute currentPosition = 0.0;
+│       |                           ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:120:27: warning (namespace-distinguishability): Member name 'currentForce' shadows VehicleSimulation::MotionCalculator::currentForce
+│   120 |                 attribute currentForce = 0.0;
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:121:27: warning (namespace-distinguishability): Member name 'currentAcceleration' shadows VehicleSimulation::MotionCalculator::currentAcceleration
+│   121 |                 attribute currentAcceleration = 0.0;
+│       |                           ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:122:27: warning (namespace-distinguishability): Member name 'deltaVelocity' shadows VehicleSimulation::MotionCalculator::deltaVelocity
+│   122 |                 attribute deltaVelocity = 0.0;
+│       |                           ^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:123:27: warning (namespace-distinguishability): Member name 'deltaPosition' shadows VehicleSimulation::MotionCalculator::deltaPosition
+│   123 |                 attribute deltaPosition = 0.0;
+│       |                           ^^^^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:116:31: note: Because VehicleSimulation::MotionCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:126:18: warning (namespace-distinguishability): Member name 'trajectory' shadows VehicleSimulation::VehicleSimulator::trajectory
+│   126 |             part trajectory : TrajectoryOutput {
+│       |                  ^^^^^^^^^^
+└── iteration_01.sysml:84:14: note: Inherited from here
+    └── iteration_01.sysml:101:26: note: Because VehicleSimulation::VehicleSimulator is specialized through FeatureTyping
+
+iteration_01.sysml:127:27: warning (namespace-distinguishability): Member name 'totalSteps' shadows VehicleSimulation::TrajectoryOutput::totalSteps
+│   127 |                 attribute totalSteps = 10.0;
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    └── iteration_01.sysml:126:31: note: Because VehicleSimulation::TrajectoryOutput is specialized through FeatureTyping
+
+iteration_01.sysml:128:27: warning (namespace-distinguishability): Member name 'finalPosition' shadows VehicleSimulation::TrajectoryOutput::finalPosition
+│   128 |                 attribute finalPosition = 0.0;
+│       |                           ^^^^^^^^^^^^^
+└── iteration_01.sysml:47:19: note: Inherited from here
+    └── iteration_01.sysml:126:31: note: Because VehicleSimulation::TrajectoryOutput is specialized through FeatureTyping
+
+iteration_01.sysml:129:27: warning (namespace-distinguishability): Member name 'finalVelocity' shadows VehicleSimulation::TrajectoryOutput::finalVelocity
+│   129 |                 attribute finalVelocity = 0.0;
+│       |                           ^^^^^^^^^^^^^
+└── iteration_01.sysml:48:19: note: Inherited from here
+    └── iteration_01.sysml:126:31: note: Because VehicleSimulation::TrajectoryOutput is specialized through FeatureTyping
+
+iteration_01.sysml:130:27: warning (namespace-distinguishability): Member name 'finalTime' shadows VehicleSimulation::TrajectoryOutput::finalTime
+│   130 |                 attribute finalTime = 1.0;
+│       |                           ^^^^^^^^^
+└── iteration_01.sysml:49:19: note: Inherited from here
+    └── iteration_01.sysml:126:31: note: Because VehicleSimulation::TrajectoryOutput is specialized through FeatureTyping

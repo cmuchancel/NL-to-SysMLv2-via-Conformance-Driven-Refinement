@@ -1,0 +1,39 @@
+iteration_02.sysml:44:24: error (reference-error): Expected Feature element but found PartDefinition (PubSubSystem::Publisher)
+    44 |     part publisher1 :> Publisher;
+       |                        ^^^^^^^^^
+
+iteration_02.sysml:45:25: error (reference-error): Expected Feature element but found PartDefinition (PubSubSystem::Subscriber)
+    45 |     part subscriber1 :> Subscriber;
+       |                         ^^^^^^^^^^
+
+iteration_02.sysml:46:25: error (reference-error): Expected Feature element but found PartDefinition (PubSubSystem::Subscriber)
+    46 |     part subscriber2 :> Subscriber;
+       |                         ^^^^^^^^^^
+
+iteration_02.sysml:47:20: error (reference-error): Expected Feature element but found PartDefinition (PubSubSystem::Server)
+    47 |     part server :> Server;
+       |                    ^^^^^^
+
+iteration_02.sysml:49:24: error (reference-error): No Feature named 'publishPort' found.
+    49 |     connect publisher1.publishPort to server.publishReceivePort;
+       |                        ^^^^^^^^^^^
+
+iteration_02.sysml:49:46: error (reference-error): No Feature named 'publishReceivePort' found.
+    49 |     connect publisher1.publishPort to server.publishReceivePort;
+       |                                              ^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:50:20: error (reference-error): No Feature named 'distributionPort' found.
+    50 |     connect server.distributionPort to subscriber1.subscribePort;
+       |                    ^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:50:52: error (reference-error): No Feature named 'subscribePort' found.
+    50 |     connect server.distributionPort to subscriber1.subscribePort;
+       |                                                    ^^^^^^^^^^^^^
+
+iteration_02.sysml:51:20: error (reference-error): No Feature named 'distributionPort' found.
+    51 |     connect server.distributionPort to subscriber2.subscribePort;
+       |                    ^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:51:52: error (reference-error): No Feature named 'subscribePort' found.
+    51 |     connect server.distributionPort to subscriber2.subscribePort;
+       |                                                    ^^^^^^^^^^^^^

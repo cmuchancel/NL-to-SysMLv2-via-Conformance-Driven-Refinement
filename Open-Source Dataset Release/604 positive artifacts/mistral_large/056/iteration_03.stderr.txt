@@ -1,0 +1,4 @@
+iteration_04.sysml:16:9: warning (namespace-distinguishability): Member name 'totalMass' shadows MassAggregation::compositeThing::totalMass
+│   16 |         totalMass = simpleMass + sumOfSubcomponentMasses;
+│      |         ^^^^^^^^^
+└── iteration_04.sysml:11:19: note: First declared here

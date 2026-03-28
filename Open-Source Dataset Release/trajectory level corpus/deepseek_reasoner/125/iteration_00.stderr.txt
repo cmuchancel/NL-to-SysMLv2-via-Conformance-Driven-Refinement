@@ -1,0 +1,71 @@
+iteration_01.sysml:7:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    7 |         Security
+      |         ^^^^^^^^
+
+iteration_01.sysml:8:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |     }
+      |     ^
+
+iteration_01.sysml:8:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |     }
+      |     ^
+
+iteration_01.sysml:15:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   15 |         attribute category : FeatureCategory = SafetyMandatory;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:14:26: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_01.sysml:19:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   19 |         attribute category : FeatureCategory = SafetyMandatory;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:18:24: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_01.sysml:23:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   23 |         attribute category : FeatureCategory = SafetyOptional;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:22:24: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_01.sysml:27:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   27 |         attribute category : FeatureCategory = SafetyOptional;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:26:39: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_01.sysml:31:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   31 |         attribute category : FeatureCategory = Security;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:30:29: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecurity::VehicleComponent::category
+│   35 |         attribute category : FeatureCategory = Security;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:34:36: note: Because VehicleSafetySecurity::VehicleComponent is specialized through Subclassification
+
+iteration_01.sysml:15:48: error (reference-error): No Feature named 'SafetyMandatory' found.
+    15 |         attribute category : FeatureCategory = SafetyMandatory;
+       |                                                ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:19:48: error (reference-error): No Feature named 'SafetyMandatory' found.
+    19 |         attribute category : FeatureCategory = SafetyMandatory;
+       |                                                ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:23:48: error (reference-error): No Feature named 'SafetyOptional' found.
+    23 |         attribute category : FeatureCategory = SafetyOptional;
+       |                                                ^^^^^^^^^^^^^^
+
+iteration_01.sysml:27:48: error (reference-error): No Feature named 'SafetyOptional' found.
+    27 |         attribute category : FeatureCategory = SafetyOptional;
+       |                                                ^^^^^^^^^^^^^^
+
+iteration_01.sysml:31:48: error (reference-error): No Feature named 'Security' found.
+    31 |         attribute category : FeatureCategory = Security;
+       |                                                ^^^^^^^^
+
+iteration_01.sysml:35:48: error (reference-error): No Feature named 'Security' found.
+    35 |         attribute category : FeatureCategory = Security;
+       |                                                ^^^^^^^^

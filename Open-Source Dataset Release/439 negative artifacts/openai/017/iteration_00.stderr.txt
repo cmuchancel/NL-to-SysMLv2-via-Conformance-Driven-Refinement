@@ -1,0 +1,19 @@
+iteration_01.sysml:14:10: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    14 |     port return : FuelPort;
+       |          ^^^^^^
+
+iteration_01.sysml:27:37: error (parsing-error): Unexpected token '.'.
+    27 |     connect engine.returnOut to tank.return;
+       |                                     ^
+
+iteration_01.sysml:27:38: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    27 |     connect engine.returnOut to tank.return;
+       |                                      ^^^^^^
+
+iteration_01.sysml:9:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    9 |     item fuel : Fuel;
+      |     ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:27:33: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    27 |     connect engine.returnOut to tank.return;
+       |                                 ^^^^

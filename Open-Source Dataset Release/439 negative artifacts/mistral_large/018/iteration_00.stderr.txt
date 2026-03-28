@@ -1,0 +1,15 @@
+iteration_01.sysml:42:20: error (reference-error): Expected Feature element but found PartDefinition (PhotoCaptureSystem::Camera)
+    42 |     part system :> Camera {
+       |                    ^^^^^^
+
+iteration_01.sysml:47:50: error (reference-error): No Feature named 'captureRequest' found.
+    47 |     connect system.user.sceneSelection to system.captureRequest;
+       |                                                  ^^^^^^^^^^^^^^
+
+iteration_01.sysml:48:20: error (reference-error): No Feature named 'focusControl' found.
+    48 |     connect system.focusControl to system;
+       |                    ^^^^^^^^^^^^
+
+iteration_01.sysml:49:30: error (reference-error): No Feature named 'imageOutput' found.
+    49 |     connect system to system.imageOutput;
+       |                              ^^^^^^^^^^^

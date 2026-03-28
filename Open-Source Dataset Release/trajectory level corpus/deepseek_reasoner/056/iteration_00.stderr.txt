@@ -1,0 +1,31 @@
+iteration_01.sysml:10:19: warning (namespace-distinguishability): Member name 'simpleMass' shadows MassAggregation::Thing::simpleMass
+│   10 |         attribute simpleMass : Real = 0;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:9:29: note: Because MassAggregation::Thing is specialized through Subclassification
+
+iteration_01.sysml:11:19: warning (namespace-distinguishability): Member name 'totalMass' shadows MassAggregation::Thing::totalMass
+│   11 |         attribute totalMass : Real = simpleMass;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:9:29: note: Because MassAggregation::Thing is specialized through Subclassification
+
+iteration_01.sysml:15:19: warning (namespace-distinguishability): Member name 'simpleMass' shadows MassAggregation::Thing::simpleMass
+│   15 |         attribute simpleMass : Real = 0;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:14:32: note: Because MassAggregation::Thing is specialized through Subclassification
+
+iteration_01.sysml:16:19: warning (namespace-distinguishability): Member name 'totalMass' shadows MassAggregation::Thing::totalMass
+│   16 |         attribute totalMass : Real = simpleMass + (subcomponent.totalMass->sum());
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:14:32: note: Because MassAggregation::Thing is specialized through Subclassification
+
+iteration_01.sysml:16:76: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    16 |         attribute totalMass : Real = simpleMass + (subcomponent.totalMass->sum());
+       |                                                                            ^^^
+
+iteration_01.sysml:16:76: error (reference-error): No Type named 'sum' found.
+    16 |         attribute totalMass : Real = simpleMass + (subcomponent.totalMass->sum());
+       |                                                                            ^^^

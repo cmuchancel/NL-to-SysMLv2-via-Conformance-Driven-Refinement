@@ -1,0 +1,198 @@
+iteration_02.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         luminousIntensity
+       |         ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         luminousIntensity
+       |         ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         luminousIntensity
+       |         ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         luminousIntensity
+       |         ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         luminousIntensity
+       |         ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:11:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         luminousIntensity
+       |         ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:12:5: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |     }
+
+iteration_02.sysml:31:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   31 |         symbol = "m";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:30:18: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:32:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   32 |         quantity = BaseQuantity::length;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:30:18: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:33:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   33 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:30:18: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:37:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   37 |         symbol = "km";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:36:22: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:38:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   38 |         quantity = BaseQuantity::length;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:36:22: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:39:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   39 |         conversionFactor = 1000.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:36:22: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:43:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   43 |         symbol = "kg";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:42:21: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:44:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   44 |         quantity = BaseQuantity::mass;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:42:21: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:45:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   45 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:42:21: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:49:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   49 |         symbol = "s";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:48:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:50:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   50 |         quantity = BaseQuantity::time;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:48:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:51:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   51 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:48:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:55:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   55 |         symbol = "A";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:54:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:56:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   56 |         quantity = BaseQuantity::electricCurrent;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:54:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:57:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   57 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:54:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:61:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   61 |         symbol = "K";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:60:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:62:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   62 |         quantity = BaseQuantity::thermodynamicTemperature;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:60:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:63:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   63 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:60:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:67:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   67 |         symbol = "mol";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:66:17: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:68:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   68 |         quantity = BaseQuantity::amountOfSubstance;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:66:17: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:69:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   69 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:66:17: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:73:9: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   73 |         symbol = "cd";
+│      |         ^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:72:20: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:74:9: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   74 |         quantity = BaseQuantity::luminousIntensity;
+│      |         ^^^^^^^^
+└── iteration_02.sysml:16:19: note: Inherited from here
+    └── iteration_02.sysml:72:20: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:75:9: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   75 |         conversionFactor = 1.0;
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:72:20: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_02.sysml:32:34: error (reference-error): No Feature named 'length' found.
+    32 |         quantity = BaseQuantity::length;
+       |                                  ^^^^^^
+
+iteration_02.sysml:38:34: error (reference-error): No Feature named 'length' found.
+    38 |         quantity = BaseQuantity::length;
+       |                                  ^^^^^^
+
+iteration_02.sysml:44:34: error (reference-error): No Feature named 'mass' found.
+    44 |         quantity = BaseQuantity::mass;
+       |                                  ^^^^
+
+iteration_02.sysml:50:34: error (reference-error): No Feature named 'time' found.
+    50 |         quantity = BaseQuantity::time;
+       |                                  ^^^^
+
+iteration_02.sysml:56:34: error (reference-error): No Feature named 'electricCurrent' found.
+    56 |         quantity = BaseQuantity::electricCurrent;
+       |                                  ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:62:34: error (reference-error): No Feature named 'thermodynamicTemperature' found.
+    62 |         quantity = BaseQuantity::thermodynamicTemperature;
+       |                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:68:34: error (reference-error): No Feature named 'amountOfSubstance' found.
+    68 |         quantity = BaseQuantity::amountOfSubstance;
+       |                                  ^^^^^^^^^^^^^^^^^

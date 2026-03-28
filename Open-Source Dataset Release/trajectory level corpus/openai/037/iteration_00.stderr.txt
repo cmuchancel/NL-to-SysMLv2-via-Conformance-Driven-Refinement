@@ -1,0 +1,7 @@
+iteration_01.sysml:32:15: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    32 |     attribute state : PowerState = Off;
+       |               ^^^^^
+
+iteration_01.sysml:32:36: error (reference-error): No Feature named 'Off' found.
+    32 |     attribute state : PowerState = Off;
+       |                                    ^^^

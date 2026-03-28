@@ -1,0 +1,15 @@
+iteration_01.sysml:9:19: error (parsing-error): Unexpected 'flow', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    9 |         attribute flow : Fuel;
+      |                   ^^^^
+
+iteration_01.sysml:13:19: error (parsing-error): Unexpected 'flow', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    13 |         attribute flow : Fuel;
+       |                   ^^^^
+
+iteration_01.sysml:41:40: error (reference-error): No Feature named 'vehicleMonitor' found.
+    41 |         connect fuelTank.tempSensor to vehicleMonitor.tempInput;
+       |                                        ^^^^^^^^^^^^^^
+
+iteration_01.sysml:41:55: error (reference-error): No Feature named 'tempInput' found.
+    41 |         connect fuelTank.tempSensor to vehicleMonitor.tempInput;
+       |                                                       ^^^^^^^^^

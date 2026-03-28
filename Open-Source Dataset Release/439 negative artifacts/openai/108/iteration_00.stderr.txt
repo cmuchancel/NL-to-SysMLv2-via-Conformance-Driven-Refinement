@@ -1,0 +1,19 @@
+iteration_01.sysml:32:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    32 |         part frame: TrailerFrame;
+       |              ^^^^^
+
+iteration_01.sysml:39:61: error (parsing-error): Unexpected '.', expected one of ["SINGLE_LINE_NOTE", "=", "[", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ":>", ":", ";", "{", "from", ",", "to", ".", "if", ")", "then", "via", "do", "ordered", "nonunique", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "at", "after", "when"].
+    39 |         connect vehicle.chassis.towBall.hitchPort to trailer.frame.coupler.hitchPort;
+       |                                                             ^
+
+iteration_01.sysml:38:46: error (reference-error): No Feature named 'DISCONNECTED' found.
+    38 |         attribute status: ConnectionStatus = DISCONNECTED;
+       |                                              ^^^^^^^^^^^^
+
+iteration_01.sysml:39:68: error (reference-error): No Feature named 'coupler' found.
+    39 |         connect vehicle.chassis.towBall.hitchPort to trailer.frame.coupler.hitchPort;
+       |                                                                    ^^^^^^^
+
+iteration_01.sysml:39:76: error (reference-error): No Feature named 'hitchPort' found.
+    39 |         connect vehicle.chassis.towBall.hitchPort to trailer.frame.coupler.hitchPort;
+       |                                                                            ^^^^^^^^^

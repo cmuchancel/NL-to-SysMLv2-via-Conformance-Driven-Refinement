@@ -1,0 +1,19 @@
+iteration_03.sysml:21:14: error (parsing-error): Unexpected identifier, did you mean 'inout'?
+    21 |         port input causePort : Cause[0..*];
+       |              ^^^^^
+
+iteration_03.sysml:22:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    22 |         port output effectPort : Situation[0..*];
+       |              ^^^^^^
+
+iteration_03.sysml:23:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    23 |         port output failurePort : Failure[0..*];
+       |              ^^^^^^
+
+iteration_03.sysml:29:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    29 |         port output leadsTo : Situation[0..*];
+       |              ^^^^^^
+
+iteration_03.sysml:35:14: error (parsing-error): Unexpected identifier, did you mean 'inout'?
+    35 |         port input causedBy : Situation[0..*];
+       |              ^^^^^

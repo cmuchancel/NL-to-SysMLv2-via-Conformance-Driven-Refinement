@@ -1,0 +1,17 @@
+iteration_02.sysml:68:7: warning (namespace-distinguishability): Member name 'fuelLevel' shadows VehicleSystem::Vehicle::fuelLevel
+│   68 |       fuelLevel = defaultFuelLevel;
+│      |       ^^^^^^^^^
+└── iteration_02.sysml:41:15: note: Inherited from here
+    └── iteration_02.sysml:67:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:69:7: warning (namespace-distinguishability): Member name 'maintenanceIntervalDays' shadows VehicleSystem::Vehicle::maintenanceIntervalDays
+│   69 |       maintenanceIntervalDays = defaultMaintenanceIntervalDays;
+│      |       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:42:15: note: Inherited from here
+    └── iteration_02.sysml:67:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:70:7: warning (namespace-distinguishability): Member name 'temperatureThreshold' shadows VehicleSystem::Vehicle::temperatureThreshold
+│   70 |       temperatureThreshold = defaultTemperatureThreshold;
+│      |       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:43:15: note: Inherited from here
+    └── iteration_02.sysml:67:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

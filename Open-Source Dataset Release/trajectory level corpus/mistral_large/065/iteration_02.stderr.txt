@@ -1,0 +1,9 @@
+iteration_03.sysml:30:10: error (parsing-error): Unexpected identifier.
+    30 |     part vehicleWeightSystem : WeightMonitor;
+       |          ^^^^^^^^^^^^^^^^^^^
+
+iteration_03.sysml:31:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_03.sysml:27:51: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    27 |         attribute checkWeightLimit : Boolean = if (calculateTotalWeight > maxAllowedWeight) then true else false;
+       |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,0 +1,19 @@
+iteration_03.sysml:112:49: error (reference-error): No Feature named 'mandatory' found.
+    112 |         attribute safetyStatus : SafetyStatus = mandatory;
+        |                                                 ^^^^^^^^^
+
+iteration_03.sysml:123:49: error (reference-error): No Feature named 'mandatory' found.
+    123 |         attribute safetyStatus : SafetyStatus = mandatory;
+        |                                                 ^^^^^^^^^
+
+iteration_03.sysml:129:49: error (reference-error): No Feature named 'optional' found.
+    129 |         attribute safetyStatus : SafetyStatus = optional;
+        |                                                 ^^^^^^^^
+
+iteration_03.sysml:135:49: error (reference-error): No Feature named 'optional' found.
+    135 |         attribute safetyStatus : SafetyStatus = optional;
+        |                                                 ^^^^^^^^
+
+iteration_03.sysml:141:49: error (reference-error): No Feature named 'optional' found.
+    141 |         attribute safetyStatus : SafetyStatus = optional;
+        |                                                 ^^^^^^^^

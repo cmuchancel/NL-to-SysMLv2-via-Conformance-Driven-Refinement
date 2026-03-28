@@ -1,0 +1,143 @@
+iteration_01.sysml:49:19: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLine::Engine::engineType
+│   49 |         attribute engineType : EngineType = EngineType::SIX_CYLINDER;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:48:39: note: Because VehicleProductLine::Engine is specialized through Subclassification
+
+iteration_01.sysml:50:19: warning (namespace-distinguishability): Member name 'cylinders' shadows VehicleProductLine::Engine::cylinders
+│   50 |         attribute cylinders : Integer = 6;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:48:39: note: Because VehicleProductLine::Engine is specialized through Subclassification
+
+iteration_01.sysml:51:19: warning (namespace-distinguishability): Member name 'horsepower' shadows VehicleProductLine::Engine::horsepower
+│   51 |         attribute horsepower : Real = 400.0;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:48:39: note: Because VehicleProductLine::Engine is specialized through Subclassification
+
+iteration_01.sysml:55:19: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLine::Engine::engineType
+│   55 |         attribute engineType : EngineType = EngineType::FOUR_CYLINDER;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:54:32: note: Because VehicleProductLine::Engine is specialized through Subclassification
+
+iteration_01.sysml:56:19: warning (namespace-distinguishability): Member name 'cylinders' shadows VehicleProductLine::Engine::cylinders
+│   56 |         attribute cylinders : Integer = 4;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:54:32: note: Because VehicleProductLine::Engine is specialized through Subclassification
+
+iteration_01.sysml:57:19: warning (namespace-distinguishability): Member name 'horsepower' shadows VehicleProductLine::Engine::horsepower
+│   57 |         attribute horsepower : Real = 150.0;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:54:32: note: Because VehicleProductLine::Engine is specialized through Subclassification
+
+iteration_01.sysml:61:19: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLine::Transmission::transmissionType
+│   61 |         attribute transmissionType : TransmissionType = TransmissionType::AUTOMATIC;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:60:39: note: Because VehicleProductLine::Transmission is specialized through Subclassification
+
+iteration_01.sysml:62:19: warning (namespace-distinguishability): Member name 'gearCount' shadows VehicleProductLine::Transmission::gearCount
+│   62 |         attribute gearCount : Integer = 8;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:60:39: note: Because VehicleProductLine::Transmission is specialized through Subclassification
+
+iteration_01.sysml:66:19: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLine::Transmission::transmissionType
+│   66 |         attribute transmissionType : TransmissionType = TransmissionType::MANUAL;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:65:36: note: Because VehicleProductLine::Transmission is specialized through Subclassification
+
+iteration_01.sysml:67:19: warning (namespace-distinguishability): Member name 'gearCount' shadows VehicleProductLine::Transmission::gearCount
+│   67 |         attribute gearCount : Integer = 6;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:65:36: note: Because VehicleProductLine::Transmission is specialized through Subclassification
+
+iteration_01.sysml:71:19: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLine::Wheel::wheelType
+│   71 |         attribute wheelType : WheelType = WheelType::WIDE_RIM;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:70:30: note: Because VehicleProductLine::Wheel is specialized through Subclassification
+
+iteration_01.sysml:72:19: warning (namespace-distinguishability): Member name 'rimWidth' shadows VehicleProductLine::Wheel::rimWidth
+│   72 |         attribute rimWidth : Real = 10.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:70:30: note: Because VehicleProductLine::Wheel is specialized through Subclassification
+
+iteration_01.sysml:76:19: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLine::Wheel::wheelType
+│   76 |         attribute wheelType : WheelType = WheelType::NARROW_RIM;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:75:32: note: Because VehicleProductLine::Wheel is specialized through Subclassification
+
+iteration_01.sysml:77:19: warning (namespace-distinguishability): Member name 'rimWidth' shadows VehicleProductLine::Wheel::rimWidth
+│   77 |         attribute rimWidth : Real = 7.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:75:32: note: Because VehicleProductLine::Wheel is specialized through Subclassification
+
+iteration_01.sysml:81:19: warning (namespace-distinguishability): Member name 'performanceLevel' shadows VehicleProductLine::VehicleConfiguration::performanceLevel
+│   81 |         attribute performanceLevel : PerformanceLevel = PerformanceLevel::HIGH;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:80:46: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:82:19: warning (namespace-distinguishability): Member name 'configName' shadows VehicleProductLine::VehicleConfiguration::configName
+│   82 |         attribute configName : String = "HighPerformance";
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:80:46: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:83:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::VehicleConfiguration::engine
+│   83 |         part engine : HighPerformanceEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:43:14: note: Inherited from here
+    └── iteration_01.sysml:80:46: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:84:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::VehicleConfiguration::transmission
+│   84 |         part transmission : AutomaticTransmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:44:14: note: Inherited from here
+    └── iteration_01.sysml:80:46: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:85:14: warning (namespace-distinguishability): Member name 'wheel' shadows VehicleProductLine::VehicleConfiguration::wheel
+│   85 |         part wheel : WideRimWheel;
+│      |              ^^^^^
+└── iteration_01.sysml:45:14: note: Inherited from here
+    └── iteration_01.sysml:80:46: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:89:19: warning (namespace-distinguishability): Member name 'performanceLevel' shadows VehicleProductLine::VehicleConfiguration::performanceLevel
+│   89 |         attribute performanceLevel : PerformanceLevel = PerformanceLevel::STANDARD;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:88:39: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:90:19: warning (namespace-distinguishability): Member name 'configName' shadows VehicleProductLine::VehicleConfiguration::configName
+│   90 |         attribute configName : String = "Standard";
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:88:39: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:91:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::VehicleConfiguration::engine
+│   91 |         part engine : StandardEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:43:14: note: Inherited from here
+    └── iteration_01.sysml:88:39: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:92:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::VehicleConfiguration::transmission
+│   92 |         part transmission : ManualTransmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:44:14: note: Inherited from here
+    └── iteration_01.sysml:88:39: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification
+
+iteration_01.sysml:93:14: warning (namespace-distinguishability): Member name 'wheel' shadows VehicleProductLine::VehicleConfiguration::wheel
+│   93 |         part wheel : NarrowRimWheel;
+│      |              ^^^^^
+└── iteration_01.sysml:45:14: note: Inherited from here
+    └── iteration_01.sysml:88:39: note: Because VehicleProductLine::VehicleConfiguration is specialized through Subclassification

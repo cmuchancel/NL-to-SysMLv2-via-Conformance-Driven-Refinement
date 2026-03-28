@@ -1,0 +1,41 @@
+iteration_02.sysml:21:13: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloyModel::Metal::atomicMass
+│   21 |             atomicMass = 55.845;
+│      |             ^^^^^^^^^^
+└── iteration_02.sysml:5:19: note: Inherited from here
+    └── iteration_02.sysml:20:21: note: Because AlloyModel::Metal is specialized through FeatureTyping
+
+iteration_02.sysml:24:13: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloyModel::Metal::atomicMass
+│   24 |             atomicMass = 12.011;
+│      |             ^^^^^^^^^^
+└── iteration_02.sysml:5:19: note: Inherited from here
+    └── iteration_02.sysml:23:23: note: Because AlloyModel::Metal is specialized through FeatureTyping
+
+iteration_02.sysml:27:13: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloyModel::Metal::atomicMass
+│   27 |             atomicMass = 54.938;
+│      |             ^^^^^^^^^^
+└── iteration_02.sysml:5:19: note: Inherited from here
+    └── iteration_02.sysml:26:26: note: Because AlloyModel::Metal is specialized through FeatureTyping
+
+iteration_02.sysml:30:13: warning (namespace-distinguishability): Member name 'name' shadows AlloyModel::Alloy::name
+│   30 |             name = "Steel 980";
+│      |             ^^^^
+└── iteration_02.sysml:14:19: note: Inherited from here
+    └── iteration_02.sysml:29:25: note: Because AlloyModel::Alloy is specialized through FeatureTyping
+
+iteration_02.sysml:31:13: warning (namespace-distinguishability): Member name 'tensileStrength' shadows AlloyModel::Alloy::tensileStrength
+│   31 |             tensileStrength = 980.0;
+│      |             ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:29:25: note: Because AlloyModel::Alloy is specialized through FeatureTyping
+
+iteration_02.sysml:34:13: warning (namespace-distinguishability): Member name 'fractionValue' shadows AlloyModel::MassFraction::fractionValue
+│   34 |             fractionValue = 0.98;
+│      |             ^^^^^^^^^^^^^
+└── iteration_02.sysml:9:19: note: Inherited from here
+    └── iteration_02.sysml:33:22: note: Because AlloyModel::MassFraction is specialized through FeatureTyping
+
+iteration_02.sysml:37:13: warning (namespace-distinguishability): Member name 'fractionValue' shadows AlloyModel::MassFraction::fractionValue
+│   37 |             fractionValue = 0.02;
+│      |             ^^^^^^^^^^^^^
+└── iteration_02.sysml:9:19: note: Inherited from here
+    └── iteration_02.sysml:36:22: note: Because AlloyModel::MassFraction is specialized through FeatureTyping

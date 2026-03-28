@@ -1,0 +1,71 @@
+iteration_03.sysml:28:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   28 |         mass = 1750.0;
+│      |         ^^^^
+└── iteration_03.sysml:5:19: note: Inherited from here
+    └── iteration_03.sysml:27:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:29:9: warning (namespace-distinguishability): Member name 'frontAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::frontAxleAssembly
+│   29 |         frontAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:6:14: note: Inherited from here
+    └── iteration_03.sysml:27:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:34:9: warning (namespace-distinguishability): Member name 'rearAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::rearAxleAssembly
+│   34 |         rearAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:7:14: note: Inherited from here
+    └── iteration_03.sysml:27:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:42:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   42 |         mass = 2000.0;
+│      |         ^^^^
+└── iteration_03.sysml:5:19: note: Inherited from here
+    └── iteration_03.sysml:41:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:43:9: warning (namespace-distinguishability): Member name 'frontAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::frontAxleAssembly
+│   43 |         frontAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:6:14: note: Inherited from here
+    └── iteration_03.sysml:41:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:48:9: warning (namespace-distinguishability): Member name 'rearAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::rearAxleAssembly
+│   48 |         rearAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:7:14: note: Inherited from here
+    └── iteration_03.sysml:41:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:57:9: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleStructuralArchitecture::FrontAxle::steeringAngle
+│   57 |         steeringAngle = 0.0;
+│      |         ^^^^^^^^^^^^^
+└── iteration_03.sysml:20:19: note: Inherited from here
+    └── iteration_03.sysml:55:31: note: Because VehicleStructuralArchitecture::FrontAxle is specialized through FeatureTyping
+
+iteration_03.sysml:62:9: warning (namespace-distinguishability): Member name 'name' shadows VehicleStructuralArchitecture::Wheel::name
+│   62 |         name = "Left Front Wheel";
+│      |         ^^^^
+└── iteration_03.sysml:24:19: note: Inherited from here
+    └── iteration_03.sysml:60:36: note: Because VehicleStructuralArchitecture::Wheel is specialized through FeatureTyping
+
+iteration_03.sysml:67:9: warning (namespace-distinguishability): Member name 'name' shadows VehicleStructuralArchitecture::Wheel::name
+│   67 |         name = "Right Front Wheel";
+│      |         ^^^^
+└── iteration_03.sysml:24:19: note: Inherited from here
+    └── iteration_03.sysml:65:37: note: Because VehicleStructuralArchitecture::Wheel is specialized through FeatureTyping
+
+iteration_03.sysml:72:9: warning (namespace-distinguishability): Member name 'name' shadows VehicleStructuralArchitecture::Wheel::name
+│   72 |         name = "Left Rear Wheel";
+│      |         ^^^^
+└── iteration_03.sysml:24:19: note: Inherited from here
+    └── iteration_03.sysml:70:35: note: Because VehicleStructuralArchitecture::Wheel is specialized through FeatureTyping
+
+iteration_03.sysml:77:9: warning (namespace-distinguishability): Member name 'name' shadows VehicleStructuralArchitecture::Wheel::name
+│   77 |         name = "Right Rear Wheel";
+│      |         ^^^^
+└── iteration_03.sysml:24:19: note: Inherited from here
+    └── iteration_03.sysml:75:36: note: Because VehicleStructuralArchitecture::Wheel is specialized through FeatureTyping
+
+iteration_03.sysml:82:9: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleStructuralArchitecture::FrontAxle::steeringAngle
+│   82 |         steeringAngle = 0.0;
+│      |         ^^^^^^^^^^^^^
+└── iteration_03.sysml:20:19: note: Inherited from here
+    └── iteration_03.sysml:80:31: note: Because VehicleStructuralArchitecture::FrontAxle is specialized through FeatureTyping

@@ -1,0 +1,131 @@
+iteration_04.sysml:48:30: error (parsing-error): Expected a token. Did you forget ';'?
+    48 |   part def SixCylinderEngine : Engine {
+
+iteration_04.sysml:52:31: error (parsing-error): Expected a token. Did you forget ';'?
+    52 |   part def FourCylinderEngine : Engine {
+
+iteration_04.sysml:56:34: error (parsing-error): Expected a token. Did you forget ';'?
+    56 |   part def AutomaticTransmission : Transmission {
+
+iteration_04.sysml:60:31: error (parsing-error): Expected a token. Did you forget ';'?
+    60 |   part def ManualTransmission : Transmission {
+
+iteration_04.sysml:64:28: error (parsing-error): Expected a token. Did you forget ';'?
+    64 |   part def WideRimWheelSet : WheelSet {
+
+iteration_04.sysml:68:30: error (parsing-error): Expected a token. Did you forget ';'?
+    68 |   part def NarrowRimWheelSet : WheelSet {
+
+iteration_04.sysml:81:35: error (parsing-error): Expected a token. Did you forget ';'?
+    81 |   part def HighPerformanceVariant : VehicleConfiguration {
+
+iteration_04.sysml:89:39: error (parsing-error): Expected a token. Did you forget ';'?
+    89 |   part def StandardPerformanceVariant : VehicleConfiguration {
+
+iteration_04.sysml:97:31: error (parsing-error): Expected a token. Did you forget ';'?
+    97 |   part def HighPerformanceSUV : HighPerformanceVariant {
+
+iteration_04.sysml:101:33: error (parsing-error): Expected a token. Did you forget ';'?
+    101 |   part def HighPerformanceSedan : HighPerformanceVariant {
+
+iteration_04.sysml:105:26: error (parsing-error): Expected a token. Did you forget ';'?
+    105 |   part def StandardSedan : StandardPerformanceVariant {
+
+iteration_04.sysml:109:26: error (parsing-error): Expected a token. Did you forget ';'?
+    109 |   part def StandardTruck : StandardPerformanceVariant {
+
+iteration_04.sysml:49:15: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   49 |     attribute engineType : EngineType = EngineType::sixCylinder;
+│      |               ^^^^^^^^^^
+└── iteration_04.sysml:37:15: note: Inherited from here
+    └── iteration_04.sysml:48:32: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_04.sysml:53:15: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   53 |     attribute engineType : EngineType = EngineType::fourCylinder;
+│      |               ^^^^^^^^^^
+└── iteration_04.sysml:37:15: note: Inherited from here
+    └── iteration_04.sysml:52:33: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_04.sysml:57:15: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   57 |     attribute transmissionType : TransmissionType = TransmissionType::automatic;
+│      |               ^^^^^^^^^^^^^^^^
+└── iteration_04.sysml:41:15: note: Inherited from here
+    └── iteration_04.sysml:56:36: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_04.sysml:61:15: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   61 |     attribute transmissionType : TransmissionType = TransmissionType::manual;
+│      |               ^^^^^^^^^^^^^^^^
+└── iteration_04.sysml:41:15: note: Inherited from here
+    └── iteration_04.sysml:60:33: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_04.sysml:65:15: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::WheelSet::wheelType
+│   65 |     attribute wheelType : WheelType = WheelType::wideRim;
+│      |               ^^^^^^^^^
+└── iteration_04.sysml:45:15: note: Inherited from here
+    └── iteration_04.sysml:64:30: note: Because VehicleProductLineConfiguration::WheelSet is specialized through FeatureTyping
+
+iteration_04.sysml:69:15: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::WheelSet::wheelType
+│   69 |     attribute wheelType : WheelType = WheelType::narrowRim;
+│      |               ^^^^^^^^^
+└── iteration_04.sysml:45:15: note: Inherited from here
+    └── iteration_04.sysml:68:32: note: Because VehicleProductLineConfiguration::WheelSet is specialized through FeatureTyping
+
+iteration_04.sysml:82:15: warning (namespace-distinguishability): Member name 'performanceRequirement' shadows VehicleProductLineConfiguration::VehicleConfiguration::performanceRequirement
+│   82 |     attribute performanceRequirement : PerformanceLevel = PerformanceLevel::highPerf;
+│      |               ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_04.sysml:73:15: note: Inherited from here
+    └── iteration_04.sysml:81:37: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:83:15: warning (namespace-distinguishability): Member name 'userPreference' shadows VehicleProductLineConfiguration::VehicleConfiguration::userPreference
+│   83 |     attribute userPreference : UserPreferenceType = UserPreferenceType::performanceFocused;
+│      |               ^^^^^^^^^^^^^^
+└── iteration_04.sysml:74:15: note: Inherited from here
+    └── iteration_04.sysml:81:37: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:84:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLineConfiguration::VehicleConfiguration::engine
+│   84 |     part engine : SixCylinderEngine;
+│      |          ^^^^^^
+└── iteration_04.sysml:76:10: note: Inherited from here
+    └── iteration_04.sysml:81:37: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:85:10: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLineConfiguration::VehicleConfiguration::transmission
+│   85 |     part transmission : AutomaticTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_04.sysml:77:10: note: Inherited from here
+    └── iteration_04.sysml:81:37: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:86:10: warning (namespace-distinguishability): Member name 'wheels' shadows VehicleProductLineConfiguration::VehicleConfiguration::wheels
+│   86 |     part wheels : WideRimWheelSet;
+│      |          ^^^^^^
+└── iteration_04.sysml:78:10: note: Inherited from here
+    └── iteration_04.sysml:81:37: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:90:15: warning (namespace-distinguishability): Member name 'performanceRequirement' shadows VehicleProductLineConfiguration::VehicleConfiguration::performanceRequirement
+│   90 |     attribute performanceRequirement : PerformanceLevel = PerformanceLevel::standardPerf;
+│      |               ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_04.sysml:73:15: note: Inherited from here
+    └── iteration_04.sysml:89:41: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:91:15: warning (namespace-distinguishability): Member name 'userPreference' shadows VehicleProductLineConfiguration::VehicleConfiguration::userPreference
+│   91 |     attribute userPreference : UserPreferenceType = UserPreferenceType::balanced;
+│      |               ^^^^^^^^^^^^^^
+└── iteration_04.sysml:74:15: note: Inherited from here
+    └── iteration_04.sysml:89:41: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:92:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLineConfiguration::VehicleConfiguration::engine
+│   92 |     part engine : FourCylinderEngine;
+│      |          ^^^^^^
+└── iteration_04.sysml:76:10: note: Inherited from here
+    └── iteration_04.sysml:89:41: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:93:10: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLineConfiguration::VehicleConfiguration::transmission
+│   93 |     part transmission : ManualTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_04.sysml:77:10: note: Inherited from here
+    └── iteration_04.sysml:89:41: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping
+
+iteration_04.sysml:94:10: warning (namespace-distinguishability): Member name 'wheels' shadows VehicleProductLineConfiguration::VehicleConfiguration::wheels
+│   94 |     part wheels : NarrowRimWheelSet;
+│      |          ^^^^^^
+└── iteration_04.sysml:78:10: note: Inherited from here
+    └── iteration_04.sysml:89:41: note: Because VehicleProductLineConfiguration::VehicleConfiguration is specialized through FeatureTyping

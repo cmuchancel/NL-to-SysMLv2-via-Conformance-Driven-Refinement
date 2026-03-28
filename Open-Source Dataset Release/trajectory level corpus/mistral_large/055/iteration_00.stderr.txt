@@ -1,0 +1,17 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    6 |         enum THRESHOLD
+      |         ^^^^
+
+iteration_01.sysml:22:21: error (parsing-error): Expected a token. Did you forget ';'?
+    22 |     part def Engine : Component {
+
+iteration_01.sysml:25:27: error (parsing-error): Expected a token. Did you forget ';'?
+    25 |     part def Transmission : Component {
+
+iteration_01.sysml:40:19: error (parsing-error): Unexpected 'filter', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    40 |         attribute filter : MassFilterType;
+       |                   ^^^^^^
+
+iteration_01.sysml:29:65: error (reference-error): No Feature named 'ALL' found.
+    29 |         attribute filterType : MassFilterType = MassFilterType::ALL;
+       |                                                                 ^^^

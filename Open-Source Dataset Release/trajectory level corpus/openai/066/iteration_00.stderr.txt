@@ -1,0 +1,4 @@
+iteration_01.sysml:2:5: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |     private import ScalarValues::*;
+
+iteration_01.sysml:42:12: error (parsing-error): Unexpected EOF. (no source underlining available since segment is out of bounds)

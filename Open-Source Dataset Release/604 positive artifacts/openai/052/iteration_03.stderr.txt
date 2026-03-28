@@ -1,0 +1,53 @@
+iteration_04.sysml:28:10: warning (namespace-distinguishability): Member name 'vehicle_1' shadows VehicleComposite::CompositeSystem::vehicle_1
+│   28 |     part vehicle_1 : VehicleTimeline {
+│      |          ^^^^^^^^^
+└── iteration_04.sysml:22:10: note: Inherited from here
+    └── iteration_04.sysml:27:25: note: Because VehicleComposite::CompositeSystem is specialized through FeatureTyping
+
+iteration_04.sysml:29:12: warning (namespace-distinguishability): Member name 'initial' shadows VehicleComposite::VehicleTimeline::initial
+│   29 |       part initial : Vehicle {
+│      |            ^^^^^^^
+└── iteration_04.sysml:17:10: note: Inherited from here
+    └── iteration_04.sysml:28:22: note: Because VehicleComposite::VehicleTimeline is specialized through FeatureTyping
+
+iteration_04.sysml:30:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleComposite::Vehicle::mass
+│   30 |         attribute mass = 2000.0;
+│      |                   ^^^^
+└── iteration_04.sysml:11:15: note: Inherited from here
+    └── iteration_04.sysml:29:22: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:31:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleComposite::Vehicle::gear
+│   31 |         attribute gear = 0;
+│      |                   ^^^^
+└── iteration_04.sysml:12:15: note: Inherited from here
+    └── iteration_04.sysml:29:22: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:32:19: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleComposite::Vehicle::accelerator
+│   32 |         attribute accelerator = 0.0;
+│      |                   ^^^^^^^^^^^
+└── iteration_04.sysml:13:15: note: Inherited from here
+    └── iteration_04.sysml:29:22: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:34:12: warning (namespace-distinguishability): Member name 'next' shadows VehicleComposite::VehicleTimeline::next
+│   34 |       part next : Vehicle {
+│      |            ^^^^
+└── iteration_04.sysml:18:10: note: Inherited from here
+    └── iteration_04.sysml:28:22: note: Because VehicleComposite::VehicleTimeline is specialized through FeatureTyping
+
+iteration_04.sysml:35:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleComposite::Vehicle::mass
+│   35 |         attribute mass = 1500.0;
+│      |                   ^^^^
+└── iteration_04.sysml:11:15: note: Inherited from here
+    └── iteration_04.sysml:34:19: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:36:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleComposite::Vehicle::gear
+│   36 |         attribute gear = 2;
+│      |                   ^^^^
+└── iteration_04.sysml:12:15: note: Inherited from here
+    └── iteration_04.sysml:34:19: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_04.sysml:37:19: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleComposite::Vehicle::accelerator
+│   37 |         attribute accelerator = 0.5;
+│      |                   ^^^^^^^^^^^
+└── iteration_04.sysml:13:15: note: Inherited from here
+    └── iteration_04.sysml:34:19: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping

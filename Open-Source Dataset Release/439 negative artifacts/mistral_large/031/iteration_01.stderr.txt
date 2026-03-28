@@ -1,0 +1,13 @@
+iteration_02.sysml:39:43: error (parsing-error): Expected a token. Did you forget ';'?
+    39 |         attribute powerSequence : Sequence<Real>;
+
+iteration_02.sysml:44:48: error (parsing-error): Expected a token. Did you forget ';'?
+    44 |         attribute positionTrajectory : Sequence<Real>;
+
+iteration_02.sysml:39:35: error (reference-error): No Type named 'Sequence' found.
+    39 |         attribute powerSequence : Sequence<Real>;
+       |                                   ^^^^^^^^
+
+iteration_02.sysml:44:40: error (reference-error): No Type named 'Sequence' found.
+    44 |         attribute positionTrajectory : Sequence<Real>;
+       |                                        ^^^^^^^^

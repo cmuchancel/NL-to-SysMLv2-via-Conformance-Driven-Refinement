@@ -1,0 +1,15 @@
+iteration_01.sysml:18:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    18 |         port out massPort : MassDataPort;
+       |              ^^^
+
+iteration_01.sysml:23:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    23 |         port in inputPort : MassDataPort;
+       |              ^^
+
+iteration_01.sysml:24:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    24 |         port out outputPort : MassDataPort;
+       |              ^^^
+
+iteration_01.sysml:30:14: error (parsing-error): Unexpected 'in', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |         port in inputPort : MassDataPort;
+       |              ^^

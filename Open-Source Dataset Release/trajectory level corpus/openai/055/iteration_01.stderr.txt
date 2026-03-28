@@ -1,0 +1,5 @@
+iteration_02.sysml:12:19: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |   part def Engine : Component;
+
+iteration_02.sysml:13:25: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |   part def Transmission : Component;

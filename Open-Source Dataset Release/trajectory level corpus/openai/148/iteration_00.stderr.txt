@@ -1,0 +1,38 @@
+iteration_01.sysml:18:23: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |   part def MetalAlloy : Material {
+
+iteration_01.sysml:30:17: warning (namespace-distinguishability): Member name 'constituentName' shadows MaterialsDB::ConstituentFraction::constituentName
+│   30 |       attribute constituentName = "Iron";
+│      |                 ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:14:15: note: Inherited from here
+    └── iteration_01.sysml:29:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_01.sysml:31:17: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsDB::ConstituentFraction::massFraction
+│   31 |       attribute massFraction = 0.985;
+│      |                 ^^^^^^^^^^^^
+└── iteration_01.sysml:15:15: note: Inherited from here
+    └── iteration_01.sysml:29:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_01.sysml:34:17: warning (namespace-distinguishability): Member name 'constituentName' shadows MaterialsDB::ConstituentFraction::constituentName
+│   34 |       attribute constituentName = "Carbon";
+│      |                 ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:14:15: note: Inherited from here
+    └── iteration_01.sysml:33:14: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_01.sysml:35:17: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsDB::ConstituentFraction::massFraction
+│   35 |       attribute massFraction = 0.010;
+│      |                 ^^^^^^^^^^^^
+└── iteration_01.sysml:15:15: note: Inherited from here
+    └── iteration_01.sysml:33:14: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_01.sysml:38:17: warning (namespace-distinguishability): Member name 'constituentName' shadows MaterialsDB::ConstituentFraction::constituentName
+│   38 |       attribute constituentName = "Manganese";
+│      |                 ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:14:15: note: Inherited from here
+    └── iteration_01.sysml:37:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping
+
+iteration_01.sysml:39:17: warning (namespace-distinguishability): Member name 'massFraction' shadows MaterialsDB::ConstituentFraction::massFraction
+│   39 |       attribute massFraction = 0.005;
+│      |                 ^^^^^^^^^^^^
+└── iteration_01.sysml:15:15: note: Inherited from here
+    └── iteration_01.sysml:37:15: note: Because MaterialsDB::ConstituentFraction is specialized through FeatureTyping

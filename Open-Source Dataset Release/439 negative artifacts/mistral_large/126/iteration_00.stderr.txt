@@ -1,0 +1,7 @@
+iteration_01.sysml:19:36: error (parsing-error): Unexpected identifier.
+    19 |     part servicePort : ServicePort in service;
+       |                                    ^^
+
+iteration_01.sysml:20:30: error (parsing-error): Unexpected identifier.
+    20 |     part dataPort : DataPort in data;
+       |                              ^^

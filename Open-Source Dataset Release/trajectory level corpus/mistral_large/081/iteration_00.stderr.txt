@@ -1,0 +1,71 @@
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'type' shadows AutomotiveConfigurationSpace::Engine::type
+│   35 |         attribute type : EngineType = EngineType::FourCylinder;
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:34:26: note: Because AutomotiveConfigurationSpace::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows AutomotiveConfigurationSpace::Engine::cylinderCount
+│   36 |         attribute cylinderCount : Integer = 4;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:34:26: note: Because AutomotiveConfigurationSpace::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'cylinderDiameter' shadows AutomotiveConfigurationSpace::Engine::cylinderDiameter
+│   37 |         attribute cylinderDiameter : CylinderDiameter;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:34:26: note: Because AutomotiveConfigurationSpace::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:41:19: warning (namespace-distinguishability): Member name 'type' shadows AutomotiveConfigurationSpace::Engine::type
+│   41 |         attribute type : EngineType = EngineType::SixCylinder;
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:40:25: note: Because AutomotiveConfigurationSpace::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:42:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows AutomotiveConfigurationSpace::Engine::cylinderCount
+│   42 |         attribute cylinderCount : Integer = 6;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:40:25: note: Because AutomotiveConfigurationSpace::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:43:19: warning (namespace-distinguishability): Member name 'cylinderDiameter' shadows AutomotiveConfigurationSpace::Engine::cylinderDiameter
+│   43 |         attribute cylinderDiameter : CylinderDiameter;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:40:25: note: Because AutomotiveConfigurationSpace::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:47:19: warning (namespace-distinguishability): Member name 'type' shadows AutomotiveConfigurationSpace::Transmission::type
+│   47 |         attribute type : TransmissionType = TransmissionType::Manual;
+│      |                   ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:46:31: note: Because AutomotiveConfigurationSpace::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:51:19: warning (namespace-distinguishability): Member name 'type' shadows AutomotiveConfigurationSpace::Transmission::type
+│   51 |         attribute type : TransmissionType = TransmissionType::Automatic;
+│      |                   ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:50:34: note: Because AutomotiveConfigurationSpace::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:55:14: warning (namespace-distinguishability): Member name 'engine' shadows AutomotiveConfigurationSpace::Vehicle::engine
+│   55 |         part engine = fourCylEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:54:29: note: Because AutomotiveConfigurationSpace::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:56:14: warning (namespace-distinguishability): Member name 'transmission' shadows AutomotiveConfigurationSpace::Vehicle::transmission
+│   56 |         part transmission = manualTransmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:54:29: note: Because AutomotiveConfigurationSpace::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:60:14: warning (namespace-distinguishability): Member name 'engine' shadows AutomotiveConfigurationSpace::Vehicle::engine
+│   60 |         part engine = sixCylEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:59:29: note: Because AutomotiveConfigurationSpace::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:61:14: warning (namespace-distinguishability): Member name 'transmission' shadows AutomotiveConfigurationSpace::Vehicle::transmission
+│   61 |         part transmission = automaticTransmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:59:29: note: Because AutomotiveConfigurationSpace::Vehicle is specialized through FeatureTyping

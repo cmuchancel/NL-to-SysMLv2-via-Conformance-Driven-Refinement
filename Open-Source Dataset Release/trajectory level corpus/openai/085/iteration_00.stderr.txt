@@ -1,0 +1,27 @@
+iteration_01.sysml:11:48: error (reference-error): No Feature named 'safety' found.
+    11 |     attribute functionType : FeatureFunction = safety;
+       |                                                ^^^^^^
+
+iteration_01.sysml:15:48: error (reference-error): No Feature named 'safety' found.
+    15 |     attribute functionType : FeatureFunction = safety;
+       |                                                ^^^^^^
+
+iteration_01.sysml:19:48: error (reference-error): No Feature named 'safety' found.
+    19 |     attribute functionType : FeatureFunction = safety;
+       |                                                ^^^^^^
+
+iteration_01.sysml:23:48: error (reference-error): No Feature named 'security' found.
+    23 |     attribute functionType : FeatureFunction = security;
+       |                                                ^^^^^^^^
+
+iteration_01.sysml:27:48: error (reference-error): No Feature named 'protection' found.
+    27 |     attribute functionType : FeatureFunction = protection;
+       |                                                ^^^^^^^^^^
+
+iteration_01.sysml:31:48: error (reference-error): No Feature named 'safety' found.
+    31 |     attribute functionType : FeatureFunction = safety;
+       |                                                ^^^^^^
+
+iteration_01.sysml:35:48: error (reference-error): No Feature named 'security' found.
+    35 |     attribute functionType : FeatureFunction = security;
+       |                                                ^^^^^^^^

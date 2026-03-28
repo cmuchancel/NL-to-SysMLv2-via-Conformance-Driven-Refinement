@@ -1,0 +1,11 @@
+iteration_01.sysml:33:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructure::Vehicle::mass
+│   33 |         attribute mass = 1750.0;
+│      |                   ^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:32:28: note: Because VehicleStructure::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructure::Vehicle::mass
+│   37 |         attribute mass = 2000.0;
+│      |                   ^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:36:28: note: Because VehicleStructure::Vehicle is specialized through FeatureTyping

@@ -1,0 +1,47 @@
+iteration_01.sysml:29:24: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    29 |         attribute iron.atomicMass = 55.845;
+       |                        ^^^^^^^^^^
+
+iteration_01.sysml:32:26: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    32 |         attribute carbon.atomicMass = 12.011;
+       |                          ^^^^^^^^^^
+
+iteration_01.sysml:35:29: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    35 |         attribute manganese.atomicMass = 54.938;
+       |                             ^^^^^^^^^^
+
+iteration_01.sysml:38:33: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    38 |         attribute steel980.name = "Steel 980";
+       |                                 ^
+
+iteration_01.sysml:39:28: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    39 |         attribute steel980.tensileStrength = 980.0;
+       |                            ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:42:25: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    42 |         attribute comp1.fractionValue = 0.98;
+       |                         ^^^^^^^^^^^^^
+
+iteration_01.sysml:44:25: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    44 |         attribute comp2.fractionValue = 0.02;
+       |                         ^^^^^^^^^^^^^
+
+iteration_01.sysml:32:26: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloyModel::MaterialDatabase::atomicMass
+│   32 |         attribute carbon.atomicMass = 12.011;
+│      |                          ^^^^^^^^^^
+└── iteration_01.sysml:29:24: note: First declared here
+
+iteration_01.sysml:35:29: warning (namespace-distinguishability): Member name 'atomicMass' shadows AlloyModel::MaterialDatabase::atomicMass
+│   35 |         attribute manganese.atomicMass = 54.938;
+│      |                             ^^^^^^^^^^
+└── iteration_01.sysml:29:24: note: First declared here
+
+iteration_01.sysml:38:19: warning (namespace-distinguishability): Member name 'steel980' shadows AlloyModel::MaterialDatabase::steel980
+│   38 |         attribute steel980.name = "Steel 980";
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:37:14: note: First declared here
+
+iteration_01.sysml:44:25: warning (namespace-distinguishability): Member name 'fractionValue' shadows AlloyModel::MaterialDatabase::fractionValue
+│   44 |         attribute comp2.fractionValue = 0.02;
+│      |                         ^^^^^^^^^^^^^
+└── iteration_01.sysml:42:25: note: First declared here

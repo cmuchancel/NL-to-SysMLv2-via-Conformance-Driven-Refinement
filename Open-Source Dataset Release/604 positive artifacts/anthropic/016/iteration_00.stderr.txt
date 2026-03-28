@@ -1,0 +1,29 @@
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'tankCapacity' shadows FuelManagementSystem::FuelTankAssembly::tankCapacity
+│   55 |             attribute tankCapacity : Real = 60.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:54:25: note: Because FuelManagementSystem::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'currentFuelLevel' shadows FuelManagementSystem::FuelTankAssembly::currentFuelLevel
+│   56 |             attribute currentFuelLevel : Real = 45.0;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:54:25: note: Because FuelManagementSystem::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'fuelTemperature' shadows FuelManagementSystem::FuelTankAssembly::fuelTemperature
+│   57 |             attribute fuelTemperature : Real = 25.0;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:54:25: note: Because FuelManagementSystem::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'operatingTemperature' shadows FuelManagementSystem::EngineUnit::operatingTemperature
+│   61 |             attribute operatingTemperature : Real = 90.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because FuelManagementSystem::EngineUnit is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'fuelConsumptionRate' shadows FuelManagementSystem::EngineUnit::fuelConsumptionRate
+│   62 |             attribute fuelConsumptionRate : Real = 8.5;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:60:23: note: Because FuelManagementSystem::EngineUnit is specialized through FeatureTyping

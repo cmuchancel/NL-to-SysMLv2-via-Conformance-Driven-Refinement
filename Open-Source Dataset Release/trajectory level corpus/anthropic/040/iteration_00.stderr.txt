@@ -1,0 +1,65 @@
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'sensorId' shadows VehicleHealthMonitoring::TemperatureSensor::sensorId
+│   85 |             attribute sensorId : String = "TEMP_SENSOR_01";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:47:19: note: Inherited from here
+    └── iteration_01.sysml:84:23: note: Because VehicleHealthMonitoring::TemperatureSensor is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'samplingInterval' shadows VehicleHealthMonitoring::TemperatureSensor::samplingInterval
+│   86 |             attribute samplingInterval : Real = 1.0;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:49:19: note: Inherited from here
+    └── iteration_01.sysml:84:23: note: Because VehicleHealthMonitoring::TemperatureSensor is specialized through FeatureTyping
+
+iteration_01.sysml:90:23: warning (namespace-distinguishability): Member name 'maxAllowableTemperature' shadows VehicleHealthMonitoring::TemperatureMonitor::maxAllowableTemperature
+│   90 |             attribute maxAllowableTemperature : Real = 100.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:54:19: note: Inherited from here
+    └── iteration_01.sysml:89:35: note: Because VehicleHealthMonitoring::TemperatureMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:91:23: warning (namespace-distinguishability): Member name 'isOverTemperature' shadows VehicleHealthMonitoring::TemperatureMonitor::isOverTemperature
+│   91 |             attribute isOverTemperature : Boolean = false;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:56:19: note: Inherited from here
+    └── iteration_01.sysml:89:35: note: Because VehicleHealthMonitoring::TemperatureMonitor is specialized through FeatureTyping
+
+iteration_01.sysml:95:23: warning (namespace-distinguishability): Member name 'maintenanceIntervalHours' shadows VehicleHealthMonitoring::MaintenanceScheduler::maintenanceIntervalHours
+│   95 |             attribute maintenanceIntervalHours : Real = 500.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:62:19: note: Inherited from here
+    └── iteration_01.sysml:94:37: note: Because VehicleHealthMonitoring::MaintenanceScheduler is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'maxMaintenanceDurationHours' shadows VehicleHealthMonitoring::MaintenanceScheduler::maxMaintenanceDurationHours
+│   96 |             attribute maxMaintenanceDurationHours : Real = 48.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:66:19: note: Inherited from here
+    └── iteration_01.sysml:94:37: note: Because VehicleHealthMonitoring::MaintenanceScheduler is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'maintenanceActive' shadows VehicleHealthMonitoring::MaintenanceScheduler::maintenanceActive
+│   97 |             attribute maintenanceActive : Boolean = false;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:67:19: note: Inherited from here
+    └── iteration_01.sysml:94:37: note: Because VehicleHealthMonitoring::MaintenanceScheduler is specialized through FeatureTyping
+
+iteration_01.sysml:101:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleHealthMonitoring::VehicleController::vehicleId
+│   101 |             attribute vehicleId : String = "VEHICLE_01";
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:72:19: note: Inherited from here
+    └── iteration_01.sysml:100:34: note: Because VehicleHealthMonitoring::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:102:23: warning (namespace-distinguishability): Member name 'currentStatus' shadows VehicleHealthMonitoring::VehicleController::currentStatus
+│   102 |             attribute currentStatus : VehicleHealthStatus = VehicleHealthStatus::NORMAL;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:73:19: note: Inherited from here
+    └── iteration_01.sysml:100:34: note: Because VehicleHealthMonitoring::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'activeWarning' shadows VehicleHealthMonitoring::VehicleController::activeWarning
+│   103 |             attribute activeWarning : WarningType = WarningType::NONE;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:74:19: note: Inherited from here
+    └── iteration_01.sysml:100:34: note: Because VehicleHealthMonitoring::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:112:19: warning (namespace-distinguishability): Member name 'systemId' shadows VehicleHealthMonitoring::VehicleHealthManagementSystem::systemId
+│   112 |         attribute systemId : String = "VHMS_001";
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:81:19: note: Inherited from here
+    └── iteration_01.sysml:111:26: note: Because VehicleHealthMonitoring::VehicleHealthManagementSystem is specialized through FeatureTyping

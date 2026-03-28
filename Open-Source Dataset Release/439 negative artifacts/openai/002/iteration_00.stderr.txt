@@ -1,0 +1,8 @@
+iteration_01.sysml:9:28: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |     part def ManualVehicle : Vehicle {
+
+iteration_01.sysml:13:29: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |     part def PoweredVehicle : Vehicle {
+
+iteration_01.sysml:17:35: error (parsing-error): Expected a token. Did you forget ';'?
+    17 |     part def ManualPoweredVehicle : ManualVehicle, PoweredVehicle {

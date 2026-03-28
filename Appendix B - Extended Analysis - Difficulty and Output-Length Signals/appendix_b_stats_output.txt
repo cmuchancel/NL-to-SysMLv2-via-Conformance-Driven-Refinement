@@ -1,0 +1,17 @@
+Scanning: difficulty_iterations.csv and generated_output_length_vs_iterations.csv
+
+B.1 SysMBench difficulty versus iterations-to-success
+Difficulty 1: 63 prompts, 252 cases, pooled mean 1.766
+Difficulty 2: 64 prompts, 256 cases, pooled mean 1.668
+Difficulty 3: 12 prompts, 48 cases, pooled mean 1.938
+Difficulty 4: 6 prompts, 24 cases, pooled mean 1.667
+Difficulty 5: 6 prompts, 24 cases, pooled mean 1.583
+Pooled linear fit: y = -0.037x + 1.834, R^2 = 0.183
+
+B.2 Generated output length versus iterations-to-converge
+Pooled linear fit: y = 0.00062x + 1.689, R^2 = 0.0011
+Average generated SysML lines by model:
+OpenAI: 49.0 (SE 1.9, n=151)
+Anthropic: 103.0 (SE 6.9, n=151)
+DeepSeek: 43.7 (SE 1.9, n=151)
+Mistral: 49.8 (SE 1.6, n=151)

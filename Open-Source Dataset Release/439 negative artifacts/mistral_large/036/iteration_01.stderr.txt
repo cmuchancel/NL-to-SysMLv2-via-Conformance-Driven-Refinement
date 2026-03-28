@@ -1,0 +1,15 @@
+iteration_02.sysml:27:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    27 |         attribute state : VehicleState = VehicleState::off;
+       |                   ^^^^^
+
+iteration_02.sysml:35:36: error (reference-error): Expected Feature element but found PartDefinition (VehicleOperationalStatus::VehicleStartSignalPort)
+    35 |     connect vehicle.startSignal to VehicleStartSignalPort;
+       |                                    ^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:36:33: error (reference-error): Expected Feature element but found PartDefinition (VehicleOperationalStatus::VehicleOnSignalPort)
+    36 |     connect vehicle.onSignal to VehicleOnSignalPort;
+       |                                 ^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:37:34: error (reference-error): Expected Feature element but found PartDefinition (VehicleOperationalStatus::VehicleOffSignalPort)
+    37 |     connect vehicle.offSignal to VehicleOffSignalPort;
+       |                                  ^^^^^^^^^^^^^^^^^^^^

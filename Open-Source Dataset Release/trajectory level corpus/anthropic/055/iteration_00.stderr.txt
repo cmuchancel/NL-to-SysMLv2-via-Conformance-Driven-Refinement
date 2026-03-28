@@ -1,0 +1,521 @@
+iteration_01.sysml:14:19: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Component::serialNumber
+│   14 |         attribute serialNumber : String;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:13:33: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:15:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Component::mass
+│   15 |         attribute mass : Real;
+│      |                   ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:13:33: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:19:19: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Component::serialNumber
+│   19 |         attribute serialNumber : String;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:18:39: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:20:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Component::mass
+│   20 |         attribute mass : Real;
+│      |                   ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:18:39: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Component::serialNumber
+│   24 |         attribute serialNumber : String;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:23:32: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:25:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Component::mass
+│   25 |         attribute mass : Real;
+│      |                   ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:23:32: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:29:19: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Component::serialNumber
+│   29 |         attribute serialNumber : String;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:28:31: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:30:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Component::mass
+│   30 |         attribute mass : Real;
+│      |                   ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:28:31: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:34:19: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Component::serialNumber
+│   34 |         attribute serialNumber : String;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:33:34: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Component::mass
+│   35 |         attribute mass : Real;
+│      |                   ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:33:34: note: Because VehicleMassManagement::Component is specialized through Subclassification
+
+iteration_01.sysml:49:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Engine::serialNumber
+│   49 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:50:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Engine::mass
+│   50 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Transmission::serialNumber
+│   54 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:53:29: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Transmission::mass
+│   55 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:53:29: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Body::serialNumber
+│   59 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:58:21: note: Because VehicleMassManagement::Body is specialized through FeatureTyping
+
+iteration_01.sysml:60:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Body::mass
+│   60 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:58:21: note: Because VehicleMassManagement::Body is specialized through FeatureTyping
+
+iteration_01.sysml:64:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Chassis::serialNumber
+│   64 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:63:24: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:65:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Chassis::mass
+│   65 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:63:24: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   69 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   70 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:74:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   74 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:73:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:75:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   75 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:73:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   79 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:78:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   80 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:78:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:84:23: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   84 |             attribute serialNumber : String;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:83:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   85 |             attribute mass : Real;
+│      |                       ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:83:23: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:89:23: warning (namespace-distinguishability): Member name 'threshold' shadows VehicleMassManagement::MassFilter::threshold
+│   89 |             attribute threshold : Real;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:88:27: note: Because VehicleMassManagement::MassFilter is specialized through FeatureTyping
+
+iteration_01.sysml:95:23: warning (namespace-distinguishability): Member name 'vin' shadows VehicleMassManagement::Vehicle::vin
+│   95 |             attribute vin : String = "VIN-001";
+│      |                       ^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'ownMass' shadows VehicleMassManagement::Vehicle::ownMass
+│   96 |             attribute ownMass : Real = 500.0;
+│      |                       ^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleMassManagement::Vehicle::totalMass
+│   97 |             attribute totalMass : Real = 1800.0;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:98:23: warning (namespace-distinguishability): Member name 'massThreshold' shadows VehicleMassManagement::Vehicle::massThreshold
+│   98 |             attribute massThreshold : Real = 50.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:100:18: warning (namespace-distinguishability): Member name 'engine' shadows VehicleMassManagement::Vehicle::engine
+│   100 |             part engine : Engine {
+│       |                  ^^^^^^
+└── iteration_01.sysml:48:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:101:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Engine::serialNumber
+│   101 |                 attribute serialNumber : String = "ENG-001";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:100:27: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:102:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Engine::mass
+│   102 |                 attribute mass : Real = 250.0;
+│       |                           ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:100:27: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:105:18: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleMassManagement::Vehicle::transmission
+│   105 |             part transmission : Transmission {
+│       |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:53:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:106:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Transmission::serialNumber
+│   106 |                 attribute serialNumber : String = "TRN-001";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:105:33: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:107:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Transmission::mass
+│   107 |                 attribute mass : Real = 80.0;
+│       |                           ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:105:33: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:110:18: warning (namespace-distinguishability): Member name 'body' shadows VehicleMassManagement::Vehicle::body
+│   110 |             part body : Body {
+│       |                  ^^^^
+└── iteration_01.sysml:58:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:111:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Body::serialNumber
+│   111 |                 attribute serialNumber : String = "BOD-001";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because VehicleMassManagement::Body is specialized through FeatureTyping
+
+iteration_01.sysml:112:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Body::mass
+│   112 |                 attribute mass : Real = 400.0;
+│       |                           ^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:110:25: note: Because VehicleMassManagement::Body is specialized through FeatureTyping
+
+iteration_01.sysml:115:18: warning (namespace-distinguishability): Member name 'chassis' shadows VehicleMassManagement::Vehicle::chassis
+│   115 |             part chassis : Chassis {
+│       |                  ^^^^^^^
+└── iteration_01.sysml:63:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:116:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Chassis::serialNumber
+│   116 |                 attribute serialNumber : String = "CHS-001";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:115:28: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:117:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Chassis::mass
+│   117 |                 attribute mass : Real = 300.0;
+│       |                           ^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:115:28: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:120:18: warning (namespace-distinguishability): Member name 'wheel1' shadows VehicleMassManagement::Vehicle::wheel1
+│   120 |             part wheel1 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:68:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:121:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   121 |                 attribute serialNumber : String = "WHL-001";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:120:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:122:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   122 |                 attribute mass : Real = 25.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:120:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:125:18: warning (namespace-distinguishability): Member name 'wheel2' shadows VehicleMassManagement::Vehicle::wheel2
+│   125 |             part wheel2 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:73:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:126:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   126 |                 attribute serialNumber : String = "WHL-002";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:127:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   127 |                 attribute mass : Real = 25.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:130:18: warning (namespace-distinguishability): Member name 'wheel3' shadows VehicleMassManagement::Vehicle::wheel3
+│   130 |             part wheel3 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:78:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:131:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   131 |                 attribute serialNumber : String = "WHL-003";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:130:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:132:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   132 |                 attribute mass : Real = 25.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:130:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:135:18: warning (namespace-distinguishability): Member name 'wheel4' shadows VehicleMassManagement::Vehicle::wheel4
+│   135 |             part wheel4 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:83:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:136:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   136 |                 attribute serialNumber : String = "WHL-004";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:135:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:137:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   137 |                 attribute mass : Real = 25.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:135:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:140:18: warning (namespace-distinguishability): Member name 'massFilter' shadows VehicleMassManagement::Vehicle::massFilter
+│   140 |             part massFilter : MassFilter {
+│       |                  ^^^^^^^^^^
+└── iteration_01.sysml:88:14: note: Inherited from here
+    └── iteration_01.sysml:94:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:141:27: warning (namespace-distinguishability): Member name 'threshold' shadows VehicleMassManagement::MassFilter::threshold
+│   141 |                 attribute threshold : Real = 50.0;
+│       |                           ^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:140:31: note: Because VehicleMassManagement::MassFilter is specialized through FeatureTyping
+
+iteration_01.sysml:146:23: warning (namespace-distinguishability): Member name 'vin' shadows VehicleMassManagement::Vehicle::vin
+│   146 |             attribute vin : String = "VIN-002";
+│       |                       ^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:147:23: warning (namespace-distinguishability): Member name 'ownMass' shadows VehicleMassManagement::Vehicle::ownMass
+│   147 |             attribute ownMass : Real = 600.0;
+│       |                       ^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:148:23: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleMassManagement::Vehicle::totalMass
+│   148 |             attribute totalMass : Real = 2100.0;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:149:23: warning (namespace-distinguishability): Member name 'massThreshold' shadows VehicleMassManagement::Vehicle::massThreshold
+│   149 |             attribute massThreshold : Real = 30.0;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:151:18: warning (namespace-distinguishability): Member name 'engine' shadows VehicleMassManagement::Vehicle::engine
+│   151 |             part engine : Engine {
+│       |                  ^^^^^^
+└── iteration_01.sysml:48:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:152:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Engine::serialNumber
+│   152 |                 attribute serialNumber : String = "ENG-002";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:151:27: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:153:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Engine::mass
+│   153 |                 attribute mass : Real = 300.0;
+│       |                           ^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:151:27: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:156:18: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleMassManagement::Vehicle::transmission
+│   156 |             part transmission : Transmission {
+│       |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:53:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:157:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Transmission::serialNumber
+│   157 |                 attribute serialNumber : String = "TRN-002";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:156:33: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:158:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Transmission::mass
+│   158 |                 attribute mass : Real = 100.0;
+│       |                           ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:156:33: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:161:18: warning (namespace-distinguishability): Member name 'body' shadows VehicleMassManagement::Vehicle::body
+│   161 |             part body : Body {
+│       |                  ^^^^
+└── iteration_01.sysml:58:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:162:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Body::serialNumber
+│   162 |                 attribute serialNumber : String = "BOD-002";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:161:25: note: Because VehicleMassManagement::Body is specialized through FeatureTyping
+
+iteration_01.sysml:163:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Body::mass
+│   163 |                 attribute mass : Real = 450.0;
+│       |                           ^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:161:25: note: Because VehicleMassManagement::Body is specialized through FeatureTyping
+
+iteration_01.sysml:166:18: warning (namespace-distinguishability): Member name 'chassis' shadows VehicleMassManagement::Vehicle::chassis
+│   166 |             part chassis : Chassis {
+│       |                  ^^^^^^^
+└── iteration_01.sysml:63:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:167:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Chassis::serialNumber
+│   167 |                 attribute serialNumber : String = "CHS-002";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:166:28: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:168:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Chassis::mass
+│   168 |                 attribute mass : Real = 350.0;
+│       |                           ^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:166:28: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:171:18: warning (namespace-distinguishability): Member name 'wheel1' shadows VehicleMassManagement::Vehicle::wheel1
+│   171 |             part wheel1 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:68:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:172:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   172 |                 attribute serialNumber : String = "WHL-005";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:171:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:173:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   173 |                 attribute mass : Real = 30.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:171:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:176:18: warning (namespace-distinguishability): Member name 'wheel2' shadows VehicleMassManagement::Vehicle::wheel2
+│   176 |             part wheel2 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:73:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:177:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   177 |                 attribute serialNumber : String = "WHL-006";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:176:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:178:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   178 |                 attribute mass : Real = 30.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:176:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:181:18: warning (namespace-distinguishability): Member name 'wheel3' shadows VehicleMassManagement::Vehicle::wheel3
+│   181 |             part wheel3 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:78:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:182:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   182 |                 attribute serialNumber : String = "WHL-007";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:181:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:183:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   183 |                 attribute mass : Real = 30.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:181:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:186:18: warning (namespace-distinguishability): Member name 'wheel4' shadows VehicleMassManagement::Vehicle::wheel4
+│   186 |             part wheel4 : Wheel {
+│       |                  ^^^^^^
+└── iteration_01.sysml:83:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:187:27: warning (namespace-distinguishability): Member name 'serialNumber' shadows VehicleMassManagement::Wheel::serialNumber
+│   187 |                 attribute serialNumber : String = "WHL-008";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:186:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:188:27: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Wheel::mass
+│   188 |                 attribute mass : Real = 30.0;
+│       |                           ^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:186:27: note: Because VehicleMassManagement::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:191:18: warning (namespace-distinguishability): Member name 'massFilter' shadows VehicleMassManagement::Vehicle::massFilter
+│   191 |             part massFilter : MassFilter {
+│       |                  ^^^^^^^^^^
+└── iteration_01.sysml:88:14: note: Inherited from here
+    └── iteration_01.sysml:145:25: note: Because VehicleMassManagement::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:192:27: warning (namespace-distinguishability): Member name 'threshold' shadows VehicleMassManagement::MassFilter::threshold
+│   192 |                 attribute threshold : Real = 30.0;
+│       |                           ^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:191:31: note: Because VehicleMassManagement::MassFilter is specialized through FeatureTyping

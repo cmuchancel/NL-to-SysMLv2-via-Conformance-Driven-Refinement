@@ -1,0 +1,23 @@
+iteration_01.sysml:16:53: error (reference-error): No Feature named 'Safety' found.
+    16 |         attribute functionalArea : FunctionalArea = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:21:53: error (reference-error): No Feature named 'Safety' found.
+    21 |         attribute functionalArea : FunctionalArea = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:26:53: error (reference-error): No Feature named 'Safety' found.
+    26 |         attribute functionalArea : FunctionalArea = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:31:53: error (reference-error): No Feature named 'Safety' found.
+    31 |         attribute functionalArea : FunctionalArea = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:36:53: error (reference-error): No Feature named 'AntiTheft' found.
+    36 |         attribute functionalArea : FunctionalArea = AntiTheft;
+       |                                                     ^^^^^^^^^
+
+iteration_01.sysml:41:53: error (reference-error): No Feature named 'AntiTheft' found.
+    41 |         attribute functionalArea : FunctionalArea = AntiTheft;
+       |                                                     ^^^^^^^^^

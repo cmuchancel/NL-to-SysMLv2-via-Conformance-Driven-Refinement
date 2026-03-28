@@ -1,0 +1,75 @@
+iteration_02.sysml:19:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows ConfigurableEngine::Engine::cylinderCount
+│   19 |         attribute cylinderCount : Integer = 4;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_02.sysml:14:19: note: Inherited from here
+    └── iteration_02.sysml:18:31: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:20:14: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::Engine::cylinders
+│   20 |         part cylinders : Cylinder[4] {
+│      |              ^^^^^^^^^
+└── iteration_02.sysml:15:14: note: Inherited from here
+    └── iteration_02.sysml:18:31: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:26:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows ConfigurableEngine::Engine::cylinderCount
+│   26 |         attribute cylinderCount : Integer = 6;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_02.sysml:14:19: note: Inherited from here
+    └── iteration_02.sysml:25:30: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:27:14: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::Engine::cylinders
+│   27 |         part cylinders : Cylinder[6] {
+│      |              ^^^^^^^^^
+└── iteration_02.sysml:15:14: note: Inherited from here
+    └── iteration_02.sysml:25:30: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:37:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   37 |         part engine : fourCylinderEngine;
+│      |              ^^^^^^
+└── iteration_02.sysml:33:14: note: Inherited from here
+    └── iteration_02.sysml:36:23: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_02.sysml:37:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    37 |         part engine : fourCylinderEngine;
+       |                       ^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:41:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   41 |         part engine : fourCylinderEngine {
+│      |              ^^^^^^
+└── iteration_02.sysml:33:14: note: Inherited from here
+    └── iteration_02.sysml:40:24: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_02.sysml:41:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    41 |         part engine : fourCylinderEngine {
+       |                       ^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:42:18: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylinderEngine::cylinders
+│   42 |             part cylinders : Cylinder[4] {
+│      |                  ^^^^^^^^^
+└── iteration_02.sysml:20:14: note: Inherited from here
+    └── iteration_02.sysml:41:23: note: Because ConfigurableEngine::fourCylinderEngine is specialized through FeatureTyping
+
+iteration_02.sysml:49:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   49 |         part engine : sixCylinderEngine;
+│      |              ^^^^^^
+└── iteration_02.sysml:33:14: note: Inherited from here
+    └── iteration_02.sysml:48:22: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_02.sysml:49:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    49 |         part engine : sixCylinderEngine;
+       |                       ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:53:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   53 |         part engine : sixCylinderEngine {
+│      |              ^^^^^^
+└── iteration_02.sysml:33:14: note: Inherited from here
+    └── iteration_02.sysml:52:23: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_02.sysml:53:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    53 |         part engine : sixCylinderEngine {
+       |                       ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:54:18: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylinderEngine::cylinders
+│   54 |             part cylinders : Cylinder[6] {
+│      |                  ^^^^^^^^^
+└── iteration_02.sysml:27:14: note: Inherited from here
+    └── iteration_02.sysml:53:23: note: Because ConfigurableEngine::sixCylinderEngine is specialized through FeatureTyping

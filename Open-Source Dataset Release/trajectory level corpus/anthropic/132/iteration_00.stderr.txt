@@ -1,0 +1,71 @@
+iteration_01.sysml:35:23: warning (namespace-distinguishability): Member name 'classificationLevel' shadows SecurityClassificationSystem::ConfidentialComponent::classificationLevel
+│   35 |             attribute classificationLevel : ClassificationLevel = ClassificationLevel::Confidential;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because SecurityClassificationSystem::ConfidentialComponent is specialized through FeatureTyping
+
+iteration_01.sysml:36:23: warning (namespace-distinguishability): Member name 'label' shadows SecurityClassificationSystem::ConfidentialComponent::label
+│   36 |             attribute label : String = "ComponentA";
+│      |                       ^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because SecurityClassificationSystem::ConfidentialComponent is specialized through FeatureTyping
+
+iteration_01.sysml:37:23: warning (namespace-distinguishability): Member name 'displayClassification' shadows SecurityClassificationSystem::ConfidentialComponent::displayClassification
+│   37 |             attribute displayClassification : String = "Confidential";
+│      |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because SecurityClassificationSystem::ConfidentialComponent is specialized through FeatureTyping
+
+iteration_01.sysml:41:23: warning (namespace-distinguishability): Member name 'classificationLevel' shadows SecurityClassificationSystem::UnclassifiedComponent::classificationLevel
+│   41 |             attribute classificationLevel : ClassificationLevel = ClassificationLevel::Unclassified;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:40:27: note: Because SecurityClassificationSystem::UnclassifiedComponent is specialized through FeatureTyping
+
+iteration_01.sysml:42:23: warning (namespace-distinguishability): Member name 'label' shadows SecurityClassificationSystem::UnclassifiedComponent::label
+│   42 |             attribute label : String = "ComponentB";
+│      |                       ^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:40:27: note: Because SecurityClassificationSystem::UnclassifiedComponent is specialized through FeatureTyping
+
+iteration_01.sysml:43:23: warning (namespace-distinguishability): Member name 'displayClassification' shadows SecurityClassificationSystem::UnclassifiedComponent::displayClassification
+│   43 |             attribute displayClassification : String = "Unclassified";
+│      |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:40:27: note: Because SecurityClassificationSystem::UnclassifiedComponent is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'classificationLevel' shadows SecurityClassificationSystem::SecretComponent::classificationLevel
+│   47 |             attribute classificationLevel : ClassificationLevel = ClassificationLevel::Secret;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:46:27: note: Because SecurityClassificationSystem::SecretComponent is specialized through FeatureTyping
+
+iteration_01.sysml:48:23: warning (namespace-distinguishability): Member name 'label' shadows SecurityClassificationSystem::SecretComponent::label
+│   48 |             attribute label : String = "ComponentC";
+│      |                       ^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:46:27: note: Because SecurityClassificationSystem::SecretComponent is specialized through FeatureTyping
+
+iteration_01.sysml:49:23: warning (namespace-distinguishability): Member name 'displayClassification' shadows SecurityClassificationSystem::SecretComponent::displayClassification
+│   49 |             attribute displayClassification : String = "Secret";
+│      |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:30:19: note: Inherited from here
+    └── iteration_01.sysml:46:27: note: Because SecurityClassificationSystem::SecretComponent is specialized through FeatureTyping
+
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'classificationLevel' shadows SecurityClassificationSystem::ConfidentialComponent::classificationLevel
+│   53 |             attribute classificationLevel : ClassificationLevel = ClassificationLevel::Confidential;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:52:27: note: Because SecurityClassificationSystem::ConfidentialComponent is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'label' shadows SecurityClassificationSystem::ConfidentialComponent::label
+│   54 |             attribute label : String = "ComponentD";
+│      |                       ^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:52:27: note: Because SecurityClassificationSystem::ConfidentialComponent is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'displayClassification' shadows SecurityClassificationSystem::ConfidentialComponent::displayClassification
+│   55 |             attribute displayClassification : String = "Confidential";
+│      |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:52:27: note: Because SecurityClassificationSystem::ConfidentialComponent is specialized through FeatureTyping

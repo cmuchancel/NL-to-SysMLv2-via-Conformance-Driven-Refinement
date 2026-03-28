@@ -1,0 +1,7 @@
+iteration_01.sysml:19:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    19 |         part frame : VehicleFrame;
+       |              ^^^^^
+
+iteration_01.sysml:24:14: error (parsing-error): Unexpected 'frame', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    24 |         part frame : TrailerFrame;
+       |              ^^^^^

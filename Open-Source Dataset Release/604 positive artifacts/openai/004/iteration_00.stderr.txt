@@ -1,0 +1,23 @@
+iteration_01.sysml:12:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleSystem::Engine::cylinderCount
+│   12 |         attribute cylinderCount : Integer = 4;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:8:19: note: Inherited from here
+    └── iteration_01.sysml:11:38: note: Because VehicleSystem::Engine is specialized through Subclassification
+
+iteration_01.sysml:16:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleSystem::Engine::cylinderCount
+│   16 |         attribute cylinderCount : Integer = 6;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:8:19: note: Inherited from here
+    └── iteration_01.sysml:15:38: note: Because VehicleSystem::Engine is specialized through Subclassification
+
+iteration_01.sysml:24:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   24 |         part engine : SmallEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:23:39: note: Because VehicleSystem::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:28:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   28 |         part engine : LargeEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:27:39: note: Because VehicleSystem::Vehicle is specialized through Subclassification

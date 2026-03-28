@@ -1,0 +1,15 @@
+iteration_01.sysml:41:13: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    41 |             Composition(
+       |             ^^^^^^^^^^^
+
+iteration_01.sysml:45:13: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    45 |             Composition(
+       |             ^^^^^^^^^^^
+
+iteration_01.sysml:49:13: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    49 |             Composition(
+       |             ^^^^^^^^^^^
+
+iteration_01.sysml:56:30: error (reference-error): Expected Type element but found Package (EngineeringMaterialsDatabase)
+    56 |     part materialsDatabase : EngineeringMaterialsDatabase {
+       |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

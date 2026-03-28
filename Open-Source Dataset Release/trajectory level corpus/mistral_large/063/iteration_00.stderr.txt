@@ -1,0 +1,15 @@
+iteration_01.sysml:30:23: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |     attribute vehicle.chassisMass : Real = vehicle.chassis.mass;
+       |                       ^^^^^^^^^^^
+
+iteration_01.sysml:31:23: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    31 |     attribute vehicle.engineMass : Real = vehicle.engine.mass;
+       |                       ^^^^^^^^^^
+
+iteration_01.sysml:32:23: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    32 |     attribute vehicle.transmissionMass : Real = vehicle.transmission.mass;
+       |                       ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:33:23: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    33 |     attribute vehicle.totalMass : Real = vehicle.chassisMass + vehicle.engineMass + vehicle.transmissionMass;
+       |                       ^^^^^^^^^

@@ -1,0 +1,47 @@
+iteration_04.sysml:71:19: warning (namespace-distinguishability): Member name 'fromUnit' shadows UnitSystemLibrary::LengthConverter::fromUnit
+│   71 |         attribute fromUnit : USCustomaryLengthUnits = USCustomaryLengthUnits::inch;
+│      |                   ^^^^^^^^
+└── iteration_04.sysml:52:19: note: Inherited from here
+    └── iteration_04.sysml:70:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_04.sysml:72:19: warning (namespace-distinguishability): Member name 'toUnit' shadows UnitSystemLibrary::LengthConverter::toUnit
+│   72 |         attribute toUnit : ISQBaseUnits = ISQBaseUnits::meter;
+│      |                   ^^^^^^
+└── iteration_04.sysml:53:19: note: Inherited from here
+    └── iteration_04.sysml:70:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_04.sysml:73:14: warning (namespace-distinguishability): Member name 'myUnitConverter' shadows UnitSystemLibrary::LengthConverter::myUnitConverter
+│   73 |         part myUnitConverter : UnitConverter {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_04.sysml:51:14: note: Inherited from here
+    └── iteration_04.sysml:70:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_04.sysml:74:23: warning (namespace-distinguishability): Member name 'factor' shadows UnitSystemLibrary::UnitConverter::factor
+│   74 |             attribute factor : Real = 0.0254;
+│      |                       ^^^^^^
+└── iteration_04.sysml:30:19: note: Inherited from here
+    └── iteration_04.sysml:73:32: note: Because UnitSystemLibrary::UnitConverter is specialized through FeatureTyping
+
+iteration_04.sysml:79:19: warning (namespace-distinguishability): Member name 'fromUnit' shadows UnitSystemLibrary::MassConverter::fromUnit
+│   79 |         attribute fromUnit : USCustomaryMassUnits = USCustomaryMassUnits::pound;
+│      |                   ^^^^^^^^
+└── iteration_04.sysml:58:19: note: Inherited from here
+    └── iteration_04.sysml:78:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_04.sysml:80:19: warning (namespace-distinguishability): Member name 'toUnit' shadows UnitSystemLibrary::MassConverter::toUnit
+│   80 |         attribute toUnit : ISQBaseUnits = ISQBaseUnits::kilogram;
+│      |                   ^^^^^^
+└── iteration_04.sysml:59:19: note: Inherited from here
+    └── iteration_04.sysml:78:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_04.sysml:81:14: warning (namespace-distinguishability): Member name 'myUnitConverter' shadows UnitSystemLibrary::MassConverter::myUnitConverter
+│   81 |         part myUnitConverter : UnitConverter {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_04.sysml:57:14: note: Inherited from here
+    └── iteration_04.sysml:78:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_04.sysml:82:23: warning (namespace-distinguishability): Member name 'factor' shadows UnitSystemLibrary::UnitConverter::factor
+│   82 |             attribute factor : Real = 0.453592;
+│      |                       ^^^^^^
+└── iteration_04.sysml:30:19: note: Inherited from here
+    └── iteration_04.sysml:81:32: note: Because UnitSystemLibrary::UnitConverter is specialized through FeatureTyping

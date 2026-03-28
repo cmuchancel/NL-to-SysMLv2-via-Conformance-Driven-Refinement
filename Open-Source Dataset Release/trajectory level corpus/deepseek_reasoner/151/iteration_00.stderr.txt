@@ -1,0 +1,11 @@
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'role' shadows TransportationSystem::Person::role
+│   36 |         attribute role : UserRole = UserRole::DRIVER;
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:35:19: note: Because TransportationSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:39:19: warning (namespace-distinguishability): Member name 'role' shadows TransportationSystem::Person::role
+│   39 |         attribute role : UserRole = UserRole::PASSENGER;
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:38:23: note: Because TransportationSystem::Person is specialized through FeatureTyping

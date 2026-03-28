@@ -1,0 +1,53 @@
+iteration_01.sysml:65:14: warning (namespace-distinguishability): Member name 'interior' shadows VehicleSafetySecuritySystem::VehicleSafetySecurityComponent::interior
+│   65 |         part interior : Interior {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:57:14: note: Inherited from here
+    └── iteration_01.sysml:64:26: note: Because VehicleSafetySecuritySystem::VehicleSafetySecurityComponent is specialized through FeatureTyping
+
+iteration_01.sysml:66:18: warning (namespace-distinguishability): Member name 'alarm' shadows VehicleSafetySecuritySystem::Interior::alarm
+│   66 |             part alarm : AlarmSystem;
+│      |                  ^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:65:25: note: Because VehicleSafetySecuritySystem::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:67:18: warning (namespace-distinguishability): Member name 'seatBelt' shadows VehicleSafetySecuritySystem::Interior::seatBelt
+│   67 |             part seatBelt : SeatBelt;
+│      |                  ^^^^^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:65:25: note: Because VehicleSafetySecuritySystem::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:68:18: warning (namespace-distinguishability): Member name 'frontSeat' shadows VehicleSafetySecuritySystem::Interior::frontSeat
+│   68 |             part frontSeat : FrontRowSeat;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:65:25: note: Because VehicleSafetySecuritySystem::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:69:18: warning (namespace-distinguishability): Member name 'airbag' shadows VehicleSafetySecuritySystem::Interior::airbag
+│   69 |             part airbag : DriverAirbag;
+│      |                  ^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:65:25: note: Because VehicleSafetySecuritySystem::Interior is specialized through FeatureTyping
+
+iteration_01.sysml:71:14: warning (namespace-distinguishability): Member name 'bodyAssembly' shadows VehicleSafetySecuritySystem::VehicleSafetySecurityComponent::bodyAssembly
+│   71 |         part bodyAssembly : BodyAssembly {
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:58:14: note: Inherited from here
+    └── iteration_01.sysml:64:26: note: Because VehicleSafetySecuritySystem::VehicleSafetySecurityComponent is specialized through FeatureTyping
+
+iteration_01.sysml:72:18: warning (namespace-distinguishability): Member name 'body' shadows VehicleSafetySecuritySystem::BodyAssembly::body
+│   72 |             part body : VehicleBody;
+│      |                  ^^^^
+└── iteration_01.sysml:51:14: note: Inherited from here
+    └── iteration_01.sysml:71:29: note: Because VehicleSafetySecuritySystem::BodyAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:73:18: warning (namespace-distinguishability): Member name 'bumper' shadows VehicleSafetySecuritySystem::BodyAssembly::bumper
+│   73 |             part bumper : Bumper;
+│      |                  ^^^^^^
+└── iteration_01.sysml:52:14: note: Inherited from here
+    └── iteration_01.sysml:71:29: note: Because VehicleSafetySecuritySystem::BodyAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:74:18: warning (namespace-distinguishability): Member name 'keylessEntry' shadows VehicleSafetySecuritySystem::BodyAssembly::keylessEntry
+│   74 |             part keylessEntry : KeylessEntrySystem;
+│      |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:53:14: note: Inherited from here
+    └── iteration_01.sysml:71:29: note: Because VehicleSafetySecuritySystem::BodyAssembly is specialized through FeatureTyping

@@ -1,0 +1,163 @@
+iteration_01.sysml:30:43: error (parsing-error): Unexpected '{'.
+    30 |             axle = frontAxle1 : FrontAxle {
+       |                                           ^
+
+iteration_01.sysml:32:14: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    32 |             },
+       |              ^
+
+iteration_01.sysml:33:45: error (parsing-error): Unexpected '{'.
+    33 |             wheel1 = leftFrontWheel : Wheel {
+       |                                             ^
+
+iteration_01.sysml:35:14: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    35 |             },
+       |              ^
+
+iteration_01.sysml:36:46: error (parsing-error): Unexpected '{'.
+    36 |             wheel2 = rightFrontWheel : Wheel {
+       |                                              ^
+
+iteration_01.sysml:41:37: error (parsing-error): Unexpected '{'.
+    41 |             axle = rearAxle1 : Axle {},
+       |                                     ^
+
+iteration_01.sysml:41:39: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    41 |             axle = rearAxle1 : Axle {},
+       |                                       ^
+
+iteration_01.sysml:42:44: error (parsing-error): Unexpected '{'.
+    42 |             wheel1 = leftRearWheel : Wheel {
+       |                                            ^
+
+iteration_01.sysml:44:14: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    44 |             },
+       |              ^
+
+iteration_01.sysml:45:45: error (parsing-error): Unexpected '{'.
+    45 |             wheel2 = rightRearWheel : Wheel {
+       |                                             ^
+
+iteration_01.sysml:54:43: error (parsing-error): Unexpected '{'.
+    54 |             axle = frontAxle2 : FrontAxle {
+       |                                           ^
+
+iteration_01.sysml:56:14: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    56 |             },
+       |              ^
+
+iteration_01.sysml:57:42: error (parsing-error): Unexpected '{'.
+    57 |             wheel1 = frontWheel1 : Wheel {},
+       |                                          ^
+
+iteration_01.sysml:57:44: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    57 |             wheel1 = frontWheel1 : Wheel {},
+       |                                            ^
+
+iteration_01.sysml:58:42: error (parsing-error): Unexpected '{'.
+    58 |             wheel2 = frontWheel2 : Wheel {}
+       |                                          ^
+
+iteration_01.sysml:61:37: error (parsing-error): Unexpected '{'.
+    61 |             axle = rearAxle2 : Axle {},
+       |                                     ^
+
+iteration_01.sysml:61:39: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    61 |             axle = rearAxle2 : Axle {},
+       |                                       ^
+
+iteration_01.sysml:62:41: error (parsing-error): Unexpected '{'.
+    62 |             wheel1 = rearWheel1 : Wheel {},
+       |                                         ^
+
+iteration_01.sysml:62:43: error (parsing-error): Unexpected ',', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    62 |             wheel1 = rearWheel1 : Wheel {},
+       |                                           ^
+
+iteration_01.sysml:63:41: error (parsing-error): Unexpected '{'.
+    63 |             wheel2 = rearWheel2 : Wheel {}
+       |                                         ^
+
+iteration_01.sysml:28:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   28 |         mass = 1750.0;
+│      |         ^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:27:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:29:9: warning (namespace-distinguishability): Member name 'frontAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::frontAxleAssembly
+│   29 |         frontAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:6:14: note: Inherited from here
+    └── iteration_01.sysml:27:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:40:9: warning (namespace-distinguishability): Member name 'rearAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::rearAxleAssembly
+│   40 |         rearAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:7:14: note: Inherited from here
+    └── iteration_01.sysml:27:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:52:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleStructuralArchitecture::Vehicle::mass
+│   52 |         mass = 2000.0;
+│      |         ^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:51:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:53:9: warning (namespace-distinguishability): Member name 'frontAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::frontAxleAssembly
+│   53 |         frontAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:6:14: note: Inherited from here
+    └── iteration_01.sysml:51:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:60:9: warning (namespace-distinguishability): Member name 'rearAxleAssembly' shadows VehicleStructuralArchitecture::Vehicle::rearAxleAssembly
+│   60 |         rearAxleAssembly = {
+│      |         ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:7:14: note: Inherited from here
+    └── iteration_01.sysml:51:21: note: Because VehicleStructuralArchitecture::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:30:20: error (reference-error): No Feature named 'frontAxle1' found.
+    30 |             axle = frontAxle1 : FrontAxle {
+       |                    ^^^^^^^^^^
+
+iteration_01.sysml:33:22: error (reference-error): No Feature named 'leftFrontWheel' found.
+    33 |             wheel1 = leftFrontWheel : Wheel {
+       |                      ^^^^^^^^^^^^^^
+
+iteration_01.sysml:36:22: error (reference-error): No Feature named 'rightFrontWheel' found.
+    36 |             wheel2 = rightFrontWheel : Wheel {
+       |                      ^^^^^^^^^^^^^^^
+
+iteration_01.sysml:41:20: error (reference-error): No Feature named 'rearAxle1' found.
+    41 |             axle = rearAxle1 : Axle {},
+       |                    ^^^^^^^^^
+
+iteration_01.sysml:42:22: error (reference-error): No Feature named 'leftRearWheel' found.
+    42 |             wheel1 = leftRearWheel : Wheel {
+       |                      ^^^^^^^^^^^^^
+
+iteration_01.sysml:45:22: error (reference-error): No Feature named 'rightRearWheel' found.
+    45 |             wheel2 = rightRearWheel : Wheel {
+       |                      ^^^^^^^^^^^^^^
+
+iteration_01.sysml:54:20: error (reference-error): No Feature named 'frontAxle2' found.
+    54 |             axle = frontAxle2 : FrontAxle {
+       |                    ^^^^^^^^^^
+
+iteration_01.sysml:57:22: error (reference-error): No Feature named 'frontWheel1' found.
+    57 |             wheel1 = frontWheel1 : Wheel {},
+       |                      ^^^^^^^^^^^
+
+iteration_01.sysml:58:22: error (reference-error): No Feature named 'frontWheel2' found.
+    58 |             wheel2 = frontWheel2 : Wheel {}
+       |                      ^^^^^^^^^^^
+
+iteration_01.sysml:61:20: error (reference-error): No Feature named 'rearAxle2' found.
+    61 |             axle = rearAxle2 : Axle {},
+       |                    ^^^^^^^^^
+
+iteration_01.sysml:62:22: error (reference-error): No Feature named 'rearWheel1' found.
+    62 |             wheel1 = rearWheel1 : Wheel {},
+       |                      ^^^^^^^^^^
+
+iteration_01.sysml:63:22: error (reference-error): No Feature named 'rearWheel2' found.
+    63 |             wheel2 = rearWheel2 : Wheel {}
+       |                      ^^^^^^^^^^

@@ -1,0 +1,29 @@
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'tankCapacity' shadows FuelFlowManagement::FuelTankAssembly::tankCapacity
+│   59 |             attribute tankCapacity : Real = 500.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:58:25: note: Because FuelFlowManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:60:23: warning (namespace-distinguishability): Member name 'currentFuelLevel' shadows FuelFlowManagement::FuelTankAssembly::currentFuelLevel
+│   60 |             attribute currentFuelLevel : Real = 400.0;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:58:25: note: Because FuelFlowManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'fuelTemperature' shadows FuelFlowManagement::FuelTankAssembly::fuelTemperature
+│   61 |             attribute fuelTemperature : Real = 25.0;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:58:25: note: Because FuelFlowManagement::FuelTankAssembly is specialized through FeatureTyping
+
+iteration_01.sysml:65:23: warning (namespace-distinguishability): Member name 'fuelConsumptionRate' shadows FuelFlowManagement::Engine::fuelConsumptionRate
+│   65 |             attribute fuelConsumptionRate : Real = 10.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:47:19: note: Inherited from here
+    └── iteration_01.sysml:64:23: note: Because FuelFlowManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'operatingTemperature' shadows FuelFlowManagement::Engine::operatingTemperature
+│   66 |             attribute operatingTemperature : Real = 150.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:48:19: note: Inherited from here
+    └── iteration_01.sysml:64:23: note: Because FuelFlowManagement::Engine is specialized through FeatureTyping

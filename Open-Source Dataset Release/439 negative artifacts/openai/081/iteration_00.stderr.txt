@@ -1,0 +1,41 @@
+iteration_01.sysml:15:20: error (parsing-error): Expected a token. Did you forget ';'?
+    15 |   part def Engine4 : Engine {
+
+iteration_01.sysml:22:20: error (parsing-error): Expected a token. Did you forget ';'?
+    22 |   part def Engine6 : Engine {
+
+iteration_01.sysml:33:31: error (parsing-error): Expected a token. Did you forget ';'?
+    33 |   part def ManualTransmission : Transmission { }
+
+iteration_01.sysml:35:34: error (parsing-error): Expected a token. Did you forget ';'?
+    35 |   part def AutomaticTransmission : Transmission { }
+
+iteration_01.sysml:42:27: error (parsing-error): Expected a token. Did you forget ';'?
+    42 |   part def Vehicle4Manual : Vehicle {
+
+iteration_01.sysml:47:25: error (parsing-error): Expected a token. Did you forget ';'?
+    47 |   part def Vehicle6Auto : Vehicle {
+
+iteration_01.sysml:43:10: warning (namespace-distinguishability): Member name 'engine' shadows AutomotiveConfig::Vehicle::engine
+│   43 |     part engine : Engine4;
+│      |          ^^^^^^
+└── iteration_01.sysml:38:10: note: Inherited from here
+    └── iteration_01.sysml:42:29: note: Because AutomotiveConfig::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:44:10: warning (namespace-distinguishability): Member name 'transmission' shadows AutomotiveConfig::Vehicle::transmission
+│   44 |     part transmission : ManualTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:39:10: note: Inherited from here
+    └── iteration_01.sysml:42:29: note: Because AutomotiveConfig::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:48:10: warning (namespace-distinguishability): Member name 'engine' shadows AutomotiveConfig::Vehicle::engine
+│   48 |     part engine : Engine6;
+│      |          ^^^^^^
+└── iteration_01.sysml:38:10: note: Inherited from here
+    └── iteration_01.sysml:47:27: note: Because AutomotiveConfig::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:49:10: warning (namespace-distinguishability): Member name 'transmission' shadows AutomotiveConfig::Vehicle::transmission
+│   49 |     part transmission : AutomaticTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:39:10: note: Inherited from here
+    └── iteration_01.sysml:47:27: note: Because AutomotiveConfig::Vehicle is specialized through FeatureTyping

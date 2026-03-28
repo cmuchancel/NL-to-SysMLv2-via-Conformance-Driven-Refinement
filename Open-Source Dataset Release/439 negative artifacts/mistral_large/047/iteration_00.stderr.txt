@@ -1,0 +1,11 @@
+iteration_01.sysml:25:50: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    25 |         attribute calculateThrottle(currentSpeed : Real) : Real {
+       |                                                  ^
+
+iteration_01.sysml:25:56: error (parsing-error): Unexpected ')', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", ",", "[", "ordered", "nonunique", ".", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    25 |         attribute calculateThrottle(currentSpeed : Real) : Real {
+       |                                                        ^
+
+iteration_01.sysml:27:20: error (parsing-error): Unexpected 'REAL_VALUE'.
+    27 |             return 0.0;
+       |                    ^^^

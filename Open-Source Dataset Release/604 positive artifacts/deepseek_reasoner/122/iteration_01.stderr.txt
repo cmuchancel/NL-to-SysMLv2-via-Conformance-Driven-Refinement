@@ -1,0 +1,65 @@
+iteration_02.sysml:33:19: warning (namespace-distinguishability): Member name 'condition' shadows FuelEconomySystem::TestScenario::condition
+│   33 |         attribute condition : DrivingCondition = DrivingCondition::urban;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:32:22: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:34:19: warning (namespace-distinguishability): Member name 'requiredMinimum' shadows FuelEconomySystem::TestScenario::requiredMinimum
+│   34 |         attribute requiredMinimum : Real = 25;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:23:19: note: Inherited from here
+    └── iteration_02.sysml:32:22: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:38:19: warning (namespace-distinguishability): Member name 'condition' shadows FuelEconomySystem::TestScenario::condition
+│   38 |         attribute condition : DrivingCondition = DrivingCondition::highway;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:37:24: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:39:19: warning (namespace-distinguishability): Member name 'requiredMinimum' shadows FuelEconomySystem::TestScenario::requiredMinimum
+│   39 |         attribute requiredMinimum : Real = 30;
+│      |                   ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:23:19: note: Inherited from here
+    └── iteration_02.sysml:37:24: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:43:19: warning (namespace-distinguishability): Member name 'curbWeight' shadows FuelEconomySystem::Vehicle::curbWeight
+│   43 |         attribute curbWeight : Real = 3000;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:10:19: note: Inherited from here
+    └── iteration_02.sysml:42:24: note: Because FuelEconomySystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:44:19: warning (namespace-distinguishability): Member name 'urbanFuelEconomy' shadows FuelEconomySystem::Vehicle::urbanFuelEconomy
+│   44 |         attribute urbanFuelEconomy : Real = 27;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:42:24: note: Because FuelEconomySystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:45:19: warning (namespace-distinguishability): Member name 'highwayFuelEconomy' shadows FuelEconomySystem::Vehicle::highwayFuelEconomy
+│   45 |         attribute highwayFuelEconomy : Real = 32;
+│      |                   ^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:42:24: note: Because FuelEconomySystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:46:14: warning (namespace-distinguishability): Member name 'load' shadows FuelEconomySystem::Vehicle::load
+│   46 |         part load : AdditionalLoad;
+│      |              ^^^^
+└── iteration_02.sysml:13:14: note: Inherited from here
+    └── iteration_02.sysml:42:24: note: Because FuelEconomySystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:47:14: warning (namespace-distinguishability): Member name 'testPort' shadows FuelEconomySystem::Vehicle::testPort
+│   47 |         port testPort : FuelTestPort {
+│      |              ^^^^^^^^
+└── iteration_02.sysml:14:14: note: Inherited from here
+    └── iteration_02.sysml:42:24: note: Because FuelEconomySystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:48:23: warning (namespace-distinguishability): Member name 'measuredEconomy' shadows FuelEconomySystem::FuelTestPort::measuredEconomy
+│   48 |             attribute measuredEconomy : Real = 27;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:28:19: note: Inherited from here
+    └── iteration_02.sysml:47:25: note: Because FuelEconomySystem::FuelTestPort is specialized through FeatureTyping
+
+iteration_02.sysml:49:23: warning (namespace-distinguishability): Member name 'requiredEconomy' shadows FuelEconomySystem::FuelTestPort::requiredEconomy
+│   49 |             attribute requiredEconomy : Real = 25;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:29:19: note: Inherited from here
+    └── iteration_02.sysml:47:25: note: Because FuelEconomySystem::FuelTestPort is specialized through FeatureTyping

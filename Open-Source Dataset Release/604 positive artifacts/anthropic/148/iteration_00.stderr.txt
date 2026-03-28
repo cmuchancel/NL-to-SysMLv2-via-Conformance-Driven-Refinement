@@ -1,0 +1,100 @@
+iteration_01.sysml:45:19: warning (namespace-distinguishability): Member name 'materialName' shadows EngineeringMaterialsDatabase::Material::materialName
+│   45 |         attribute materialName : String = "Steel_980";
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    ├── iteration_01.sysml:28:23: note: Because EngineeringMaterialsDatabase::Material is specialized through Subclassification
+    ├── iteration_01.sysml:33:23: note: Because EngineeringMaterialsDatabase::Metal is specialized through Subclassification
+    ├── iteration_01.sysml:40:28: note: Because EngineeringMaterialsDatabase::Alloy is specialized through Subclassification
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:46:19: warning (namespace-distinguishability): Member name 'category' shadows EngineeringMaterialsDatabase::Material::category
+│   46 |         attribute category : MaterialCategory = MaterialCategory::Alloy;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    ├── iteration_01.sysml:28:23: note: Because EngineeringMaterialsDatabase::Material is specialized through Subclassification
+    ├── iteration_01.sysml:33:23: note: Because EngineeringMaterialsDatabase::Metal is specialized through Subclassification
+    ├── iteration_01.sysml:40:28: note: Because EngineeringMaterialsDatabase::Alloy is specialized through Subclassification
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:47:19: warning (namespace-distinguishability): Member name 'density' shadows EngineeringMaterialsDatabase::Metal::density
+│   47 |         attribute density : Real = 7.85;
+│      |                   ^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    ├── iteration_01.sysml:33:23: note: Because EngineeringMaterialsDatabase::Metal is specialized through Subclassification
+    ├── iteration_01.sysml:40:28: note: Because EngineeringMaterialsDatabase::Alloy is specialized through Subclassification
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'baseMetal' shadows EngineeringMaterialsDatabase::Alloy::baseMetal
+│   48 |         attribute baseMetal : String = "Iron";
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    ├── iteration_01.sysml:40:28: note: Because EngineeringMaterialsDatabase::Alloy is specialized through Subclassification
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:49:19: warning (namespace-distinguishability): Member name 'steelGrade' shadows EngineeringMaterialsDatabase::SteelAlloy::steelGrade
+│   49 |         attribute steelGrade : String = "High-Strength";
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:50:19: warning (namespace-distinguishability): Member name 'numberOfConstituents' shadows EngineeringMaterialsDatabase::Alloy::numberOfConstituents
+│   50 |         attribute numberOfConstituents : Integer = 3;
+│      |                   ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    ├── iteration_01.sysml:40:28: note: Because EngineeringMaterialsDatabase::Alloy is specialized through Subclassification
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'constituentName' shadows EngineeringMaterialsDatabase::Composition::constituentName
+│   53 |             attribute constituentName : String = "Iron";
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:52:32: note: Because EngineeringMaterialsDatabase::Composition is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'massFraction' shadows EngineeringMaterialsDatabase::Composition::massFraction
+│   54 |             attribute massFraction : Real = 0.97;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:52:32: note: Because EngineeringMaterialsDatabase::Composition is specialized through FeatureTyping
+
+iteration_01.sysml:58:23: warning (namespace-distinguishability): Member name 'constituentName' shadows EngineeringMaterialsDatabase::Composition::constituentName
+│   58 |             attribute constituentName : String = "Carbon";
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:57:34: note: Because EngineeringMaterialsDatabase::Composition is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'massFraction' shadows EngineeringMaterialsDatabase::Composition::massFraction
+│   59 |             attribute massFraction : Real = 0.009;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:57:34: note: Because EngineeringMaterialsDatabase::Composition is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'constituentName' shadows EngineeringMaterialsDatabase::Composition::constituentName
+│   63 |             attribute constituentName : String = "Manganese";
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:62:37: note: Because EngineeringMaterialsDatabase::Composition is specialized through FeatureTyping
+
+iteration_01.sysml:64:23: warning (namespace-distinguishability): Member name 'massFraction' shadows EngineeringMaterialsDatabase::Composition::massFraction
+│   64 |             attribute massFraction : Real = 0.021;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:62:37: note: Because EngineeringMaterialsDatabase::Composition is specialized through FeatureTyping
+
+iteration_01.sysml:67:14: warning (namespace-distinguishability): Member name 'mechanicalProps' shadows EngineeringMaterialsDatabase::Alloy::mechanicalProps
+│   67 |         part mechanicalProps : MechanicalProperties {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:37:14: note: Inherited from here
+    ├── iteration_01.sysml:40:28: note: Because EngineeringMaterialsDatabase::Alloy is specialized through Subclassification
+    └── iteration_01.sysml:44:22: note: Because EngineeringMaterialsDatabase::SteelAlloy is specialized through FeatureTyping
+
+iteration_01.sysml:68:23: warning (namespace-distinguishability): Member name 'tensileStrengthValue' shadows EngineeringMaterialsDatabase::MechanicalProperties::tensileStrengthValue
+│   68 |             attribute tensileStrengthValue : Real = 980.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:67:32: note: Because EngineeringMaterialsDatabase::MechanicalProperties is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'tensileStrengthUnit' shadows EngineeringMaterialsDatabase::MechanicalProperties::tensileStrengthUnit
+│   69 |             attribute tensileStrengthUnit : String = "N/mm2";
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:67:32: note: Because EngineeringMaterialsDatabase::MechanicalProperties is specialized through FeatureTyping

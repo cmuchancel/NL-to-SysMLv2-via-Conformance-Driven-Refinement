@@ -1,0 +1,16 @@
+iteration_01.sysml:13:32: error (parsing-error): Unexpected 'in', expected one of ["NAME", ";", "{", "from", "for", "[", "ordered", "nonunique", "if", "~", "not", "#", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "by", "ref", "attribute", "enum", "occurrence", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "of", "interface", "allocation", "allocate", "action", "perform", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "state", "parallel", "do", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    13 |         port inControlSignal : in VehicleControlSignal;
+       |                                ^^
+
+iteration_01.sysml:20:35: error (parsing-error): Unexpected identifier, did you mean 'in'?
+    20 |     port def VehicleControlSignal in;
+       |                                   ^^
+
+iteration_01.sysml:23:33: error (parsing-error): Unexpected 'out', expected one of ["NAME", ";", "{", "from", "for", "[", "ordered", "nonunique", "if", "~", "not", "#", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "by", "ref", "attribute", "enum", "occurrence", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "of", "interface", "allocation", "allocate", "action", "perform", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "state", "parallel", "do", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    23 |         port outControlSignal : out VehicleControlSignal;
+       |                                 ^^^
+
+iteration_01.sysml:20:14: warning (namespace-distinguishability): Member name 'VehicleControlSignal' shadows VehicleStateManager::VehicleControlSignal
+│   20 |     port def VehicleControlSignal in;
+│      |              ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:14: note: First declared here

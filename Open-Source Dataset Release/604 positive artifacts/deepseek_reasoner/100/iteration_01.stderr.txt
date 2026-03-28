@@ -1,0 +1,11 @@
+iteration_02.sysml:25:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleVariants::Vehicle::mass
+│   25 |         attribute mass : Real = 2000;
+│      |                   ^^^^
+└── iteration_02.sysml:19:19: note: Inherited from here
+    └── iteration_02.sysml:24:29: note: Because VehicleVariants::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:26:14: warning (namespace-distinguishability): Member name 'frontAxle' shadows VehicleVariants::Vehicle::frontAxle
+│   26 |         part frontAxle : SteeringAxle[1];
+│      |              ^^^^^^^^^
+└── iteration_02.sysml:20:14: note: Inherited from here
+    └── iteration_02.sysml:24:29: note: Because VehicleVariants::Vehicle is specialized through Subclassification

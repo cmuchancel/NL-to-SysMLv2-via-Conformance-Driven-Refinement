@@ -1,0 +1,53 @@
+iteration_01.sysml:24:9: error (parsing-error): Unexpected '}', expected one of [";", "{", "}", "dependency", "from", ",", "to", "about", "::", "**", "*", "[", "]", ".", "if", "?", "else", "??", "implies", "or", "and", "+", "-", "|", "&", "xor", "==", "!=", "===", "!==", "<", ">", "<=", ">=", "..", "/", "%", "^", "hastype", "istype", "@", "as", "@@", "meta", "#", "(", ")", ".?", "->", "=", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "by", "package", "attribute", "enum", "then", "connect", "binding", "bind", "succession", "first", "of", "action", "merge", "decide", "join", "fork", "via", "parallel", "do"].
+    24 |         };
+       |         ^
+
+iteration_01.sysml:27:9: error (parsing-error): Unexpected '}', expected one of [";", "{", "}", "dependency", "from", ",", "to", "about", "::", "**", "*", "[", "]", ".", "if", "?", "else", "??", "implies", "or", "and", "+", "-", "|", "&", "xor", "==", "!=", "===", "!==", "<", ">", "<=", ">=", "..", "/", "%", "^", "hastype", "istype", "@", "as", "@@", "meta", "#", "(", ")", ".?", "->", "=", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "by", "package", "attribute", "enum", "then", "connect", "binding", "bind", "succession", "first", "of", "action", "merge", "decide", "join", "fork", "via", "parallel", "do"].
+    27 |         };
+       |         ^
+
+iteration_01.sysml:30:9: error (parsing-error): Unexpected '}', expected one of [";", "{", "}", "dependency", "from", ",", "to", "about", "::", "**", "*", "[", "]", ".", "if", "?", "else", "??", "implies", "or", "and", "+", "-", "|", "&", "xor", "==", "!=", "===", "!==", "<", ">", "<=", ">=", "..", "/", "%", "^", "hastype", "istype", "@", "as", "@@", "meta", "#", "(", ")", ".?", "->", "=", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "by", "package", "attribute", "enum", "then", "connect", "binding", "bind", "succession", "first", "of", "action", "merge", "decide", "join", "fork", "via", "parallel", "do"].
+    30 |         };
+       |         ^
+
+iteration_01.sysml:32:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:32:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:32:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:22:19: warning (namespace-distinguishability): Member name 'component1' shadows SecurityManagement::System::component1
+│   22 |         attribute component1 : Component = Component {
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_01.sysml:22:44: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    22 |         attribute component1 : Component = Component {
+       |                                            ^^^^^^^^^
+
+iteration_01.sysml:23:13: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   23 |             securityClassification = SecurityLevel::Confidential
+│      |             ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:22:32: note: Because SecurityManagement::Component is specialized through FeatureTyping
+
+iteration_01.sysml:25:44: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    25 |         attribute component2 : Component = Component {
+       |                                            ^^^^^^^^^
+
+iteration_01.sysml:26:13: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   26 |             securityClassification = SecurityLevel::Unclassified
+│      |             ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:25:32: note: Because SecurityManagement::Component is specialized through FeatureTyping
+
+iteration_01.sysml:28:44: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    28 |         attribute component3 : Component = Component {
+       |                                            ^^^^^^^^^
+
+iteration_01.sysml:29:13: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   29 |             securityClassification = SecurityLevel::Secret
+│      |             ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:28:32: note: Because SecurityManagement::Component is specialized through FeatureTyping

@@ -1,0 +1,41 @@
+iteration_01.sysml:9:31: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |   part def CompositeComponent : Component {
+
+iteration_01.sysml:14:19: error (parsing-error): Expected a token. Did you forget ';'?
+    14 |   part def Engine : Component {
+
+iteration_01.sysml:18:25: error (parsing-error): Expected a token. Did you forget ';'?
+    18 |   part def Transmission : Component {
+
+iteration_01.sysml:22:17: error (parsing-error): Expected a token. Did you forget ';'?
+    22 |   part def Body : Component {
+
+iteration_01.sysml:26:18: error (parsing-error): Expected a token. Did you forget ';'?
+    26 |   part def Wheel : Component {
+
+iteration_01.sysml:30:20: error (parsing-error): Expected a token. Did you forget ';'?
+    30 |   part def Vehicle : CompositeComponent {
+
+iteration_01.sysml:15:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Component::mass
+│   15 |     attribute mass : Real = 150.0;
+│      |               ^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:14:21: note: Because VehicleMassModel::Component is specialized through FeatureTyping
+
+iteration_01.sysml:19:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Component::mass
+│   19 |     attribute mass : Real = 90.0;
+│      |               ^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:18:27: note: Because VehicleMassModel::Component is specialized through FeatureTyping
+
+iteration_01.sysml:23:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Component::mass
+│   23 |     attribute mass : Real = 700.0;
+│      |               ^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:22:19: note: Because VehicleMassModel::Component is specialized through FeatureTyping
+
+iteration_01.sysml:27:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Component::mass
+│   27 |     attribute mass : Real = 25.0;
+│      |               ^^^^
+└── iteration_01.sysml:6:15: note: Inherited from here
+    └── iteration_01.sysml:26:20: note: Because VehicleMassModel::Component is specialized through FeatureTyping

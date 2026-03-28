@@ -1,0 +1,51 @@
+iteration_01.sysml:13:18: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    13 |         critical : "red";
+       |                  ^
+
+iteration_01.sysml:13:20: error (parsing-error): Unexpected 'STRING_VALUE'.
+    13 |         critical : "red";
+       |                    ^^^^^
+
+iteration_01.sysml:14:17: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    14 |         warning : "yellow";
+       |                 ^
+
+iteration_01.sysml:14:19: error (parsing-error): Unexpected 'STRING_VALUE'.
+    14 |         warning : "yellow";
+       |                   ^^^^^^^^
+
+iteration_01.sysml:15:16: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    15 |         normal : "green";
+       |                ^
+
+iteration_01.sysml:15:18: error (parsing-error): Unexpected 'STRING_VALUE'.
+    15 |         normal : "green";
+       |                  ^^^^^^^
+
+iteration_01.sysml:19:15: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    19 |         Small : 60;
+       |               ^
+
+iteration_01.sysml:19:17: error (parsing-error): Unexpected 'DECIMAL_VALUE'.
+    19 |         Small : 60;
+       |                 ^^
+
+iteration_01.sysml:20:16: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    20 |         Medium : 70;
+       |                ^
+
+iteration_01.sysml:20:18: error (parsing-error): Unexpected 'DECIMAL_VALUE'.
+    20 |         Medium : 70;
+       |                  ^^
+
+iteration_01.sysml:21:15: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    21 |         Large : 80;
+       |               ^
+
+iteration_01.sysml:21:17: error (parsing-error): Unexpected 'DECIMAL_VALUE'.
+    21 |         Large : 80;
+       |                 ^^
+
+iteration_01.sysml:27:31: error (reference-error): No Type named 'DateTime' found.
+    27 |         attribute timestamp : DateTime;
+       |                               ^^^^^^^^

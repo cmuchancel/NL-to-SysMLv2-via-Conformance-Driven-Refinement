@@ -1,0 +1,15 @@
+iteration_01.sysml:88:50: error (parsing-error): Unexpected 'to'.
+    88 |     connect unitLibrary.isqToUSConverters->input to unitLibrary.isqUnits;
+       |                                                  ^^
+
+iteration_01.sysml:89:50: error (parsing-error): Unexpected 'to'.
+    89 |     connect unitLibrary.usToISQConverters->input to unitLibrary.usCustomaryUnits;
+       |                                                  ^^
+
+iteration_01.sysml:90:51: error (parsing-error): Unexpected 'to'.
+    90 |     connect unitLibrary.isqToUSConverters->output to unitLibrary.usCustomaryUnits;
+       |                                                   ^^
+
+iteration_01.sysml:91:51: error (parsing-error): Unexpected 'to'.
+    91 |     connect unitLibrary.usToISQConverters->output to unitLibrary.isqUnits;
+       |                                                   ^^

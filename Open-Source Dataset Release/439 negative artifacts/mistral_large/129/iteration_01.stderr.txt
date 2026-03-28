@@ -1,0 +1,27 @@
+iteration_02.sysml:36:27: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::SafetyComponent)
+    36 |     part FrontSeatBelt :> SafetyComponent {
+       |                           ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:41:20: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::SafetyComponent)
+    41 |     part Bumper :> SafetyComponent {
+       |                    ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:46:27: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::SafetyComponent)
+    46 |     part DriversAirbag :> SafetyComponent {
+       |                           ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:51:35: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::SafetyComponent)
+    51 |     part AntiLockBrakingSystem :> SafetyComponent {
+       |                                   ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:56:25: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::AntiTheftComponent)
+    56 |     part AlarmSystem :> AntiTheftComponent {
+       |                         ^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:60:32: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::AntiTheftComponent)
+    60 |     part KeylessEntrySystem :> AntiTheftComponent {
+       |                                ^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:64:25: error (reference-error): Expected Feature element but found PartDefinition (VehicleSafetyAndAntiTheft::CombinedComponent)
+    64 |     part Immobilizer :> CombinedComponent {
+       |                         ^^^^^^^^^^^^^^^^^

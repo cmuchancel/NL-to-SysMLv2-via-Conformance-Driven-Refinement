@@ -1,0 +1,247 @@
+iteration_01.sysml:35:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    35 |                 cylinders[1].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:36:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    36 |                 cylinders[2].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:37:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    37 |                 cylinders[3].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:38:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    38 |                 cylinders[4].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:46:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    46 |                 cylinders[1].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:47:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    47 |                 cylinders[2].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:48:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    48 |                 cylinders[3].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:49:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    49 |                 cylinders[4].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:57:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    57 |                 cylinders[1].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:58:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    58 |                 cylinders[2].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:59:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    59 |                 cylinders[3].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:60:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    60 |                 cylinders[4].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:61:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    61 |                 cylinders[5].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:62:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    62 |                 cylinders[6].diameter = CylinderDiameter::D70;
+       |                                       ^
+
+iteration_01.sysml:70:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    70 |                 cylinders[1].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:71:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    71 |                 cylinders[2].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:72:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    72 |                 cylinders[3].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:73:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    73 |                 cylinders[4].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:74:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    74 |                 cylinders[5].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:75:39: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "ordered", "nonunique", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "for", "if", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    75 |                 cylinders[6].diameter = CylinderDiameter::D100;
+       |                                       ^
+
+iteration_01.sysml:19:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows ConfigurableEngine::Engine::cylinderCount
+│   19 |         attribute cylinderCount : Integer = 4;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:18:31: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:20:14: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::Engine::cylinders
+│   20 |         part cylinders : Cylinder[4];
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:15:14: note: Inherited from here
+    └── iteration_01.sysml:18:31: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows ConfigurableEngine::Engine::cylinderCount
+│   24 |         attribute cylinderCount : Integer = 6;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:23:30: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:25:14: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::Engine::cylinders
+│   25 |         part cylinders : Cylinder[6];
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:15:14: note: Inherited from here
+    └── iteration_01.sysml:23:30: note: Because ConfigurableEngine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:33:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   33 |         part engine : fourCylinderEngine {
+│      |              ^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:32:23: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_01.sysml:33:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    33 |         part engine : fourCylinderEngine {
+       |                       ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:34:18: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylinderEngine::cylinders
+│   34 |             part cylinders : Cylinder[4] {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:33:23: note: Because ConfigurableEngine::fourCylinderEngine is specialized through FeatureTyping
+
+iteration_01.sysml:36:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylD70::engine::cylinders::cylinders
+│   36 |                 cylinders[2].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:35:17: note: First declared here
+
+iteration_01.sysml:37:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylD70::engine::cylinders::cylinders
+│   37 |                 cylinders[3].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:35:17: note: First declared here
+
+iteration_01.sysml:38:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylD70::engine::cylinders::cylinders
+│   38 |                 cylinders[4].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:35:17: note: First declared here
+
+iteration_01.sysml:44:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   44 |         part engine : fourCylinderEngine {
+│      |              ^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:43:24: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_01.sysml:44:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    44 |         part engine : fourCylinderEngine {
+       |                       ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:45:18: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylinderEngine::cylinders
+│   45 |             part cylinders : Cylinder[4] {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:44:23: note: Because ConfigurableEngine::fourCylinderEngine is specialized through FeatureTyping
+
+iteration_01.sysml:47:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylD100::engine::cylinders::cylinders
+│   47 |                 cylinders[2].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:46:17: note: First declared here
+
+iteration_01.sysml:48:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylD100::engine::cylinders::cylinders
+│   48 |                 cylinders[3].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:46:17: note: First declared here
+
+iteration_01.sysml:49:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::fourCylD100::engine::cylinders::cylinders
+│   49 |                 cylinders[4].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:46:17: note: First declared here
+
+iteration_01.sysml:55:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   55 |         part engine : sixCylinderEngine {
+│      |              ^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:54:22: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    55 |         part engine : sixCylinderEngine {
+       |                       ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:56:18: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylinderEngine::cylinders
+│   56 |             part cylinders : Cylinder[6] {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:25:14: note: Inherited from here
+    └── iteration_01.sysml:55:23: note: Because ConfigurableEngine::sixCylinderEngine is specialized through FeatureTyping
+
+iteration_01.sysml:58:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD70::engine::cylinders::cylinders
+│   58 |                 cylinders[2].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:57:17: note: First declared here
+
+iteration_01.sysml:59:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD70::engine::cylinders::cylinders
+│   59 |                 cylinders[3].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:57:17: note: First declared here
+
+iteration_01.sysml:60:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD70::engine::cylinders::cylinders
+│   60 |                 cylinders[4].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:57:17: note: First declared here
+
+iteration_01.sysml:61:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD70::engine::cylinders::cylinders
+│   61 |                 cylinders[5].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:57:17: note: First declared here
+
+iteration_01.sysml:62:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD70::engine::cylinders::cylinders
+│   62 |                 cylinders[6].diameter = CylinderDiameter::D70;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:57:17: note: First declared here
+
+iteration_01.sysml:68:14: warning (namespace-distinguishability): Member name 'engine' shadows ConfigurableEngine::EngineVariant::engine
+│   68 |         part engine : sixCylinderEngine {
+│      |              ^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:67:23: note: Because ConfigurableEngine::EngineVariant is specialized through FeatureTyping
+
+iteration_01.sysml:68:23: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    68 |         part engine : sixCylinderEngine {
+       |                       ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:69:18: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylinderEngine::cylinders
+│   69 |             part cylinders : Cylinder[6] {
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:25:14: note: Inherited from here
+    └── iteration_01.sysml:68:23: note: Because ConfigurableEngine::sixCylinderEngine is specialized through FeatureTyping
+
+iteration_01.sysml:71:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD100::engine::cylinders::cylinders
+│   71 |                 cylinders[2].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:70:17: note: First declared here
+
+iteration_01.sysml:72:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD100::engine::cylinders::cylinders
+│   72 |                 cylinders[3].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:70:17: note: First declared here
+
+iteration_01.sysml:73:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD100::engine::cylinders::cylinders
+│   73 |                 cylinders[4].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:70:17: note: First declared here
+
+iteration_01.sysml:74:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD100::engine::cylinders::cylinders
+│   74 |                 cylinders[5].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:70:17: note: First declared here
+
+iteration_01.sysml:75:17: warning (namespace-distinguishability): Member name 'cylinders' shadows ConfigurableEngine::sixCylD100::engine::cylinders::cylinders
+│   75 |                 cylinders[6].diameter = CylinderDiameter::D100;
+│      |                 ^^^^^^^^^
+└── iteration_01.sysml:70:17: note: First declared here

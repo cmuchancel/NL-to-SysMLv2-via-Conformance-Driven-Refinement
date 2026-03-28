@@ -1,0 +1,19 @@
+iteration_01.sysml:10:55: error (reference-error): No Feature named 'required' found.
+    10 |     attribute requirementStatus : SafetyRequirement = required;
+       |                                                       ^^^^^^^^
+
+iteration_01.sysml:14:55: error (reference-error): No Feature named 'optional' found.
+    14 |     attribute requirementStatus : SafetyRequirement = optional;
+       |                                                       ^^^^^^^^
+
+iteration_01.sysml:18:55: error (reference-error): No Feature named 'required' found.
+    18 |     attribute requirementStatus : SafetyRequirement = required;
+       |                                                       ^^^^^^^^
+
+iteration_01.sysml:22:55: error (reference-error): No Feature named 'optional' found.
+    22 |     attribute requirementStatus : SafetyRequirement = optional;
+       |                                                       ^^^^^^^^
+
+iteration_01.sysml:26:55: error (reference-error): No Feature named 'optional' found.
+    26 |     attribute requirementStatus : SafetyRequirement = optional;
+       |                                                       ^^^^^^^^

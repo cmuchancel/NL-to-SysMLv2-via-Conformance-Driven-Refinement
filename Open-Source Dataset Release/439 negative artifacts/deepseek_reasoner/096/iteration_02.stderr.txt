@@ -1,0 +1,4 @@
+iteration_03.sysml:5:1: error (class-specialization): A classifier must not specialize a data type or an association
+│   5 | item def TorqueValue :> Real;
+│     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:5:25: note: DataType specialized here

@@ -1,0 +1,45 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    6 |         enum SixCylinder
+      |         ^^^^
+
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:11:9: error (parsing-error): Unexpected 'enum', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    11 |         enum Automatic
+       |         ^^^^
+
+iteration_01.sysml:12:5: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |     }
+
+iteration_01.sysml:27:19: warning (namespace-distinguishability): Member name 'engine' shadows PowertrainConfig::PowertrainCombination::engine
+│   27 |         attribute engine : EngineType = EngineType::FourCylinder;
+│      |                   ^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:26:31: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_01.sysml:28:19: warning (namespace-distinguishability): Member name 'transmission' shadows PowertrainConfig::PowertrainCombination::transmission
+│   28 |         attribute transmission : TransmissionType = TransmissionType::Manual;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:26:31: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_01.sysml:32:19: warning (namespace-distinguishability): Member name 'engine' shadows PowertrainConfig::PowertrainCombination::engine
+│   32 |         attribute engine : EngineType = EngineType::SixCylinder;
+│      |                   ^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:31:33: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_01.sysml:33:19: warning (namespace-distinguishability): Member name 'transmission' shadows PowertrainConfig::PowertrainCombination::transmission
+│   33 |         attribute transmission : TransmissionType = TransmissionType::Automatic;
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:31:33: note: Because PowertrainConfig::PowertrainCombination is specialized through FeatureTyping
+
+iteration_01.sysml:27:53: error (reference-error): No Feature named 'FourCylinder' found.
+    27 |         attribute engine : EngineType = EngineType::FourCylinder;
+       |                                                     ^^^^^^^^^^^^
+
+iteration_01.sysml:28:71: error (reference-error): No Feature named 'Manual' found.
+    28 |         attribute transmission : TransmissionType = TransmissionType::Manual;
+       |                                                                       ^^^^^^

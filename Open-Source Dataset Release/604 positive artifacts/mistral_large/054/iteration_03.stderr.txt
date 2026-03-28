@@ -1,0 +1,24 @@
+iteration_04.sysml:10:14: warning (namespace-distinguishability): Member name 'Vehicle' shadows VehicleMassModel::Vehicle
+│   10 |     part def Vehicle {
+│      |              ^^^^^^^
+└── iteration_04.sysml:4:14: note: First declared here
+
+iteration_04.sysml:20:14: warning (namespace-distinguishability): Member name 'Engine' shadows VehicleMassModel::Engine
+│   20 |     part def Engine {
+│      |              ^^^^^^
+└── iteration_04.sysml:5:14: note: First declared here
+
+iteration_04.sysml:24:14: warning (namespace-distinguishability): Member name 'Transmission' shadows VehicleMassModel::Transmission
+│   24 |     part def Transmission {
+│      |              ^^^^^^^^^^^^
+└── iteration_04.sysml:6:14: note: First declared here
+
+iteration_04.sysml:28:14: warning (namespace-distinguishability): Member name 'Body' shadows VehicleMassModel::Body
+│   28 |     part def Body {
+│      |              ^^^^
+└── iteration_04.sysml:7:14: note: First declared here
+
+iteration_04.sysml:32:14: warning (namespace-distinguishability): Member name 'Component' shadows VehicleMassModel::Component
+│   32 |     part def Component {
+│      |              ^^^^^^^^^
+└── iteration_04.sysml:8:14: note: First declared here

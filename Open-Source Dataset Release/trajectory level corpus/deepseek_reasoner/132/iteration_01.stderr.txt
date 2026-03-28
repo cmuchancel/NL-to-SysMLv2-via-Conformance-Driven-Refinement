@@ -1,0 +1,47 @@
+iteration_02.sysml:24:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    24 |         };
+       |          ^
+
+iteration_02.sysml:27:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    27 |         };
+       |          ^
+
+iteration_02.sysml:30:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    30 |         };
+       |          ^
+
+iteration_02.sysml:22:14: warning (namespace-distinguishability): Member name 'component1' shadows SecurityManagement::System::component1
+│   22 |         part component1 : Component {
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:16:14: note: Inherited from here
+    └── iteration_02.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_02.sysml:23:23: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   23 |             attribute securityClassification : SecurityLevel = SecurityLevel::Confidential;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:22:27: note: Because SecurityManagement::Component is specialized through FeatureTyping
+
+iteration_02.sysml:25:14: warning (namespace-distinguishability): Member name 'component2' shadows SecurityManagement::System::component2
+│   25 |         part component2 : Component {
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:17:14: note: Inherited from here
+    └── iteration_02.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_02.sysml:26:23: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   26 |             attribute securityClassification : SecurityLevel = SecurityLevel::Unclassified;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:25:27: note: Because SecurityManagement::Component is specialized through FeatureTyping
+
+iteration_02.sysml:28:14: warning (namespace-distinguishability): Member name 'component3' shadows SecurityManagement::System::component3
+│   28 |         part component3 : Component {
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:18:14: note: Inherited from here
+    └── iteration_02.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_02.sysml:29:23: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   29 |             attribute securityClassification : SecurityLevel = SecurityLevel::Secret;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:28:27: note: Because SecurityManagement::Component is specialized through FeatureTyping

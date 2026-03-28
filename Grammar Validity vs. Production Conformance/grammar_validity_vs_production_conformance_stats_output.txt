@@ -1,0 +1,15 @@
+Scanning: figure_7_confusion_matrix.csv
+
+Total initial candidates: 604
+ANTLR grammar pass: 369/604 (61.09%)
+SysIDE production conformance pass: 309/604 (51.16%)
+
+Figure 7 confusion matrix:
+  ANTLR fail, SysIDE fail: 235
+  ANTLR fail, SysIDE pass: 0
+  ANTLR pass, SysIDE fail: 60
+  ANTLR pass, SysIDE pass: 309
+
+Grammar-valid but production-failing cases: 60/369 (16.26% of grammar-valid artifacts)
+Grammar-valid but production-failing cases: 60/604 (9.93% of all initial outputs)
+Production-pass while grammar-fail: 0/604 (0.00%)

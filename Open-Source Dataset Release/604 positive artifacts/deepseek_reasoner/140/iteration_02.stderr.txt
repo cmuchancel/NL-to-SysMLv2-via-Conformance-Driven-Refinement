@@ -1,0 +1,143 @@
+iteration_03.sysml:31:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   31 |         attribute symbol = "m";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:30:18: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:32:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   32 |         attribute quantity = BaseQuantity::length;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:30:18: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:33:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   33 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:30:18: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:37:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   37 |         attribute symbol = "km";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:36:22: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:38:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   38 |         attribute quantity = BaseQuantity::length;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:36:22: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:39:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   39 |         attribute conversionFactor = 1000.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:36:22: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:43:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   43 |         attribute symbol = "kg";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:42:21: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:44:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   44 |         attribute quantity = BaseQuantity::mass;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:42:21: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:45:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   45 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:42:21: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:49:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   49 |         attribute symbol = "s";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:48:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:50:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   50 |         attribute quantity = BaseQuantity::time;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:48:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:51:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   51 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:48:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:55:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   55 |         attribute symbol = "A";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:54:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:56:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   56 |         attribute quantity = BaseQuantity::electricCurrent;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:54:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:57:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   57 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:54:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:61:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   61 |         attribute symbol = "K";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:60:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:62:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   62 |         attribute quantity = BaseQuantity::thermodynamicTemperature;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:60:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:63:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   63 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:60:19: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:67:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   67 |         attribute symbol = "mol";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:66:17: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:68:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   68 |         attribute quantity = BaseQuantity::amountOfSubstance;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:66:17: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:69:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   69 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:66:17: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:73:19: warning (namespace-distinguishability): Member name 'symbol' shadows PhysicalQuantitySystem::Unit::symbol
+│   73 |         attribute symbol = "cd";
+│      |                   ^^^^^^
+└── iteration_03.sysml:15:19: note: Inherited from here
+    └── iteration_03.sysml:72:20: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:74:19: warning (namespace-distinguishability): Member name 'quantity' shadows PhysicalQuantitySystem::Unit::quantity
+│   74 |         attribute quantity = BaseQuantity::luminousIntensity;
+│      |                   ^^^^^^^^
+└── iteration_03.sysml:16:19: note: Inherited from here
+    └── iteration_03.sysml:72:20: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping
+
+iteration_03.sysml:75:19: warning (namespace-distinguishability): Member name 'conversionFactor' shadows PhysicalQuantitySystem::Unit::conversionFactor
+│   75 |         attribute conversionFactor = 1.0;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:17:19: note: Inherited from here
+    └── iteration_03.sysml:72:20: note: Because PhysicalQuantitySystem::Unit is specialized through FeatureTyping

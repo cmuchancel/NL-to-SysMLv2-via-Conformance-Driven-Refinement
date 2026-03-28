@@ -1,0 +1,71 @@
+iteration_01.sysml:24:14: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    24 |     part def Server {
+       |              ^^^^^^
+
+iteration_01.sysml:28:76: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", ",", "[", "ordered", "nonunique", ".", ":=", "default", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    28 |         attribute subscriptions : Subscriber[0..*] {subscribedTopic : Topic};
+       |                                                                            ^
+
+iteration_01.sysml:52:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:52:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:21:54: error (parameter-membership-owning-type): A parameter may only be owned by a behavior, step, or constructor expression return parameter
+    21 |         attribute subscribedTopics : Topic[0..*] = [];
+       |                                                      ^
+
+iteration_01.sysml:44:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    44 |     part publisher1 : Publisher;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:45:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    45 |     part subscriber1 : Subscriber;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:46:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    46 |     part subscriber2 : Subscriber;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:47:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    47 |     part server : Server;
+       |     ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:49:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    49 |     connect publisher1.publishPort to server.publishReceivePort;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:50:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    50 |     connect server.distributionPort to subscriber1.subscribePort;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:51:5: error (attribute-usage-features): Features of an attribute usage must be referential
+    51 |     connect server.distributionPort to subscriber2.subscribePort;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:16:28: error (reference-error): No Type named 'PublishPort' found.
+    16 |         port publishPort : PublishPort;
+       |                            ^^^^^^^^^^^
+
+iteration_01.sysml:20:30: error (reference-error): No Type named 'SubscribePort' found.
+    20 |         port subscribePort : SubscribePort;
+       |                              ^^^^^^^^^^^^^
+
+iteration_01.sysml:24:14: error (reference-error): No Feature named 'Server' found.
+    24 |     part def Server {
+       |              ^^^^^^
+
+iteration_01.sysml:47:19: error (reference-error): No Type named 'Server' found.
+    47 |     part server : Server;
+       |                   ^^^^^^
+
+iteration_01.sysml:49:46: error (reference-error): No Feature named 'publishReceivePort' found.
+    49 |     connect publisher1.publishPort to server.publishReceivePort;
+       |                                              ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:50:20: error (reference-error): No Feature named 'distributionPort' found.
+    50 |     connect server.distributionPort to subscriber1.subscribePort;
+       |                    ^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:51:20: error (reference-error): No Feature named 'distributionPort' found.
+    51 |     connect server.distributionPort to subscriber2.subscribePort;
+       |                    ^^^^^^^^^^^^^^^^

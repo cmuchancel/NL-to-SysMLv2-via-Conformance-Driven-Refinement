@@ -1,0 +1,3 @@
+iteration_01.sysml:32:24: error (reference-error): Expected Feature element but found PortDefinition (AscentTrajectorySystem::Spacecraft::statePort)
+    32 |     connect spacecraft.statePort to trajectorySampler;
+       |                        ^^^^^^^^^

@@ -1,0 +1,7 @@
+iteration_01.sysml:17:15: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    17 |     attribute state : VehicleState = off;
+       |               ^^^^^
+
+iteration_01.sysml:17:38: error (reference-error): No Feature named 'off' found.
+    17 |     attribute state : VehicleState = off;
+       |                                      ^^^

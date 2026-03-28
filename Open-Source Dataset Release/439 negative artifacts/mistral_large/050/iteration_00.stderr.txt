@@ -1,0 +1,35 @@
+iteration_01.sysml:13:34: error (reference-error): No Type named 'Date' found.
+    13 |         attribute assemblyDate : Date;
+       |                                  ^^^^
+
+iteration_01.sysml:14:34: error (reference-error): No Type named 'Date' found.
+    14 |         attribute deliveryDate : Date;
+       |                                  ^^^^
+
+iteration_01.sysml:15:35: error (reference-error): No Type named 'Date' found.
+    15 |         attribute scrappingDate : Date;
+       |                                   ^^^^
+
+iteration_01.sysml:32:31: error (reference-error): No Type named 'Date' found.
+    32 |         attribute startDate : Date;
+       |                               ^^^^
+
+iteration_01.sysml:33:29: error (reference-error): No Type named 'Date' found.
+    33 |         attribute endDate : Date;
+       |                             ^^^^
+
+iteration_01.sysml:38:31: error (reference-error): No Type named 'DateTime' found.
+    38 |         attribute startTime : DateTime;
+       |                               ^^^^^^^^
+
+iteration_01.sysml:39:29: error (reference-error): No Type named 'DateTime' found.
+    39 |         attribute endTime : DateTime;
+       |                             ^^^^^^^^
+
+iteration_01.sysml:51:61: error (reference-error): No Feature named 'vehicle' found.
+    51 |     connect lifecycle.vehicle to lifecycle.ownershipRecords.vehicle;
+       |                                                             ^^^^^^^
+
+iteration_01.sysml:52:59: error (reference-error): No Feature named 'vehicle' found.
+    52 |     connect lifecycle.vehicle to lifecycle.drivingRecords.vehicle;
+       |                                                           ^^^^^^^

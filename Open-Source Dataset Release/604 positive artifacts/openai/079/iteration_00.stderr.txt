@@ -1,0 +1,59 @@
+iteration_01.sysml:9:15: warning (namespace-distinguishability): Member name 'diameter' shadows VehicleConfig::Cylinder::diameter
+│   9 |     attribute diameter : Real = 70;
+│     |               ^^^^^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:8:38: note: Because VehicleConfig::Cylinder is specialized through Subclassification
+
+iteration_01.sysml:13:15: warning (namespace-distinguishability): Member name 'diameter' shadows VehicleConfig::Cylinder::diameter
+│   13 |     attribute diameter : Real = 100;
+│      |               ^^^^^^^^
+└── iteration_01.sysml:5:15: note: Inherited from here
+    └── iteration_01.sysml:12:38: note: Because VehicleConfig::Cylinder is specialized through Subclassification
+
+iteration_01.sysml:21:15: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleConfig::Engine::cylinderCount
+│   21 |     attribute cylinderCount : Integer = 4;
+│      |               ^^^^^^^^^^^^^
+└── iteration_01.sysml:17:15: note: Inherited from here
+    └── iteration_01.sysml:20:43: note: Because VehicleConfig::Engine is specialized through Subclassification
+
+iteration_01.sysml:29:15: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleConfig::Engine::cylinderCount
+│   29 |     attribute cylinderCount : Integer = 6;
+│      |               ^^^^^^^^^^^^^
+└── iteration_01.sysml:17:15: note: Inherited from here
+    └── iteration_01.sysml:28:42: note: Because VehicleConfig::Engine is specialized through Subclassification
+
+iteration_01.sysml:50:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleConfig::Vehicle::engine
+│   50 |     part engine : FourCylinderEngine;
+│      |          ^^^^^^
+└── iteration_01.sysml:45:10: note: Inherited from here
+    └── iteration_01.sysml:49:50: note: Because VehicleConfig::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:51:10: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleConfig::Vehicle::transmission
+│   51 |     part transmission : ManualTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:46:10: note: Inherited from here
+    └── iteration_01.sysml:49:50: note: Because VehicleConfig::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:55:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleConfig::Vehicle::engine
+│   55 |     part engine : FourCylinderEngine;
+│      |          ^^^^^^
+└── iteration_01.sysml:45:10: note: Inherited from here
+    └── iteration_01.sysml:54:53: note: Because VehicleConfig::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:56:10: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleConfig::Vehicle::transmission
+│   56 |     part transmission : AutomaticTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:46:10: note: Inherited from here
+    └── iteration_01.sysml:54:53: note: Because VehicleConfig::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:60:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleConfig::Vehicle::engine
+│   60 |     part engine : SixCylinderEngine;
+│      |          ^^^^^^
+└── iteration_01.sysml:45:10: note: Inherited from here
+    └── iteration_01.sysml:59:52: note: Because VehicleConfig::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:61:10: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleConfig::Vehicle::transmission
+│   61 |     part transmission : AutomaticTransmission;
+│      |          ^^^^^^^^^^^^
+└── iteration_01.sysml:46:10: note: Inherited from here
+    └── iteration_01.sysml:59:52: note: Because VehicleConfig::Vehicle is specialized through Subclassification

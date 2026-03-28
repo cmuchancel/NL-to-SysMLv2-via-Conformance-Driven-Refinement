@@ -1,0 +1,31 @@
+iteration_01.sysml:27:10: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    27 |     port return: FuelPort;
+       |          ^^^^^^
+
+iteration_01.sysml:32:13: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "[", "$", "NAME", "(", "ElementReference", "MULTILINE_NOTE", "MultiplicityRange", "OwningMembership", "ReferenceSubsetting", "Feature", "Feature", "OwningMembership", "FeatureChaining", "EndFeatureMembership", "Feature"].
+    32 |     connect return to pump.returnIn;
+       |             ^^^^^^
+
+iteration_01.sysml:33:5: error (parsing-error): Unexpected 'connect', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "VariantMembership", "FeatureMembership", "FeatureMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "FeatureMembership", "SuccessionAsUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Dependency_repeat1"].
+    33 |     connect pump.returnIn to tank.inlet;
+       |     ^^^^^^^
+
+iteration_01.sysml:48:41: error (parsing-error): Unexpected token '.'.
+    48 |     connect engine.returnOut to assembly.return;
+       |                                         ^
+
+iteration_01.sysml:48:42: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    48 |     connect engine.returnOut to assembly.return;
+       |                                          ^^^^^^
+
+iteration_01.sysml:32:23: warning (subsetting-featuring-types): Subsetted feature must be accessible from the subsetting feature (use dot notation for nesting)
+│   32 |     connect return to pump.returnIn;
+│      |                       ^^^^^^^^^^^^^
+├── iteration_01.sysml:32:23: note: Subsetted feature declared here
+│   └── iteration_01.sysml:23:12: note: Subsetted feature is featured by FuelSystemModel::FuelTankAssembly
+└── iteration_01.sysml:32:23: note: Because featuring types of subsetted feature do not conform to the featuring types of the subsetting feature
+    └── iteration_01.sysml:32:5: note: Subsetting feature is featured by (orphan Type)
+
+iteration_01.sysml:48:33: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    48 |     connect engine.returnOut to assembly.return;
+       |                                 ^^^^^^^^

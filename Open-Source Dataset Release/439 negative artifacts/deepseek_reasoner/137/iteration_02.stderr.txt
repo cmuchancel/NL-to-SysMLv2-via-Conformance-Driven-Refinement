@@ -1,0 +1,59 @@
+iteration_03.sysml:15:42: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   15 |         attribute hubDiameter : Length = 18.0[inch];
+│      |                                          ^^^^^^^^^^
+└── iteration_03.sysml:15:47: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_03.sysml:16:36: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   16 |         attribute width : Length = 245.0[mm];
+│      |                                    ^^^^^^^^^
+└── iteration_03.sysml:16:42: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_03.sysml:22:33: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   22 |         attribute mass : Mass = 1200.0[kg];
+│      |                                 ^^^^^^^^^^
+└── iteration_03.sysml:22:40: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_03.sysml:23:37: error (quantity-operator-expression): Invalid quantity expression, expected a measurement unit as the second argument
+│   23 |         attribute length : Length = 4.82[m];
+│      |                                     ^^^^^^^
+└── iteration_03.sysml:23:42: note: (orphan <placeholder Feature>) does not conform to MeasurementReferences::MeasurementUnit
+
+iteration_03.sysml:10:28: error (reference-error): No Type named 'Length' found.
+    10 |         attribute height : Length;
+       |                            ^^^^^^
+
+iteration_03.sysml:15:33: error (reference-error): No Type named 'Length' found.
+    15 |         attribute hubDiameter : Length = 18.0[inch];
+       |                                 ^^^^^^
+
+iteration_03.sysml:15:47: error (reference-error): No Feature named 'inch' found.
+    15 |         attribute hubDiameter : Length = 18.0[inch];
+       |                                               ^^^^
+
+iteration_03.sysml:16:27: error (reference-error): No Type named 'Length' found.
+    16 |         attribute width : Length = 245.0[mm];
+       |                           ^^^^^^
+
+iteration_03.sysml:16:42: error (reference-error): No Feature named 'mm' found.
+    16 |         attribute width : Length = 245.0[mm];
+       |                                          ^^
+
+iteration_03.sysml:17:35: error (reference-error): No Type named 'Length' found.
+    17 |         attribute outerDiameter : Length;
+       |                                   ^^^^^^
+
+iteration_03.sysml:22:26: error (reference-error): No Type named 'Mass' found.
+    22 |         attribute mass : Mass = 1200.0[kg];
+       |                          ^^^^
+
+iteration_03.sysml:22:40: error (reference-error): No Feature named 'kg' found.
+    22 |         attribute mass : Mass = 1200.0[kg];
+       |                                        ^^
+
+iteration_03.sysml:23:28: error (reference-error): No Type named 'Length' found.
+    23 |         attribute length : Length = 4.82[m];
+       |                            ^^^^^^
+
+iteration_03.sysml:23:42: error (reference-error): No Feature named 'm' found.
+    23 |         attribute length : Length = 4.82[m];
+       |                                          ^

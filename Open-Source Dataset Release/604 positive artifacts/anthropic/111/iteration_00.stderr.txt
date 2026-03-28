@@ -1,0 +1,47 @@
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'stepName' shadows AutomobileAssembly::GearboxInstallationStep::stepName
+│   62 |             attribute stepName = "GearboxInstallation";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:61:22: note: Because AutomobileAssembly::GearboxInstallationStep is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'stepName' shadows AutomobileAssembly::EngineInstallationStep::stepName
+│   66 |             attribute stepName = "EngineInstallation";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:50:19: note: Inherited from here
+    └── iteration_01.sysml:65:22: note: Because AutomobileAssembly::EngineInstallationStep is specialized through FeatureTyping
+
+iteration_01.sysml:72:23: warning (namespace-distinguishability): Member name 'status' shadows AutomobileAssembly::FullyAssembledVehicle::status
+│   72 |             attribute status = AssemblyStatus::Complete;
+│      |                       ^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:71:29: note: Because AutomobileAssembly::FullyAssembledVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:73:18: warning (namespace-distinguishability): Member name 'gearbox' shadows AutomobileAssembly::FullyAssembledVehicle::gearbox
+│   73 |             part gearbox : GearboxUnit {
+│      |                  ^^^^^^^
+└── iteration_01.sysml:28:14: note: Inherited from here
+    └── iteration_01.sysml:71:29: note: Because AutomobileAssembly::FullyAssembledVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:74:27: warning (namespace-distinguishability): Member name 'functional' shadows AutomobileAssembly::GearboxUnit::functional
+│   74 |                 attribute functional = true;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:73:28: note: Because AutomobileAssembly::GearboxUnit is specialized through FeatureTyping
+
+iteration_01.sysml:76:18: warning (namespace-distinguishability): Member name 'engine' shadows AutomobileAssembly::FullyAssembledVehicle::engine
+│   76 |             part engine : EngineUnit {
+│      |                  ^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:71:29: note: Because AutomobileAssembly::FullyAssembledVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:77:27: warning (namespace-distinguishability): Member name 'functional' shadows AutomobileAssembly::EngineUnit::functional
+│   77 |                 attribute functional = true;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:76:27: note: Because AutomobileAssembly::EngineUnit is specialized through FeatureTyping
+
+iteration_01.sysml:83:19: warning (namespace-distinguishability): Member name 'lineName' shadows AutomobileAssembly::FinalAssemblyLine::lineName
+│   83 |         attribute lineName = "MainFinalAssemblyLine";
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:82:25: note: Because AutomobileAssembly::FinalAssemblyLine is specialized through FeatureTyping

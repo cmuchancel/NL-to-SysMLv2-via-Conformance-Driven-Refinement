@@ -1,0 +1,39 @@
+iteration_02.sysml:30:43: error (reference-error): No Feature named 'rim' found.
+    30 |         attribute outerDiameter : Real = (rim.diameter) + (2 * (width * height / 100.0));
+       |                                           ^^^
+
+iteration_02.sysml:30:47: error (reference-error): No Feature named 'diameter' found.
+    30 |         attribute outerDiameter : Real = (rim.diameter) + (2 * (width * height / 100.0));
+       |                                               ^^^^^^^^
+
+iteration_02.sysml:40:41: error (reference-error): No Feature named 'tire' found.
+    40 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                         ^^^^
+
+iteration_02.sysml:40:46: error (reference-error): No Feature named 'treadDepth' found.
+    40 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                              ^^^^^^^^^^
+
+iteration_02.sysml:40:60: error (reference-error): No Feature named 'tire' found.
+    40 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                                            ^^^^
+
+iteration_02.sysml:40:65: error (reference-error): No Feature named 'minTreadDepth' found.
+    40 |         attribute satisfied : Boolean = tire.treadDepth >= tire.minTreadDepth;
+       |                                                                 ^^^^^^^^^^^^^
+
+iteration_02.sysml:45:41: error (reference-error): No Feature named 'brakeDisc' found.
+    45 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                         ^^^^^^^^^
+
+iteration_02.sysml:45:51: error (reference-error): No Feature named 'diameter' found.
+    45 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                                   ^^^^^^^^
+
+iteration_02.sysml:45:62: error (reference-error): No Feature named 'wheel' found.
+    45 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                                              ^^^^^
+
+iteration_02.sysml:45:68: error (reference-error): No Feature named 'outerDiameter' found.
+    45 |         attribute satisfied : Boolean = brakeDisc.diameter < wheel.outerDiameter;
+       |                                                                    ^^^^^^^^^^^^^

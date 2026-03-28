@@ -1,0 +1,173 @@
+iteration_01.sysml:69:19: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleStructure::Vehicle::vehicleId
+│   69 |         attribute vehicleId = "V001";
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    ├── iteration_01.sysml:40:33: note: Because VehicleStructure::Vehicle is specialized through Subclassification
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:70:19: warning (namespace-distinguishability): Member name 'vehicleName' shadows VehicleStructure::Vehicle::vehicleName
+│   70 |         attribute vehicleName = "Sedan";
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    ├── iteration_01.sysml:40:33: note: Because VehicleStructure::Vehicle is specialized through Subclassification
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:71:19: warning (namespace-distinguishability): Member name 'vehicleModel' shadows VehicleStructure::Vehicle::vehicleModel
+│   71 |         attribute vehicleModel = "Model-X";
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    ├── iteration_01.sysml:40:33: note: Because VehicleStructure::Vehicle is specialized through Subclassification
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:72:19: warning (namespace-distinguishability): Member name 'manufacturer' shadows VehicleStructure::StandardVehicle::manufacturer
+│   72 |         attribute manufacturer = "AutoCorp";
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:73:19: warning (namespace-distinguishability): Member name 'year' shadows VehicleStructure::StandardVehicle::year
+│   73 |         attribute year = 2024;
+│      |                   ^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:75:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleStructure::Vehicle::engine
+│   75 |         part engine : PerformanceEngine[1] {
+│      |              ^^^^^^
+└── iteration_01.sysml:35:14: note: Inherited from here
+    ├── iteration_01.sysml:40:33: note: Because VehicleStructure::Vehicle is specialized through Subclassification
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:76:23: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleStructure::VehicleComponent::componentId
+│   76 |             attribute componentId = "E001";
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    ├── iteration_01.sysml:15:24: note: Because VehicleStructure::VehicleComponent is specialized through Subclassification
+    ├── iteration_01.sysml:50:35: note: Because VehicleStructure::Engine is specialized through Subclassification
+    └── iteration_01.sysml:75:23: note: Because VehicleStructure::PerformanceEngine is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleStructure::VehicleComponent::componentName
+│   77 |             attribute componentName = "V8 Engine";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    ├── iteration_01.sysml:15:24: note: Because VehicleStructure::VehicleComponent is specialized through Subclassification
+    ├── iteration_01.sysml:50:35: note: Because VehicleStructure::Engine is specialized through Subclassification
+    └── iteration_01.sysml:75:23: note: Because VehicleStructure::PerformanceEngine is specialized through FeatureTyping
+
+iteration_01.sysml:78:23: warning (namespace-distinguishability): Member name 'displacement' shadows VehicleStructure::Engine::displacement
+│   78 |             attribute displacement = 5.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    ├── iteration_01.sysml:50:35: note: Because VehicleStructure::Engine is specialized through Subclassification
+    └── iteration_01.sysml:75:23: note: Because VehicleStructure::PerformanceEngine is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'horsepower' shadows VehicleStructure::Engine::horsepower
+│   79 |             attribute horsepower = 450.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    ├── iteration_01.sysml:50:35: note: Because VehicleStructure::Engine is specialized through Subclassification
+    └── iteration_01.sysml:75:23: note: Because VehicleStructure::PerformanceEngine is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'turboCharged' shadows VehicleStructure::PerformanceEngine::turboCharged
+│   80 |             attribute turboCharged = true;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    └── iteration_01.sysml:75:23: note: Because VehicleStructure::PerformanceEngine is specialized through FeatureTyping
+
+iteration_01.sysml:81:23: warning (namespace-distinguishability): Member name 'maxRPM' shadows VehicleStructure::PerformanceEngine::maxRPM
+│   81 |             attribute maxRPM = 7000;
+│      |                       ^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:75:23: note: Because VehicleStructure::PerformanceEngine is specialized through FeatureTyping
+
+iteration_01.sysml:84:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleStructure::Vehicle::transmission
+│   84 |         part transmission : AutomaticTransmission[1] {
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:36:14: note: Inherited from here
+    ├── iteration_01.sysml:40:33: note: Because VehicleStructure::Vehicle is specialized through Subclassification
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleStructure::VehicleComponent::componentId
+│   85 |             attribute componentId = "T001";
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    ├── iteration_01.sysml:20:30: note: Because VehicleStructure::VehicleComponent is specialized through Subclassification
+    ├── iteration_01.sysml:55:39: note: Because VehicleStructure::Transmission is specialized through Subclassification
+    └── iteration_01.sysml:84:29: note: Because VehicleStructure::AutomaticTransmission is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleStructure::VehicleComponent::componentName
+│   86 |             attribute componentName = "8-Speed Auto";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    ├── iteration_01.sysml:20:30: note: Because VehicleStructure::VehicleComponent is specialized through Subclassification
+    ├── iteration_01.sysml:55:39: note: Because VehicleStructure::Transmission is specialized through Subclassification
+    └── iteration_01.sysml:84:29: note: Because VehicleStructure::AutomaticTransmission is specialized through FeatureTyping
+
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'gearCount' shadows VehicleStructure::Transmission::gearCount
+│   87 |             attribute gearCount = 8;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    ├── iteration_01.sysml:55:39: note: Because VehicleStructure::Transmission is specialized through Subclassification
+    └── iteration_01.sysml:84:29: note: Because VehicleStructure::AutomaticTransmission is specialized through FeatureTyping
+
+iteration_01.sysml:88:23: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleStructure::Transmission::transmissionType
+│   88 |             attribute transmissionType = "Automatic";
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    ├── iteration_01.sysml:55:39: note: Because VehicleStructure::Transmission is specialized through Subclassification
+    └── iteration_01.sysml:84:29: note: Because VehicleStructure::AutomaticTransmission is specialized through FeatureTyping
+
+iteration_01.sysml:89:23: warning (namespace-distinguishability): Member name 'hasPaddleShifters' shadows VehicleStructure::AutomaticTransmission::hasPaddleShifters
+│   89 |             attribute hasPaddleShifters = true;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:56:19: note: Inherited from here
+    └── iteration_01.sysml:84:29: note: Because VehicleStructure::AutomaticTransmission is specialized through FeatureTyping
+
+iteration_01.sysml:92:14: warning (namespace-distinguishability): Member name 'wheels' shadows VehicleStructure::Vehicle::wheels
+│   92 |         part wheels : AlloyWheel[4] {
+│      |              ^^^^^^
+└── iteration_01.sysml:37:14: note: Inherited from here
+    ├── iteration_01.sysml:40:33: note: Because VehicleStructure::Vehicle is specialized through Subclassification
+    └── iteration_01.sysml:68:22: note: Because VehicleStructure::StandardVehicle is specialized through FeatureTyping
+
+iteration_01.sysml:93:23: warning (namespace-distinguishability): Member name 'componentId' shadows VehicleStructure::VehicleComponent::componentId
+│   93 |             attribute componentId = "W001";
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    ├── iteration_01.sysml:25:23: note: Because VehicleStructure::VehicleComponent is specialized through Subclassification
+    ├── iteration_01.sysml:63:28: note: Because VehicleStructure::Wheel is specialized through Subclassification
+    └── iteration_01.sysml:92:23: note: Because VehicleStructure::AlloyWheel is specialized through FeatureTyping
+
+iteration_01.sysml:94:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleStructure::VehicleComponent::componentName
+│   94 |             attribute componentName = "Sport Alloy";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    ├── iteration_01.sysml:25:23: note: Because VehicleStructure::VehicleComponent is specialized through Subclassification
+    ├── iteration_01.sysml:63:28: note: Because VehicleStructure::Wheel is specialized through Subclassification
+    └── iteration_01.sysml:92:23: note: Because VehicleStructure::AlloyWheel is specialized through FeatureTyping
+
+iteration_01.sysml:95:23: warning (namespace-distinguishability): Member name 'diameter' shadows VehicleStructure::Wheel::diameter
+│   95 |             attribute diameter = 19.0;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    ├── iteration_01.sysml:63:28: note: Because VehicleStructure::Wheel is specialized through Subclassification
+    └── iteration_01.sysml:92:23: note: Because VehicleStructure::AlloyWheel is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'width' shadows VehicleStructure::Wheel::width
+│   96 |             attribute width = 8.5;
+│      |                       ^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    ├── iteration_01.sysml:63:28: note: Because VehicleStructure::Wheel is specialized through Subclassification
+    └── iteration_01.sysml:92:23: note: Because VehicleStructure::AlloyWheel is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'material' shadows VehicleStructure::AlloyWheel::material
+│   97 |             attribute material = "Aluminum";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:92:23: note: Because VehicleStructure::AlloyWheel is specialized through FeatureTyping
+
+iteration_01.sysml:98:23: warning (namespace-distinguishability): Member name 'finish' shadows VehicleStructure::AlloyWheel::finish
+│   98 |             attribute finish = "Gloss Black";
+│      |                       ^^^^^^
+└── iteration_01.sysml:65:19: note: Inherited from here
+    └── iteration_01.sysml:92:23: note: Because VehicleStructure::AlloyWheel is specialized through FeatureTyping

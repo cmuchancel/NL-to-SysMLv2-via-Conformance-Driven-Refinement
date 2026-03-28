@@ -1,0 +1,63 @@
+iteration_02.sysml:71:14: warning (namespace-distinguishability): Member name 'myUnitConverter' shadows UnitSystemLibrary::LengthConverter::myUnitConverter
+│   71 |         part myUnitConverter : UnitConverter {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:51:14: note: Inherited from here
+    └── iteration_02.sysml:70:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_02.sysml:72:23: warning (namespace-distinguishability): Member name 'factor' shadows UnitSystemLibrary::UnitConverter::factor
+│   72 |             attribute factor : Real = 0.0254;
+│      |                       ^^^^^^
+└── iteration_02.sysml:30:19: note: Inherited from here
+    └── iteration_02.sysml:71:32: note: Because UnitSystemLibrary::UnitConverter is specialized through FeatureTyping
+
+iteration_02.sysml:74:19: warning (namespace-distinguishability): Member name 'fromUnit' shadows UnitSystemLibrary::LengthConverter::fromUnit
+│   74 |         attribute fromUnit : USCustomaryLengthUnits = inch;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:52:19: note: Inherited from here
+    └── iteration_02.sysml:70:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_02.sysml:75:19: warning (namespace-distinguishability): Member name 'toUnit' shadows UnitSystemLibrary::LengthConverter::toUnit
+│   75 |         attribute toUnit : ISQBaseUnits = meter;
+│      |                   ^^^^^^
+└── iteration_02.sysml:53:19: note: Inherited from here
+    └── iteration_02.sysml:70:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_02.sysml:79:14: warning (namespace-distinguishability): Member name 'myUnitConverter' shadows UnitSystemLibrary::MassConverter::myUnitConverter
+│   79 |         part myUnitConverter : UnitConverter {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:57:14: note: Inherited from here
+    └── iteration_02.sysml:78:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_02.sysml:80:23: warning (namespace-distinguishability): Member name 'factor' shadows UnitSystemLibrary::UnitConverter::factor
+│   80 |             attribute factor : Real = 0.453592;
+│      |                       ^^^^^^
+└── iteration_02.sysml:30:19: note: Inherited from here
+    └── iteration_02.sysml:79:32: note: Because UnitSystemLibrary::UnitConverter is specialized through FeatureTyping
+
+iteration_02.sysml:82:19: warning (namespace-distinguishability): Member name 'fromUnit' shadows UnitSystemLibrary::MassConverter::fromUnit
+│   82 |         attribute fromUnit : USCustomaryMassUnits = pound;
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:58:19: note: Inherited from here
+    └── iteration_02.sysml:78:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_02.sysml:83:19: warning (namespace-distinguishability): Member name 'toUnit' shadows UnitSystemLibrary::MassConverter::toUnit
+│   83 |         attribute toUnit : ISQBaseUnits = kilogram;
+│      |                   ^^^^^^
+└── iteration_02.sysml:59:19: note: Inherited from here
+    └── iteration_02.sysml:78:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_02.sysml:74:55: error (reference-error): No Feature named 'inch' found.
+    74 |         attribute fromUnit : USCustomaryLengthUnits = inch;
+       |                                                       ^^^^
+
+iteration_02.sysml:75:43: error (reference-error): No Feature named 'meter' found.
+    75 |         attribute toUnit : ISQBaseUnits = meter;
+       |                                           ^^^^^
+
+iteration_02.sysml:82:53: error (reference-error): No Feature named 'pound' found.
+    82 |         attribute fromUnit : USCustomaryMassUnits = pound;
+       |                                                     ^^^^^
+
+iteration_02.sysml:83:43: error (reference-error): No Feature named 'kilogram' found.
+    83 |         attribute toUnit : ISQBaseUnits = kilogram;
+       |                                           ^^^^^^^^

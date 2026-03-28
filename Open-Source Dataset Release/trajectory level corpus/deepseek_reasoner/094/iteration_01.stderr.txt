@@ -1,0 +1,19 @@
+iteration_02.sysml:17:11: error (parsing-error): Unexpected token '扭矩'.
+    17 |     alias 扭矩 for Torque;
+       |           ^^^^
+
+iteration_02.sysml:18:11: error (parsing-error): Unexpected token '汽车'.
+    18 |     alias 汽车 for Automobile;
+       |           ^^^^
+
+iteration_02.sysml:2:20: error (reference-error): No Namespace named 'BaseTypes' found.
+    2 |     private import BaseTypes::*;
+      |                    ^^^^^^^^^
+
+iteration_02.sysml:6:27: error (reference-error): No Type named 'Real' found.
+    6 |         attribute value : Real;
+      |                           ^^^^
+
+iteration_02.sysml:7:26: error (reference-error): No Type named 'String' found.
+    7 |         attribute unit : String = "Nm";
+      |                          ^^^^^^

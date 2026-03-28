@@ -1,0 +1,121 @@
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    8 |         DRIVE
+      |         ^^^^^
+
+iteration_01.sysml:9:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    9 |     }
+      |     ^
+
+iteration_01.sysml:9:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    9 |     }
+      |     ^
+
+iteration_01.sysml:9:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    9 |     }
+      |     ^
+
+iteration_01.sysml:40:23: warning (namespace-distinguishability): Member name 'position' shadows VehicleSystem::Wheel::position
+│   40 |             attribute position : String = "left front";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:39:31: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:43:23: warning (namespace-distinguishability): Member name 'position' shadows VehicleSystem::Wheel::position
+│   43 |             attribute position : String = "right front";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:42:32: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   48 |         attribute mass : Real = 1500.0;
+│      |                   ^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:49:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSystem::Vehicle::name
+│   49 |         attribute name : String = "vehicle_1";
+│      |                   ^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:51:14: warning (namespace-distinguishability): Member name 'status' shadows VehicleSystem::Vehicle::status
+│   51 |         part status : OperationalStatus {
+│      |              ^^^^^^
+└── iteration_01.sysml:35:14: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:52:23: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::OperationalStatus::gear
+│   52 |             attribute gear : GearSetting = GearSetting::PARK;
+│      |                       ^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:51:23: note: Because VehicleSystem::OperationalStatus is specialized through FeatureTyping
+
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'acceleratorPedalPosition' shadows VehicleSystem::OperationalStatus::acceleratorPedalPosition
+│   53 |             attribute acceleratorPedalPosition : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:51:23: note: Because VehicleSystem::OperationalStatus is specialized through FeatureTyping
+
+iteration_01.sysml:56:14: warning (namespace-distinguishability): Member name 'powerplant' shadows VehicleSystem::Vehicle::powerplant
+│   56 |         part powerplant : Engine {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:36:14: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'isRunning' shadows VehicleSystem::Engine::isRunning
+│   57 |             attribute isRunning : Boolean = false;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:56:27: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:60:14: warning (namespace-distinguishability): Member name 'leftFrontWheel' shadows VehicleSystem::Vehicle::leftFrontWheel
+│   60 |         part leftFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:14: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'position' shadows VehicleSystem::Wheel::position
+│   61 |             attribute position : String = "left front";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:60:31: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'rotationSpeed' shadows VehicleSystem::Wheel::rotationSpeed
+│   62 |             attribute rotationSpeed : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:60:31: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:65:14: warning (namespace-distinguishability): Member name 'rightFrontWheel' shadows VehicleSystem::Vehicle::rightFrontWheel
+│   65 |         part rightFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:42:14: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:66:23: warning (namespace-distinguishability): Member name 'position' shadows VehicleSystem::Wheel::position
+│   66 |             attribute position : String = "right front";
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:65:32: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'rotationSpeed' shadows VehicleSystem::Wheel::rotationSpeed
+│   67 |             attribute rotationSpeed : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:65:32: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:70:14: warning (namespace-distinguishability): Member name 'driverPort' shadows VehicleSystem::Vehicle::driverPort
+│   70 |         port driverPort : DriverInterface;
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:37:14: note: Inherited from here
+    └── iteration_01.sysml:47:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:74:14: warning (namespace-distinguishability): Member name 'vehicleInterface' shadows VehicleSystem::Driver::vehicleInterface
+│   74 |         port vehicleInterface : DriverInterface;
+│      |              ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:14: note: Inherited from here
+    └── iteration_01.sysml:73:21: note: Because VehicleSystem::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:52:57: error (reference-error): No Feature named 'PARK' found.
+    52 |             attribute gear : GearSetting = GearSetting::PARK;
+       |                                                         ^^^^

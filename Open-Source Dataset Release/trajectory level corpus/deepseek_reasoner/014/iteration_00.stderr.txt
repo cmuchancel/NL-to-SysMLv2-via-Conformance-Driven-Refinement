@@ -1,0 +1,43 @@
+iteration_01.sysml:21:14: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    21 |         port return : FuelReturn;
+       |              ^^^^^^
+
+iteration_01.sysml:28:14: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    28 |         port return : FuelReturn;
+       |              ^^^^^^
+
+iteration_01.sysml:41:35: error (parsing-error): Unexpected token '.'.
+    41 |         connect mainReturn to pump.return;
+       |                                   ^
+
+iteration_01.sysml:41:36: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    41 |         connect mainReturn to pump.return;
+       |                                    ^^^^^^
+
+iteration_01.sysml:42:21: error (parsing-error): Unexpected token '.'.
+    42 |         connect pump.return to tank.return;
+       |                     ^
+
+iteration_01.sysml:42:22: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    42 |         connect pump.return to tank.return;
+       |                      ^^^^^^
+
+iteration_01.sysml:42:36: error (parsing-error): Unexpected token '.'.
+    42 |         connect pump.return to tank.return;
+       |                                    ^
+
+iteration_01.sysml:42:37: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    42 |         connect pump.return to tank.return;
+       |                                     ^^^^^^
+
+iteration_01.sysml:41:31: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    41 |         connect mainReturn to pump.return;
+       |                               ^^^^
+
+iteration_01.sysml:42:17: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    42 |         connect pump.return to tank.return;
+       |                 ^^^^
+
+iteration_01.sysml:42:32: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    42 |         connect pump.return to tank.return;
+       |                                ^^^^

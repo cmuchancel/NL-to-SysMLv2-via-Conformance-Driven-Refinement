@@ -1,0 +1,15 @@
+iteration_01.sysml:9:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    9 |     item scene : Scene;
+      |     ^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:13:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    13 |     item image : Image;
+       |     ^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:17:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    17 |     item picture : Picture;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:21:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    21 |     item picture : Picture;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^

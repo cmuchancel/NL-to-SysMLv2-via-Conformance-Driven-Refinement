@@ -1,0 +1,401 @@
+iteration_01.sysml:85:14: warning (namespace-distinguishability): Member name 'simulation' shadows VehicleFuelEconomyAnalysis::FuelEconomySystem::simulation
+│   85 |         part simulation : FuelEconomySimulation {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:79:14: note: Inherited from here
+    └── iteration_01.sysml:84:30: note: Because VehicleFuelEconomyAnalysis::FuelEconomySystem is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'airDensity' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::airDensity
+│   86 |             attribute airDensity : Real = 1.225;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'gravityAcceleration' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::gravityAcceleration
+│   87 |             attribute gravityAcceleration : Real = 9.81;
+│      |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:65:19: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:89:18: warning (namespace-distinguishability): Member name 'vehicleParams' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::vehicleParams
+│   89 |             part vehicleParams : VehicleParameters {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:67:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:90:27: warning (namespace-distinguishability): Member name 'curbWeight' shadows VehicleFuelEconomyAnalysis::VehicleParameters::curbWeight
+│   90 |                 attribute curbWeight : Real = 1500.0;
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:91:27: warning (namespace-distinguishability): Member name 'load' shadows VehicleFuelEconomyAnalysis::VehicleParameters::load
+│   91 |                 attribute load : Real = 150.0;
+│      |                           ^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:92:27: warning (namespace-distinguishability): Member name 'wheelDiameter' shadows VehicleFuelEconomyAnalysis::VehicleParameters::wheelDiameter
+│   92 |                 attribute wheelDiameter : Real = 0.65;
+│      |                           ^^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:93:27: warning (namespace-distinguishability): Member name 'transmissionEfficiency' shadows VehicleFuelEconomyAnalysis::VehicleParameters::transmissionEfficiency
+│   93 |                 attribute transmissionEfficiency : Real = 0.92;
+│      |                           ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:94:27: warning (namespace-distinguishability): Member name 'dragCoefficient' shadows VehicleFuelEconomyAnalysis::VehicleParameters::dragCoefficient
+│   94 |                 attribute dragCoefficient : Real = 0.30;
+│      |                           ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:95:27: warning (namespace-distinguishability): Member name 'frontalArea' shadows VehicleFuelEconomyAnalysis::VehicleParameters::frontalArea
+│   95 |                 attribute frontalArea : Real = 2.2;
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:96:27: warning (namespace-distinguishability): Member name 'rollingResistanceCoefficient' shadows VehicleFuelEconomyAnalysis::VehicleParameters::rollingResistanceCoefficient
+│   96 |                 attribute rollingResistanceCoefficient : Real = 0.012;
+│      |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:89:34: note: Because VehicleFuelEconomyAnalysis::VehicleParameters is specialized through FeatureTyping
+
+iteration_01.sysml:99:18: warning (namespace-distinguishability): Member name 'urbanScenario' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::urbanScenario
+│   99 |             part urbanScenario : DrivingScenarioConfig {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:68:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:100:27: warning (namespace-distinguishability): Member name 'scenario' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::scenario
+│   100 |                 attribute scenario : DrivingScenario = DrivingScenario::Urban;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:99:34: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:101:27: warning (namespace-distinguishability): Member name 'averageSpeed' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::averageSpeed
+│   101 |                 attribute averageSpeed : Real = 35.0;
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:99:34: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:102:27: warning (namespace-distinguishability): Member name 'distanceKm' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::distanceKm
+│   102 |                 attribute distanceKm : Real = 100.0;
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:99:34: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:103:27: warning (namespace-distinguishability): Member name 'peakAcceleration' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::peakAcceleration
+│   103 |                 attribute peakAcceleration : Real = 1.5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:99:34: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:104:27: warning (namespace-distinguishability): Member name 'idleTimeFraction' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::idleTimeFraction
+│   104 |                 attribute idleTimeFraction : Real = 0.20;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:99:34: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:107:18: warning (namespace-distinguishability): Member name 'highwayScenario' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::highwayScenario
+│   107 |             part highwayScenario : DrivingScenarioConfig {
+│       |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:69:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:108:27: warning (namespace-distinguishability): Member name 'scenario' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::scenario
+│   108 |                 attribute scenario : DrivingScenario = DrivingScenario::Highway;
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:107:36: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:109:27: warning (namespace-distinguishability): Member name 'averageSpeed' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::averageSpeed
+│   109 |                 attribute averageSpeed : Real = 110.0;
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:107:36: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:110:27: warning (namespace-distinguishability): Member name 'distanceKm' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::distanceKm
+│   110 |                 attribute distanceKm : Real = 100.0;
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:107:36: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:111:27: warning (namespace-distinguishability): Member name 'peakAcceleration' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::peakAcceleration
+│   111 |                 attribute peakAcceleration : Real = 0.5;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:107:36: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:112:27: warning (namespace-distinguishability): Member name 'idleTimeFraction' shadows VehicleFuelEconomyAnalysis::DrivingScenarioConfig::idleTimeFraction
+│   112 |                 attribute idleTimeFraction : Real = 0.02;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:107:36: note: Because VehicleFuelEconomyAnalysis::DrivingScenarioConfig is specialized through FeatureTyping
+
+iteration_01.sysml:115:18: warning (namespace-distinguishability): Member name 'wheelPowerUrban' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::wheelPowerUrban
+│   115 |             part wheelPowerUrban : WheelPowerAnalysis {
+│       |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:70:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:116:27: warning (namespace-distinguishability): Member name 'aerodynamicDragForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::aerodynamicDragForce
+│   116 |                 attribute aerodynamicDragForce : Real = 68.4;
+│       |                           ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:115:36: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:117:27: warning (namespace-distinguishability): Member name 'rollingResistanceForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::rollingResistanceForce
+│   117 |                 attribute rollingResistanceForce : Real = 193.6;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:115:36: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:118:27: warning (namespace-distinguishability): Member name 'accelerationForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::accelerationForce
+│   118 |                 attribute accelerationForce : Real = 2475.0;
+│       |                           ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:115:36: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:119:27: warning (namespace-distinguishability): Member name 'totalTractiveForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::totalTractiveForce
+│   119 |                 attribute totalTractiveForce : Real = 2737.0;
+│       |                           ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:115:36: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:120:27: warning (namespace-distinguishability): Member name 'requiredWheelPower' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::requiredWheelPower
+│   120 |                 attribute requiredWheelPower : Real = 26.6;
+│       |                           ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:115:36: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:123:18: warning (namespace-distinguishability): Member name 'wheelPowerHighway' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::wheelPowerHighway
+│   123 |             part wheelPowerHighway : WheelPowerAnalysis {
+│       |                  ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:71:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:124:27: warning (namespace-distinguishability): Member name 'aerodynamicDragForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::aerodynamicDragForce
+│   124 |                 attribute aerodynamicDragForce : Real = 676.5;
+│       |                           ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:123:38: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:125:27: warning (namespace-distinguishability): Member name 'rollingResistanceForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::rollingResistanceForce
+│   125 |                 attribute rollingResistanceForce : Real = 193.6;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:123:38: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:126:27: warning (namespace-distinguishability): Member name 'accelerationForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::accelerationForce
+│   126 |                 attribute accelerationForce : Real = 825.0;
+│       |                           ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:123:38: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:127:27: warning (namespace-distinguishability): Member name 'totalTractiveForce' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::totalTractiveForce
+│   127 |                 attribute totalTractiveForce : Real = 1695.1;
+│       |                           ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:123:38: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:128:27: warning (namespace-distinguishability): Member name 'requiredWheelPower' shadows VehicleFuelEconomyAnalysis::WheelPowerAnalysis::requiredWheelPower
+│   128 |                 attribute requiredWheelPower : Real = 51.8;
+│       |                           ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:123:38: note: Because VehicleFuelEconomyAnalysis::WheelPowerAnalysis is specialized through FeatureTyping
+
+iteration_01.sysml:131:18: warning (namespace-distinguishability): Member name 'dynamicsCalculator' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::dynamicsCalculator
+│   131 |             part dynamicsCalculator : VehicleDynamicsCalculator {
+│       |                  ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:72:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:132:27: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator::totalMass
+│   132 |                 attribute totalMass : Real = 1650.0;
+│       |                           ^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:131:39: note: Because VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:133:27: warning (namespace-distinguishability): Member name 'effectiveWheelRadius' shadows VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator::effectiveWheelRadius
+│   133 |                 attribute effectiveWheelRadius : Real = 0.325;
+│       |                           ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:131:39: note: Because VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:134:27: warning (namespace-distinguishability): Member name 'linearAcceleration' shadows VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator::linearAcceleration
+│   134 |                 attribute linearAcceleration : Real = 1.5;
+│       |                           ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:131:39: note: Because VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:135:27: warning (namespace-distinguishability): Member name 'kineticEnergyChange' shadows VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator::kineticEnergyChange
+│   135 |                 attribute kineticEnergyChange : Real = 1856.25;
+│       |                           ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:131:39: note: Because VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:136:27: warning (namespace-distinguishability): Member name 'gradeResistanceForce' shadows VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator::gradeResistanceForce
+│   136 |                 attribute gradeResistanceForce : Real = 0.0;
+│       |                           ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:131:39: note: Because VehicleFuelEconomyAnalysis::VehicleDynamicsCalculator is specialized through FeatureTyping
+
+iteration_01.sysml:139:18: warning (namespace-distinguishability): Member name 'engineEstimator' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::engineEstimator
+│   139 |             part engineEstimator : EnginePowerEstimator {
+│       |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:73:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:140:27: warning (namespace-distinguishability): Member name 'engineThermalEfficiency' shadows VehicleFuelEconomyAnalysis::EnginePowerEstimator::engineThermalEfficiency
+│   140 |                 attribute engineThermalEfficiency : Real = 0.35;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:50:19: note: Inherited from here
+    └── iteration_01.sysml:139:36: note: Because VehicleFuelEconomyAnalysis::EnginePowerEstimator is specialized through FeatureTyping
+
+iteration_01.sysml:141:27: warning (namespace-distinguishability): Member name 'fuelEnergyDensity' shadows VehicleFuelEconomyAnalysis::EnginePowerEstimator::fuelEnergyDensity
+│   141 |                 attribute fuelEnergyDensity : Real = 34.2;
+│       |                           ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:51:19: note: Inherited from here
+    └── iteration_01.sysml:139:36: note: Because VehicleFuelEconomyAnalysis::EnginePowerEstimator is specialized through FeatureTyping
+
+iteration_01.sysml:142:27: warning (namespace-distinguishability): Member name 'requiredEnginePower' shadows VehicleFuelEconomyAnalysis::EnginePowerEstimator::requiredEnginePower
+│   142 |                 attribute requiredEnginePower : Real = 28.9;
+│       |                           ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:49:19: note: Inherited from here
+    └── iteration_01.sysml:139:36: note: Because VehicleFuelEconomyAnalysis::EnginePowerEstimator is specialized through FeatureTyping
+
+iteration_01.sysml:143:27: warning (namespace-distinguishability): Member name 'fuelFlowRate' shadows VehicleFuelEconomyAnalysis::EnginePowerEstimator::fuelFlowRate
+│   143 |                 attribute fuelFlowRate : Real = 2.35;
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:52:19: note: Inherited from here
+    └── iteration_01.sysml:139:36: note: Because VehicleFuelEconomyAnalysis::EnginePowerEstimator is specialized through FeatureTyping
+
+iteration_01.sysml:144:27: warning (namespace-distinguishability): Member name 'idleFuelConsumption' shadows VehicleFuelEconomyAnalysis::EnginePowerEstimator::idleFuelConsumption
+│   144 |                 attribute idleFuelConsumption : Real = 0.5;
+│       |                           ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:53:19: note: Inherited from here
+    └── iteration_01.sysml:139:36: note: Because VehicleFuelEconomyAnalysis::EnginePowerEstimator is specialized through FeatureTyping
+
+iteration_01.sysml:147:18: warning (namespace-distinguishability): Member name 'urbanResult' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::urbanResult
+│   147 |             part urbanResult : FuelEconomyResult {
+│       |                  ^^^^^^^^^^^
+└── iteration_01.sysml:74:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:148:27: warning (namespace-distinguishability): Member name 'fuelConsumptionLitersPer100Km' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelConsumptionLitersPer100Km
+│   148 |                 attribute fuelConsumptionLitersPer100Km : Real = 9.8;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:147:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:149:27: warning (namespace-distinguishability): Member name 'fuelEconomyMilesPerGallon' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelEconomyMilesPerGallon
+│   149 |                 attribute fuelEconomyMilesPerGallon : Real = 24.0;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    └── iteration_01.sysml:147:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:150:27: warning (namespace-distinguishability): Member name 'requirementThresholdMpg' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::requirementThresholdMpg
+│   150 |                 attribute requirementThresholdMpg : Real = 30.0;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:147:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:151:27: warning (namespace-distinguishability): Member name 'complianceStatus' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::complianceStatus
+│   151 |                 attribute complianceStatus : ComplianceStatus = ComplianceStatus::Fail;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:147:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:154:18: warning (namespace-distinguishability): Member name 'highwayResult' shadows VehicleFuelEconomyAnalysis::FuelEconomySimulation::highwayResult
+│   154 |             part highwayResult : FuelEconomyResult {
+│       |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:75:14: note: Inherited from here
+    └── iteration_01.sysml:85:27: note: Because VehicleFuelEconomyAnalysis::FuelEconomySimulation is specialized through FeatureTyping
+
+iteration_01.sysml:155:27: warning (namespace-distinguishability): Member name 'fuelConsumptionLitersPer100Km' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelConsumptionLitersPer100Km
+│   155 |                 attribute fuelConsumptionLitersPer100Km : Real = 6.8;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:154:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:156:27: warning (namespace-distinguishability): Member name 'fuelEconomyMilesPerGallon' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelEconomyMilesPerGallon
+│   156 |                 attribute fuelEconomyMilesPerGallon : Real = 34.6;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    └── iteration_01.sysml:154:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:157:27: warning (namespace-distinguishability): Member name 'requirementThresholdMpg' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::requirementThresholdMpg
+│   157 |                 attribute requirementThresholdMpg : Real = 30.0;
+│       |                           ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:154:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:158:27: warning (namespace-distinguishability): Member name 'complianceStatus' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::complianceStatus
+│   158 |                 attribute complianceStatus : ComplianceStatus = ComplianceStatus::Pass;
+│       |                           ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:154:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:162:14: warning (namespace-distinguishability): Member name 'complianceUrban' shadows VehicleFuelEconomyAnalysis::FuelEconomySystem::complianceUrban
+│   162 |         part complianceUrban : FuelEconomyResult {
+│       |              ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:80:14: note: Inherited from here
+    └── iteration_01.sysml:84:30: note: Because VehicleFuelEconomyAnalysis::FuelEconomySystem is specialized through FeatureTyping
+
+iteration_01.sysml:163:23: warning (namespace-distinguishability): Member name 'fuelConsumptionLitersPer100Km' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelConsumptionLitersPer100Km
+│   163 |             attribute fuelConsumptionLitersPer100Km : Real = 9.8;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:162:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:164:23: warning (namespace-distinguishability): Member name 'fuelEconomyMilesPerGallon' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelEconomyMilesPerGallon
+│   164 |             attribute fuelEconomyMilesPerGallon : Real = 24.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    └── iteration_01.sysml:162:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:165:23: warning (namespace-distinguishability): Member name 'requirementThresholdMpg' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::requirementThresholdMpg
+│   165 |             attribute requirementThresholdMpg : Real = 30.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:162:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:166:23: warning (namespace-distinguishability): Member name 'complianceStatus' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::complianceStatus
+│   166 |             attribute complianceStatus : ComplianceStatus = ComplianceStatus::Fail;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:162:32: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:169:14: warning (namespace-distinguishability): Member name 'complianceHighway' shadows VehicleFuelEconomyAnalysis::FuelEconomySystem::complianceHighway
+│   169 |         part complianceHighway : FuelEconomyResult {
+│       |              ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:81:14: note: Inherited from here
+    └── iteration_01.sysml:84:30: note: Because VehicleFuelEconomyAnalysis::FuelEconomySystem is specialized through FeatureTyping
+
+iteration_01.sysml:170:23: warning (namespace-distinguishability): Member name 'fuelConsumptionLitersPer100Km' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelConsumptionLitersPer100Km
+│   170 |             attribute fuelConsumptionLitersPer100Km : Real = 6.8;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:169:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:171:23: warning (namespace-distinguishability): Member name 'fuelEconomyMilesPerGallon' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::fuelEconomyMilesPerGallon
+│   171 |             attribute fuelEconomyMilesPerGallon : Real = 34.6;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:58:19: note: Inherited from here
+    └── iteration_01.sysml:169:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:172:23: warning (namespace-distinguishability): Member name 'requirementThresholdMpg' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::requirementThresholdMpg
+│   172 |             attribute requirementThresholdMpg : Real = 30.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:169:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping
+
+iteration_01.sysml:173:23: warning (namespace-distinguishability): Member name 'complianceStatus' shadows VehicleFuelEconomyAnalysis::FuelEconomyResult::complianceStatus
+│   173 |             attribute complianceStatus : ComplianceStatus = ComplianceStatus::Pass;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:169:34: note: Because VehicleFuelEconomyAnalysis::FuelEconomyResult is specialized through FeatureTyping

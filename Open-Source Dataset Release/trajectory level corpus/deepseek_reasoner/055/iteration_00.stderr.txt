@@ -1,0 +1,87 @@
+iteration_01.sysml:26:17: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                 ^^^
+
+iteration_01.sysml:26:33: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                                 ^^^^^^
+
+iteration_01.sysml:27:17: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                 ^^^
+
+iteration_01.sysml:27:33: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                 ^^^^^^
+
+iteration_01.sysml:27:82: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                                  ^^^^^^
+
+iteration_01.sysml:26:17: error (reference-error): No Type named 'sum' found.
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                 ^^^
+
+iteration_01.sysml:26:33: error (reference-error): No Type named 'select' found.
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                                 ^^^^^^
+
+iteration_01.sysml:26:40: error (reference-error): No Feature named 'c' found.
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                                        ^
+
+iteration_01.sysml:26:42: error (reference-error): No Feature named 'c' found.
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                                          ^
+
+iteration_01.sysml:26:44: error (reference-error): No Feature named 'mass' found.
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                                            ^^^^
+
+iteration_01.sysml:26:67: error (reference-error): No Feature named 'mass' found.
+    26 |                 sum(components->select(c|c.mass >= massThreshold).mass) +
+       |                                                                   ^^^^
+
+iteration_01.sysml:27:17: error (reference-error): No Type named 'sum' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                 ^^^
+
+iteration_01.sysml:27:33: error (reference-error): No Type named 'select' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                 ^^^^^^
+
+iteration_01.sysml:27:40: error (reference-error): No Feature named 'c' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                        ^
+
+iteration_01.sysml:27:42: error (reference-error): No Feature named 'c' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                          ^
+
+iteration_01.sysml:27:44: error (reference-error): No Feature named 'mass' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                            ^^^^
+
+iteration_01.sysml:27:67: error (reference-error): No Feature named 'subcomponents' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                   ^^^^^^^^^^^^^
+
+iteration_01.sysml:27:82: error (reference-error): No Type named 'select' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                                  ^^^^^^
+
+iteration_01.sysml:27:89: error (reference-error): No Feature named 'sc' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                                         ^^
+
+iteration_01.sysml:27:92: error (reference-error): No Feature named 'sc' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                                            ^^
+
+iteration_01.sysml:27:95: error (reference-error): No Feature named 'mass' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                                               ^^^^
+
+iteration_01.sysml:27:118: error (reference-error): No Feature named 'mass' found.
+    27 |                 sum(components->select(c|c.mass >= massThreshold).subcomponents->select(sc|sc.mass >= massThreshold).mass);
+       |                                                                                                                      ^^^^

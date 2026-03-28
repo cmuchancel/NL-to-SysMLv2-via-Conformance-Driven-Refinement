@@ -1,0 +1,15 @@
+iteration_01.sysml:10:14: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    10 |         port return : FuelPort;
+       |              ^^^^^^
+
+iteration_01.sysml:23:46: error (parsing-error): Unexpected token '.'.
+    23 |         connect engine.fuelReturn to fuelTank.return;
+       |                                              ^
+
+iteration_01.sysml:23:47: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    23 |         connect engine.fuelReturn to fuelTank.return;
+       |                                               ^^^^^^
+
+iteration_01.sysml:23:38: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    23 |         connect engine.fuelReturn to fuelTank.return;
+       |                                      ^^^^^^^^

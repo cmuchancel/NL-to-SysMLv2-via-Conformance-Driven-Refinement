@@ -1,0 +1,95 @@
+iteration_01.sysml:30:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetySecuritySystem::SafetyFeature::name
+│   30 |         attribute name : String = "Seat Belt";
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:29:26: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:31:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecuritySystem::SafetyFeature::category
+│   31 |         attribute category : SafetyCategory = SafetyCategory::mandatory;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:29:26: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:32:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetySecuritySystem::SafetyFeature::isMandatory
+│   32 |         attribute isMandatory : Boolean = true;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:29:26: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetySecuritySystem::SafetyFeature::name
+│   36 |         attribute name : String = "Bumper";
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:35:24: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecuritySystem::SafetyFeature::category
+│   37 |         attribute category : SafetyCategory = SafetyCategory::mandatory;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:35:24: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:38:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetySecuritySystem::SafetyFeature::isMandatory
+│   38 |         attribute isMandatory : Boolean = true;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:35:24: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:42:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetySecuritySystem::SafetyFeature::name
+│   42 |         attribute name : String = "Airbag";
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:43:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecuritySystem::SafetyFeature::category
+│   43 |         attribute category : SafetyCategory = SafetyCategory::optional;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:44:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetySecuritySystem::SafetyFeature::isMandatory
+│   44 |         attribute isMandatory : Boolean = false;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:41:24: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetySecuritySystem::SafetyFeature::name
+│   48 |         attribute name : String = "Anti-Lock Braking System";
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:47:39: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:49:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetySecuritySystem::SafetyFeature::category
+│   49 |         attribute category : SafetyCategory = SafetyCategory::optional;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:47:39: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:50:19: warning (namespace-distinguishability): Member name 'isMandatory' shadows VehicleSafetySecuritySystem::SafetyFeature::isMandatory
+│   50 |         attribute isMandatory : Boolean = false;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:47:39: note: Because VehicleSafetySecuritySystem::SafetyFeature is specialized through Subclassification
+
+iteration_01.sysml:54:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetySecuritySystem::SecurityFeature::name
+│   54 |         attribute name : String = "Alarm Device";
+│      |                   ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:53:29: note: Because VehicleSafetySecuritySystem::SecurityFeature is specialized through Subclassification
+
+iteration_01.sysml:58:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetySecuritySystem::SecurityFeature::name
+│   58 |         attribute name : String = "Keyless Entry System";
+│      |                   ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:57:36: note: Because VehicleSafetySecuritySystem::SecurityFeature is specialized through Subclassification
+
+iteration_01.sysml:69:19: warning (namespace-distinguishability): Member name 'safetyFeatures' shadows VehicleSafetySecuritySystem::Vehicle::safetyFeatures
+│   69 |         attribute safetyFeatures : SafetyFeature[*] = (seatBelt, bumper, airbag, abs);
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:61:20: note: Because VehicleSafetySecuritySystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:70:19: warning (namespace-distinguishability): Member name 'securityFeatures' shadows VehicleSafetySecuritySystem::Vehicle::securityFeatures
+│   70 |         attribute securityFeatures : SecurityFeature[*] = (alarm, keylessEntry);
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:61:20: note: Because VehicleSafetySecuritySystem::Vehicle is specialized through FeatureTyping

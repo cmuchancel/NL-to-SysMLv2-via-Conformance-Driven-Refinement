@@ -1,0 +1,115 @@
+iteration_03.sysml:62:17: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   62 |       attribute engineType : EngineType = sixCylinder;
+│      |                 ^^^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:61:19: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_03.sysml:65:17: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   65 |       attribute transmissionType : TransmissionType = automatic;
+│      |                 ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:64:25: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_03.sysml:68:17: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::WheelSet::wheelType
+│   68 |       attribute wheelType : WheelType = wideRim;
+│      |                 ^^^^^^^^^
+└── iteration_03.sysml:45:15: note: Inherited from here
+    └── iteration_03.sysml:67:19: note: Because VehicleProductLineConfiguration::WheelSet is specialized through FeatureTyping
+
+iteration_03.sysml:77:17: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   77 |       attribute engineType : EngineType = fourCylinder;
+│      |                 ^^^^^^^^^^
+└── iteration_03.sysml:37:15: note: Inherited from here
+    └── iteration_03.sysml:76:19: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_03.sysml:80:17: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   80 |       attribute transmissionType : TransmissionType = manual;
+│      |                 ^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:41:15: note: Inherited from here
+    └── iteration_03.sysml:79:25: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_03.sysml:83:17: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::WheelSet::wheelType
+│   83 |       attribute wheelType : WheelType = narrowRim;
+│      |                 ^^^^^^^^^
+└── iteration_03.sysml:45:15: note: Inherited from here
+    └── iteration_03.sysml:82:19: note: Because VehicleProductLineConfiguration::WheelSet is specialized through FeatureTyping
+
+iteration_03.sysml:89:17: warning (namespace-distinguishability): Member name 'modelVariant' shadows VehicleProductLineConfiguration::HighPerformanceVariant::modelVariant
+│   89 |       attribute modelVariant : VehicleVariantType = suv;
+│      |                 ^^^^^^^^^^^^
+└── iteration_03.sysml:60:15: note: Inherited from here
+    └── iteration_03.sysml:88:31: note: Because VehicleProductLineConfiguration::HighPerformanceVariant is specialized through FeatureTyping
+
+iteration_03.sysml:92:17: warning (namespace-distinguishability): Member name 'modelVariant' shadows VehicleProductLineConfiguration::HighPerformanceVariant::modelVariant
+│   92 |       attribute modelVariant : VehicleVariantType = sedan;
+│      |                 ^^^^^^^^^^^^
+└── iteration_03.sysml:60:15: note: Inherited from here
+    └── iteration_03.sysml:91:33: note: Because VehicleProductLineConfiguration::HighPerformanceVariant is specialized through FeatureTyping
+
+iteration_03.sysml:95:17: warning (namespace-distinguishability): Member name 'modelVariant' shadows VehicleProductLineConfiguration::StandardPerformanceVariant::modelVariant
+│   95 |       attribute modelVariant : VehicleVariantType = sedan;
+│      |                 ^^^^^^^^^^^^
+└── iteration_03.sysml:75:15: note: Inherited from here
+    └── iteration_03.sysml:94:26: note: Because VehicleProductLineConfiguration::StandardPerformanceVariant is specialized through FeatureTyping
+
+iteration_03.sysml:98:17: warning (namespace-distinguishability): Member name 'modelVariant' shadows VehicleProductLineConfiguration::StandardPerformanceVariant::modelVariant
+│   98 |       attribute modelVariant : VehicleVariantType = truck;
+│      |                 ^^^^^^^^^^^^
+└── iteration_03.sysml:75:15: note: Inherited from here
+    └── iteration_03.sysml:97:26: note: Because VehicleProductLineConfiguration::StandardPerformanceVariant is specialized through FeatureTyping
+
+iteration_03.sysml:58:59: error (reference-error): No Feature named 'highPerf' found.
+    58 |     attribute performanceRequirement : PerformanceLevel = highPerf;
+       |                                                           ^^^^^^^^
+
+iteration_03.sysml:59:53: error (reference-error): No Feature named 'performanceFocused' found.
+    59 |     attribute userPreference : UserPreferenceType = performanceFocused;
+       |                                                     ^^^^^^^^^^^^^^^^^^
+
+iteration_03.sysml:62:43: error (reference-error): No Feature named 'sixCylinder' found.
+    62 |       attribute engineType : EngineType = sixCylinder;
+       |                                           ^^^^^^^^^^^
+
+iteration_03.sysml:65:55: error (reference-error): No Feature named 'automatic' found.
+    65 |       attribute transmissionType : TransmissionType = automatic;
+       |                                                       ^^^^^^^^^
+
+iteration_03.sysml:68:41: error (reference-error): No Feature named 'wideRim' found.
+    68 |       attribute wheelType : WheelType = wideRim;
+       |                                         ^^^^^^^
+
+iteration_03.sysml:73:59: error (reference-error): No Feature named 'standardPerf' found.
+    73 |     attribute performanceRequirement : PerformanceLevel = standardPerf;
+       |                                                           ^^^^^^^^^^^^
+
+iteration_03.sysml:74:53: error (reference-error): No Feature named 'balanced' found.
+    74 |     attribute userPreference : UserPreferenceType = balanced;
+       |                                                     ^^^^^^^^
+
+iteration_03.sysml:77:43: error (reference-error): No Feature named 'fourCylinder' found.
+    77 |       attribute engineType : EngineType = fourCylinder;
+       |                                           ^^^^^^^^^^^^
+
+iteration_03.sysml:80:55: error (reference-error): No Feature named 'manual' found.
+    80 |       attribute transmissionType : TransmissionType = manual;
+       |                                                       ^^^^^^
+
+iteration_03.sysml:83:41: error (reference-error): No Feature named 'narrowRim' found.
+    83 |       attribute wheelType : WheelType = narrowRim;
+       |                                         ^^^^^^^^^
+
+iteration_03.sysml:89:53: error (reference-error): No Feature named 'suv' found.
+    89 |       attribute modelVariant : VehicleVariantType = suv;
+       |                                                     ^^^
+
+iteration_03.sysml:92:53: error (reference-error): No Feature named 'sedan' found.
+    92 |       attribute modelVariant : VehicleVariantType = sedan;
+       |                                                     ^^^^^
+
+iteration_03.sysml:95:53: error (reference-error): No Feature named 'sedan' found.
+    95 |       attribute modelVariant : VehicleVariantType = sedan;
+       |                                                     ^^^^^
+
+iteration_03.sysml:98:53: error (reference-error): No Feature named 'truck' found.
+    98 |       attribute modelVariant : VehicleVariantType = truck;
+       |                                                     ^^^^^

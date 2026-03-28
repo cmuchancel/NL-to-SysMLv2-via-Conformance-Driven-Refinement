@@ -1,0 +1,21 @@
+Scanning: 604 positive artifacts
+
+Sonnet:
+  Total prompt-level cases: 151
+  Single-shot production conformance: 125/151 (82.78%)
+  Final pipeline production conformance: 151/151 (100.00%)
+
+OpenAI:
+  Total prompt-level cases: 151
+  Single-shot production conformance: 63/151 (41.72%)
+  Final pipeline production conformance: 151/151 (100.00%)
+
+DeepSeek:
+  Total prompt-level cases: 151
+  Single-shot production conformance: 62/151 (41.06%)
+  Final pipeline production conformance: 151/151 (100.00%)
+
+Mistral:
+  Total prompt-level cases: 151
+  Single-shot production conformance: 59/151 (39.07%)
+  Final pipeline production conformance: 151/151 (100.00%)

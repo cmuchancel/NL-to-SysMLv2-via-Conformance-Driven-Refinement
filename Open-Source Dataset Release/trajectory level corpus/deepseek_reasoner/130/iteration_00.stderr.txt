@@ -1,0 +1,27 @@
+iteration_01.sysml:10:53: error (reference-error): No Feature named 'Safety' found.
+    10 |         attribute classification : Classification = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:15:53: error (reference-error): No Feature named 'Safety' found.
+    15 |         attribute classification : Classification = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:20:53: error (reference-error): No Feature named 'Security' found.
+    20 |         attribute classification : Classification = Security;
+       |                                                     ^^^^^^^^
+
+iteration_01.sysml:25:53: error (reference-error): No Feature named 'Safety' found.
+    25 |         attribute classification : Classification = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:30:53: error (reference-error): No Feature named 'Security' found.
+    30 |         attribute classification : Classification = Security;
+       |                                                     ^^^^^^^^
+
+iteration_01.sysml:35:53: error (reference-error): No Feature named 'Safety' found.
+    35 |         attribute classification : Classification = Safety;
+       |                                                     ^^^^^^
+
+iteration_01.sysml:40:53: error (reference-error): No Feature named 'Safety' found.
+    40 |         attribute classification : Classification = Safety;
+       |                                                     ^^^^^^

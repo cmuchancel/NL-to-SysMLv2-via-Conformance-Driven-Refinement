@@ -1,0 +1,7 @@
+iteration_01.sysml:21:47: error (reference-error): No Feature named 'four' found.
+    21 |     attribute cylinderCount : CylinderCount = four;
+       |                                               ^^^^
+
+iteration_01.sysml:32:47: error (reference-error): No Feature named 'six' found.
+    32 |     attribute cylinderCount : CylinderCount = six;
+       |                                               ^^^

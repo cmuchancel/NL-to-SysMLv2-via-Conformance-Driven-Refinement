@@ -1,0 +1,53 @@
+iteration_01.sysml:33:19: warning (namespace-distinguishability): Member name 'curbMass' shadows VehicleSystem::Vehicle::curbMass
+│   33 |         attribute curbMass : Real = 1400;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:32:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:34:19: warning (namespace-distinguishability): Member name 'fuelMass' shadows VehicleSystem::Vehicle::fuelMass
+│   34 |         attribute fuelMass : Real;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:32:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleSystem::Vehicle::totalMass
+│   35 |         attribute totalMass : Real;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:7:19: note: Inherited from here
+    └── iteration_01.sysml:32:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:38:23: warning (namespace-distinguishability): Member name 'capacity' shadows VehicleSystem::FuelTank::capacity
+│   38 |             attribute capacity : Real = 100;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:37:25: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:39:23: warning (namespace-distinguishability): Member name 'currentLevel' shadows VehicleSystem::FuelTank::currentLevel
+│   39 |             attribute currentLevel : Real = 100;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:37:25: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:43:23: warning (namespace-distinguishability): Member name 'torque' shadows VehicleSystem::Engine::torque
+│   43 |             attribute torque : Real;
+│      |                       ^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:42:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:44:23: warning (namespace-distinguishability): Member name 'speed' shadows VehicleSystem::Engine::speed
+│   44 |             attribute speed : Real;
+│      |                       ^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:42:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:49:23: warning (namespace-distinguishability): Member name 'engagement' shadows VehicleSystem::Clutch::engagement
+│   49 |             attribute engagement : Real = 1.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:48:23: note: Because VehicleSystem::Clutch is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'gearRatio' shadows VehicleSystem::Gearbox::gearRatio
+│   55 |             attribute gearRatio : Real = 3.5;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:54:24: note: Because VehicleSystem::Gearbox is specialized through FeatureTyping

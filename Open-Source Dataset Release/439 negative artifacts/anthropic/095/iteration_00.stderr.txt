@@ -1,0 +1,263 @@
+iteration_01.sysml:29:19: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    29 |         attribute standard : String;
+       |                   ^^^^^^^^
+
+iteration_01.sysml:82:27: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    82 |                 attribute standard : String = "ISQ";
+       |                           ^^^^^^^^
+
+iteration_01.sysml:109:27: error (parsing-error): Unexpected 'standard', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    109 |                 attribute standard : String = "ISQ";
+        |                           ^^^^^^^^
+
+iteration_01.sysml:68:19: warning (namespace-distinguishability): Member name 'platformName' shadows AutomobileDocumentManagement::DocumentManagementPlatform::platformName
+│   68 |         attribute platformName : String = "Automobile Document Management Platform";
+│      |                   ^^^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because AutomobileDocumentManagement::DocumentManagementPlatform is specialized through FeatureTyping
+
+iteration_01.sysml:69:19: warning (namespace-distinguishability): Member name 'platformDescription' shadows AutomobileDocumentManagement::DocumentManagementPlatform::platformDescription
+│   69 |         attribute platformDescription : String = "A platform for managing automobile documentation with ISQ physical quantity support";
+│      |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because AutomobileDocumentManagement::DocumentManagementPlatform is specialized through FeatureTyping
+
+iteration_01.sysml:71:14: warning (namespace-distinguishability): Member name 'automobileDoc' shadows AutomobileDocumentManagement::DocumentManagementPlatform::automobileDoc
+│   71 |         part automobileDoc : AutomobileDocument {
+│      |              ^^^^^^^^^^^^^
+└── iteration_01.sysml:61:14: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because AutomobileDocumentManagement::DocumentManagementPlatform is specialized through FeatureTyping
+
+iteration_01.sysml:72:18: warning (namespace-distinguishability): Member name 'vehicle' shadows AutomobileDocumentManagement::AutomobileDocument::vehicle
+│   72 |             part vehicle : Automobile {
+│      |                  ^^^^^^^
+└── iteration_01.sysml:47:14: note: Inherited from here
+    └── iteration_01.sysml:71:30: note: Because AutomobileDocumentManagement::AutomobileDocument is specialized through FeatureTyping
+
+iteration_01.sysml:73:27: warning (namespace-distinguishability): Member name 'documentId' shadows AutomobileDocumentManagement::Automobile::documentId
+│   73 |                 attribute documentId : String = "AUTO-001";
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:72:28: note: Because AutomobileDocumentManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:74:27: warning (namespace-distinguishability): Member name 'make' shadows AutomobileDocumentManagement::Automobile::make
+│   74 |                 attribute make : String = "Generic";
+│      |                           ^^^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:72:28: note: Because AutomobileDocumentManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:75:27: warning (namespace-distinguishability): Member name 'model' shadows AutomobileDocumentManagement::Automobile::model
+│   75 |                 attribute model : String = "Model";
+│      |                           ^^^^^
+└── iteration_01.sysml:7:19: note: Inherited from here
+    └── iteration_01.sysml:72:28: note: Because AutomobileDocumentManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:76:27: warning (namespace-distinguishability): Member name 'year' shadows AutomobileDocumentManagement::Automobile::year
+│   76 |                 attribute year : String = "2024";
+│      |                           ^^^^
+└── iteration_01.sysml:8:19: note: Inherited from here
+    └── iteration_01.sysml:72:28: note: Because AutomobileDocumentManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:77:27: warning (namespace-distinguishability): Member name 'description' shadows AutomobileDocumentManagement::Automobile::description
+│   77 |                 attribute description : String = "Standard automobile record";
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:9:19: note: Inherited from here
+    └── iteration_01.sysml:72:28: note: Because AutomobileDocumentManagement::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:79:18: warning (namespace-distinguishability): Member name 'torqueSpec' shadows AutomobileDocumentManagement::AutomobileDocument::torqueSpec
+│   79 |             part torqueSpec : TorqueValue {
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:48:14: note: Inherited from here
+    └── iteration_01.sysml:71:30: note: Because AutomobileDocumentManagement::AutomobileDocument is specialized through FeatureTyping
+
+iteration_01.sysml:80:27: warning (namespace-distinguishability): Member name 'magnitude' shadows AutomobileDocumentManagement::TorqueValue::magnitude
+│   80 |                 attribute magnitude : Real = 250.0;
+│      |                           ^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:79:31: note: Because AutomobileDocumentManagement::TorqueValue is specialized through FeatureTyping
+
+iteration_01.sysml:81:27: warning (namespace-distinguishability): Member name 'unit' shadows AutomobileDocumentManagement::TorqueValue::unit
+│   81 |                 attribute unit : String = "N·m";
+│      |                           ^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:79:31: note: Because AutomobileDocumentManagement::TorqueValue is specialized through FeatureTyping
+
+iteration_01.sysml:84:18: warning (namespace-distinguishability): Member name 'record' shadows AutomobileDocumentManagement::AutomobileDocument::record
+│   84 |             part record : DocumentRecord {
+│      |                  ^^^^^^
+└── iteration_01.sysml:49:14: note: Inherited from here
+    └── iteration_01.sysml:71:30: note: Because AutomobileDocumentManagement::AutomobileDocument is specialized through FeatureTyping
+
+iteration_01.sysml:85:27: warning (namespace-distinguishability): Member name 'recordId' shadows AutomobileDocumentManagement::DocumentRecord::recordId
+│   85 |                 attribute recordId : String = "REC-001";
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:84:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:86:27: warning (namespace-distinguishability): Member name 'title' shadows AutomobileDocumentManagement::DocumentRecord::title
+│   86 |                 attribute title : String = "Automobile Technical Document";
+│      |                           ^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:84:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:87:27: warning (namespace-distinguishability): Member name 'content' shadows AutomobileDocumentManagement::DocumentRecord::content
+│   87 |                 attribute content : String = "Technical specifications and documentation";
+│      |                           ^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:84:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:88:27: warning (namespace-distinguishability): Member name 'status' shadows AutomobileDocumentManagement::DocumentRecord::status
+│   88 |                 attribute status : DocumentStatus = DocumentStatus::Active;
+│      |                           ^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:84:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:89:27: warning (namespace-distinguishability): Member name 'annotation' shadows AutomobileDocumentManagement::DocumentRecord::annotation
+│   89 |                 attribute annotation : String = "ISQ compliant torque values referenced";
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:84:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:91:18: warning (namespace-distinguishability): Member name 'quantityRef' shadows AutomobileDocumentManagement::AutomobileDocument::quantityRef
+│   91 |             part quantityRef : PhysicalQuantityReference {
+│      |                  ^^^^^^^^^^^
+└── iteration_01.sysml:50:14: note: Inherited from here
+    └── iteration_01.sysml:71:30: note: Because AutomobileDocumentManagement::AutomobileDocument is specialized through FeatureTyping
+
+iteration_01.sysml:92:27: warning (namespace-distinguishability): Member name 'quantityName' shadows AutomobileDocumentManagement::PhysicalQuantityReference::quantityName
+│   92 |                 attribute quantityName : String = "TorqueValue";
+│      |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:91:32: note: Because AutomobileDocumentManagement::PhysicalQuantityReference is specialized through FeatureTyping
+
+iteration_01.sysml:93:27: warning (namespace-distinguishability): Member name 'isqStandard' shadows AutomobileDocumentManagement::PhysicalQuantityReference::isqStandard
+│   93 |                 attribute isqStandard : String = "ISQ";
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:91:32: note: Because AutomobileDocumentManagement::PhysicalQuantityReference is specialized through FeatureTyping
+
+iteration_01.sysml:94:27: warning (namespace-distinguishability): Member name 'description' shadows AutomobileDocumentManagement::PhysicalQuantityReference::description
+│   94 |                 attribute description : String = "Torque quantity as defined under ISQ standard";
+│      |                           ^^^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:91:32: note: Because AutomobileDocumentManagement::PhysicalQuantityReference is specialized through FeatureTyping
+
+iteration_01.sysml:98:14: warning (namespace-distinguishability): Member name 'carDoc' shadows AutomobileDocumentManagement::DocumentManagementPlatform::carDoc
+│   98 |         part carDoc : CarDocument {
+│      |              ^^^^^^
+└── iteration_01.sysml:62:14: note: Inherited from here
+    └── iteration_01.sysml:67:21: note: Because AutomobileDocumentManagement::DocumentManagementPlatform is specialized through FeatureTyping
+
+iteration_01.sysml:99:18: warning (namespace-distinguishability): Member name 'vehicle' shadows AutomobileDocumentManagement::CarDocument::vehicle
+│   99 |             part vehicle : Car {
+│      |                  ^^^^^^^
+└── iteration_01.sysml:54:14: note: Inherited from here
+    └── iteration_01.sysml:98:23: note: Because AutomobileDocumentManagement::CarDocument is specialized through FeatureTyping
+
+iteration_01.sysml:100:27: warning (namespace-distinguishability): Member name 'documentId' shadows AutomobileDocumentManagement::Car::documentId
+│   100 |                 attribute documentId : String = "CAR-001";
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because AutomobileDocumentManagement::Car is specialized through FeatureTyping
+
+iteration_01.sysml:101:27: warning (namespace-distinguishability): Member name 'make' shadows AutomobileDocumentManagement::Car::make
+│   101 |                 attribute make : String = "Generic";
+│       |                           ^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because AutomobileDocumentManagement::Car is specialized through FeatureTyping
+
+iteration_01.sysml:102:27: warning (namespace-distinguishability): Member name 'model' shadows AutomobileDocumentManagement::Car::model
+│   102 |                 attribute model : String = "Model";
+│       |                           ^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because AutomobileDocumentManagement::Car is specialized through FeatureTyping
+
+iteration_01.sysml:103:27: warning (namespace-distinguishability): Member name 'year' shadows AutomobileDocumentManagement::Car::year
+│   103 |                 attribute year : String = "2024";
+│       |                           ^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because AutomobileDocumentManagement::Car is specialized through FeatureTyping
+
+iteration_01.sysml:104:27: warning (namespace-distinguishability): Member name 'description' shadows AutomobileDocumentManagement::Car::description
+│   104 |                 attribute description : String = "Car alias record for automobile";
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because AutomobileDocumentManagement::Car is specialized through FeatureTyping
+
+iteration_01.sysml:106:18: warning (namespace-distinguishability): Member name 'torqueSpec' shadows AutomobileDocumentManagement::CarDocument::torqueSpec
+│   106 |             part torqueSpec : TorqueValue {
+│       |                  ^^^^^^^^^^
+└── iteration_01.sysml:55:14: note: Inherited from here
+    └── iteration_01.sysml:98:23: note: Because AutomobileDocumentManagement::CarDocument is specialized through FeatureTyping
+
+iteration_01.sysml:107:27: warning (namespace-distinguishability): Member name 'magnitude' shadows AutomobileDocumentManagement::TorqueValue::magnitude
+│   107 |                 attribute magnitude : Real = 250.0;
+│       |                           ^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:106:31: note: Because AutomobileDocumentManagement::TorqueValue is specialized through FeatureTyping
+
+iteration_01.sysml:108:27: warning (namespace-distinguishability): Member name 'unit' shadows AutomobileDocumentManagement::TorqueValue::unit
+│   108 |                 attribute unit : String = "N·m";
+│       |                           ^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:106:31: note: Because AutomobileDocumentManagement::TorqueValue is specialized through FeatureTyping
+
+iteration_01.sysml:111:18: warning (namespace-distinguishability): Member name 'record' shadows AutomobileDocumentManagement::CarDocument::record
+│   111 |             part record : DocumentRecord {
+│       |                  ^^^^^^
+└── iteration_01.sysml:56:14: note: Inherited from here
+    └── iteration_01.sysml:98:23: note: Because AutomobileDocumentManagement::CarDocument is specialized through FeatureTyping
+
+iteration_01.sysml:112:27: warning (namespace-distinguishability): Member name 'recordId' shadows AutomobileDocumentManagement::DocumentRecord::recordId
+│   112 |                 attribute recordId : String = "REC-002";
+│       |                           ^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:111:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:113:27: warning (namespace-distinguishability): Member name 'title' shadows AutomobileDocumentManagement::DocumentRecord::title
+│   113 |                 attribute title : String = "Car Technical Document";
+│       |                           ^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:111:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:114:27: warning (namespace-distinguishability): Member name 'content' shadows AutomobileDocumentManagement::DocumentRecord::content
+│   114 |                 attribute content : String = "Technical specifications using Car alias";
+│       |                           ^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:111:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:115:27: warning (namespace-distinguishability): Member name 'status' shadows AutomobileDocumentManagement::DocumentRecord::status
+│   115 |                 attribute status : DocumentStatus = DocumentStatus::Active;
+│       |                           ^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:111:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:116:27: warning (namespace-distinguishability): Member name 'annotation' shadows AutomobileDocumentManagement::DocumentRecord::annotation
+│   116 |                 attribute annotation : String = "Car is an alias for Automobile in this platform";
+│       |                           ^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:111:27: note: Because AutomobileDocumentManagement::DocumentRecord is specialized through FeatureTyping
+
+iteration_01.sysml:118:18: warning (namespace-distinguishability): Member name 'quantityRef' shadows AutomobileDocumentManagement::CarDocument::quantityRef
+│   118 |             part quantityRef : PhysicalQuantityReference {
+│       |                  ^^^^^^^^^^^
+└── iteration_01.sysml:57:14: note: Inherited from here
+    └── iteration_01.sysml:98:23: note: Because AutomobileDocumentManagement::CarDocument is specialized through FeatureTyping
+
+iteration_01.sysml:119:27: warning (namespace-distinguishability): Member name 'quantityName' shadows AutomobileDocumentManagement::PhysicalQuantityReference::quantityName
+│   119 |                 attribute quantityName : String = "TorqueValue";
+│       |                           ^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:118:32: note: Because AutomobileDocumentManagement::PhysicalQuantityReference is specialized through FeatureTyping
+
+iteration_01.sysml:120:27: warning (namespace-distinguishability): Member name 'isqStandard' shadows AutomobileDocumentManagement::PhysicalQuantityReference::isqStandard
+│   120 |                 attribute isqStandard : String = "ISQ";
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:42:19: note: Inherited from here
+    └── iteration_01.sysml:118:32: note: Because AutomobileDocumentManagement::PhysicalQuantityReference is specialized through FeatureTyping
+
+iteration_01.sysml:121:27: warning (namespace-distinguishability): Member name 'description' shadows AutomobileDocumentManagement::PhysicalQuantityReference::description
+│   121 |                 attribute description : String = "Torque quantity as defined under ISQ standard";
+│       |                           ^^^^^^^^^^^
+└── iteration_01.sysml:43:19: note: Inherited from here
+    └── iteration_01.sysml:118:32: note: Because AutomobileDocumentManagement::PhysicalQuantityReference is specialized through FeatureTyping

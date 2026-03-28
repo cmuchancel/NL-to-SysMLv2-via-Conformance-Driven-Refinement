@@ -1,0 +1,39 @@
+iteration_01.sysml:23:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    23 |         attribute state : VehicleState = VehicleState::NEUTRAL;
+       |                   ^^^^^
+
+iteration_01.sysml:30:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   30 |         attribute mass : Real = 2000.0;
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:29:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:31:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::Vehicle::gear
+│   31 |         attribute gear : Integer = 0;
+│      |                   ^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:29:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:32:19: warning (namespace-distinguishability): Member name 'acceleratorPosition' shadows VehicleSystem::Vehicle::acceleratorPosition
+│   32 |         attribute acceleratorPosition : Real = 0.0;
+│      |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:29:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   36 |         attribute mass : Real = 1500.0;
+│      |                   ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:35:27: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::Vehicle::gear
+│   37 |         attribute gear : Integer = 2;
+│      |                   ^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:35:27: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:38:19: warning (namespace-distinguishability): Member name 'acceleratorPosition' shadows VehicleSystem::Vehicle::acceleratorPosition
+│   38 |         attribute acceleratorPosition : Real = 0.5;
+│      |                   ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:35:27: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

@@ -1,0 +1,17 @@
+iteration_01.sysml:9:15: warning (namespace-distinguishability): Member name 'start' shadows Items::Item::start
+│   9 |     attribute start : Boolean;
+│     |               ^^^^^
+└── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Items.sysml:33:8: note: Inherited from here
+    └── iteration_01.sysml:8:3: note: Because Items::Item is implicitly specialized through Subclassification
+
+iteration_01.sysml:18:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    18 |     item FuelCommand;
+       |     ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:22:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    22 |     item StartStopCommand;
+       |     ^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:26:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    26 |     item Torque;
+       |     ^^^^^^^^^^^^

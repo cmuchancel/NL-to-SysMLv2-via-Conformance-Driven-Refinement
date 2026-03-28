@@ -1,0 +1,55 @@
+iteration_01.sysml:23:36: error (reference-error): No Type named 'string' found.
+    23 |         attribute safetyFunction : string = "occupant restraint";
+       |                                    ^^^^^^
+
+iteration_01.sysml:24:38: error (reference-error): No Type named 'string' found.
+    24 |         attribute securityFunction : string = "none";
+       |                                      ^^^^^^
+
+iteration_01.sysml:28:36: error (reference-error): No Type named 'string' found.
+    28 |         attribute safetyFunction : string = "occupant positioning";
+       |                                    ^^^^^^
+
+iteration_01.sysml:29:38: error (reference-error): No Type named 'string' found.
+    29 |         attribute securityFunction : string = "none";
+       |                                      ^^^^^^
+
+iteration_01.sysml:33:36: error (reference-error): No Type named 'string' found.
+    33 |         attribute safetyFunction : string = "impact protection";
+       |                                    ^^^^^^
+
+iteration_01.sysml:34:38: error (reference-error): No Type named 'string' found.
+    34 |         attribute securityFunction : string = "none";
+       |                                      ^^^^^^
+
+iteration_01.sysml:38:36: error (reference-error): No Type named 'string' found.
+    38 |         attribute safetyFunction : string = "none";
+       |                                    ^^^^^^
+
+iteration_01.sysml:39:38: error (reference-error): No Type named 'string' found.
+    39 |         attribute securityFunction : string = "theft deterrence";
+       |                                      ^^^^^^
+
+iteration_01.sysml:43:36: error (reference-error): No Type named 'string' found.
+    43 |         attribute safetyFunction : string = "structural integrity";
+       |                                    ^^^^^^
+
+iteration_01.sysml:44:38: error (reference-error): No Type named 'string' found.
+    44 |         attribute securityFunction : string = "physical barrier";
+       |                                      ^^^^^^
+
+iteration_01.sysml:48:36: error (reference-error): No Type named 'string' found.
+    48 |         attribute safetyFunction : string = "impact absorption";
+       |                                    ^^^^^^
+
+iteration_01.sysml:49:38: error (reference-error): No Type named 'string' found.
+    49 |         attribute securityFunction : string = "none";
+       |                                      ^^^^^^
+
+iteration_01.sysml:53:36: error (reference-error): No Type named 'string' found.
+    53 |         attribute safetyFunction : string = "none";
+       |                                    ^^^^^^
+
+iteration_01.sysml:54:38: error (reference-error): No Type named 'string' found.
+    54 |         attribute securityFunction : string = "access control";
+       |                                      ^^^^^^

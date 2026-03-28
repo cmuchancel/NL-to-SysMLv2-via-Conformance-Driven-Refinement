@@ -1,0 +1,5 @@
+iteration_02.sysml:33:19: warning (namespace-distinguishability): Member name 'targetSensor' shadows SensorManagement::UpdateCommand::targetSensor
+│   33 |         attribute targetSensor : Sensor;
+│      |                   ^^^^^^^^^^^^
+└── iteration_02.sysml:27:19: note: Inherited from here
+    └── iteration_02.sysml:32:26: note: Because SensorManagement::UpdateCommand is specialized through FeatureTyping

@@ -1,0 +1,83 @@
+iteration_01.sysml:30:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleModel::Driver::name
+│   30 |         attribute name : String = "Alice";
+│      |                   ^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:29:18: note: Because VehicleModel::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:34:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleModel::Driver::name
+│   34 |         attribute name : String = "Bob";
+│      |                   ^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:33:16: note: Because VehicleModel::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:38:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::TimeSlice::mass
+│   38 |         attribute mass : Real = 2000.0;
+│      |                   ^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:37:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:39:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::TimeSlice::gear
+│   39 |         attribute gear : GearPosition = GearPosition::NEUTRAL;
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:37:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:40:19: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::TimeSlice::throttle
+│   40 |         attribute throttle : Real = 0.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:37:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:41:14: warning (namespace-distinguishability): Member name 'assignedDriver' shadows VehicleModel::TimeSlice::assignedDriver
+│   41 |         part assignedDriver : Driver;
+│      |              ^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:14: note: Inherited from here
+    └── iteration_01.sysml:37:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:45:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::TimeSlice::mass
+│   45 |         attribute mass : Real = 1500.0;
+│      |                   ^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:44:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:46:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::TimeSlice::gear
+│   46 |         attribute gear : GearPosition = GearPosition::SECOND;
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:44:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:47:19: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::TimeSlice::throttle
+│   47 |         attribute throttle : Real = 0.5;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:44:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:48:14: warning (namespace-distinguishability): Member name 'assignedDriver' shadows VehicleModel::TimeSlice::assignedDriver
+│   48 |         part assignedDriver : Driver;
+│      |              ^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:14: note: Inherited from here
+    └── iteration_01.sysml:44:19: note: Because VehicleModel::TimeSlice is specialized through FeatureTyping
+
+iteration_01.sysml:52:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::Vehicle::mass
+│   52 |         attribute mass : Real = 2000.0;
+│      |                   ^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:51:22: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:53:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::Vehicle::gear
+│   53 |         attribute gear : GearPosition = GearPosition::NEUTRAL;
+│      |                   ^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:51:22: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:54:19: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::Vehicle::throttle
+│   54 |         attribute throttle : Real = 0.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:51:22: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:55:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   55 |         part engine : Engine;
+│      |              ^^^^^^
+└── iteration_01.sysml:15:14: note: Inherited from here
+    └── iteration_01.sysml:51:22: note: Because VehicleModel::Vehicle is specialized through FeatureTyping

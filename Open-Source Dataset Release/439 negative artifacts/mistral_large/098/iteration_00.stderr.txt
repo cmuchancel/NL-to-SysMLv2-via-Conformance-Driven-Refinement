@@ -1,0 +1,3 @@
+iteration_01.sysml:6:14: error (parsing-error): Unexpected 'return', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "=", ":=", "default", ";", "{", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    6 |         enum return;
+      |              ^^^^^^

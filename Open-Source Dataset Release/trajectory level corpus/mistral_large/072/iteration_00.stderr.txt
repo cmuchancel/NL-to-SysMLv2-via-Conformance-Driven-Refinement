@@ -1,0 +1,17 @@
+iteration_01.sysml:72:14: warning (namespace-distinguishability): Member name 'vehicle' shadows VehiclePerformanceAnalysis::SystemContext::vehicle
+│   72 |         part vehicle : Vehicle {
+│      |              ^^^^^^^
+└── iteration_01.sysml:38:14: note: Inherited from here
+    └── iteration_01.sysml:71:19: note: Because VehiclePerformanceAnalysis::SystemContext is specialized through FeatureTyping
+
+iteration_01.sysml:76:14: warning (namespace-distinguishability): Member name 'driveCycle' shadows VehiclePerformanceAnalysis::SystemContext::driveCycle
+│   76 |         part driveCycle : DriveCycle {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:39:14: note: Inherited from here
+    └── iteration_01.sysml:71:19: note: Because VehiclePerformanceAnalysis::SystemContext is specialized through FeatureTyping
+
+iteration_01.sysml:80:14: warning (namespace-distinguishability): Member name 'analyzer' shadows VehiclePerformanceAnalysis::SystemContext::analyzer
+│   80 |         part analyzer : PerformanceAnalyzer {
+│      |              ^^^^^^^^
+└── iteration_01.sysml:40:14: note: Inherited from here
+    └── iteration_01.sysml:71:19: note: Because VehiclePerformanceAnalysis::SystemContext is specialized through FeatureTyping

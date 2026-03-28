@@ -1,0 +1,13 @@
+iteration_01.sysml:11:76: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    11 |         attribute totalMass : Real = simpleMass + subcomponents.totalMass->sum();
+       |                                                                            ^^^
+
+iteration_01.sysml:12:9: error (subsetting-uniqueness-conformance): Subsetting feature cannot be nonunique if subsetted feature is unique
+│   12 |         part subcomponents : simpleThing[*] nonunique;
+│      |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+├── iteration_01.sysml:12:45: note: Subsetting feature is declared nonunique here
+└── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Items.sysml:123:17: note: Subsetted feature declared here
+
+iteration_01.sysml:11:76: error (reference-error): No Type named 'sum' found.
+    11 |         attribute totalMass : Real = simpleMass + subcomponents.totalMass->sum();
+       |                                                                            ^^^

@@ -1,0 +1,69 @@
+iteration_01.sysml:107:9: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    107 |         part analysis : EngineSelectionAnalysis {
+        |         ^^^^
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'weightPower' shadows EngineSelectionSystem::EvaluationFunction::weightPower
+│   56 |             attribute weightPower : Real = 0.35;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:55:35: note: Because EngineSelectionSystem::EvaluationFunction is specialized through FeatureTyping
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'weightMass' shadows EngineSelectionSystem::EvaluationFunction::weightMass
+│   57 |             attribute weightMass : Real = 0.20;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:55:35: note: Because EngineSelectionSystem::EvaluationFunction is specialized through FeatureTyping
+
+iteration_01.sysml:58:23: warning (namespace-distinguishability): Member name 'weightEfficiency' shadows EngineSelectionSystem::EvaluationFunction::weightEfficiency
+│   58 |             attribute weightEfficiency : Real = 0.30;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:55:35: note: Because EngineSelectionSystem::EvaluationFunction is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'weightCost' shadows EngineSelectionSystem::EvaluationFunction::weightCost
+│   59 |             attribute weightCost : Real = 0.15;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:55:35: note: Because EngineSelectionSystem::EvaluationFunction is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'selectedEngineType' shadows EngineSelectionSystem::SelectionResult::selectedEngineType
+│   79 |             attribute selectedEngineType : EngineType = EngineType::SixCylinder;
+│      |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:44:19: note: Inherited from here
+    └── iteration_01.sysml:78:32: note: Because EngineSelectionSystem::SelectionResult is specialized through FeatureTyping
+
+iteration_01.sysml:80:23: warning (namespace-distinguishability): Member name 'selectedPower' shadows EngineSelectionSystem::SelectionResult::selectedPower
+│   80 |             attribute selectedPower : Real = 180.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:45:19: note: Inherited from here
+    └── iteration_01.sysml:78:32: note: Because EngineSelectionSystem::SelectionResult is specialized through FeatureTyping
+
+iteration_01.sysml:81:23: warning (namespace-distinguishability): Member name 'selectedMass' shadows EngineSelectionSystem::SelectionResult::selectedMass
+│   81 |             attribute selectedMass : Real = 210.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:46:19: note: Inherited from here
+    └── iteration_01.sysml:78:32: note: Because EngineSelectionSystem::SelectionResult is specialized through FeatureTyping
+
+iteration_01.sysml:82:23: warning (namespace-distinguishability): Member name 'selectedEfficiency' shadows EngineSelectionSystem::SelectionResult::selectedEfficiency
+│   82 |             attribute selectedEfficiency : Real = 0.42;
+│      |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:47:19: note: Inherited from here
+    └── iteration_01.sysml:78:32: note: Because EngineSelectionSystem::SelectionResult is specialized through FeatureTyping
+
+iteration_01.sysml:83:23: warning (namespace-distinguishability): Member name 'selectedCost' shadows EngineSelectionSystem::SelectionResult::selectedCost
+│   83 |             attribute selectedCost : Real = 14000.0;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:48:19: note: Inherited from here
+    └── iteration_01.sysml:78:32: note: Because EngineSelectionSystem::SelectionResult is specialized through FeatureTyping
+
+iteration_01.sysml:84:23: warning (namespace-distinguishability): Member name 'selectedScore' shadows EngineSelectionSystem::SelectionResult::selectedScore
+│   84 |             attribute selectedScore : Real = 0.81;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:49:19: note: Inherited from here
+    └── iteration_01.sysml:78:32: note: Because EngineSelectionSystem::SelectionResult is specialized through FeatureTyping
+
+iteration_01.sysml:108:23: warning (namespace-distinguishability): Member name 'analysisName' shadows EngineSelectionSystem::EngineSelectionAnalysis::analysisName
+│   108 |             attribute analysisName : String = "ComprehensiveEngineEvaluation";
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:53:19: note: Inherited from here
+    └── iteration_01.sysml:107:25: note: Because EngineSelectionSystem::EngineSelectionAnalysis is specialized through FeatureTyping

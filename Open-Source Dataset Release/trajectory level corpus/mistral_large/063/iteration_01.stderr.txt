@@ -1,0 +1,23 @@
+iteration_02.sysml:29:19: warning (namespace-distinguishability): Member name 'chassisMass' shadows VehicleMassBudget::Vehicle::chassisMass
+│   29 |         attribute chassisMass : Real = chassis.mass;
+│      |                   ^^^^^^^^^^^
+└── iteration_02.sysml:5:19: note: Inherited from here
+    └── iteration_02.sysml:28:20: note: Because VehicleMassBudget::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:30:19: warning (namespace-distinguishability): Member name 'engineMass' shadows VehicleMassBudget::Vehicle::engineMass
+│   30 |         attribute engineMass : Real = engine.mass;
+│      |                   ^^^^^^^^^^
+└── iteration_02.sysml:6:19: note: Inherited from here
+    └── iteration_02.sysml:28:20: note: Because VehicleMassBudget::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:31:19: warning (namespace-distinguishability): Member name 'transmissionMass' shadows VehicleMassBudget::Vehicle::transmissionMass
+│   31 |         attribute transmissionMass : Real = transmission.mass;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:7:19: note: Inherited from here
+    └── iteration_02.sysml:28:20: note: Because VehicleMassBudget::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:32:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleMassBudget::Vehicle::totalMass
+│   32 |         attribute totalMass : Real = chassisMass + engineMass + transmissionMass;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:8:19: note: Inherited from here
+    └── iteration_02.sysml:28:20: note: Because VehicleMassBudget::Vehicle is specialized through FeatureTyping

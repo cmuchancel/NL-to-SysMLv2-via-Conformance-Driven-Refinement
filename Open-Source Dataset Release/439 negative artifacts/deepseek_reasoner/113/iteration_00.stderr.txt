@@ -1,0 +1,23 @@
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         DegradedMode
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         DegradedMode
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:8:9: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    8 |         DegradedMode
+      |         ^^^^^^^^^^^^
+
+iteration_01.sysml:9:5: error (parsing-error): Expected a token. Did you forget ';'?
+    9 |     }
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'status' shadows VehicleSystem::Vehicle::status
+│   24 |         attribute status : VehicleStatus = VehicleStatus::Shutdown;
+│      |                   ^^^^^^
+└── iteration_01.sysml:19:14: note: First declared here
+
+iteration_01.sysml:24:59: error (reference-error): No Feature named 'Shutdown' found.
+    24 |         attribute status : VehicleStatus = VehicleStatus::Shutdown;
+       |                                                           ^^^^^^^^

@@ -1,0 +1,5 @@
+iteration_02.sysml:10:19: warning (namespace-distinguishability): Member name 'totalMass' shadows MassAggregation::Thing::totalMass
+│   10 |         attribute totalMass : Real = simpleMass;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:6:19: note: Inherited from here
+    └── iteration_02.sysml:9:29: note: Because MassAggregation::Thing is specialized through Subclassification

@@ -1,0 +1,86 @@
+iteration_01.sysml:36:28: error (parsing-error): Expected a token. Did you forget ';'?
+    36 |     part def FrontSeatBelt : SafetyComponent {
+
+iteration_01.sysml:41:21: error (parsing-error): Expected a token. Did you forget ';'?
+    41 |     part def Bumper : SafetyComponent {
+
+iteration_01.sysml:46:28: error (parsing-error): Expected a token. Did you forget ';'?
+    46 |     part def DriversAirbag : SafetyComponent {
+
+iteration_01.sysml:51:36: error (parsing-error): Expected a token. Did you forget ';'?
+    51 |     part def AntiLockBrakingSystem : SafetyComponent {
+
+iteration_01.sysml:56:26: error (parsing-error): Expected a token. Did you forget ';'?
+    56 |     part def AlarmSystem : AntiTheftComponent {
+
+iteration_01.sysml:60:33: error (parsing-error): Expected a token. Did you forget ';'?
+    60 |     part def KeylessEntrySystem : AntiTheftComponent {
+
+iteration_01.sysml:64:26: error (parsing-error): Expected a token. Did you forget ';'?
+    64 |     part def Immobilizer : CombinedComponent {
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::SafetyComponent::name
+│   37 |         attribute name : String = "Front Seat Belt";
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:36:30: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:38:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAndAntiTheft::SafetyComponent::category
+│   38 |         attribute category : SafetyCategory = SafetyCategory::Mandatory;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:36:30: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:42:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::SafetyComponent::name
+│   42 |         attribute name : String = "Bumper";
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:41:23: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:43:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAndAntiTheft::SafetyComponent::category
+│   43 |         attribute category : SafetyCategory = SafetyCategory::Mandatory;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:41:23: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:47:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::SafetyComponent::name
+│   47 |         attribute name : String = "Driver's Airbag";
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:46:30: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAndAntiTheft::SafetyComponent::category
+│   48 |         attribute category : SafetyCategory = SafetyCategory::Optional;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:46:30: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:52:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::SafetyComponent::name
+│   52 |         attribute name : String = "Anti-lock Braking System";
+│      |                   ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:51:38: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:53:19: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAndAntiTheft::SafetyComponent::category
+│   53 |         attribute category : SafetyCategory = SafetyCategory::Optional;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:51:38: note: Because VehicleSafetyAndAntiTheft::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:57:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::AntiTheftComponent::name
+│   57 |         attribute name : String = "Alarm System";
+│      |                   ^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:56:28: note: Because VehicleSafetyAndAntiTheft::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:61:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::AntiTheftComponent::name
+│   61 |         attribute name : String = "Keyless Entry System";
+│      |                   ^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:60:35: note: Because VehicleSafetyAndAntiTheft::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:65:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSafetyAndAntiTheft::CombinedComponent::name
+│   65 |         attribute name : String = "Immobilizer";
+│      |                   ^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:64:28: note: Because VehicleSafetyAndAntiTheft::CombinedComponent is specialized through FeatureTyping

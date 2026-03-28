@@ -1,0 +1,27 @@
+iteration_01.sysml:8:55: error (parsing-error): Unexpected identifier.
+    8 |    enum def ProcessState { Idle, Focusing, Capturing, Done }
+      |                                                       ^^^^
+
+iteration_01.sysml:8:60: error (parsing-error): Unexpected '}'.
+    8 |    enum def ProcessState { Idle, Focusing, Capturing, Done }
+      |                                                            ^
+
+iteration_01.sysml:8:60: error (parsing-error): Unexpected '}'.
+    8 |    enum def ProcessState { Idle, Focusing, Capturing, Done }
+      |                                                            ^
+
+iteration_01.sysml:30:17: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |       attribute state : ProcessState = Idle;
+       |                 ^^^^^
+
+iteration_01.sysml:36:17: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    36 |       attribute state : ProcessState = Idle;
+       |                 ^^^^^
+
+iteration_01.sysml:30:40: error (reference-error): No Feature named 'Idle' found.
+    30 |       attribute state : ProcessState = Idle;
+       |                                        ^^^^
+
+iteration_01.sysml:36:40: error (reference-error): No Feature named 'Idle' found.
+    36 |       attribute state : ProcessState = Idle;
+       |                                        ^^^^

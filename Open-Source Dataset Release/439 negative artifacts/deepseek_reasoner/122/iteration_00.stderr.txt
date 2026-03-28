@@ -1,0 +1,83 @@
+iteration_01.sysml:33:9: error (parsing-error): Unexpected 'part', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "filter", "variation", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "ElementFilterMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Namespace_repeat1", "Dependency_repeat1"].
+    33 |         part urbanTest : TestScenario {
+       |         ^^^^
+
+iteration_01.sysml:41:5: error (parsing-error): Unexpected ']', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    41 |     ]
+       |     ^
+
+iteration_01.sysml:44:9: error (parsing-error): Unexpected 'attribute', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "filter", "variation", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "ElementFilterMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Namespace_repeat1", "Dependency_repeat1"].
+    44 |         attribute curbWeight : Real = 3000;
+       |         ^^^^^^^^^
+
+iteration_01.sysml:49:13: error (parsing-error): Unexpected 'attribute', expected one of ["NAME", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "import", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "<", "not", "@", "#", "metadata", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "standard", "library", "package", "filter", "variation", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint", "Dependency", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "Membership", "MembershipImport", "NamespaceImport", "FeatureDirectionKind", "OwningMembership", "MultiplicityRange", "Annotation", "OwningMembership", "Package", "LibraryPackage", "OwningMembership", "ElementFilterMembership", "ReferenceUsage", "ReferenceUsage", "AttributeDefinition", "AttributeUsage", "EnumerationDefinition", "EnumerationUsage", "OccurrenceDefinition", "OccurrenceDefinition", "OccurrenceUsage", "OccurrenceUsage", "OccurrenceUsage", "PortionKind", "EventOccurrenceUsage", "ItemDefinition", "ItemUsage", "PartDefinition", "PartUsage", "PortDefinition", "PortUsage", "ConnectionDefinition", "ConnectionUsage", "BindingConnectorAsUsage", "SuccessionAsUsage", "FlowDefinition", "FlowUsage", "FlowUsage", "SuccessionFlowUsage", "InterfaceDefinition", "InterfaceUsage", "AllocationDefinition", "AllocationUsage", "ActionDefinition", "ActionUsage", "PerformActionUsage", "StateDefinition", "StateUsage", "ExhibitStateUsage", "CalculationDefinition", "CalculationUsage", "ConstraintDefinition", "ConstraintUsage", "AssertConstraintUsage", "RequirementDefinition", "RequirementUsage", "SatisfyRequirementUsage", "ConcernDefinition", "ConcernUsage", "CaseDefinition", "CaseUsage", "AnalysisCaseDefinition", "AnalysisCaseUsage", "VerificationCaseDefinition", "VerificationCaseUsage", "UseCaseDefinition", "UseCaseUsage", "IncludeUseCaseUsage", "ViewDefinition", "ViewUsage", "ViewpointDefinition", "ViewpointUsage", "RenderingDefinition", "RenderingUsage", "MetadataDefinition", "MetadataUsage", "MetadataUsage", "Definition", "Usage", "Namespace_repeat1", "Dependency_repeat1"].
+    49 |             attribute measuredEconomy : Real = 27;
+       |             ^^^^^^^^^
+
+iteration_01.sysml:51:9: error (parsing-error): Unexpected ']', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    51 |         ]
+       |         ^
+
+iteration_01.sysml:34:23: warning (namespace-distinguishability): Member name 'condition' shadows FuelEconomySystem::TestScenario::condition
+│   34 |             attribute condition : DrivingCondition = DrivingCondition::urban;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:33:26: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_01.sysml:35:23: warning (namespace-distinguishability): Member name 'requiredMinimum' shadows FuelEconomySystem::TestScenario::requiredMinimum
+│   35 |             attribute requiredMinimum : Real = 25;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:33:26: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_01.sysml:38:23: warning (namespace-distinguishability): Member name 'condition' shadows FuelEconomySystem::TestScenario::condition
+│   38 |             attribute condition : DrivingCondition = DrivingCondition::highway;
+│      |                       ^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:37:28: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_01.sysml:39:23: warning (namespace-distinguishability): Member name 'requiredMinimum' shadows FuelEconomySystem::TestScenario::requiredMinimum
+│   39 |             attribute requiredMinimum : Real = 30;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:37:28: note: Because FuelEconomySystem::TestScenario is specialized through FeatureTyping
+
+iteration_01.sysml:54:13: error (reference-error): No Feature named 'regulatoryTest' found.
+    54 |     connect regulatoryTest.urbanTest.vehiclePort to testVehicle.testPort;
+       |             ^^^^^^^^^^^^^^
+
+iteration_01.sysml:54:28: error (reference-error): No Feature named 'urbanTest' found.
+    54 |     connect regulatoryTest.urbanTest.vehiclePort to testVehicle.testPort;
+       |                            ^^^^^^^^^
+
+iteration_01.sysml:54:38: error (reference-error): No Feature named 'vehiclePort' found.
+    54 |     connect regulatoryTest.urbanTest.vehiclePort to testVehicle.testPort;
+       |                                      ^^^^^^^^^^^
+
+iteration_01.sysml:54:53: error (reference-error): No Feature named 'testVehicle' found.
+    54 |     connect regulatoryTest.urbanTest.vehiclePort to testVehicle.testPort;
+       |                                                     ^^^^^^^^^^^
+
+iteration_01.sysml:54:65: error (reference-error): No Feature named 'testPort' found.
+    54 |     connect regulatoryTest.urbanTest.vehiclePort to testVehicle.testPort;
+       |                                                                 ^^^^^^^^
+
+iteration_01.sysml:55:13: error (reference-error): No Feature named 'regulatoryTest' found.
+    55 |     connect regulatoryTest.highwayTest.vehiclePort to testVehicle.testPort;
+       |             ^^^^^^^^^^^^^^
+
+iteration_01.sysml:55:28: error (reference-error): No Feature named 'highwayTest' found.
+    55 |     connect regulatoryTest.highwayTest.vehiclePort to testVehicle.testPort;
+       |                            ^^^^^^^^^^^
+
+iteration_01.sysml:55:40: error (reference-error): No Feature named 'vehiclePort' found.
+    55 |     connect regulatoryTest.highwayTest.vehiclePort to testVehicle.testPort;
+       |                                        ^^^^^^^^^^^
+
+iteration_01.sysml:55:55: error (reference-error): No Feature named 'testVehicle' found.
+    55 |     connect regulatoryTest.highwayTest.vehiclePort to testVehicle.testPort;
+       |                                                       ^^^^^^^^^^^
+
+iteration_01.sysml:55:67: error (reference-error): No Feature named 'testPort' found.
+    55 |     connect regulatoryTest.highwayTest.vehiclePort to testVehicle.testPort;
+       |                                                                   ^^^^^^^^

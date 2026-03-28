@@ -1,0 +1,55 @@
+iteration_03.sysml:27:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    27 |         attribute state : VehicleState = off;
+       |                   ^^^^^
+
+iteration_03.sysml:36:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    36 |         port out : VehicleStartSignalPort;
+       |              ^^^
+
+iteration_03.sysml:40:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    40 |         port out : VehicleOnSignalPort;
+       |              ^^^
+
+iteration_03.sysml:44:14: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    44 |         port out : VehicleOffSignalPort;
+       |              ^^^
+
+iteration_03.sysml:47:53: error (parsing-error): Unexpected token '.'.
+    47 |     connect vehicle.startSignal to startSignalSource.out;
+       |                                                     ^
+
+iteration_03.sysml:47:54: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    47 |     connect vehicle.startSignal to startSignalSource.out;
+       |                                                      ^^^
+
+iteration_03.sysml:48:47: error (parsing-error): Unexpected token '.'.
+    48 |     connect vehicle.onSignal to onSignalSource.out;
+       |                                               ^
+
+iteration_03.sysml:48:48: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    48 |     connect vehicle.onSignal to onSignalSource.out;
+       |                                                ^^^
+
+iteration_03.sysml:49:49: error (parsing-error): Unexpected token '.'.
+    49 |     connect vehicle.offSignal to offSignalSource.out;
+       |                                                 ^
+
+iteration_03.sysml:49:50: error (parsing-error): Unexpected 'out', expected one of ["SINGLE_LINE_NOTE", "$", "NAME", "ElementReference", "MULTILINE_NOTE", "FeatureChaining", ";", "{", ",", "[", "(", ")", "=", "from", "to", "if", "then", "accept", "via", "do"].
+    49 |     connect vehicle.offSignal to offSignalSource.out;
+       |                                                  ^^^
+
+iteration_03.sysml:47:36: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    47 |     connect vehicle.startSignal to startSignalSource.out;
+       |                                    ^^^^^^^^^^^^^^^^^
+
+iteration_03.sysml:48:33: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    48 |     connect vehicle.onSignal to onSignalSource.out;
+       |                                 ^^^^^^^^^^^^^^
+
+iteration_03.sysml:49:34: error (feature-chaining-feature-not-one): Feature cannot have only one feature chaining
+    49 |     connect vehicle.offSignal to offSignalSource.out;
+       |                                  ^^^^^^^^^^^^^^^
+
+iteration_03.sysml:27:42: error (reference-error): No Feature named 'off' found.
+    27 |         attribute state : VehicleState = off;
+       |                                          ^^^

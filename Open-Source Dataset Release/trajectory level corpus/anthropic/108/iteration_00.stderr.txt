@@ -1,0 +1,53 @@
+iteration_01.sysml:40:14: warning (namespace-distinguishability): Member name 'vehicle' shadows VehicleTrailerSystem::HitchSystem::vehicle
+│   40 |         part vehicle : Vehicle {
+│      |              ^^^^^^^
+└── iteration_01.sysml:34:14: note: Inherited from here
+    └── iteration_01.sysml:39:24: note: Because VehicleTrailerSystem::HitchSystem is specialized through FeatureTyping
+
+iteration_01.sysml:41:18: warning (namespace-distinguishability): Member name 'chassis' shadows VehicleTrailerSystem::Vehicle::chassis
+│   41 |             part chassis : Chassis {
+│      |                  ^^^^^^^
+└── iteration_01.sysml:26:14: note: Inherited from here
+    └── iteration_01.sysml:40:24: note: Because VehicleTrailerSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:42:22: warning (namespace-distinguishability): Member name 'towBall' shadows VehicleTrailerSystem::Chassis::towBall
+│   42 |                 part towBall : TowBall {
+│      |                      ^^^^^^^
+└── iteration_01.sysml:18:14: note: Inherited from here
+    └── iteration_01.sysml:41:28: note: Because VehicleTrailerSystem::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:43:31: warning (namespace-distinguishability): Member name 'status' shadows VehicleTrailerSystem::TowBall::status
+│   43 |                     attribute status : ConnectionStatus = ConnectionStatus::Disconnected;
+│      |                               ^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:42:32: note: Because VehicleTrailerSystem::TowBall is specialized through FeatureTyping
+
+iteration_01.sysml:47:14: warning (namespace-distinguishability): Member name 'trailer' shadows VehicleTrailerSystem::HitchSystem::trailer
+│   47 |         part trailer : Trailer {
+│      |              ^^^^^^^
+└── iteration_01.sysml:35:14: note: Inherited from here
+    └── iteration_01.sysml:39:24: note: Because VehicleTrailerSystem::HitchSystem is specialized through FeatureTyping
+
+iteration_01.sysml:48:18: warning (namespace-distinguishability): Member name 'trailerFrame' shadows VehicleTrailerSystem::Trailer::trailerFrame
+│   48 |             part trailerFrame : TrailerFrame {
+│      |                  ^^^^^^^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:47:24: note: Because VehicleTrailerSystem::Trailer is specialized through FeatureTyping
+
+iteration_01.sysml:49:22: warning (namespace-distinguishability): Member name 'coupler' shadows VehicleTrailerSystem::TrailerFrame::coupler
+│   49 |                 part coupler : Coupler {
+│      |                      ^^^^^^^
+└── iteration_01.sysml:22:14: note: Inherited from here
+    └── iteration_01.sysml:48:33: note: Because VehicleTrailerSystem::TrailerFrame is specialized through FeatureTyping
+
+iteration_01.sysml:50:31: warning (namespace-distinguishability): Member name 'status' shadows VehicleTrailerSystem::Coupler::status
+│   50 |                     attribute status : ConnectionStatus = ConnectionStatus::Disconnected;
+│      |                               ^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:49:32: note: Because VehicleTrailerSystem::Coupler is specialized through FeatureTyping
+
+iteration_01.sysml:54:19: warning (namespace-distinguishability): Member name 'hitchStatus' shadows VehicleTrailerSystem::HitchSystem::hitchStatus
+│   54 |         attribute hitchStatus : ConnectionStatus = ConnectionStatus::Disconnected;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:39:24: note: Because VehicleTrailerSystem::HitchSystem is specialized through FeatureTyping

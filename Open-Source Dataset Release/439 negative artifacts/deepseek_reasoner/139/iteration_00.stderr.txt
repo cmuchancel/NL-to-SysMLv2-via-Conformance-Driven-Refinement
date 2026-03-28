@@ -1,0 +1,71 @@
+iteration_01.sysml:5:48: error (parsing-error): Unexpected ';'.
+    5 |         attribute totalMass : Mass = 1200.0::kg;
+      |                                                ^
+
+iteration_01.sysml:6:44: error (parsing-error): Unexpected ';'.
+    6 |         attribute length : Length = 4.82::m;
+      |                                            ^
+
+iteration_01.sysml:23:48: error (parsing-error): Unexpected ';'.
+    23 |         attribute diameter : Length = 457.2::mm; // 18 inches converted to mm
+       |                                                ^
+
+iteration_01.sysml:27:45: error (parsing-error): Unexpected ';'.
+    27 |         attribute width : Length = 245.0::mm;
+       |                                             ^
+
+iteration_01.sysml:28:45: error (parsing-error): Unexpected ';'.
+    28 |         attribute height : Length = 45.0::mm;
+       |                                             ^
+
+iteration_01.sysml:29:48: error (parsing-error): Unexpected ';'.
+    29 |         attribute treadDepth : Length = 6.0::mm;
+       |                                                ^
+
+iteration_01.sysml:30:51: error (parsing-error): Unexpected ';'.
+    30 |         attribute minTreadDepth : Length = 3.5::mm;
+       |                                                   ^
+
+iteration_01.sysml:35:45: error (parsing-error): Unexpected ';'.
+    35 |         attribute radius : Length = 95.0::mm;
+       |                                             ^
+
+iteration_01.sysml:5:31: error (reference-error): No Type named 'Mass' found.
+    5 |         attribute totalMass : Mass = 1200.0::kg;
+      |                               ^^^^
+
+iteration_01.sysml:6:28: error (reference-error): No Type named 'Length' found.
+    6 |         attribute length : Length = 4.82::m;
+      |                            ^^^^^^
+
+iteration_01.sysml:19:35: error (reference-error): No Type named 'Length' found.
+    19 |         attribute outerDiameter : Length = rim.diameter + 2 * tire.height;
+       |                                   ^^^^^^
+
+iteration_01.sysml:23:30: error (reference-error): No Type named 'Length' found.
+    23 |         attribute diameter : Length = 457.2::mm; // 18 inches converted to mm
+       |                              ^^^^^^
+
+iteration_01.sysml:27:27: error (reference-error): No Type named 'Length' found.
+    27 |         attribute width : Length = 245.0::mm;
+       |                           ^^^^^^
+
+iteration_01.sysml:28:28: error (reference-error): No Type named 'Length' found.
+    28 |         attribute height : Length = 45.0::mm;
+       |                            ^^^^^^
+
+iteration_01.sysml:29:32: error (reference-error): No Type named 'Length' found.
+    29 |         attribute treadDepth : Length = 6.0::mm;
+       |                                ^^^^^^
+
+iteration_01.sysml:30:35: error (reference-error): No Type named 'Length' found.
+    30 |         attribute minTreadDepth : Length = 3.5::mm;
+       |                                   ^^^^^^
+
+iteration_01.sysml:35:28: error (reference-error): No Type named 'Length' found.
+    35 |         attribute radius : Length = 95.0::mm;
+       |                            ^^^^^^
+
+iteration_01.sysml:36:30: error (reference-error): No Type named 'Length' found.
+    36 |         attribute diameter : Length = 2 * radius;
+       |                              ^^^^^^

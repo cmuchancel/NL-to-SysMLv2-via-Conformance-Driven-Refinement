@@ -1,0 +1,23 @@
+iteration_02.sysml:18:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    18 |     item ref fuelCmd : FuelCommand;
+       |          ^^^
+
+iteration_02.sysml:22:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    22 |     item ref startStopCmd : StartStopCommand;
+       |          ^^^
+
+iteration_02.sysml:26:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    26 |     item ref torque : Torque;
+       |          ^^^
+
+iteration_02.sysml:18:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    18 |     item ref fuelCmd : FuelCommand;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:22:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    22 |     item ref startStopCmd : StartStopCommand;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:26:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    26 |     item ref torque : Torque;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^

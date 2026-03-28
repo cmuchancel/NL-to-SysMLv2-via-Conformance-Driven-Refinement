@@ -1,0 +1,113 @@
+iteration_01.sysml:56:9: error (parsing-error): Unexpected 'for', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    56 |         for i in 1..5 {
+       |         ^^^
+
+iteration_01.sysml:56:13: error (parsing-error): Unexpected identifier.
+    56 |         for i in 1..5 {
+       |             ^
+
+iteration_01.sysml:56:18: error (parsing-error): Unexpected 'DECIMAL_VALUE', expected one of ["NAME", "for", "[", "abstract", "derived", "ordered", "nonunique", "if", "<", "not", "#", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "variation", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    56 |         for i in 1..5 {
+       |                  ^
+
+iteration_01.sysml:57:48: error (parsing-error): Unexpected 'to', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                                ^^
+
+iteration_01.sysml:57:65: error (parsing-error): Unexpected '.', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                                                 ^
+
+iteration_01.sysml:58:49: error (parsing-error): Unexpected 'to', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                 ^^
+
+iteration_01.sysml:58:63: error (parsing-error): Unexpected '[', expected one of ["SINGLE_LINE_NOTE", "[", "$", "NAME", "(", "ElementReference", "MULTILINE_NOTE", "MultiplicityRange", "OwningMembership", "ReferenceSubsetting", "Feature", "Feature", "OwningMembership", "FeatureChaining", "EndFeatureMembership", "Feature"].
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                               ^
+
+iteration_01.sysml:58:63: error (parsing-error): Unexpected '[', expected one of ["SINGLE_LINE_NOTE", "[", "$", "NAME", "(", "ElementReference", "MULTILINE_NOTE", "MultiplicityRange", "OwningMembership", "ReferenceSubsetting", "Feature", "Feature", "OwningMembership", "FeatureChaining", "EndFeatureMembership", "Feature"].
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                               ^
+
+iteration_01.sysml:58:66: error (parsing-error): Unexpected '.', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", ";", "{", ":=", "::>", "=>", ":>>", "$", "from", "for", "ordered", "nonunique", "if", "=", "default", "NAME", ":>", "subsets", "references", "crosses", "redefines", ":", "defined", "by", "then", "connect", "of", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "parallel", "do"].
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                                  ^
+
+iteration_01.sysml:61:1: error (parsing-error): Unexpected '}'.
+    61 | }
+       | ^
+
+iteration_01.sysml:61:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:57:21: warning (subsetting-featuring-types): Subsetted feature must be accessible from the subsetting feature (use dot notation for nesting)
+│   57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+│      |                     ^^^^^^^^^^^^^^^^^^^^^^^
+├── iteration_01.sysml:57:21: note: Subsetted feature declared here
+│   └── iteration_01.sysml:46:14: note: Subsetted feature is featured by WheelAssembly::WheelAssembly
+└── iteration_01.sysml:57:21: note: Because featuring types of subsetted feature do not conform to the featuring types of the subsetting feature
+    └── iteration_01.sysml:57:21: note: Subsetting feature is featured by (orphan Type)
+
+iteration_01.sysml:57:51: warning (subsetting-featuring-types): Subsetted feature must be accessible from the subsetting feature (use dot notation for nesting)
+│   57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+│      |                                                   ^^^^^^^^^^^
+├── iteration_01.sysml:51:14: note: Subsetted feature declared here
+│   └── iteration_01.sysml:46:14: note: Subsetted feature is featured by WheelAssembly::WheelAssembly
+└── iteration_01.sysml:57:44: note: Because featuring types of subsetted feature do not conform to the featuring types of the subsetting feature
+    └── iteration_01.sysml:57:21: note: Subsetting feature is featured by (orphan Type)
+
+iteration_01.sysml:58:21: warning (subsetting-featuring-types): Subsetted feature must be accessible from the subsetting feature (use dot notation for nesting)
+│   58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+│      |                     ^^^^^^^^^^^^^^^^^^^^^^^^
+├── iteration_01.sysml:58:21: note: Subsetted feature declared here
+│   └── iteration_01.sysml:46:14: note: Subsetted feature is featured by WheelAssembly::WheelAssembly
+└── iteration_01.sysml:58:21: note: Because featuring types of subsetted feature do not conform to the featuring types of the subsetting feature
+    └── iteration_01.sysml:58:21: note: Subsetting feature is featured by (orphan Type)
+
+iteration_01.sysml:58:52: warning (subsetting-featuring-types): Subsetted feature must be accessible from the subsetting feature (use dot notation for nesting)
+│   58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+│      |                                                    ^^^^^^^^^^^
+├── iteration_01.sysml:51:14: note: Subsetted feature declared here
+│   └── iteration_01.sysml:46:14: note: Subsetted feature is featured by WheelAssembly::WheelAssembly
+└── iteration_01.sysml:58:45: note: Because featuring types of subsetted feature do not conform to the featuring types of the subsetting feature
+    └── iteration_01.sysml:58:21: note: Subsetting feature is featured by (orphan Type)
+
+iteration_01.sysml:57:44: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                            ^^^
+
+iteration_01.sysml:57:45: error (reference-error): No Feature named 'i' found.
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                             ^
+
+iteration_01.sysml:57:62: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                                              ^^^
+
+iteration_01.sysml:57:63: error (reference-error): No Feature named 'i' found.
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                                               ^
+
+iteration_01.sysml:57:66: error (reference-error): No Feature named 'mountingPort' found.
+    57 |             connect wheel.hub.mountingHoles[i] to connections[i].mountingPort;
+       |                                                                  ^^^^^^^^^^^^
+
+iteration_01.sysml:58:45: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                             ^^^
+
+iteration_01.sysml:58:46: error (reference-error): No Feature named 'i' found.
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                              ^
+
+iteration_01.sysml:58:63: error (feature-crossing-specialization): Invalid cross-feature - no opposite owned end feature found.
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                               ^^^
+
+iteration_01.sysml:58:64: error (reference-error): No Feature named 'i' found.
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                                ^
+
+iteration_01.sysml:58:67: error (reference-error): No Feature named 'threadedPort' found.
+    58 |             connect vehicleHub.threadedHoles[i] to connections[i].threadedPort;
+       |                                                                   ^^^^^^^^^^^^

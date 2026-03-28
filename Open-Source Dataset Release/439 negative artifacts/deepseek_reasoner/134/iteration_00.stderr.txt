@@ -1,0 +1,39 @@
+iteration_01.sysml:23:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    23 |         attribute state : AlarmState = AlarmState::OFF;
+       |                   ^^^^^
+
+iteration_01.sysml:19:14: warning (namespace-distinguishability): Member name 'powerOutput' shadows BloodGlucoseMeterSystem::Battery::powerOutput
+│   19 |         port powerOutput : powerOutput;
+│      |              ^^^^^^^^^^^
+└── iteration_01.sysml:18:18: note: First declared here
+
+iteration_01.sysml:25:14: warning (namespace-distinguishability): Member name 'triggerInput' shadows BloodGlucoseMeterSystem::Alarm::triggerInput
+│   25 |         port triggerInput : triggerInput;
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:24:18: note: First declared here
+
+iteration_01.sysml:32:14: warning (namespace-distinguishability): Member name 'powerInput' shadows BloodGlucoseMeterSystem::MeasurementModule::powerInput
+│   32 |         port powerInput : powerInput;
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:30:18: note: First declared here
+
+iteration_01.sysml:33:14: warning (namespace-distinguishability): Member name 'alarmOutput' shadows BloodGlucoseMeterSystem::MeasurementModule::alarmOutput
+│   33 |         port alarmOutput : alarmOutput;
+│      |              ^^^^^^^^^^^
+└── iteration_01.sysml:31:18: note: First declared here
+
+iteration_01.sysml:41:25: error (reference-error): Expected Feature element but found PortDefinition (BloodGlucoseMeterSystem::Battery::powerOutput)
+    41 |         connect battery.powerOutput to measurementModule.powerInput;
+       |                         ^^^^^^^^^^^
+
+iteration_01.sysml:41:58: error (reference-error): Expected Feature element but found PortDefinition (BloodGlucoseMeterSystem::MeasurementModule::powerInput)
+    41 |         connect battery.powerOutput to measurementModule.powerInput;
+       |                                                          ^^^^^^^^^^
+
+iteration_01.sysml:42:35: error (reference-error): Expected Feature element but found PortDefinition (BloodGlucoseMeterSystem::MeasurementModule::alarmOutput)
+    42 |         connect measurementModule.alarmOutput to alarm.triggerInput;
+       |                                   ^^^^^^^^^^^
+
+iteration_01.sysml:42:56: error (reference-error): Expected Feature element but found PortDefinition (BloodGlucoseMeterSystem::Alarm::triggerInput)
+    42 |         connect measurementModule.alarmOutput to alarm.triggerInput;
+       |                                                        ^^^^^^^^^^^^

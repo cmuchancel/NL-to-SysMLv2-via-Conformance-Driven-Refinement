@@ -1,0 +1,7 @@
+iteration_01.sysml:24:52: error (reference-error): No Feature named 'Off' found.
+    24 |         attribute operatingState: OperatingState = Off;
+       |                                                    ^^^
+
+iteration_01.sysml:25:46: error (reference-error): No Feature named 'Unknown' found.
+    25 |         attribute healthState: HealthState = Unknown;
+       |                                              ^^^^^^^

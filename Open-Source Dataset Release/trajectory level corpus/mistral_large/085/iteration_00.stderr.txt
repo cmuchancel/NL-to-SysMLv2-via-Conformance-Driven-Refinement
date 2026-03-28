@@ -1,0 +1,27 @@
+iteration_01.sysml:21:40: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    21 |         part seatBelts : SeatBelt[2] = SeatBelt;
+       |                                        ^^^^^^^^
+
+iteration_01.sysml:22:42: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    22 |         part frontSeats : FrontSeat[2] = FrontSeat;
+       |                                          ^^^^^^^^^
+
+iteration_01.sysml:23:44: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    23 |         part driverAirbag : DriverAirbag = DriverAirbag;
+       |                                            ^^^^^^^^^^^^
+
+iteration_01.sysml:24:45: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    24 |         part alarmSystem : AntiTheftAlarm = AntiTheftAlarm;
+       |                                             ^^^^^^^^^^^^^^
+
+iteration_01.sysml:28:38: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    28 |         part bodyShell : BodyShell = BodyShell;
+       |                                      ^^^^^^^^^
+
+iteration_01.sysml:29:36: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    29 |         part bumpers : Bumper[2] = Bumper;
+       |                                    ^^^^^^
+
+iteration_01.sysml:30:50: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is PartDefinition
+    30 |         part keylessEntryDevice : KeylessEntry = KeylessEntry;
+       |                                                  ^^^^^^^^^^^^

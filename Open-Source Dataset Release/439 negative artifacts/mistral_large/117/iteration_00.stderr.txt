@@ -1,0 +1,91 @@
+iteration_01.sysml:6:9: error (parsing-error): Expected a token. Did you forget ':>'?
+    6 |         StandardPerformance
+
+iteration_01.sysml:7:5: error (parsing-error): Expected a token. Did you forget ';'?
+    7 |     }
+
+iteration_01.sysml:11:9: error (parsing-error): Expected a token. Did you forget ':>'?
+    11 |         SixCylinder
+
+iteration_01.sysml:12:5: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |     }
+
+iteration_01.sysml:15:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    15 |         Manual
+       |         ^^^^^^
+
+iteration_01.sysml:16:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    16 |         Automatic
+       |         ^^^^^^^^^
+
+iteration_01.sysml:21:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    21 |         WideRim
+       |         ^^^^^^^
+
+iteration_01.sysml:54:13: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    54 |             part configuredVehicle : Vehicle;
+       |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:69:19: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   69 |         attribute engineType = EngineType::SixCylinder;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:68:34: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:73:19: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   73 |         attribute transmissionType = TransmissionType::Automatic;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:72:40: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:77:19: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::Wheel::wheelType
+│   77 |         attribute wheelType = WheelType::WideRim;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:76:34: note: Because VehicleProductLineConfiguration::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:82:19: warning (namespace-distinguishability): Member name 'engineType' shadows VehicleProductLineConfiguration::Engine::engineType
+│   82 |         attribute engineType = EngineType::FourCylinder;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:81:38: note: Because VehicleProductLineConfiguration::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:86:19: warning (namespace-distinguishability): Member name 'transmissionType' shadows VehicleProductLineConfiguration::Transmission::transmissionType
+│   86 |         attribute transmissionType = TransmissionType::Manual;
+│      |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:85:44: note: Because VehicleProductLineConfiguration::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:90:19: warning (namespace-distinguishability): Member name 'wheelType' shadows VehicleProductLineConfiguration::Wheel::wheelType
+│   90 |         attribute wheelType = WheelType::NarrowRim;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:89:38: note: Because VehicleProductLineConfiguration::Wheel is specialized through FeatureTyping
+
+iteration_01.sysml:6:9: error (reference-error): No Feature named 'StandardPerformance' found.
+    6 |         StandardPerformance
+      |         ^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:11:9: error (reference-error): No Feature named 'SixCylinder' found.
+    11 |         SixCylinder
+       |         ^^^^^^^^^^^
+
+iteration_01.sysml:69:44: error (reference-error): No Feature named 'SixCylinder' found.
+    69 |         attribute engineType = EngineType::SixCylinder;
+       |                                            ^^^^^^^^^^^
+
+iteration_01.sysml:73:56: error (reference-error): No Feature named 'Automatic' found.
+    73 |         attribute transmissionType = TransmissionType::Automatic;
+       |                                                        ^^^^^^^^^
+
+iteration_01.sysml:77:42: error (reference-error): No Feature named 'WideRim' found.
+    77 |         attribute wheelType = WheelType::WideRim;
+       |                                          ^^^^^^^
+
+iteration_01.sysml:86:56: error (reference-error): No Feature named 'Manual' found.
+    86 |         attribute transmissionType = TransmissionType::Manual;
+       |                                                        ^^^^^^
+
+iteration_01.sysml:90:42: error (reference-error): No Feature named 'NarrowRim' found.
+    90 |         attribute wheelType = WheelType::NarrowRim;
+       |                                          ^^^^^^^^^

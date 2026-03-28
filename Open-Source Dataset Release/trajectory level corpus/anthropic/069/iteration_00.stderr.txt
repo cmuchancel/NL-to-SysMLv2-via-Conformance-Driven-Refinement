@@ -1,0 +1,179 @@
+iteration_01.sysml:44:23: warning (namespace-distinguishability): Member name 'generatedTorque' shadows VehicleSystem::Engine::generatedTorque
+│   44 |             attribute generatedTorque : Real = 300.0;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:43:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'ratedSpeed' shadows VehicleSystem::Engine::ratedSpeed
+│   45 |             attribute ratedSpeed : Real = 3000.0;
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:43:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:46:18: warning (namespace-distinguishability): Member name 'clutchOut' shadows VehicleSystem::Engine::clutchOut
+│   46 |             port clutchOut : ClutchPort;
+│      |                  ^^^^^^^^^
+└── iteration_01.sysml:15:14: note: Inherited from here
+    └── iteration_01.sysml:43:23: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:50:23: warning (namespace-distinguishability): Member name 'transmittedTorque' shadows VehicleSystem::Clutch::transmittedTorque
+│   50 |             attribute transmittedTorque : Real = 300.0;
+│      |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:49:23: note: Because VehicleSystem::Clutch is specialized through FeatureTyping
+
+iteration_01.sysml:51:18: warning (namespace-distinguishability): Member name 'clutchIn' shadows VehicleSystem::Clutch::clutchIn
+│   51 |             port clutchIn : ClutchPort;
+│      |                  ^^^^^^^^
+└── iteration_01.sysml:21:14: note: Inherited from here
+    └── iteration_01.sysml:49:23: note: Because VehicleSystem::Clutch is specialized through FeatureTyping
+
+iteration_01.sysml:52:18: warning (namespace-distinguishability): Member name 'transmissionOut' shadows VehicleSystem::Clutch::transmissionOut
+│   52 |             port transmissionOut : TransmissionPort;
+│      |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:22:14: note: Inherited from here
+    └── iteration_01.sysml:49:23: note: Because VehicleSystem::Clutch is specialized through FeatureTyping
+
+iteration_01.sysml:56:23: warning (namespace-distinguishability): Member name 'inputTorque' shadows VehicleSystem::Transmission::inputTorque
+│   56 |             attribute inputTorque : Real = 300.0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:55:29: note: Because VehicleSystem::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:57:18: warning (namespace-distinguishability): Member name 'transmissionIn' shadows VehicleSystem::Transmission::transmissionIn
+│   57 |             port transmissionIn : TransmissionPort;
+│      |                  ^^^^^^^^^^^^^^
+└── iteration_01.sysml:27:14: note: Inherited from here
+    └── iteration_01.sysml:55:29: note: Because VehicleSystem::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'fuelMass' shadows VehicleSystem::FuelTank::fuelMass
+│   61 |             attribute fuelMass : Real = 400.0;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:32:19: note: Inherited from here
+    └── iteration_01.sysml:60:25: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'maxFuelMass' shadows VehicleSystem::FuelTank::maxFuelMass
+│   62 |             attribute maxFuelMass : Real = 500.0;
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:60:25: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:75:19: warning (namespace-distinguishability): Member name 'speedRpm' shadows VehicleSystem::SpeedTorquePoint::speedRpm
+│   75 |         attribute speedRpm : Real = 1000.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:74:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:76:19: warning (namespace-distinguishability): Member name 'torqueNm' shadows VehicleSystem::SpeedTorquePoint::torqueNm
+│   76 |         attribute torqueNm : Real = 250.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:74:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:80:19: warning (namespace-distinguishability): Member name 'speedRpm' shadows VehicleSystem::SpeedTorquePoint::speedRpm
+│   80 |         attribute speedRpm : Real = 2000.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:79:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:81:19: warning (namespace-distinguishability): Member name 'torqueNm' shadows VehicleSystem::SpeedTorquePoint::torqueNm
+│   81 |         attribute torqueNm : Real = 300.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:79:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:85:19: warning (namespace-distinguishability): Member name 'speedRpm' shadows VehicleSystem::SpeedTorquePoint::speedRpm
+│   85 |         attribute speedRpm : Real = 3000.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:84:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:86:19: warning (namespace-distinguishability): Member name 'torqueNm' shadows VehicleSystem::SpeedTorquePoint::torqueNm
+│   86 |         attribute torqueNm : Real = 280.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:84:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:90:19: warning (namespace-distinguishability): Member name 'speedRpm' shadows VehicleSystem::SpeedTorquePoint::speedRpm
+│   90 |         attribute speedRpm : Real = 4000.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:89:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:91:19: warning (namespace-distinguishability): Member name 'torqueNm' shadows VehicleSystem::SpeedTorquePoint::torqueNm
+│   91 |         attribute torqueNm : Real = 240.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:89:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:95:19: warning (namespace-distinguishability): Member name 'speedRpm' shadows VehicleSystem::SpeedTorquePoint::speedRpm
+│   95 |         attribute speedRpm : Real = 5000.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:94:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:96:19: warning (namespace-distinguishability): Member name 'torqueNm' shadows VehicleSystem::SpeedTorquePoint::torqueNm
+│   96 |         attribute torqueNm : Real = 200.0;
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:94:30: note: Because VehicleSystem::SpeedTorquePoint is specialized through FeatureTyping
+
+iteration_01.sysml:100:19: warning (namespace-distinguishability): Member name 'dryMass' shadows VehicleSystem::Vehicle::dryMass
+│   100 |         attribute dryMass : Real = 1200.0;
+│       |                   ^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:101:19: warning (namespace-distinguishability): Member name 'fuelMass' shadows VehicleSystem::Vehicle::fuelMass
+│   101 |         attribute fuelMass : Real = 500.0;
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:102:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleSystem::Vehicle::totalMass
+│   102 |         attribute totalMass : Real = 1700.0;
+│       |                   ^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:103:19: warning (namespace-distinguishability): Member name 'maxMassFullTank' shadows VehicleSystem::Vehicle::maxMassFullTank
+│   103 |         attribute maxMassFullTank : Real = 2000.0;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:104:19: warning (namespace-distinguishability): Member name 'maxMassEmptyTank' shadows VehicleSystem::Vehicle::maxMassEmptyTank
+│   104 |         attribute maxMassEmptyTank : Real = 1500.0;
+│       |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:99:28: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:108:19: warning (namespace-distinguishability): Member name 'dryMass' shadows VehicleSystem::Vehicle::dryMass
+│   108 |         attribute dryMass : Real = 1200.0;
+│       |                   ^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:107:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:109:19: warning (namespace-distinguishability): Member name 'fuelMass' shadows VehicleSystem::Vehicle::fuelMass
+│   109 |         attribute fuelMass : Real = 0.0;
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:107:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:110:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleSystem::Vehicle::totalMass
+│   110 |         attribute totalMass : Real = 1200.0;
+│       |                   ^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:107:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:111:19: warning (namespace-distinguishability): Member name 'maxMassFullTank' shadows VehicleSystem::Vehicle::maxMassFullTank
+│   111 |         attribute maxMassFullTank : Real = 2000.0;
+│       |                   ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:107:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:112:19: warning (namespace-distinguishability): Member name 'maxMassEmptyTank' shadows VehicleSystem::Vehicle::maxMassEmptyTank
+│   112 |         attribute maxMassEmptyTank : Real = 1500.0;
+│       |                   ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:41:19: note: Inherited from here
+    └── iteration_01.sysml:107:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

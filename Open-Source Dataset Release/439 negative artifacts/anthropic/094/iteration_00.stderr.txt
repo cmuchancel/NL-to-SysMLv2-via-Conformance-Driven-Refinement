@@ -1,0 +1,3 @@
+iteration_01.sysml:39:10: error (parsing-error): Unexpected token '汽车'.
+    39 |     part 汽车Car : Automobile {
+       |          ^^^^

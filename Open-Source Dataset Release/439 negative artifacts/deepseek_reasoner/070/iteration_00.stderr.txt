@@ -1,0 +1,15 @@
+iteration_01.sysml:16:42: error (parsing-error): Unexpected identifier.
+    16 |         attribute emptyMass : Mass = 1500kg;
+       |                                          ^^
+
+iteration_01.sysml:17:48: error (parsing-error): Unexpected identifier.
+    17 |         attribute fullyFueledMass : Mass = 2000kg;
+       |                                                ^^
+
+iteration_01.sysml:16:31: error (reference-error): No Type named 'Mass' found.
+    16 |         attribute emptyMass : Mass = 1500kg;
+       |                               ^^^^
+
+iteration_01.sysml:17:37: error (reference-error): No Type named 'Mass' found.
+    17 |         attribute fullyFueledMass : Mass = 2000kg;
+       |                                     ^^^^

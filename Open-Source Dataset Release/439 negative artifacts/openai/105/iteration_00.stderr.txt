@@ -1,0 +1,19 @@
+iteration_01.sysml:10:32: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    10 |     port def FuelCommandPort { item FuelCommand; }
+       |                                ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:11:27: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    11 |     port def TorquePort { item Torque; }
+       |                           ^^^^^^^^^^^^
+
+iteration_01.sysml:12:32: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    12 |     port def StallSignalPort { item StallSignal; }
+       |                                ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:13:33: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    13 |     port def StartCommandPort { item StartCommand; }
+       |                                 ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:14:32: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    14 |     port def StopCommandPort { item StopCommand; }
+       |                                ^^^^^^^^^^^^^^^^^

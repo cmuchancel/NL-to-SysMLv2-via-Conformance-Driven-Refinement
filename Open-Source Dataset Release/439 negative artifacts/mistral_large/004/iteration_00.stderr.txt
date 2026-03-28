@@ -1,0 +1,47 @@
+iteration_01.sysml:13:26: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |     part def SmallEngine : Engine {
+
+iteration_01.sysml:17:26: error (parsing-error): Expected a token. Did you forget ';'?
+    17 |     part def LargeEngine : Engine {
+
+iteration_01.sysml:26:27: error (parsing-error): Expected a token. Did you forget ';'?
+    26 |     part def SmallVehicle : Vehicle {
+
+iteration_01.sysml:31:27: error (parsing-error): Expected a token. Did you forget ';'?
+    31 |     part def LargeVehicle : Vehicle {
+
+iteration_01.sysml:14:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleSystem::Engine::cylinderCount
+│   14 |         attribute cylinderCount : Integer = 4;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:13:28: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:18:19: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleSystem::Engine::cylinderCount
+│   18 |         attribute cylinderCount : Integer = 6;
+│      |                   ^^^^^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:17:28: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:27:19: warning (namespace-distinguishability): Member name 'vehicleType' shadows VehicleSystem::Vehicle::vehicleType
+│   27 |         attribute vehicleType : VehicleType = VehicleType::SmallVehicle;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:26:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:28:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   28 |         part engine : SmallEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:26:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:32:19: warning (namespace-distinguishability): Member name 'vehicleType' shadows VehicleSystem::Vehicle::vehicleType
+│   32 |         attribute vehicleType : VehicleType = VehicleType::LargeVehicle;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:31:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:33:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   33 |         part engine : LargeEngine;
+│      |              ^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:31:29: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping

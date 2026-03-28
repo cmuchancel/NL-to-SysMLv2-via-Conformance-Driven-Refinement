@@ -1,0 +1,17 @@
+iteration_01.sysml:26:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Chassis::mass
+│   26 |             attribute mass : Real = 800.0;
+│      |                       ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:25:24: note: Because VehicleMassManagement::Chassis is specialized through FeatureTyping
+
+iteration_01.sysml:30:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Engine::mass
+│   30 |             attribute mass : Real = 600.0;
+│      |                       ^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:29:23: note: Because VehicleMassManagement::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:34:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassManagement::Transmission::mass
+│   34 |             attribute mass : Real = 200.0;
+│      |                       ^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:33:29: note: Because VehicleMassManagement::Transmission is specialized through FeatureTyping

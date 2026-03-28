@@ -1,0 +1,48 @@
+iteration_03.sysml:76:35: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    76 |     attribute converter1.fromUnit : USCustomaryLengthUnits = USCustomaryLengthUnits::inch;
+       |                                   ^
+
+iteration_03.sysml:77:33: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    77 |     attribute converter1.toUnit : ISQBaseUnits = ISQBaseUnits::meter;
+       |                                 ^
+
+iteration_03.sysml:78:42: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    78 |     attribute converter1.myUnitConverter.factor : Real = 0.0254;
+       |                                          ^^^^^^
+
+iteration_03.sysml:80:35: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    80 |     attribute converter2.fromUnit : USCustomaryMassUnits = USCustomaryMassUnits::pound;
+       |                                   ^
+
+iteration_03.sysml:81:33: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "[", ":>", ":", "=", "subsets", "defined", "ordered", "nonunique", "MULTILINE_NOTE", "::>", "references", "=>", "crosses", ":>>", "redefines", "MultiplicityRange", "OwningMembership", ";", "{", "from", ":=", "default", "by", "then", "of", "accept", "send", "assign", "parallel"].
+    81 |     attribute converter2.toUnit : ISQBaseUnits = ISQBaseUnits::kilogram;
+       |                                 ^
+
+iteration_03.sysml:82:42: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    82 |     attribute converter2.myUnitConverter.factor : Real = 0.453592;
+       |                                          ^^^^^^
+
+iteration_03.sysml:76:15: warning (namespace-distinguishability): Member name 'converter1' shadows UnitSystemLibrary::converter1
+│   76 |     attribute converter1.fromUnit : USCustomaryLengthUnits = USCustomaryLengthUnits::inch;
+│      |               ^^^^^^^^^^
+└── iteration_03.sysml:70:10: note: First declared here
+
+iteration_03.sysml:77:15: warning (namespace-distinguishability): Member name 'converter1' shadows UnitSystemLibrary::converter1
+│   77 |     attribute converter1.toUnit : ISQBaseUnits = ISQBaseUnits::meter;
+│      |               ^^^^^^^^^^
+└── iteration_03.sysml:70:10: note: First declared here
+
+iteration_03.sysml:80:15: warning (namespace-distinguishability): Member name 'converter2' shadows UnitSystemLibrary::converter2
+│   80 |     attribute converter2.fromUnit : USCustomaryMassUnits = USCustomaryMassUnits::pound;
+│      |               ^^^^^^^^^^
+└── iteration_03.sysml:71:10: note: First declared here
+
+iteration_03.sysml:81:15: warning (namespace-distinguishability): Member name 'converter2' shadows UnitSystemLibrary::converter2
+│   81 |     attribute converter2.toUnit : ISQBaseUnits = ISQBaseUnits::kilogram;
+│      |               ^^^^^^^^^^
+└── iteration_03.sysml:71:10: note: First declared here
+
+iteration_03.sysml:82:42: warning (namespace-distinguishability): Member name 'factor' shadows UnitSystemLibrary::factor
+│   82 |     attribute converter2.myUnitConverter.factor : Real = 0.453592;
+│      |                                          ^^^^^^
+└── iteration_03.sysml:78:42: note: First declared here

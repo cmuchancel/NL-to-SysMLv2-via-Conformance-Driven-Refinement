@@ -1,0 +1,8 @@
+iteration_01.sysml:53:14: warning (namespace-distinguishability): Member name 'localClock' shadows Occurrences::Occurrence::localClock
+│   53 |         part localClock : LocalClock;
+│      |              ^^^^^^^^^^
+└── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Kernel Libraries/Kernel Semantic Library/Occurrences.kerml:52:11: note: Inherited from here
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Kernel Libraries/Kernel Semantic Library/Objects.kerml:24:37: note: Because Occurrences::Occurrence is specialized through Subclassification
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Items.sysml:24:28: note: Because Objects::Object is specialized through Subclassification
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Parts.sysml:19:28: note: Because Items::Item is specialized through Subclassification
+    └── iteration_01.sysml:44:5: note: Because Parts::Part is implicitly specialized through Subclassification

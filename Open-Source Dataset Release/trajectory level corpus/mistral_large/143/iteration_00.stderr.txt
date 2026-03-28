@@ -1,0 +1,37 @@
+iteration_01.sysml:33:19: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    33 |             level == StatusColor::red => "red"
+       |                   ^
+
+iteration_01.sysml:33:39: error (parsing-error): Unexpected '=', expected one of [";", "{", "}", "dependency", "from", ",", "to", "about", "::", "**", "*", "[", "]", ".", "if", "?", "else", "??", "implies", "or", "and", "+", "-", "|", "&", "xor", "==", "!=", "===", "!==", "<", ">", "<=", ">=", "..", "/", "%", "^", "hastype", "istype", "@", "as", "@@", "meta", "#", "(", ")", ".?", "->", "=", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "by", "package", "attribute", "enum", "then", "connect", "binding", "bind", "succession", "first", "of", "action", "merge", "decide", "join", "fork", "via", "parallel", "do"].
+    33 |             level == StatusColor::red => "red"
+       |                                       ^
+
+iteration_01.sysml:34:13: error (parsing-error): Unexpected identifier.
+    34 |             level == StatusColor::yellow => "yellow"
+       |             ^^^^^
+
+iteration_01.sysml:34:42: error (parsing-error): Unexpected '=', expected one of [";", "{", "}", "dependency", "from", ",", "to", "about", "::", "**", "*", "[", "]", ".", "if", "?", "else", "??", "implies", "or", "and", "+", "-", "|", "&", "xor", "==", "!=", "===", "!==", "<", ">", "<=", ">=", "..", "/", "%", "^", "hastype", "istype", "@", "as", "@@", "meta", "#", "(", ")", ".?", "->", "=", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "by", "package", "attribute", "enum", "then", "connect", "binding", "bind", "succession", "first", "of", "action", "merge", "decide", "join", "fork", "via", "parallel", "do"].
+    34 |             level == StatusColor::yellow => "yellow"
+       |                                          ^
+
+iteration_01.sysml:35:13: error (parsing-error): Unexpected identifier.
+    35 |             level == StatusColor::green => "green"
+       |             ^^^^^
+
+iteration_01.sysml:35:41: error (parsing-error): Unexpected '=', expected one of [";", "{", "}", "dependency", "from", ",", "to", "about", "::", "**", "*", "[", "]", ".", "if", "?", "else", "??", "implies", "or", "and", "+", "-", "|", "&", "xor", "==", "!=", "===", "!==", "<", ">", "<=", ">=", "..", "/", "%", "^", "hastype", "istype", "@", "as", "@@", "meta", "#", "(", ")", ".?", "->", "=", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "by", "package", "attribute", "enum", "then", "connect", "binding", "bind", "succession", "first", "of", "action", "merge", "decide", "join", "fork", "via", "parallel", "do"].
+    35 |             level == StatusColor::green => "green"
+       |                                         ^
+
+iteration_01.sysml:36:9: error (parsing-error): Unexpected '}', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "@", "as", "#", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    36 |         };
+       |         ^
+
+iteration_01.sysml:52:2: error (parsing-error): Expected a token. Did you forget '}'? (no source underlining available since segment is out of bounds)
+
+iteration_01.sysml:32:36: error (reference-error): No Feature named 'switch' found.
+    32 |         attribute color : String = switch {
+       |                                    ^^^^^^
+
+iteration_01.sysml:46:30: error (reference-error): No Type named 'DateTime' found.
+    46 |         attribute dateTime : DateTime;
+       |                              ^^^^^^^^

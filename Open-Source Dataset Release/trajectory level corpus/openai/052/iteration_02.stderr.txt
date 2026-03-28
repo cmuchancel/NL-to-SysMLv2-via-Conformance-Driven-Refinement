@@ -1,0 +1,65 @@
+iteration_03.sysml:17:5: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    17 |     part state : VehicleState;
+       |     ^^^^
+
+iteration_03.sysml:35:9: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    35 |         part state : VehicleState {
+       |         ^^^^
+
+iteration_03.sysml:42:9: error (parsing-error): Unexpected 'part', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    42 |         part state : VehicleState {
+       |         ^^^^
+
+iteration_03.sysml:32:10: warning (namespace-distinguishability): Member name 'vehicle_1' shadows VehicleComposite::CompositeSystem::vehicle_1
+│   32 |     part vehicle_1 : VehicleTimeline {
+│      |          ^^^^^^^^^
+└── iteration_03.sysml:26:10: note: Inherited from here
+    └── iteration_03.sysml:31:25: note: Because VehicleComposite::CompositeSystem is specialized through FeatureTyping
+
+iteration_03.sysml:33:12: warning (namespace-distinguishability): Member name 'initial' shadows VehicleComposite::VehicleTimeline::initial
+│   33 |       part initial : Vehicle {
+│      |            ^^^^^^^
+└── iteration_03.sysml:21:10: note: Inherited from here
+    └── iteration_03.sysml:32:22: note: Because VehicleComposite::VehicleTimeline is specialized through FeatureTyping
+
+iteration_03.sysml:34:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleComposite::Vehicle::mass
+│   34 |         attribute mass = 2000.0;
+│      |                   ^^^^
+└── iteration_03.sysml:16:15: note: Inherited from here
+    └── iteration_03.sysml:33:22: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:36:21: warning (namespace-distinguishability): Member name 'gear' shadows VehicleComposite::VehicleState::gear
+│   36 |           attribute gear = 0;
+│      |                     ^^^^
+└── iteration_03.sysml:11:15: note: Inherited from here
+    └── iteration_03.sysml:35:22: note: Because VehicleComposite::VehicleState is specialized through FeatureTyping
+
+iteration_03.sysml:37:21: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleComposite::VehicleState::accelerator
+│   37 |           attribute accelerator = 0.0;
+│      |                     ^^^^^^^^^^^
+└── iteration_03.sysml:12:15: note: Inherited from here
+    └── iteration_03.sysml:35:22: note: Because VehicleComposite::VehicleState is specialized through FeatureTyping
+
+iteration_03.sysml:40:12: warning (namespace-distinguishability): Member name 'next' shadows VehicleComposite::VehicleTimeline::next
+│   40 |       part next : Vehicle {
+│      |            ^^^^
+└── iteration_03.sysml:22:10: note: Inherited from here
+    └── iteration_03.sysml:32:22: note: Because VehicleComposite::VehicleTimeline is specialized through FeatureTyping
+
+iteration_03.sysml:41:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleComposite::Vehicle::mass
+│   41 |         attribute mass = 1500.0;
+│      |                   ^^^^
+└── iteration_03.sysml:16:15: note: Inherited from here
+    └── iteration_03.sysml:40:19: note: Because VehicleComposite::Vehicle is specialized through FeatureTyping
+
+iteration_03.sysml:43:21: warning (namespace-distinguishability): Member name 'gear' shadows VehicleComposite::VehicleState::gear
+│   43 |           attribute gear = 2;
+│      |                     ^^^^
+└── iteration_03.sysml:11:15: note: Inherited from here
+    └── iteration_03.sysml:42:22: note: Because VehicleComposite::VehicleState is specialized through FeatureTyping
+
+iteration_03.sysml:44:21: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleComposite::VehicleState::accelerator
+│   44 |           attribute accelerator = 0.5;
+│      |                     ^^^^^^^^^^^
+└── iteration_03.sysml:12:15: note: Inherited from here
+    └── iteration_03.sysml:42:22: note: Because VehicleComposite::VehicleState is specialized through FeatureTyping

@@ -1,0 +1,7 @@
+iteration_02.sysml:15:64: error (invocation-expression-instantiated-type): Invocation expression must invoke a `Behavior` or a feature typed by a single `Behavior`
+    15 |             totalMass == simpleMass + subcomponents.totalMass->sum()
+       |                                                                ^^^
+
+iteration_02.sysml:15:64: error (reference-error): No Type named 'sum' found.
+    15 |             totalMass == simpleMass + subcomponents.totalMass->sum()
+       |                                                                ^^^

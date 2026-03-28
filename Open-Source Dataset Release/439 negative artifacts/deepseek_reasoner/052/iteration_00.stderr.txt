@@ -1,0 +1,79 @@
+iteration_01.sysml:6:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    6 |         attribute state : VehicleState;
+      |                   ^^^^^
+
+iteration_01.sysml:23:24: error (parsing-error): Expected a token. Did you forget ';'?
+    23 |     item def Vehicle_1 : Vehicle {
+
+iteration_01.sysml:25:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    25 |         attribute state = initial;
+       |                   ^^^^^
+
+iteration_01.sysml:28:29: error (parsing-error): Expected a token. Did you forget ';'?
+    28 |     item def Vehicle_1_next : Vehicle {
+
+iteration_01.sysml:30:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    30 |         attribute state = adjusted;
+       |                   ^^^^^
+
+iteration_01.sysml:38:22: error (parsing-error): Expected a token. Did you forget ';'?
+    38 |     item def initial : VehicleState {
+
+iteration_01.sysml:43:23: error (parsing-error): Expected a token. Did you forget ';'?
+    43 |     item def adjusted : VehicleState {
+
+iteration_01.sysml:6:27: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    6 |         attribute state : VehicleState;
+      |                           ^^^^^^^^^^^^
+
+iteration_01.sysml:24:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   24 |         attribute mass = 2000.0;
+│      |                   ^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:23:26: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:25:27: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is ItemDefinition
+    25 |         attribute state = initial;
+       |                           ^^^^^^^
+
+iteration_01.sysml:29:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   29 |         attribute mass = 1500.0;
+│      |                   ^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:28:31: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:30:27: error (feature-reference-expression-referent-is-feature): Referent must be a feature but is ItemDefinition
+    30 |         attribute state = adjusted;
+       |                           ^^^^^^^^
+
+iteration_01.sysml:38:24: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    38 |     item def initial : VehicleState {
+       |                        ^^^^^^^^^^^^
+
+iteration_01.sysml:39:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::VehicleState::gear
+│   39 |         attribute gear = 0;
+│      |                   ^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:38:24: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping
+
+iteration_01.sysml:40:19: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleSystem::VehicleState::accelerator
+│   40 |         attribute accelerator = 0.0;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:38:24: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping
+
+iteration_01.sysml:43:25: warning (usage-feature-typing): Usages should only be typed by Classifiers, this will be upgraded to error in Syside v0.9
+    43 |     item def adjusted : VehicleState {
+       |                         ^^^^^^^^^^^^
+
+iteration_01.sysml:44:19: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::VehicleState::gear
+│   44 |         attribute gear = 2;
+│      |                   ^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:43:25: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping
+
+iteration_01.sysml:45:19: warning (namespace-distinguishability): Member name 'accelerator' shadows VehicleSystem::VehicleState::accelerator
+│   45 |         attribute accelerator = 0.5;
+│      |                   ^^^^^^^^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:43:25: note: Because VehicleSystem::VehicleState is specialized through FeatureTyping

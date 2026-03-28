@@ -1,0 +1,15 @@
+iteration_02.sysml:15:51: error (parsing-error): Unexpected identifier, did you mean 'in'?
+    15 |         port drivingCondition : DrivingTrajectory in;
+       |                                                   ^^
+
+iteration_02.sysml:16:37: error (parsing-error): Unexpected identifier, did you mean 'objective'?
+    16 |         port fuelConsumption : Real out;
+       |                                     ^^^
+
+iteration_02.sysml:31:43: error (parsing-error): Unexpected identifier, did you mean 'objective'?
+    31 |         port scenario : DrivingTrajectory out;
+       |                                           ^^^
+
+iteration_02.sysml:32:33: error (parsing-error): Unexpected identifier, did you mean 'in'?
+    32 |         port consumption : Real in;
+       |                                 ^^

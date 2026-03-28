@@ -1,0 +1,7 @@
+iteration_01.sysml:8:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    8 |         item msg: CANMessage;
+      |         ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:12:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    12 |         item data: SensorData;
+       |         ^^^^^^^^^^^^^^^^^^^^^^

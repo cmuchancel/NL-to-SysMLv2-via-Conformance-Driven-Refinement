@@ -1,0 +1,39 @@
+iteration_02.sysml:10:37: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    10 |     port def FuelCommandPort { item ref fc : FuelCommand; }
+       |                                     ^^^
+
+iteration_02.sysml:11:32: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    11 |     port def TorquePort { item ref tq : Torque; }
+       |                                ^^^
+
+iteration_02.sysml:12:37: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    12 |     port def StallSignalPort { item ref ss : StallSignal; }
+       |                                     ^^^
+
+iteration_02.sysml:13:38: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    13 |     port def StartCommandPort { item ref sc : StartCommand; }
+       |                                      ^^^
+
+iteration_02.sysml:14:37: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    14 |     port def StopCommandPort { item ref stc : StopCommand; }
+       |                                     ^^^
+
+iteration_02.sysml:10:32: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    10 |     port def FuelCommandPort { item ref fc : FuelCommand; }
+       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:11:27: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    11 |     port def TorquePort { item ref tq : Torque; }
+       |                           ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:12:32: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    12 |     port def StallSignalPort { item ref ss : StallSignal; }
+       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:13:33: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    13 |     port def StartCommandPort { item ref sc : StartCommand; }
+       |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:14:32: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    14 |     port def StopCommandPort { item ref stc : StopCommand; }
+       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^

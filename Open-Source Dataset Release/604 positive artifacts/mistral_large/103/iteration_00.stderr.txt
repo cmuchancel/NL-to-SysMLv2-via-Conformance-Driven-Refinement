@@ -1,0 +1,19 @@
+iteration_01.sysml:15:14: warning (namespace-distinguishability): Member name 'System' shadows MultiArchitectureSystem::System
+│   15 |     part def System {
+│      |              ^^^^^^
+└── iteration_01.sysml:4:14: note: First declared here
+
+iteration_01.sysml:23:14: warning (namespace-distinguishability): Member name 'Subsystem' shadows MultiArchitectureSystem::Subsystem
+│   23 |     part def Subsystem {
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:6:14: note: First declared here
+
+iteration_01.sysml:33:14: warning (namespace-distinguishability): Member name 'Module' shadows MultiArchitectureSystem::Module
+│   33 |     part def Module {
+│      |              ^^^^^^
+└── iteration_01.sysml:7:14: note: First declared here
+
+iteration_01.sysml:40:14: warning (namespace-distinguishability): Member name 'Component' shadows MultiArchitectureSystem::Component
+│   40 |     part def Component {
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:8:14: note: First declared here

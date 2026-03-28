@@ -1,0 +1,113 @@
+iteration_01.sysml:31:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::InfoClassification::level
+│   31 |       attribute level = InfoLevel::Unclassified;
+│      |                 ^^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:30:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:32:17: warning (namespace-distinguishability): Member name 'code' shadows ClassificationModel::InfoClassification::code
+│   32 |       attribute code = "uncl";
+│      |                 ^^^^
+└── iteration_01.sysml:20:15: note: Inherited from here
+    └── iteration_01.sysml:30:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:33:17: warning (namespace-distinguishability): Member name 'color' shadows ClassificationModel::InfoClassification::color
+│   33 |       attribute color = "green";
+│      |                 ^^^^^
+└── iteration_01.sysml:21:15: note: Inherited from here
+    └── iteration_01.sysml:30:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:36:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::InfoClassification::level
+│   36 |       attribute level = InfoLevel::Confidential;
+│      |                 ^^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:35:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:37:17: warning (namespace-distinguishability): Member name 'code' shadows ClassificationModel::InfoClassification::code
+│   37 |       attribute code = "conf";
+│      |                 ^^^^
+└── iteration_01.sysml:20:15: note: Inherited from here
+    └── iteration_01.sysml:35:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:38:17: warning (namespace-distinguishability): Member name 'color' shadows ClassificationModel::InfoClassification::color
+│   38 |       attribute color = "yellow";
+│      |                 ^^^^^
+└── iteration_01.sysml:21:15: note: Inherited from here
+    └── iteration_01.sysml:35:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:41:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::InfoClassification::level
+│   41 |       attribute level = InfoLevel::Secret;
+│      |                 ^^^^^
+└── iteration_01.sysml:19:15: note: Inherited from here
+    └── iteration_01.sysml:40:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:42:17: warning (namespace-distinguishability): Member name 'code' shadows ClassificationModel::InfoClassification::code
+│   42 |       attribute code = "secr";
+│      |                 ^^^^
+└── iteration_01.sysml:20:15: note: Inherited from here
+    └── iteration_01.sysml:40:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:43:17: warning (namespace-distinguishability): Member name 'color' shadows ClassificationModel::InfoClassification::color
+│   43 |       attribute color = "red";
+│      |                 ^^^^^
+└── iteration_01.sysml:21:15: note: Inherited from here
+    └── iteration_01.sysml:40:17: note: Because ClassificationModel::InfoClassification is specialized through FeatureTyping
+
+iteration_01.sysml:47:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::GradeClassification::level
+│   47 |       attribute level = GradeLevel::A;
+│      |                 ^^^^^
+└── iteration_01.sysml:25:15: note: Inherited from here
+    └── iteration_01.sysml:46:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:48:17: warning (namespace-distinguishability): Member name 'points' shadows ClassificationModel::GradeClassification::points
+│   48 |       attribute points = 4.0;
+│      |                 ^^^^^^
+└── iteration_01.sysml:26:15: note: Inherited from here
+    └── iteration_01.sysml:46:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:51:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::GradeClassification::level
+│   51 |       attribute level = GradeLevel::B;
+│      |                 ^^^^^
+└── iteration_01.sysml:25:15: note: Inherited from here
+    └── iteration_01.sysml:50:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:52:17: warning (namespace-distinguishability): Member name 'points' shadows ClassificationModel::GradeClassification::points
+│   52 |       attribute points = 3.0;
+│      |                 ^^^^^^
+└── iteration_01.sysml:26:15: note: Inherited from here
+    └── iteration_01.sysml:50:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:55:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::GradeClassification::level
+│   55 |       attribute level = GradeLevel::C;
+│      |                 ^^^^^
+└── iteration_01.sysml:25:15: note: Inherited from here
+    └── iteration_01.sysml:54:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:56:17: warning (namespace-distinguishability): Member name 'points' shadows ClassificationModel::GradeClassification::points
+│   56 |       attribute points = 2.0;
+│      |                 ^^^^^^
+└── iteration_01.sysml:26:15: note: Inherited from here
+    └── iteration_01.sysml:54:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:59:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::GradeClassification::level
+│   59 |       attribute level = GradeLevel::D;
+│      |                 ^^^^^
+└── iteration_01.sysml:25:15: note: Inherited from here
+    └── iteration_01.sysml:58:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:60:17: warning (namespace-distinguishability): Member name 'points' shadows ClassificationModel::GradeClassification::points
+│   60 |       attribute points = 1.0;
+│      |                 ^^^^^^
+└── iteration_01.sysml:26:15: note: Inherited from here
+    └── iteration_01.sysml:58:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:63:17: warning (namespace-distinguishability): Member name 'level' shadows ClassificationModel::GradeClassification::level
+│   63 |       attribute level = GradeLevel::F;
+│      |                 ^^^^^
+└── iteration_01.sysml:25:15: note: Inherited from here
+    └── iteration_01.sysml:62:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping
+
+iteration_01.sysml:64:17: warning (namespace-distinguishability): Member name 'points' shadows ClassificationModel::GradeClassification::points
+│   64 |       attribute points = 0.0;
+│      |                 ^^^^^^
+└── iteration_01.sysml:26:15: note: Inherited from here
+    └── iteration_01.sysml:62:19: note: Because ClassificationModel::GradeClassification is specialized through FeatureTyping

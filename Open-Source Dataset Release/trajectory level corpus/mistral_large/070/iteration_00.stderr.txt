@@ -1,0 +1,189 @@
+iteration_01.sysml:5:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    5 |         kilogram
+      |         ^^^^^^^^
+
+iteration_01.sysml:47:45: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+       |                                             ^
+
+iteration_01.sysml:47:59: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+       |                                                           ^
+
+iteration_01.sysml:48:44: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+       |                                            ^
+
+iteration_01.sysml:48:58: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+       |                                                          ^
+
+iteration_01.sysml:58:25: error (parsing-error): Unexpected '(', expected one of ["NAME", ";", "{", "from", "for", "[", "ordered", "nonunique", "if", "not", "#", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "by", "ref", "attribute", "enum", "occurrence", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "of", "interface", "allocation", "allocate", "action", "perform", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "state", "parallel", "do", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                         ^
+
+iteration_01.sysml:58:35: error (parsing-error): Unexpected 'DECIMAL_VALUE'.
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                                   ^^^^
+
+iteration_01.sysml:58:67: error (parsing-error): Unexpected ')', expected one of ["NAME", ";", "{", "dependency", "from", ",", "for", "::", "[", "ordered", "nonunique", ".", "if", "<", "not", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "by", "package", "def", "ref", "attribute", "enum", "occurrence", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "of", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "parallel", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                                                                   ^
+
+iteration_01.sysml:59:24: error (parsing-error): Unexpected '(', expected one of ["NAME", ";", "{", "from", "for", "[", "ordered", "nonunique", "if", "not", "#", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "by", "ref", "attribute", "enum", "occurrence", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "of", "interface", "allocation", "allocate", "action", "perform", "accept", "via", "at", "after", "when", "send", "assign", "terminate", "while", "loop", "state", "parallel", "do", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                        ^
+
+iteration_01.sysml:59:34: error (parsing-error): Unexpected 'DECIMAL_VALUE'.
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                                  ^^^^
+
+iteration_01.sysml:59:66: error (parsing-error): Unexpected ')', expected one of ["NAME", ";", "{", "dependency", "from", ",", "for", "::", "[", "ordered", "nonunique", ".", "if", "<", "not", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "by", "package", "def", "ref", "attribute", "enum", "occurrence", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "of", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "parallel", "exhibit", "calc", "constraint", "assert", "requirement", "concern", "satisfy", "case", "analysis", "verification", "use", "include", "view", "rendering", "viewpoint"].
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                                                                  ^
+
+iteration_01.sysml:47:19: warning (namespace-distinguishability): Member name 'emptyMass' shadows VehicleSystem::Vehicle::emptyMass
+│   47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:14:19: note: Inherited from here
+    └── iteration_01.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:47:38: error (type-error): ScalarValues::Boolean does not conform to VehicleSystem::Mass
+    47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+       |                                      ^
+
+iteration_01.sysml:48:19: warning (namespace-distinguishability): Member name 'fullMass' shadows VehicleSystem::Vehicle::fullMass
+│   48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+│      |                   ^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:48:37: error (type-error): ScalarValues::Boolean does not conform to VehicleSystem::Mass
+    48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+       |                                     ^
+
+iteration_01.sysml:49:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   49 |         part engine : Engine;
+│      |              ^^^^^^
+└── iteration_01.sysml:16:14: note: Inherited from here
+    └── iteration_01.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:50:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleSystem::Vehicle::transmission
+│   50 |         part transmission : Transmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:17:14: note: Inherited from here
+    └── iteration_01.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:51:14: warning (namespace-distinguishability): Member name 'clutch' shadows VehicleSystem::Vehicle::clutch
+│   51 |         part clutch : Clutch;
+│      |              ^^^^^^
+└── iteration_01.sysml:18:14: note: Inherited from here
+    └── iteration_01.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:58:9: warning (namespace-distinguishability): Member name 'maxEmptyMass' shadows VehicleSystem::MassRequirement::maxEmptyMass
+│   58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+│      |         ^^^^^^^^^^^^
+└── iteration_01.sysml:38:19: note: Inherited from here
+    └── iteration_01.sysml:57:27: note: Because VehicleSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:58:26: error (cross-subsetting-crossing-feature): Cross subsetting must be owned by one of two or more end features
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                          ^^^^^
+
+iteration_01.sysml:58:41: error (cross-subsetting-crossing-feature): Cross subsetting must be owned by one of two or more end features
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                                         ^^^^
+
+iteration_01.sysml:58:41: error (feature-owned-cross-subsetting): At most one cross subsetting is allowed
+│   58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+│      |                                         ^^^^
+└── iteration_01.sysml:58:26: note: Previous cross subsetting here
+
+iteration_01.sysml:58:49: error (cross-subsetting-crossing-feature): Cross subsetting must be owned by one of two or more end features
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                                                 ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:58:49: error (feature-owned-cross-subsetting): At most one cross subsetting is allowed
+│   58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+│      |                                                 ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:58:26: note: Previous cross subsetting here
+
+iteration_01.sysml:59:9: warning (namespace-distinguishability): Member name 'maxFullMass' shadows VehicleSystem::MassRequirement::maxFullMass
+│   59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+│      |         ^^^^^^^^^^^
+└── iteration_01.sysml:39:19: note: Inherited from here
+    └── iteration_01.sysml:57:27: note: Because VehicleSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_01.sysml:59:25: error (cross-subsetting-crossing-feature): Cross subsetting must be owned by one of two or more end features
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                         ^^^^^
+
+iteration_01.sysml:59:40: error (cross-subsetting-crossing-feature): Cross subsetting must be owned by one of two or more end features
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                                        ^^^^
+
+iteration_01.sysml:59:40: error (feature-owned-cross-subsetting): At most one cross subsetting is allowed
+│   59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+│      |                                        ^^^^
+└── iteration_01.sysml:59:25: note: Previous cross subsetting here
+
+iteration_01.sysml:59:48: error (cross-subsetting-crossing-feature): Cross subsetting must be owned by one of two or more end features
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                                                ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:59:48: error (feature-owned-cross-subsetting): At most one cross subsetting is allowed
+│   59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+│      |                                                ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:59:25: note: Previous cross subsetting here
+
+iteration_01.sysml:10:47: error (reference-error): No Feature named 'kilogram' found.
+    10 |         attribute unit : MassUnit = MassUnit::kilogram;
+       |                                               ^^^^^^^^
+
+iteration_01.sysml:47:39: error (reference-error): No Feature named 'value' found.
+    47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+       |                                       ^^^^^
+
+iteration_01.sysml:47:54: error (reference-error): No Feature named 'unit' found.
+    47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+       |                                                      ^^^^
+
+iteration_01.sysml:47:72: error (reference-error): No Feature named 'kilogram' found.
+    47 |         attribute emptyMass : Mass = (value => 1500, unit => MassUnit::kilogram);
+       |                                                                        ^^^^^^^^
+
+iteration_01.sysml:48:38: error (reference-error): No Feature named 'value' found.
+    48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+       |                                      ^^^^^
+
+iteration_01.sysml:48:53: error (reference-error): No Feature named 'unit' found.
+    48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+       |                                                     ^^^^
+
+iteration_01.sysml:48:71: error (reference-error): No Feature named 'kilogram' found.
+    48 |         attribute fullMass : Mass = (value => 2000, unit => MassUnit::kilogram);
+       |                                                                       ^^^^^^^^
+
+iteration_01.sysml:58:26: error (reference-error): No Feature named 'value' found.
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                          ^^^^^
+
+iteration_01.sysml:58:41: error (reference-error): No Feature named 'unit' found.
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                                         ^^^^
+
+iteration_01.sysml:58:59: error (reference-error): No Feature named 'kilogram' found.
+    58 |         maxEmptyMass => (value => 1500, unit => MassUnit::kilogram);
+       |                                                           ^^^^^^^^
+
+iteration_01.sysml:59:25: error (reference-error): No Feature named 'value' found.
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                         ^^^^^
+
+iteration_01.sysml:59:40: error (reference-error): No Feature named 'unit' found.
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                                        ^^^^
+
+iteration_01.sysml:59:58: error (reference-error): No Feature named 'kilogram' found.
+    59 |         maxFullMass => (value => 2000, unit => MassUnit::kilogram);
+       |                                                          ^^^^^^^^

@@ -1,0 +1,35 @@
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'description' shadows WheelAssembly::WheelBearingUnit::description
+│   57 |             attribute description : String = "Supports wheel rotation";
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:56:24: note: Because WheelAssembly::WheelBearingUnit is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'sealed' shadows WheelAssembly::Tire::sealed
+│   63 |             attribute sealed : Boolean = true;
+│      |                       ^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:62:21: note: Because WheelAssembly::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'torque' shadows WheelAssembly::BoltConnection::torque
+│   67 |             attribute torque : Real = 120.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:66:22: note: Because WheelAssembly::BoltConnection is specialized through FeatureTyping
+
+iteration_01.sysml:71:23: warning (namespace-distinguishability): Member name 'torque' shadows WheelAssembly::BoltConnection::torque
+│   71 |             attribute torque : Real = 120.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:70:22: note: Because WheelAssembly::BoltConnection is specialized through FeatureTyping
+
+iteration_01.sysml:75:23: warning (namespace-distinguishability): Member name 'torque' shadows WheelAssembly::BoltConnection::torque
+│   75 |             attribute torque : Real = 120.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:74:22: note: Because WheelAssembly::BoltConnection is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'torque' shadows WheelAssembly::BoltConnection::torque
+│   79 |             attribute torque : Real = 120.0;
+│      |                       ^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:78:22: note: Because WheelAssembly::BoltConnection is specialized through FeatureTyping

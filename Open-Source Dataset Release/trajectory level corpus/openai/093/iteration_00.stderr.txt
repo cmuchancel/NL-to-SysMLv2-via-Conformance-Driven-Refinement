@@ -1,0 +1,180 @@
+iteration_01.sysml:2:3: error (parsing-error): Expected a token. Did you forget ';'?
+    2 |   private import ScalarValues::*;
+
+iteration_01.sysml:5:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    5 |     enum Mandatory;
+      |     ^^^^
+
+iteration_01.sysml:11:5: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    11 |     port ifc : GenericPort;
+       |     ^^^^
+
+iteration_01.sysml:13:28: error (parsing-error): Expected a token. Did you forget ';'?
+    13 |   part def SafetyComponent : Component
+
+iteration_01.sysml:14:5: error (parsing-error): Unexpected identifier.
+    14 |     attribute isSafety : Boolean = true;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:16:31: error (parsing-error): Expected a token. Did you forget ';'?
+    16 |   part def NonSafetyComponent : Component
+
+iteration_01.sysml:17:5: error (parsing-error): Unexpected identifier.
+    17 |     attribute isSafety : Boolean = false;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:19:21: error (parsing-error): Expected a token. Did you forget ';'?
+    19 |   part def SeatBelt : SafetyComponent
+
+iteration_01.sysml:20:5: error (parsing-error): Unexpected identifier.
+    20 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Mandatory;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:22:19: error (parsing-error): Expected a token. Did you forget ';'?
+    22 |   part def Bumper : SafetyComponent
+
+iteration_01.sysml:23:5: error (parsing-error): Unexpected identifier.
+    23 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Mandatory;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:25:25: error (parsing-error): Expected a token. Did you forget ';'?
+    25 |   part def DriverAirbag : SafetyComponent
+
+iteration_01.sysml:26:5: error (parsing-error): Unexpected identifier.
+    26 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Optional;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:28:16: error (parsing-error): Expected a token. Did you forget ';'?
+    28 |   part def ABS : SafetyComponent
+
+iteration_01.sysml:29:5: error (parsing-error): Unexpected identifier.
+    29 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Optional;
+       |     ^^^^^^^^^
+
+iteration_01.sysml:31:19: error (parsing-error): Expected a token. Did you forget ';'?
+    31 |   part def Engine : NonSafetyComponent;
+
+iteration_01.sysml:32:25: error (parsing-error): Expected a token. Did you forget ';'?
+    32 |   part def Transmission : NonSafetyComponent;
+
+iteration_01.sysml:33:20: error (parsing-error): Expected a token. Did you forget ';'?
+    33 |   part def Battery : NonSafetyComponent;
+
+iteration_01.sysml:34:23: error (parsing-error): Expected a token. Did you forget ';'?
+    34 |   part def Alternator : NonSafetyComponent;
+
+iteration_01.sysml:35:21: error (parsing-error): Expected a token. Did you forget ';'?
+    35 |   part def HeadUnit : NonSafetyComponent;
+
+iteration_01.sysml:36:21: error (parsing-error): Expected a token. Did you forget ';'?
+    36 |   part def Speakers : NonSafetyComponent;
+
+iteration_01.sysml:37:20: error (parsing-error): Expected a token. Did you forget ';'?
+    37 |   part def Chassis : NonSafetyComponent;
+
+iteration_01.sysml:38:18: error (parsing-error): Expected a token. Did you forget ';'?
+    38 |   part def Doors : NonSafetyComponent;
+
+iteration_01.sysml:39:23: error (parsing-error): Expected a token. Did you forget ';'?
+    39 |   part def BaseBrakes : NonSafetyComponent;
+
+iteration_01.sysml:41:26: error (parsing-error): Expected a token. Did you forget ';'?
+    41 |   part def BodySubsystem : NonSafetyComponent
+
+iteration_01.sysml:42:5: error (parsing-error): Unexpected identifier.
+    42 |     part bumper : Bumper;
+       |     ^^^^
+
+iteration_01.sysml:46:31: error (parsing-error): Expected a token. Did you forget ';'?
+    46 |   part def RestraintSubsystem : NonSafetyComponent
+
+iteration_01.sysml:47:5: error (parsing-error): Unexpected identifier.
+    47 |     part seatBelt : SeatBelt;
+       |     ^^^^
+
+iteration_01.sysml:50:29: error (parsing-error): Expected a token. Did you forget ';'?
+    50 |   part def BrakingSubsystem : NonSafetyComponent
+
+iteration_01.sysml:51:5: error (parsing-error): Unexpected identifier.
+    51 |     part baseBrakes : BaseBrakes;
+       |     ^^^^
+
+iteration_01.sysml:54:32: error (parsing-error): Expected a token. Did you forget ';'?
+    54 |   part def PowertrainSubsystem : NonSafetyComponent
+
+iteration_01.sysml:55:5: error (parsing-error): Unexpected identifier.
+    55 |     part engine : Engine;
+       |     ^^^^
+
+iteration_01.sysml:58:32: error (parsing-error): Expected a token. Did you forget ';'?
+    58 |   part def ElectricalSubsystem : NonSafetyComponent
+
+iteration_01.sysml:59:5: error (parsing-error): Unexpected identifier.
+    59 |     part battery : Battery;
+       |     ^^^^
+
+iteration_01.sysml:62:34: error (parsing-error): Expected a token. Did you forget ';'?
+    62 |   part def InfotainmentSubsystem : NonSafetyComponent
+
+iteration_01.sysml:63:5: error (parsing-error): Unexpected identifier.
+    63 |     part headUnit : HeadUnit;
+       |     ^^^^
+
+iteration_01.sysml:66:29: error (parsing-error): Expected a token. Did you forget ';'?
+    66 |   part def AutomotiveSystem : NonSafetyComponent
+
+iteration_01.sysml:67:5: error (parsing-error): Unexpected identifier.
+    67 |     part body : BodySubsystem;
+       |     ^^^^
+
+iteration_01.sysml:74:27: error (parsing-error): Expected a token. Did you forget ';'?
+    74 |   part def SystemTreeView : NonSafetyComponent
+
+iteration_01.sysml:75:5: error (parsing-error): Unexpected identifier.
+    75 |     part root : AutomotiveSystem;
+       |     ^^^^
+
+iteration_01.sysml:77:34: error (parsing-error): Expected a token. Did you forget ';'?
+    77 |   part def SafetyComponentsTable : NonSafetyComponent
+
+iteration_01.sysml:78:5: error (parsing-error): Unexpected identifier.
+    78 |     part seatBeltEntry : SeatBelt;
+       |     ^^^^
+
+iteration_01.sysml:83:37: error (parsing-error): Expected a token. Did you forget ';'?
+    83 |   part def NonSafetyComponentsTable : NonSafetyComponent
+
+iteration_01.sysml:84:5: error (parsing-error): Unexpected identifier.
+    84 |     part automotiveSystemEntry : AutomotiveSystem;
+       |     ^^^^
+
+iteration_01.sysml:101:24: error (parsing-error): Expected a token. Did you forget ';'?
+    101 |   part def SystemViews : NonSafetyComponent
+
+iteration_01.sysml:102:5: error (parsing-error): Unexpected identifier.
+    102 |     part treeView : SystemTreeView;
+        |     ^^^^
+
+iteration_01.sysml:14:36: error (type-error): ScalarValues::Boolean does not conform to Component
+    14 |     attribute isSafety : Boolean = true;
+       |                                    ^^^^
+
+iteration_01.sysml:17:36: error (type-error): ScalarValues::Boolean does not conform to Component
+    17 |     attribute isSafety : Boolean = false;
+       |                                    ^^^^^
+
+iteration_01.sysml:20:59: error (reference-error): No Feature named 'Mandatory' found.
+    20 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Mandatory;
+       |                                                           ^^^^^^^^^
+
+iteration_01.sysml:23:59: error (reference-error): No Feature named 'Mandatory' found.
+    23 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Mandatory;
+       |                                                           ^^^^^^^^^
+
+iteration_01.sysml:26:59: error (reference-error): No Feature named 'Optional' found.
+    26 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Optional;
+       |                                                           ^^^^^^^^
+
+iteration_01.sysml:29:59: error (reference-error): No Feature named 'Optional' found.
+    29 |     attribute safetyStatus : SafetyStatus = SafetyStatus::Optional;
+       |                                                           ^^^^^^^^

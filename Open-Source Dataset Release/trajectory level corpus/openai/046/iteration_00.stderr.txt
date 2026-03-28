@@ -1,0 +1,23 @@
+iteration_01.sysml:17:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    17 |         item speedCommand : SpeedCommand;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:21:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    21 |         item speedCommand : SpeedCommand;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:25:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    25 |         item speedValue : SpeedValue;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:29:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    29 |         item speedValue : SpeedValue;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:33:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    33 |         item throttleCommand : ThrottleCommand;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:37:9: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    37 |         item throttleCommand : ThrottleCommand;
+       |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

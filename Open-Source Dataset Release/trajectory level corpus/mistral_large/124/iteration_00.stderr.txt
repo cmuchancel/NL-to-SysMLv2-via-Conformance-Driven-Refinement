@@ -1,0 +1,35 @@
+iteration_01.sysml:5:48: error (parsing-error): Unexpected identifier.
+    5 |         attribute totalMass : MassValue = 2500 kg;
+      |                                                ^^
+
+iteration_01.sysml:11:42: error (parsing-error): Unexpected identifier.
+    11 |         attribute mass : MassValue = 150 kg;
+       |                                          ^^
+
+iteration_01.sysml:23:42: error (parsing-error): Unexpected identifier.
+    23 |         attribute mass : MassValue = 250 kg;
+       |                                          ^^
+
+iteration_01.sysml:5:31: error (reference-error): No Type named 'MassValue' found.
+    5 |         attribute totalMass : MassValue = 2500 kg;
+      |                               ^^^^^^^^^
+
+iteration_01.sysml:11:26: error (reference-error): No Type named 'MassValue' found.
+    11 |         attribute mass : MassValue = 150 kg;
+       |                          ^^^^^^^^^
+
+iteration_01.sysml:18:26: error (reference-error): No Type named 'MassValue' found.
+    18 |         attribute mass : MassValue;
+       |                          ^^^^^^^^^
+
+iteration_01.sysml:19:35: error (reference-error): No Type named 'AngleValue' found.
+    19 |         attribute steeringAngle : AngleValue;
+       |                                   ^^^^^^^^^^
+
+iteration_01.sysml:23:26: error (reference-error): No Type named 'MassValue' found.
+    23 |         attribute mass : MassValue = 250 kg;
+       |                          ^^^^^^^^^
+
+iteration_01.sysml:30:26: error (reference-error): No Type named 'MassValue' found.
+    30 |         attribute mass : MassValue;
+       |                          ^^^^^^^^^

@@ -1,0 +1,39 @@
+iteration_01.sysml:38:18: warning (namespace-distinguishability): Member name 'subsystemA' shadows AutomotiveConfiguration::Automobile::subsystemA
+│   38 |             part subsystemA :> SubsystemA_Config1;
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:37:27: note: Because AutomotiveConfiguration::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:39:18: warning (namespace-distinguishability): Member name 'subsystemB' shadows AutomotiveConfiguration::Automobile::subsystemB
+│   39 |             part subsystemB :> SubsystemB_Config1;
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:37:27: note: Because AutomotiveConfiguration::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:45:18: warning (namespace-distinguishability): Member name 'subsystemA' shadows AutomotiveConfiguration::Automobile::subsystemA
+│   45 |             part subsystemA :> SubsystemA_Config2;
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:44:27: note: Because AutomotiveConfiguration::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:46:18: warning (namespace-distinguishability): Member name 'subsystemB' shadows AutomotiveConfiguration::Automobile::subsystemB
+│   46 |             part subsystemB :> SubsystemB_Config1;
+│      |                  ^^^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:44:27: note: Because AutomotiveConfiguration::Automobile is specialized through FeatureTyping
+
+iteration_01.sysml:38:32: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveConfiguration::SubsystemA_Config1)
+    38 |             part subsystemA :> SubsystemA_Config1;
+       |                                ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:39:32: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveConfiguration::SubsystemB_Config1)
+    39 |             part subsystemB :> SubsystemB_Config1;
+       |                                ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:45:32: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveConfiguration::SubsystemA_Config2)
+    45 |             part subsystemA :> SubsystemA_Config2;
+       |                                ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:46:32: error (reference-error): Expected Feature element but found PartDefinition (AutomotiveConfiguration::SubsystemB_Config1)
+    46 |             part subsystemB :> SubsystemB_Config1;
+       |                                ^^^^^^^^^^^^^^^^^^

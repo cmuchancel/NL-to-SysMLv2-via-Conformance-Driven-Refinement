@@ -1,0 +1,95 @@
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'producerId' shadows PublishSubscribeSystem::Producer::producerId
+│   87 |             attribute producerId = "P001";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:86:26: note: Because PublishSubscribeSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:88:23: warning (namespace-distinguishability): Member name 'producerName' shadows PublishSubscribeSystem::Producer::producerName
+│   88 |             attribute producerName = "ProducerOne";
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:86:26: note: Because PublishSubscribeSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:92:23: warning (namespace-distinguishability): Member name 'producerId' shadows PublishSubscribeSystem::Producer::producerId
+│   92 |             attribute producerId = "P002";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:91:26: note: Because PublishSubscribeSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:93:23: warning (namespace-distinguishability): Member name 'producerName' shadows PublishSubscribeSystem::Producer::producerName
+│   93 |             attribute producerName = "ProducerTwo";
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:91:26: note: Because PublishSubscribeSystem::Producer is specialized through FeatureTyping
+
+iteration_01.sysml:97:23: warning (namespace-distinguishability): Member name 'consumerId' shadows PublishSubscribeSystem::Consumer::consumerId
+│   97 |             attribute consumerId = "C001";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:69:19: note: Inherited from here
+    └── iteration_01.sysml:96:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:98:23: warning (namespace-distinguishability): Member name 'consumerName' shadows PublishSubscribeSystem::Consumer::consumerName
+│   98 |             attribute consumerName = "ConsumerOne";
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:96:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:99:23: warning (namespace-distinguishability): Member name 'subscribedTopic' shadows PublishSubscribeSystem::Consumer::subscribedTopic
+│   99 |             attribute subscribedTopic = "TopicA";
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:96:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:103:23: warning (namespace-distinguishability): Member name 'consumerId' shadows PublishSubscribeSystem::Consumer::consumerId
+│   103 |             attribute consumerId = "C002";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:69:19: note: Inherited from here
+    └── iteration_01.sysml:102:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:104:23: warning (namespace-distinguishability): Member name 'consumerName' shadows PublishSubscribeSystem::Consumer::consumerName
+│   104 |             attribute consumerName = "ConsumerTwo";
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:102:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:105:23: warning (namespace-distinguishability): Member name 'subscribedTopic' shadows PublishSubscribeSystem::Consumer::subscribedTopic
+│   105 |             attribute subscribedTopic = "TopicA";
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:102:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:109:23: warning (namespace-distinguishability): Member name 'consumerId' shadows PublishSubscribeSystem::Consumer::consumerId
+│   109 |             attribute consumerId = "C003";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:69:19: note: Inherited from here
+    └── iteration_01.sysml:108:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:110:23: warning (namespace-distinguishability): Member name 'consumerName' shadows PublishSubscribeSystem::Consumer::consumerName
+│   110 |             attribute consumerName = "ConsumerThree";
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:108:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:111:23: warning (namespace-distinguishability): Member name 'subscribedTopic' shadows PublishSubscribeSystem::Consumer::subscribedTopic
+│   111 |             attribute subscribedTopic = "TopicB";
+│       |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:108:26: note: Because PublishSubscribeSystem::Consumer is specialized through FeatureTyping
+
+iteration_01.sysml:115:23: warning (namespace-distinguishability): Member name 'serverId' shadows PublishSubscribeSystem::Server::serverId
+│   115 |             attribute serverId = "S001";
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:76:19: note: Inherited from here
+    └── iteration_01.sysml:114:23: note: Because PublishSubscribeSystem::Server is specialized through FeatureTyping
+
+iteration_01.sysml:116:23: warning (namespace-distinguishability): Member name 'serverName' shadows PublishSubscribeSystem::Server::serverName
+│   116 |             attribute serverName = "MessageBroker";
+│       |                       ^^^^^^^^^^
+└── iteration_01.sysml:77:19: note: Inherited from here
+    └── iteration_01.sysml:114:23: note: Because PublishSubscribeSystem::Server is specialized through FeatureTyping
+
+iteration_01.sysml:117:23: warning (namespace-distinguishability): Member name 'maxTopics' shadows PublishSubscribeSystem::Server::maxTopics
+│   117 |             attribute maxTopics = 100;
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:78:19: note: Inherited from here
+    └── iteration_01.sysml:114:23: note: Because PublishSubscribeSystem::Server is specialized through FeatureTyping

@@ -1,0 +1,667 @@
+iteration_05.sysml:808:36: error (parsing-error): Unexpected 'ERROR'.
+    808 |     attribute selectionRationale = "Four-cylinder 2.0L engine selected as
+        |                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:808:36: error (parsing-error): Unexpected token '"Four-cylinder 2.0L engine selected as'.
+    808 |     attribute selectionRationale = "Four-cylinder 2.0L engine selected as
+        |                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:57:21: error (reference-error): No Type named 'Cylinder' found.
+    57 |     part cylinder : Cylinder;
+       |                     ^^^^^^^^
+
+iteration_05.sysml:58:19: error (reference-error): No Type named 'Piston' found.
+    58 |     part piston : Piston;
+       |                   ^^^^^^
+
+iteration_05.sysml:59:26: error (reference-error): No Type named 'ConnectingRod' found.
+    59 |     part connectingRod : ConnectingRod;
+       |                          ^^^^^^^^^^^^^
+
+iteration_05.sysml:64:28: error (reference-error): No Type named 'EngineType' found.
+    64 |     attribute engineType : EngineType;
+       |                            ^^^^^^^^^^
+
+iteration_05.sysml:74:23: error (reference-error): No Type named 'Crankshaft' found.
+    74 |     part crankshaft : Crankshaft;
+       |                       ^^^^^^^^^^
+
+iteration_05.sysml:79:28: error (reference-error): No Type named 'EngineType' found.
+    79 |     attribute engineType : EngineType;
+       |                            ^^^^^^^^^^
+
+iteration_05.sysml:89:23: error (reference-error): No Type named 'Crankshaft' found.
+    89 |     part crankshaft : Crankshaft;
+       |                       ^^^^^^^^^^
+
+iteration_05.sysml:90:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    90 |     part assembly1 : CylinderAssembly;
+       |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:91:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    91 |     part assembly2 : CylinderAssembly;
+       |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:92:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    92 |     part assembly3 : CylinderAssembly;
+       |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:93:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    93 |     part assembly4 : CylinderAssembly;
+       |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:98:28: error (reference-error): No Type named 'EngineType' found.
+    98 |     attribute engineType : EngineType;
+       |                            ^^^^^^^^^^
+
+iteration_05.sysml:108:23: error (reference-error): No Type named 'Crankshaft' found.
+    108 |     part crankshaft : Crankshaft;
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:109:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    109 |     part assembly1 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:110:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    110 |     part assembly2 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:111:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    111 |     part assembly3 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:112:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    112 |     part assembly4 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:113:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    113 |     part assembly5 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:114:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    114 |     part assembly6 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:119:28: error (reference-error): No Type named 'EngineType' found.
+    119 |     attribute engineType : EngineType;
+        |                            ^^^^^^^^^^
+
+iteration_05.sysml:129:23: error (reference-error): No Type named 'Crankshaft' found.
+    129 |     part crankshaft : Crankshaft;
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:130:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    130 |     part assembly1 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:131:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    131 |     part assembly2 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:132:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    132 |     part assembly3 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:133:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    133 |     part assembly4 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:134:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    134 |     part assembly5 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:135:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    135 |     part assembly6 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:136:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    136 |     part assembly7 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:137:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    137 |     part assembly8 : CylinderAssembly;
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:152:29: error (reference-error): No Type named 'EvaluationRating' found.
+    152 |     attribute powerRating : EvaluationRating;
+        |                             ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:153:34: error (reference-error): No Type named 'EvaluationRating' found.
+    153 |     attribute efficiencyRating : EvaluationRating;
+        |                                  ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:154:35: error (reference-error): No Type named 'EvaluationRating' found.
+    154 |     attribute reliabilityRating : EvaluationRating;
+        |                                   ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:155:28: error (reference-error): No Type named 'EvaluationRating' found.
+    155 |     attribute costRating : EvaluationRating;
+        |                            ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:156:31: error (reference-error): No Type named 'EvaluationRating' found.
+    156 |     attribute overallRating : EvaluationRating;
+        |                               ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:165:32: error (reference-error): No Type named 'RecommendationStatus' found.
+    165 |     attribute recommendation : RecommendationStatus;
+        |                                ^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:174:32: error (reference-error): No Type named 'RecommendationStatus' found.
+    174 |     attribute recommendation : RecommendationStatus;
+        |                                ^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:176:20: error (reference-error): No Type named 'PerformanceMetrics' found.
+    176 |     part metrics : PerformanceMetrics;
+        |                    ^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:203:21: error (reference-error): No Type named 'PowerOutputPort' found.
+    203 |     port powerOut : PowerOutputPort;
+        |                     ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:204:19: error (reference-error): No Type named 'FuelInputPort' found.
+    204 |     port fuelIn : FuelInputPort;
+        |                   ^^^^^^^^^^^^^
+
+iteration_05.sysml:205:20: error (reference-error): No Type named 'DataPort' found.
+    205 |     port dataOut : DataPort;
+        |                    ^^^^^^^^
+
+iteration_05.sysml:206:27: error (reference-error): No Type named 'Engine' found.
+    206 |     part selectedEngine : Engine;
+        |                           ^^^^^^
+
+iteration_05.sysml:207:21: error (reference-error): No Type named 'TradeoffAnalysis' found.
+    207 |     part tradeoff : TradeoffAnalysis;
+        |                     ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:216:26: error (reference-error): No Type named 'DataPort' found.
+    216 |     port systemDataOut : DataPort;
+        |                          ^^^^^^^^
+
+iteration_05.sysml:217:23: error (reference-error): No Type named 'Powertrain' found.
+    217 |     part powertrain : Powertrain;
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:218:26: error (reference-error): No Type named 'EngineCandidate' found.
+    218 |     part candidate4Cyl : EngineCandidate;
+        |                          ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:219:26: error (reference-error): No Type named 'EngineCandidate' found.
+    219 |     part candidate6Cyl : EngineCandidate;
+        |                          ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:220:26: error (reference-error): No Type named 'EngineCandidate' found.
+    220 |     part candidate8Cyl : EngineCandidate;
+        |                          ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:221:26: error (reference-error): No Type named 'FourCylinderEngine' found.
+    221 |     part fourCylEngine : FourCylinderEngine;
+        |                          ^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:222:25: error (reference-error): No Type named 'SixCylinderEngine' found.
+    222 |     part sixCylEngine : SixCylinderEngine;
+        |                         ^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:223:27: error (reference-error): No Type named 'EightCylinderEngine' found.
+    223 |     part eightCylEngine : EightCylinderEngine;
+        |                           ^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:224:27: error (reference-error): No Type named 'TradeoffAnalysis' found.
+    224 |     part systemTradeoff : TradeoffAnalysis;
+        |                           ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:227:45: error (reference-error): No Type named 'VehiclePowertrainSystem' found.
+    227 | part vehiclePowertrainConfigurationSystem : VehiclePowertrainSystem;
+        |                                             ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:229:23: error (reference-error): No Type named 'Powertrain' found.
+    229 | part mainPowertrain : Powertrain;
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:231:19: error (reference-error): No Type named 'Engine' found.
+    231 | part mainEngine : Engine {
+        |                   ^^^^^^
+
+iteration_05.sysml:233:28: error (reference-error): No Namespace named 'EngineType' found.
+    233 |     attribute engineType = EngineType::FourCylinder;
+        |                            ^^^^^^^^^^
+
+iteration_05.sysml:245:23: error (reference-error): No Type named 'Crankshaft' found.
+    245 | part mainCrankshaft : Crankshaft {
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:253:21: error (reference-error): No Type named 'TradeoffAnalysis' found.
+    253 | part mainTradeoff : TradeoffAnalysis {
+        |                     ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:259:32: error (reference-error): No Namespace named 'RecommendationStatus' found.
+    259 |     attribute recommendation = RecommendationStatus::Recommended;
+        |                                ^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:264:22: error (reference-error): No Type named 'EngineCandidate' found.
+    264 | part candidate4Cyl : EngineCandidate {
+        |                      ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:268:32: error (reference-error): No Namespace named 'RecommendationStatus' found.
+    268 |     attribute recommendation = RecommendationStatus::Recommended;
+        |                                ^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:270:20: error (reference-error): No Type named 'PerformanceMetrics' found.
+    270 |     part metrics : PerformanceMetrics {
+        |                    ^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:282:33: error (reference-error): No Namespace named 'EvaluationRating' found.
+    282 |         attribute powerRating = EvaluationRating::Good;
+        |                                 ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:283:38: error (reference-error): No Namespace named 'EvaluationRating' found.
+    283 |         attribute efficiencyRating = EvaluationRating::Excellent;
+        |                                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:284:39: error (reference-error): No Namespace named 'EvaluationRating' found.
+    284 |         attribute reliabilityRating = EvaluationRating::Excellent;
+        |                                       ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:285:32: error (reference-error): No Namespace named 'EvaluationRating' found.
+    285 |         attribute costRating = EvaluationRating::Excellent;
+        |                                ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:286:35: error (reference-error): No Namespace named 'EvaluationRating' found.
+    286 |         attribute overallRating = EvaluationRating::Excellent;
+        |                                   ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:290:22: error (reference-error): No Type named 'EngineCandidate' found.
+    290 | part candidate6Cyl : EngineCandidate {
+        |                      ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:294:32: error (reference-error): No Namespace named 'RecommendationStatus' found.
+    294 |     attribute recommendation = RecommendationStatus::NotRecommended;
+        |                                ^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:296:20: error (reference-error): No Type named 'PerformanceMetrics' found.
+    296 |     part metrics : PerformanceMetrics {
+        |                    ^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:308:33: error (reference-error): No Namespace named 'EvaluationRating' found.
+    308 |         attribute powerRating = EvaluationRating::Excellent;
+        |                                 ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:309:38: error (reference-error): No Namespace named 'EvaluationRating' found.
+    309 |         attribute efficiencyRating = EvaluationRating::Good;
+        |                                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:310:39: error (reference-error): No Namespace named 'EvaluationRating' found.
+    310 |         attribute reliabilityRating = EvaluationRating::Excellent;
+        |                                       ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:311:32: error (reference-error): No Namespace named 'EvaluationRating' found.
+    311 |         attribute costRating = EvaluationRating::Fair;
+        |                                ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:312:35: error (reference-error): No Namespace named 'EvaluationRating' found.
+    312 |         attribute overallRating = EvaluationRating::Good;
+        |                                   ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:316:22: error (reference-error): No Type named 'EngineCandidate' found.
+    316 | part candidate8Cyl : EngineCandidate {
+        |                      ^^^^^^^^^^^^^^^
+
+iteration_05.sysml:320:32: error (reference-error): No Namespace named 'RecommendationStatus' found.
+    320 |     attribute recommendation = RecommendationStatus::NotRecommended;
+        |                                ^^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:322:20: error (reference-error): No Type named 'PerformanceMetrics' found.
+    322 |     part metrics : PerformanceMetrics {
+        |                    ^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:334:33: error (reference-error): No Namespace named 'EvaluationRating' found.
+    334 |         attribute powerRating = EvaluationRating::Excellent;
+        |                                 ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:335:38: error (reference-error): No Namespace named 'EvaluationRating' found.
+    335 |         attribute efficiencyRating = EvaluationRating::Poor;
+        |                                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:336:39: error (reference-error): No Namespace named 'EvaluationRating' found.
+    336 |         attribute reliabilityRating = EvaluationRating::Good;
+        |                                       ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:337:32: error (reference-error): No Namespace named 'EvaluationRating' found.
+    337 |         attribute costRating = EvaluationRating::Poor;
+        |                                ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:338:35: error (reference-error): No Namespace named 'EvaluationRating' found.
+    338 |         attribute overallRating = EvaluationRating::Fair;
+        |                                   ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:342:30: error (reference-error): No Type named 'FourCylinderEngine' found.
+    342 | part fourCylEngineInstance : FourCylinderEngine {
+        |                              ^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:344:28: error (reference-error): No Namespace named 'EngineType' found.
+    344 |     attribute engineType = EngineType::FourCylinder;
+        |                            ^^^^^^^^^^
+
+iteration_05.sysml:354:23: error (reference-error): No Type named 'Crankshaft' found.
+    354 |     part crankshaft : Crankshaft {
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:361:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    361 |     part assembly1 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:363:25: error (reference-error): No Type named 'Cylinder' found.
+    363 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:370:23: error (reference-error): No Type named 'Piston' found.
+    370 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:376:30: error (reference-error): No Type named 'ConnectingRod' found.
+    376 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:383:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    383 |     part assembly2 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:385:25: error (reference-error): No Type named 'Cylinder' found.
+    385 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:392:23: error (reference-error): No Type named 'Piston' found.
+    392 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:398:30: error (reference-error): No Type named 'ConnectingRod' found.
+    398 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:405:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    405 |     part assembly3 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:407:25: error (reference-error): No Type named 'Cylinder' found.
+    407 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:414:23: error (reference-error): No Type named 'Piston' found.
+    414 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:420:30: error (reference-error): No Type named 'ConnectingRod' found.
+    420 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:427:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    427 |     part assembly4 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:429:25: error (reference-error): No Type named 'Cylinder' found.
+    429 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:436:23: error (reference-error): No Type named 'Piston' found.
+    436 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:442:30: error (reference-error): No Type named 'ConnectingRod' found.
+    442 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:451:29: error (reference-error): No Type named 'SixCylinderEngine' found.
+    451 | part sixCylEngineInstance : SixCylinderEngine {
+        |                             ^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:453:28: error (reference-error): No Namespace named 'EngineType' found.
+    453 |     attribute engineType = EngineType::SixCylinder;
+        |                            ^^^^^^^^^^
+
+iteration_05.sysml:463:23: error (reference-error): No Type named 'Crankshaft' found.
+    463 |     part crankshaft : Crankshaft {
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:470:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    470 |     part assembly1 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:472:25: error (reference-error): No Type named 'Cylinder' found.
+    472 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:479:23: error (reference-error): No Type named 'Piston' found.
+    479 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:485:30: error (reference-error): No Type named 'ConnectingRod' found.
+    485 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:492:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    492 |     part assembly2 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:494:25: error (reference-error): No Type named 'Cylinder' found.
+    494 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:501:23: error (reference-error): No Type named 'Piston' found.
+    501 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:507:30: error (reference-error): No Type named 'ConnectingRod' found.
+    507 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:514:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    514 |     part assembly3 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:516:25: error (reference-error): No Type named 'Cylinder' found.
+    516 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:523:23: error (reference-error): No Type named 'Piston' found.
+    523 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:529:30: error (reference-error): No Type named 'ConnectingRod' found.
+    529 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:536:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    536 |     part assembly4 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:538:25: error (reference-error): No Type named 'Cylinder' found.
+    538 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:545:23: error (reference-error): No Type named 'Piston' found.
+    545 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:551:30: error (reference-error): No Type named 'ConnectingRod' found.
+    551 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:558:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    558 |     part assembly5 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:560:25: error (reference-error): No Type named 'Cylinder' found.
+    560 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:567:23: error (reference-error): No Type named 'Piston' found.
+    567 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:573:30: error (reference-error): No Type named 'ConnectingRod' found.
+    573 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:580:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    580 |     part assembly6 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:582:25: error (reference-error): No Type named 'Cylinder' found.
+    582 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:589:23: error (reference-error): No Type named 'Piston' found.
+    589 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:595:30: error (reference-error): No Type named 'ConnectingRod' found.
+    595 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:604:31: error (reference-error): No Type named 'EightCylinderEngine' found.
+    604 | part eightCylEngineInstance : EightCylinderEngine {
+        |                               ^^^^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:606:28: error (reference-error): No Namespace named 'EngineType' found.
+    606 |     attribute engineType = EngineType::EightCylinder;
+        |                            ^^^^^^^^^^
+
+iteration_05.sysml:616:23: error (reference-error): No Type named 'Crankshaft' found.
+    616 |     part crankshaft : Crankshaft {
+        |                       ^^^^^^^^^^
+
+iteration_05.sysml:623:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    623 |     part assembly1 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:625:25: error (reference-error): No Type named 'Cylinder' found.
+    625 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:632:23: error (reference-error): No Type named 'Piston' found.
+    632 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:638:30: error (reference-error): No Type named 'ConnectingRod' found.
+    638 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:645:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    645 |     part assembly2 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:647:25: error (reference-error): No Type named 'Cylinder' found.
+    647 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:654:23: error (reference-error): No Type named 'Piston' found.
+    654 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:660:30: error (reference-error): No Type named 'ConnectingRod' found.
+    660 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:667:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    667 |     part assembly3 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:669:25: error (reference-error): No Type named 'Cylinder' found.
+    669 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:676:23: error (reference-error): No Type named 'Piston' found.
+    676 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:682:30: error (reference-error): No Type named 'ConnectingRod' found.
+    682 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:689:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    689 |     part assembly4 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:691:25: error (reference-error): No Type named 'Cylinder' found.
+    691 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:698:23: error (reference-error): No Type named 'Piston' found.
+    698 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:704:30: error (reference-error): No Type named 'ConnectingRod' found.
+    704 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:711:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    711 |     part assembly5 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:713:25: error (reference-error): No Type named 'Cylinder' found.
+    713 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:720:23: error (reference-error): No Type named 'Piston' found.
+    720 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:726:30: error (reference-error): No Type named 'ConnectingRod' found.
+    726 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:733:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    733 |     part assembly6 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:735:25: error (reference-error): No Type named 'Cylinder' found.
+    735 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:742:23: error (reference-error): No Type named 'Piston' found.
+    742 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:748:30: error (reference-error): No Type named 'ConnectingRod' found.
+    748 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:755:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    755 |     part assembly7 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:757:25: error (reference-error): No Type named 'Cylinder' found.
+    757 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:764:23: error (reference-error): No Type named 'Piston' found.
+    764 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:770:30: error (reference-error): No Type named 'ConnectingRod' found.
+    770 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:777:22: error (reference-error): No Type named 'CylinderAssembly' found.
+    777 |     part assembly8 : CylinderAssembly {
+        |                      ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:779:25: error (reference-error): No Type named 'Cylinder' found.
+    779 |         part cylinder : Cylinder {
+        |                         ^^^^^^^^
+
+iteration_05.sysml:786:23: error (reference-error): No Type named 'Piston' found.
+    786 |         part piston : Piston {
+        |                       ^^^^^^
+
+iteration_05.sysml:792:30: error (reference-error): No Type named 'ConnectingRod' found.
+    792 |         part connectingRod : ConnectingRod {
+        |                              ^^^^^^^^^^^^^
+
+iteration_05.sysml:801:31: error (reference-error): No Type named 'TradeoffAnalysis' found.
+    801 | part systemTradeoffAnalysis : TradeoffAnalysis {
+        |                               ^^^^^^^^^^^^^^^^
+
+iteration_05.sysml:807:32: error (reference-error): No Namespace named 'RecommendationStatus' found.
+    807 |     attribute recommendation = RecommendationStatus::Recommended;
+        |                                ^^^^^^^^^^^^^^^^^^^^

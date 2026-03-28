@@ -1,0 +1,7 @@
+iteration_01.sysml:10:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    10 |     item fuel : Fuel;
+       |     ^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:14:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    14 |     item temperature : Temperature;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

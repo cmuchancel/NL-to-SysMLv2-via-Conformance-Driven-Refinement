@@ -1,0 +1,13 @@
+iteration_02.sysml:15:24: error (parsing-error): Unexpected '.', expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    15 |         currentColor = .green;
+       |                        ^
+
+iteration_02.sysml:15:9: warning (namespace-distinguishability): Member name 'currentColor' shadows TrafficSignalSystem::TrafficSignalComponent::currentColor
+│   15 |         currentColor = .green;
+│      |         ^^^^^^^^^^^^
+└── iteration_02.sysml:11:19: note: Inherited from here
+    └── iteration_02.sysml:14:30: note: Because TrafficSignalSystem::TrafficSignalComponent is specialized through FeatureTyping
+
+iteration_02.sysml:15:25: error (reference-error): No Feature named 'green' found.
+    15 |         currentColor = .green;
+       |                         ^^^^^

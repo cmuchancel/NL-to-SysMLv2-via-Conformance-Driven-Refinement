@@ -1,0 +1,79 @@
+iteration_01.sysml:5:14: error (parsing-error): Unexpected token '汽车'.
+    5 |     part def 汽车 {
+      |              ^^^^
+
+iteration_01.sysml:11:14: error (parsing-error): Unexpected token '扭矩'.
+    11 |     part def 扭矩 {
+       |              ^^^^
+
+iteration_01.sysml:18:14: error (parsing-error): Unexpected token '发动机'.
+    18 |     part def 发动机 {
+       |              ^^^^^^
+
+iteration_01.sysml:23:14: error (parsing-error): Unexpected token '变速箱'.
+    23 |     part def 变速箱 {
+       |              ^^^^^^
+
+iteration_01.sysml:29:16: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    29 |     part myCar : 汽车 {
+       |                ^
+
+iteration_01.sysml:29:18: error (parsing-error): Unexpected token '汽车'.
+    29 |     part myCar : 汽车 {
+       |                  ^^^^
+
+iteration_01.sysml:30:21: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    30 |         part engine : 发动机;
+       |                     ^
+
+iteration_01.sysml:30:23: error (parsing-error): Unexpected token '发动机'.
+    30 |         part engine : 发动机;
+       |                       ^^^^^^
+
+iteration_01.sysml:31:27: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    31 |         part transmission : 变速箱;
+       |                           ^
+
+iteration_01.sysml:31:29: error (parsing-error): Unexpected token '变速箱'.
+    31 |         part transmission : 变速箱;
+       |                             ^^^^^^
+
+iteration_01.sysml:32:26: error (parsing-error): Unexpected ':', expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    32 |         attribute torque : 扭矩 = (value => 350, unit => "N·m");
+       |                          ^
+
+iteration_01.sysml:32:28: error (parsing-error): Unexpected token '扭矩'.
+    32 |         attribute torque : 扭矩 = (value => 350, unit => "N·m");
+       |                            ^^^^
+
+iteration_01.sysml:32:44: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    32 |         attribute torque : 扭矩 = (value => 350, unit => "N·m");
+       |                                          ^
+
+iteration_01.sysml:32:57: error (parsing-error): Unexpected '=', expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", "*", ".", "?", "-", "==", "!=", "<", ">", "/", "@", "=", ";", "{", "}", "from", ",", "to", "**", "[", "]", "if", "else", "??", "implies", "or", "and", "+", "|", "&", "xor", "===", "!==", "<=", ">=", "..", "%", "^", "hastype", "istype", "as", "@@", "meta", "#", "(", ")", ".?", "->", "by", "then", "connect", "of", "action", "via", "parallel", "do"].
+    32 |         attribute torque : 扭矩 = (value => 350, unit => "N·m");
+       |                                                       ^
+
+iteration_01.sysml:36:14: error (parsing-error): Unexpected token '动力输出'.
+    36 |     port def 动力输出 {
+       |              ^^^^^^^^
+
+iteration_01.sysml:40:14: error (parsing-error): Unexpected token '动力输入'.
+    40 |     port def 动力输入 {
+       |              ^^^^^^^^
+
+iteration_01.sysml:45:48: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "::", "ElementReference_repeat1", "MULTILINE_NOTE", ";", "{", "from", ",", "to", "locale", "[", ".", "if", "(", ")", "=", "REGULAR_COMMENT", "then", "accept", "via", "do"].
+    45 |     connect myCar.engine to myCar.transmission using 动力输出;
+       |                                                ^^^^^
+
+iteration_01.sysml:45:54: error (parsing-error): Unexpected token '动力输出'.
+    45 |     connect myCar.engine to myCar.transmission using 动力输出;
+       |                                                      ^^^^^^^^
+
+iteration_01.sysml:32:38: error (reference-error): No Feature named 'value' found.
+    32 |         attribute torque : 扭矩 = (value => 350, unit => "N·m");
+       |                                    ^^^^^
+
+iteration_01.sysml:32:52: error (reference-error): No Feature named 'unit' found.
+    32 |         attribute torque : 扭矩 = (value => 350, unit => "N·m");
+       |                                                  ^^^^

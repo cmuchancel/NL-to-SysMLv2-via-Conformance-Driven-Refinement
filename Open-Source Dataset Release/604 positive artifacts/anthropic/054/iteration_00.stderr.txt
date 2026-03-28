@@ -1,0 +1,71 @@
+iteration_01.sysml:35:19: warning (namespace-distinguishability): Member name 'partNumber' shadows VehicleMassModel::Vehicle::partNumber
+│   35 |         attribute partNumber = "VH-001";
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:34:22: note: Because VehicleMassModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:36:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Vehicle::mass
+│   36 |         attribute mass = 500.0;
+│      |                   ^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:34:22: note: Because VehicleMassModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:37:19: warning (namespace-distinguishability): Member name 'totalMass' shadows VehicleMassModel::Vehicle::totalMass
+│   37 |         attribute totalMass = 1500.0;
+│      |                   ^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:34:22: note: Because VehicleMassModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:39:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleMassModel::Vehicle::engine
+│   39 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_01.sysml:29:14: note: Inherited from here
+    └── iteration_01.sysml:34:22: note: Because VehicleMassModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:40:23: warning (namespace-distinguishability): Member name 'partNumber' shadows VehicleMassModel::Engine::partNumber
+│   40 |             attribute partNumber = "ENG-001";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:39:23: note: Because VehicleMassModel::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:41:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Engine::mass
+│   41 |             attribute mass = 600.0;
+│      |                       ^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:39:23: note: Because VehicleMassModel::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:44:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleMassModel::Vehicle::transmission
+│   44 |         part transmission : Transmission {
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:30:14: note: Inherited from here
+    └── iteration_01.sysml:34:22: note: Because VehicleMassModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'partNumber' shadows VehicleMassModel::Transmission::partNumber
+│   45 |             attribute partNumber = "TRN-001";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:15:19: note: Inherited from here
+    └── iteration_01.sysml:44:29: note: Because VehicleMassModel::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Transmission::mass
+│   46 |             attribute mass = 200.0;
+│      |                       ^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:44:29: note: Because VehicleMassModel::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:49:14: warning (namespace-distinguishability): Member name 'body' shadows VehicleMassModel::Vehicle::body
+│   49 |         part body : Body {
+│      |              ^^^^
+└── iteration_01.sysml:31:14: note: Inherited from here
+    └── iteration_01.sysml:34:22: note: Because VehicleMassModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:50:23: warning (namespace-distinguishability): Member name 'partNumber' shadows VehicleMassModel::Body::partNumber
+│   50 |             attribute partNumber = "BDY-001";
+│      |                       ^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:49:21: note: Because VehicleMassModel::Body is specialized through FeatureTyping
+
+iteration_01.sysml:51:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleMassModel::Body::mass
+│   51 |             attribute mass = 200.0;
+│      |                       ^^^^
+└── iteration_01.sysml:21:19: note: Inherited from here
+    └── iteration_01.sysml:49:21: note: Because VehicleMassModel::Body is specialized through FeatureTyping

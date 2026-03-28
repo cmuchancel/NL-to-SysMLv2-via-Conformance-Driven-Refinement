@@ -1,0 +1,35 @@
+iteration_03.sysml:22:14: warning (namespace-distinguishability): Member name 'component1' shadows SecurityManagement::System::component1
+│   22 |         part component1 : Component {
+│      |              ^^^^^^^^^^
+└── iteration_03.sysml:16:14: note: Inherited from here
+    └── iteration_03.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_03.sysml:23:23: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   23 |             attribute securityClassification = SecurityLevel::Confidential;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:22:27: note: Because SecurityManagement::Component is specialized through FeatureTyping
+
+iteration_03.sysml:25:14: warning (namespace-distinguishability): Member name 'component2' shadows SecurityManagement::System::component2
+│   25 |         part component2 : Component {
+│      |              ^^^^^^^^^^
+└── iteration_03.sysml:17:14: note: Inherited from here
+    └── iteration_03.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_03.sysml:26:23: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   26 |             attribute securityClassification = SecurityLevel::Unclassified;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:25:27: note: Because SecurityManagement::Component is specialized through FeatureTyping
+
+iteration_03.sysml:28:14: warning (namespace-distinguishability): Member name 'component3' shadows SecurityManagement::System::component3
+│   28 |         part component3 : Component {
+│      |              ^^^^^^^^^^
+└── iteration_03.sysml:18:14: note: Inherited from here
+    └── iteration_03.sysml:21:26: note: Because SecurityManagement::System is specialized through FeatureTyping
+
+iteration_03.sysml:29:23: warning (namespace-distinguishability): Member name 'securityClassification' shadows SecurityManagement::Component::securityClassification
+│   29 |             attribute securityClassification = SecurityLevel::Secret;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_03.sysml:12:19: note: Inherited from here
+    └── iteration_03.sysml:28:27: note: Because SecurityManagement::Component is specialized through FeatureTyping

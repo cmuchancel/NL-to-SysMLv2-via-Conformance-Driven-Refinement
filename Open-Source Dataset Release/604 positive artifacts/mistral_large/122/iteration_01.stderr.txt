@@ -1,0 +1,23 @@
+iteration_02.sysml:29:19: warning (namespace-distinguishability): Member name 'condition' shadows VehicleFuelEconomy::TestScenario::condition
+│   29 |         attribute condition : DrivingCondition = DrivingCondition::urban;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:28:22: note: Because VehicleFuelEconomy::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:30:19: warning (namespace-distinguishability): Member name 'minFuelEconomy' shadows VehicleFuelEconomy::TestScenario::minFuelEconomy
+│   30 |         attribute minFuelEconomy : Real = 25.0;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_02.sysml:23:19: note: Inherited from here
+    └── iteration_02.sysml:28:22: note: Because VehicleFuelEconomy::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:33:19: warning (namespace-distinguishability): Member name 'condition' shadows VehicleFuelEconomy::TestScenario::condition
+│   33 |         attribute condition : DrivingCondition = DrivingCondition::highway;
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:32:24: note: Because VehicleFuelEconomy::TestScenario is specialized through FeatureTyping
+
+iteration_02.sysml:34:19: warning (namespace-distinguishability): Member name 'minFuelEconomy' shadows VehicleFuelEconomy::TestScenario::minFuelEconomy
+│   34 |         attribute minFuelEconomy : Real = 30.0;
+│      |                   ^^^^^^^^^^^^^^
+└── iteration_02.sysml:23:19: note: Inherited from here
+    └── iteration_02.sysml:32:24: note: Because VehicleFuelEconomy::TestScenario is specialized through FeatureTyping

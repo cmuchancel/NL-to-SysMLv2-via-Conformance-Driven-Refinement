@@ -1,0 +1,77 @@
+iteration_02.sysml:12:28: error (parsing-error): Expected a token. Did you forget ';'?
+    12 |   part def SafetyComponent : Component { 
+
+iteration_02.sysml:16:31: error (parsing-error): Expected a token. Did you forget ';'?
+    16 |   part def NonSafetyComponent : Component { 
+
+iteration_02.sysml:20:21: error (parsing-error): Expected a token. Did you forget ';'?
+    20 |   part def SeatBelt : SafetyComponent { 
+
+iteration_02.sysml:24:19: error (parsing-error): Expected a token. Did you forget ';'?
+    24 |   part def Bumper : SafetyComponent { 
+
+iteration_02.sysml:28:25: error (parsing-error): Expected a token. Did you forget ';'?
+    28 |   part def DriverAirbag : SafetyComponent { 
+
+iteration_02.sysml:32:16: error (parsing-error): Expected a token. Did you forget ';'?
+    32 |   part def ABS : SafetyComponent { 
+
+iteration_02.sysml:36:19: error (parsing-error): Expected a token. Did you forget ';'?
+    36 |   part def Engine : NonSafetyComponent;
+
+iteration_02.sysml:37:25: error (parsing-error): Expected a token. Did you forget ';'?
+    37 |   part def Transmission : NonSafetyComponent;
+
+iteration_02.sysml:38:20: error (parsing-error): Expected a token. Did you forget ';'?
+    38 |   part def Battery : NonSafetyComponent;
+
+iteration_02.sysml:39:23: error (parsing-error): Expected a token. Did you forget ';'?
+    39 |   part def Alternator : NonSafetyComponent;
+
+iteration_02.sysml:40:21: error (parsing-error): Expected a token. Did you forget ';'?
+    40 |   part def HeadUnit : NonSafetyComponent;
+
+iteration_02.sysml:41:21: error (parsing-error): Expected a token. Did you forget ';'?
+    41 |   part def Speakers : NonSafetyComponent;
+
+iteration_02.sysml:42:20: error (parsing-error): Expected a token. Did you forget ';'?
+    42 |   part def Chassis : NonSafetyComponent;
+
+iteration_02.sysml:43:18: error (parsing-error): Expected a token. Did you forget ';'?
+    43 |   part def Doors : NonSafetyComponent;
+
+iteration_02.sysml:44:23: error (parsing-error): Expected a token. Did you forget ';'?
+    44 |   part def BaseBrakes : NonSafetyComponent;
+
+iteration_02.sysml:46:26: error (parsing-error): Expected a token. Did you forget ';'?
+    46 |   part def BodySubsystem : NonSafetyComponent {
+
+iteration_02.sysml:52:31: error (parsing-error): Expected a token. Did you forget ';'?
+    52 |   part def RestraintSubsystem : NonSafetyComponent {
+
+iteration_02.sysml:57:29: error (parsing-error): Expected a token. Did you forget ';'?
+    57 |   part def BrakingSubsystem : NonSafetyComponent {
+
+iteration_02.sysml:62:32: error (parsing-error): Expected a token. Did you forget ';'?
+    62 |   part def PowertrainSubsystem : NonSafetyComponent {
+
+iteration_02.sysml:67:32: error (parsing-error): Expected a token. Did you forget ';'?
+    67 |   part def ElectricalSubsystem : NonSafetyComponent {
+
+iteration_02.sysml:72:34: error (parsing-error): Expected a token. Did you forget ';'?
+    72 |   part def InfotainmentSubsystem : NonSafetyComponent {
+
+iteration_02.sysml:77:29: error (parsing-error): Expected a token. Did you forget ';'?
+    77 |   part def AutomotiveSystem : NonSafetyComponent {
+
+iteration_02.sysml:86:27: error (parsing-error): Expected a token. Did you forget ';'?
+    86 |   part def SystemTreeView : NonSafetyComponent {
+
+iteration_02.sysml:90:34: error (parsing-error): Expected a token. Did you forget ';'?
+    90 |   part def SafetyComponentsTable : NonSafetyComponent {
+
+iteration_02.sysml:97:37: error (parsing-error): Expected a token. Did you forget ';'?
+    97 |   part def NonSafetyComponentsTable : NonSafetyComponent {
+
+iteration_02.sysml:116:24: error (parsing-error): Expected a token. Did you forget ';'?
+    116 |   part def SystemViews : NonSafetyComponent {

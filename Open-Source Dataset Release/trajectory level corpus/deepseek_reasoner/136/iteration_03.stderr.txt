@@ -1,0 +1,2 @@
+iteration_04.sysml:10:25: error (parsing-error): Expected a token. Did you forget ';'?
+    10 |     part def FrenchTire : Tire;

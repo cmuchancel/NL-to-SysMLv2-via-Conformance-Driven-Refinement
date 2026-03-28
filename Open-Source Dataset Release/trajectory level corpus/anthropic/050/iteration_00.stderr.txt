@@ -1,0 +1,29 @@
+iteration_01.sysml:123:19: warning (namespace-distinguishability): Member name 'systemId' shadows VehicleLifecycleManagement::LifecycleManagementSystem::systemId
+│   123 |         attribute systemId = "SYS-001";
+│       |                   ^^^^^^^^
+└── iteration_01.sysml:117:19: note: Inherited from here
+    └── iteration_01.sysml:122:28: note: Because VehicleLifecycleManagement::LifecycleManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:124:19: warning (namespace-distinguishability): Member name 'systemName' shadows VehicleLifecycleManagement::LifecycleManagementSystem::systemName
+│   124 |         attribute systemName = "Vehicle Lifecycle Management System";
+│       |                   ^^^^^^^^^^
+└── iteration_01.sysml:118:19: note: Inherited from here
+    └── iteration_01.sysml:122:28: note: Because VehicleLifecycleManagement::LifecycleManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:125:14: warning (namespace-distinguishability): Member name 'tracker' shadows VehicleLifecycleManagement::LifecycleManagementSystem::tracker
+│   125 |         part tracker : LifecycleTracker {
+│       |              ^^^^^^^
+└── iteration_01.sysml:119:14: note: Inherited from here
+    └── iteration_01.sysml:122:28: note: Because VehicleLifecycleManagement::LifecycleManagementSystem is specialized through FeatureTyping
+
+iteration_01.sysml:126:23: warning (namespace-distinguishability): Member name 'trackerId' shadows VehicleLifecycleManagement::LifecycleTracker::trackerId
+│   126 |             attribute trackerId = "TRACKER-001";
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:109:19: note: Inherited from here
+    └── iteration_01.sysml:125:24: note: Because VehicleLifecycleManagement::LifecycleTracker is specialized through FeatureTyping
+
+iteration_01.sysml:127:18: warning (namespace-distinguishability): Member name 'managedLifecycles' shadows VehicleLifecycleManagement::LifecycleTracker::managedLifecycles
+│   127 |             part managedLifecycles : VehicleLifecycle[1..*];
+│       |                  ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:113:14: note: Inherited from here
+    └── iteration_01.sysml:125:24: note: Because VehicleLifecycleManagement::LifecycleTracker is specialized through FeatureTyping

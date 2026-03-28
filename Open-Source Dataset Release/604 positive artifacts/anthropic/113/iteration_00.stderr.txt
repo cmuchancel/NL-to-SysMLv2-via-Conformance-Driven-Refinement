@@ -1,0 +1,161 @@
+iteration_01.sysml:106:23: warning (namespace-distinguishability): Member name 'vehicleId' shadows VehicleSystem::Vehicle::vehicleId
+│   106 |             attribute vehicleId = "V-001";
+│       |                       ^^^^^^^^^
+└── iteration_01.sysml:59:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:107:23: warning (namespace-distinguishability): Member name 'fuelType' shadows VehicleSystem::Vehicle::fuelType
+│   107 |             attribute fuelType = FuelType::GASOLINE;
+│       |                       ^^^^^^^^
+└── iteration_01.sysml:60:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:108:23: warning (namespace-distinguishability): Member name 'maintenanceIntervalKm' shadows VehicleSystem::Vehicle::maintenanceIntervalKm
+│   108 |             attribute maintenanceIntervalKm = 10000.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:61:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:109:23: warning (namespace-distinguishability): Member name 'temperatureThreshold' shadows VehicleSystem::Vehicle::temperatureThreshold
+│   109 |             attribute temperatureThreshold = 95.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:62:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:110:23: warning (namespace-distinguishability): Member name 'currentTemperature' shadows VehicleSystem::Vehicle::currentTemperature
+│   110 |             attribute currentTemperature = 20.0;
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:111:23: warning (namespace-distinguishability): Member name 'status' shadows VehicleSystem::Vehicle::status
+│   111 |             attribute status = VehicleStatus::SHUTDOWN;
+│       |                       ^^^^^^
+└── iteration_01.sysml:64:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:112:23: warning (namespace-distinguishability): Member name 'brakePedalPressed' shadows VehicleSystem::Vehicle::brakePedalPressed
+│   112 |             attribute brakePedalPressed = false;
+│       |                       ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:65:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:113:23: warning (namespace-distinguishability): Member name 'startSignalReceived' shadows VehicleSystem::Vehicle::startSignalReceived
+│   113 |             attribute startSignalReceived = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:66:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:114:23: warning (namespace-distinguishability): Member name 'shutdownSignalReceived' shadows VehicleSystem::Vehicle::shutdownSignalReceived
+│   114 |             attribute shutdownSignalReceived = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:67:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:115:23: warning (namespace-distinguishability): Member name 'overheatDetected' shadows VehicleSystem::Vehicle::overheatDetected
+│   115 |             attribute overheatDetected = false;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:68:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:116:23: warning (namespace-distinguishability): Member name 'selfInspectionPassed' shadows VehicleSystem::Vehicle::selfInspectionPassed
+│   116 |             attribute selfInspectionPassed = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:69:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:117:23: warning (namespace-distinguishability): Member name 'powerSupplyReady' shadows VehicleSystem::Vehicle::powerSupplyReady
+│   117 |             attribute powerSupplyReady = false;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:70:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:118:23: warning (namespace-distinguishability): Member name 'maintenanceDue' shadows VehicleSystem::Vehicle::maintenanceDue
+│   118 |             attribute maintenanceDue = false;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:71:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:119:23: warning (namespace-distinguishability): Member name 'faultDetected' shadows VehicleSystem::Vehicle::faultDetected
+│   119 |             attribute faultDetected = false;
+│       |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:72:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:120:23: warning (namespace-distinguishability): Member name 'faultRecovered' shadows VehicleSystem::Vehicle::faultRecovered
+│   120 |             attribute faultRecovered = false;
+│       |                       ^^^^^^^^^^^^^^
+└── iteration_01.sysml:73:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:121:23: warning (namespace-distinguishability): Member name 'kmSinceLastMaintenance' shadows VehicleSystem::Vehicle::kmSinceLastMaintenance
+│   121 |             attribute kmSinceLastMaintenance = 0.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:74:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:122:23: warning (namespace-distinguishability): Member name 'healthStatus' shadows VehicleSystem::Vehicle::healthStatus
+│   122 |             attribute healthStatus = true;
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:75:19: note: Inherited from here
+    └── iteration_01.sysml:105:24: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:126:23: warning (namespace-distinguishability): Member name 'controllerId' shadows VehicleSystem::VehicleController::controllerId
+│   126 |             attribute controllerId = "VC-001";
+│       |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:82:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:127:23: warning (namespace-distinguishability): Member name 'autoStartEnabled' shadows VehicleSystem::VehicleController::autoStartEnabled
+│   127 |             attribute autoStartEnabled = true;
+│       |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:83:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:128:23: warning (namespace-distinguishability): Member name 'autoShutdownEnabled' shadows VehicleSystem::VehicleController::autoShutdownEnabled
+│   128 |             attribute autoShutdownEnabled = true;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:84:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:129:23: warning (namespace-distinguishability): Member name 'receivedOverheatWarning' shadows VehicleSystem::VehicleController::receivedOverheatWarning
+│   129 |             attribute receivedOverheatWarning = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:86:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:130:23: warning (namespace-distinguishability): Member name 'receivedHealthStatus' shadows VehicleSystem::VehicleController::receivedHealthStatus
+│   130 |             attribute receivedHealthStatus = true;
+│       |                       ^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:87:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:131:23: warning (namespace-distinguishability): Member name 'receivedMaintenanceRequest' shadows VehicleSystem::VehicleController::receivedMaintenanceRequest
+│   131 |             attribute receivedMaintenanceRequest = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:88:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:132:23: warning (namespace-distinguishability): Member name 'receivedFaultRecovery' shadows VehicleSystem::VehicleController::receivedFaultRecovery
+│   132 |             attribute receivedFaultRecovery = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:89:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:133:23: warning (namespace-distinguishability): Member name 'receivedTemperature' shadows VehicleSystem::VehicleController::receivedTemperature
+│   133 |             attribute receivedTemperature = 20.0;
+│       |                       ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:90:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:134:23: warning (namespace-distinguishability): Member name 'startCommandIssued' shadows VehicleSystem::VehicleController::startCommandIssued
+│   134 |             attribute startCommandIssued = false;
+│       |                       ^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:91:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping
+
+iteration_01.sysml:135:23: warning (namespace-distinguishability): Member name 'shutdownCommandIssued' shadows VehicleSystem::VehicleController::shutdownCommandIssued
+│   135 |             attribute shutdownCommandIssued = false;
+│       |                       ^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:92:19: note: Inherited from here
+    └── iteration_01.sysml:125:27: note: Because VehicleSystem::VehicleController is specialized through FeatureTyping

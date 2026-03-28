@@ -1,0 +1,89 @@
+iteration_02.sysml:34:15: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::Vehicle::mass
+│   34 |     attribute mass = 2000;
+│      |               ^^^^
+└── iteration_02.sysml:21:15: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:35:15: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::Vehicle::gear
+│   35 |     attribute gear = GearPosition::Neutral;
+│      |               ^^^^
+└── iteration_02.sysml:22:15: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:36:15: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::Vehicle::throttle
+│   36 |     attribute throttle = 0;
+│      |               ^^^^^^^^
+└── iteration_02.sysml:23:15: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:37:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   37 |     part engine;
+│      |          ^^^^^^
+└── iteration_02.sysml:24:10: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:38:10: warning (namespace-distinguishability): Member name 'currentDriver' shadows VehicleModel::Vehicle::currentDriver
+│   38 |     part currentDriver : Driver = Alice;
+│      |          ^^^^^^^^^^^^^
+└── iteration_02.sysml:25:10: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:39:10: warning (namespace-distinguishability): Member name 'state1' shadows VehicleModel::Vehicle::state1
+│   39 |     part state1 : VehicleState {
+│      |          ^^^^^^
+└── iteration_02.sysml:26:10: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:40:17: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::VehicleState::mass
+│   40 |       attribute mass = 2000;
+│      |                 ^^^^
+└── iteration_02.sysml:14:15: note: Inherited from here
+    └── iteration_02.sysml:39:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:41:17: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::VehicleState::gear
+│   41 |       attribute gear = GearPosition::Neutral;
+│      |                 ^^^^
+└── iteration_02.sysml:15:15: note: Inherited from here
+    └── iteration_02.sysml:39:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:42:17: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::VehicleState::throttle
+│   42 |       attribute throttle = 0;
+│      |                 ^^^^^^^^
+└── iteration_02.sysml:16:15: note: Inherited from here
+    └── iteration_02.sysml:39:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:43:12: warning (namespace-distinguishability): Member name 'driver' shadows VehicleModel::VehicleState::driver
+│   43 |       part driver : Driver = Alice;
+│      |            ^^^^^^
+└── iteration_02.sysml:17:10: note: Inherited from here
+    └── iteration_02.sysml:39:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:45:10: warning (namespace-distinguishability): Member name 'state2' shadows VehicleModel::Vehicle::state2
+│   45 |     part state2 : VehicleState {
+│      |          ^^^^^^
+└── iteration_02.sysml:27:10: note: Inherited from here
+    └── iteration_02.sysml:33:20: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:46:17: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::VehicleState::mass
+│   46 |       attribute mass = 1500;
+│      |                 ^^^^
+└── iteration_02.sysml:14:15: note: Inherited from here
+    └── iteration_02.sysml:45:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:47:17: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::VehicleState::gear
+│   47 |       attribute gear = GearPosition::Second;
+│      |                 ^^^^
+└── iteration_02.sysml:15:15: note: Inherited from here
+    └── iteration_02.sysml:45:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:48:17: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::VehicleState::throttle
+│   48 |       attribute throttle = 0.5;
+│      |                 ^^^^^^^^
+└── iteration_02.sysml:16:15: note: Inherited from here
+    └── iteration_02.sysml:45:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping
+
+iteration_02.sysml:49:12: warning (namespace-distinguishability): Member name 'driver' shadows VehicleModel::VehicleState::driver
+│   49 |       part driver : Driver = Bob;
+│      |            ^^^^^^
+└── iteration_02.sysml:17:10: note: Inherited from here
+    └── iteration_02.sysml:45:19: note: Because VehicleModel::VehicleState is specialized through FeatureTyping

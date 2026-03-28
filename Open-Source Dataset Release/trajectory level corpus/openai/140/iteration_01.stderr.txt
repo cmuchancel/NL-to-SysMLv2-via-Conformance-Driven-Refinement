@@ -1,0 +1,27 @@
+iteration_02.sysml:34:53: error (reference-error): No Feature named 'length' found.
+    34 |         attribute quantityKind : BaseQuantityKind = length;
+       |                                                     ^^^^^^
+
+iteration_02.sysml:41:53: error (reference-error): No Feature named 'mass' found.
+    41 |         attribute quantityKind : BaseQuantityKind = mass;
+       |                                                     ^^^^
+
+iteration_02.sysml:48:53: error (reference-error): No Feature named 'time' found.
+    48 |         attribute quantityKind : BaseQuantityKind = time;
+       |                                                     ^^^^
+
+iteration_02.sysml:55:53: error (reference-error): No Feature named 'electricCurrent' found.
+    55 |         attribute quantityKind : BaseQuantityKind = electricCurrent;
+       |                                                     ^^^^^^^^^^^^^^^
+
+iteration_02.sysml:62:53: error (reference-error): No Feature named 'temperature' found.
+    62 |         attribute quantityKind : BaseQuantityKind = temperature;
+       |                                                     ^^^^^^^^^^^
+
+iteration_02.sysml:69:53: error (reference-error): No Feature named 'amountOfSubstance' found.
+    69 |         attribute quantityKind : BaseQuantityKind = amountOfSubstance;
+       |                                                     ^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:76:53: error (reference-error): No Feature named 'luminousIntensity' found.
+    76 |         attribute quantityKind : BaseQuantityKind = luminousIntensity;
+       |                                                     ^^^^^^^^^^^^^^^^^

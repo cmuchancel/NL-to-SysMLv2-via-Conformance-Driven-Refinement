@@ -1,0 +1,3 @@
+iteration_01.sysml:18:19: error (parsing-error): Unexpected 'variant', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    18 |         attribute variant : ComponentVariant = ComponentVariant::basic;
+       |                   ^^^^^^^

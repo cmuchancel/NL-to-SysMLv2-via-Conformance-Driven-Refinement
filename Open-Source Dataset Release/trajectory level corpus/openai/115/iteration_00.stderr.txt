@@ -1,0 +1,11 @@
+iteration_01.sysml:15:33: error (parsing-error): Expected a token. Did you forget ';'?
+    15 |     part def SubsystemA_Config1 : SubsystemA {
+
+iteration_01.sysml:20:33: error (parsing-error): Expected a token. Did you forget ';'?
+    20 |     part def SubsystemA_Config2 : SubsystemA {
+
+iteration_01.sysml:27:33: error (parsing-error): Expected a token. Did you forget ';'?
+    27 |     part def SubsystemB_Config3 : SubsystemB {
+
+iteration_01.sysml:32:33: error (parsing-error): Expected a token. Did you forget ';'?
+    32 |     part def SubsystemB_Config4 : SubsystemB {

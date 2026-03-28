@@ -1,0 +1,23 @@
+iteration_02.sysml:16:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    16 |     item ref scene : Scene;
+       |          ^^^
+
+iteration_02.sysml:20:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    20 |     item ref focused : FocusedImage;
+       |          ^^^
+
+iteration_02.sysml:24:10: error (parsing-error): Unexpected 'ref', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    24 |     item ref photo : FinalPhoto;
+       |          ^^^
+
+iteration_02.sysml:16:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    16 |     item ref scene : Scene;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:20:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    20 |     item ref focused : FocusedImage;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:24:5: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    24 |     item ref photo : FinalPhoto;
+       |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

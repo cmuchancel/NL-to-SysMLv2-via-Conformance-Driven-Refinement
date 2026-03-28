@@ -1,0 +1,15 @@
+iteration_01.sysml:15:14: error (parsing-error): Unexpected identifier, did you mean 'inout'?
+    15 |         port input drivingCondition : DrivingTrajectory;
+       |              ^^^^^
+
+iteration_01.sysml:16:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    16 |         port output fuelConsumption : Real;
+       |              ^^^^^^
+
+iteration_01.sysml:31:14: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    31 |         port output scenario : DrivingTrajectory;
+       |              ^^^^^^
+
+iteration_01.sysml:32:14: error (parsing-error): Unexpected identifier, did you mean 'inout'?
+    32 |         port input consumption : Real;
+       |              ^^^^^

@@ -1,0 +1,56 @@
+iteration_02.sysml:27:13: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleConfiguration::FrontAxle::steeringAngle
+│   27 |             steeringAngle = 30.0;
+│      |             ^^^^^^^^^^^^^
+└── iteration_02.sysml:21:19: note: Inherited from here
+    └── iteration_02.sysml:26:30: note: Because VehicleConfiguration::FrontAxle is specialized through FeatureTyping
+
+iteration_02.sysml:34:13: warning (namespace-distinguishability): Member name 'steeringAngle' shadows VehicleConfiguration::FrontAxle::steeringAngle
+│   34 |             steeringAngle = 35.0;
+│      |             ^^^^^^^^^^^^^
+└── iteration_02.sysml:21:19: note: Inherited from here
+    └── iteration_02.sysml:33:30: note: Because VehicleConfiguration::FrontAxle is specialized through FeatureTyping
+
+iteration_02.sysml:38:32: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfiguration::Tire::mass
+│   38 |                 :>> tires[1] { mass = 15.0; }
+│      |                                ^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    ├── iteration_02.sysml:13:22: note: Because VehicleConfiguration::Tire is specialized through FeatureTyping
+    ├── iteration_02.sysml:37:22: note: Because VehicleConfiguration::Axle::tires is specialized through Redefinition
+    └── iteration_02.sysml:38:21: note: Because VehicleConfiguration::vehicle1_c1::(anonymous PartUsage)::tires is specialized through Redefinition
+
+iteration_02.sysml:39:17: warning (namespace-distinguishability): Member name 'tires' shadows another member
+│   39 |                 :>> tires[2] { mass = 15.0; }
+│      |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:38:17: note: First declared here
+
+iteration_02.sysml:39:32: warning (namespace-distinguishability): Member name 'mass' shadows VehicleConfiguration::Tire::mass
+│   39 |                 :>> tires[2] { mass = 15.0; }
+│      |                                ^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    ├── iteration_02.sysml:13:22: note: Because VehicleConfiguration::Tire is specialized through FeatureTyping
+    ├── iteration_02.sysml:37:22: note: Because VehicleConfiguration::Axle::tires is specialized through Redefinition
+    └── iteration_02.sysml:39:21: note: Because VehicleConfiguration::vehicle1_c1::(anonymous PartUsage)::tires is specialized through Redefinition
+
+iteration_02.sysml:24:22: error (reference-error): Expected Feature element but found PartDefinition (VehicleConfiguration::Vehicle)
+    24 |     part vehicle1 :> Vehicle {
+       |                      ^^^^^^^
+
+iteration_02.sysml:25:13: error (reference-error): No Feature named 'mass' found.
+    25 |         :>> mass = 2000.0;
+       |             ^^^^
+
+iteration_02.sysml:26:18: error (reference-error): No Feature named 'frontAxle' found.
+    26 |         part :>> frontAxle : FrontAxle {
+       |                  ^^^^^^^^^
+
+iteration_02.sysml:29:18: error (reference-error): No Feature named 'rearAxle' found.
+    29 |         part :>> rearAxle : Axle;
+       |                  ^^^^^^^^
+
+iteration_02.sysml:33:18: error (reference-error): No Feature named 'frontAxle' found.
+    33 |         part :>> frontAxle : FrontAxle {
+       |                  ^^^^^^^^^
+
+iteration_02.sysml:36:18: error (reference-error): No Feature named 'rearAxle' found.
+    36 |         part :>> rearAxle : Axle {
+       |                  ^^^^^^^^

@@ -1,0 +1,89 @@
+iteration_02.sysml:50:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    50 |         };
+       |          ^
+
+iteration_02.sysml:54:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    54 |         };
+       |          ^
+
+iteration_02.sysml:67:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    67 |         };
+       |          ^
+
+iteration_02.sysml:71:10: error (parsing-error): Unexpected ';', expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "else", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    71 |         };
+       |          ^
+
+iteration_02.sysml:47:19: warning (namespace-distinguishability): Member name 'emptyMass' shadows VehicleSystem::Vehicle::emptyMass
+│   47 |         attribute emptyMass : Mass {
+│      |                   ^^^^^^^^^
+└── iteration_02.sysml:14:19: note: Inherited from here
+    └── iteration_02.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:48:13: warning (namespace-distinguishability): Member name 'value' shadows VehicleSystem::Mass::value
+│   48 |             value = 1500;
+│      |             ^^^^^
+└── iteration_02.sysml:9:19: note: Inherited from here
+    └── iteration_02.sysml:47:31: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_02.sysml:49:13: warning (namespace-distinguishability): Member name 'unit' shadows VehicleSystem::Mass::unit
+│   49 |             unit = MassUnit::kilogram;
+│      |             ^^^^
+└── iteration_02.sysml:10:19: note: Inherited from here
+    └── iteration_02.sysml:47:31: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_02.sysml:51:19: warning (namespace-distinguishability): Member name 'fullMass' shadows VehicleSystem::Vehicle::fullMass
+│   51 |         attribute fullMass : Mass {
+│      |                   ^^^^^^^^
+└── iteration_02.sysml:15:19: note: Inherited from here
+    └── iteration_02.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:52:13: warning (namespace-distinguishability): Member name 'value' shadows VehicleSystem::Mass::value
+│   52 |             value = 2000;
+│      |             ^^^^^
+└── iteration_02.sysml:9:19: note: Inherited from here
+    └── iteration_02.sysml:51:30: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_02.sysml:53:13: warning (namespace-distinguishability): Member name 'unit' shadows VehicleSystem::Mass::unit
+│   53 |             unit = MassUnit::kilogram;
+│      |             ^^^^
+└── iteration_02.sysml:10:19: note: Inherited from here
+    └── iteration_02.sysml:51:30: note: Because VehicleSystem::Mass is specialized through FeatureTyping
+
+iteration_02.sysml:55:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleSystem::Vehicle::engine
+│   55 |         part engine : Engine;
+│      |              ^^^^^^
+└── iteration_02.sysml:16:14: note: Inherited from here
+    └── iteration_02.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:56:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleSystem::Vehicle::transmission
+│   56 |         part transmission : Transmission;
+│      |              ^^^^^^^^^^^^
+└── iteration_02.sysml:17:14: note: Inherited from here
+    └── iteration_02.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:57:14: warning (namespace-distinguishability): Member name 'clutch' shadows VehicleSystem::Vehicle::clutch
+│   57 |         part clutch : Clutch;
+│      |              ^^^^^^
+└── iteration_02.sysml:18:14: note: Inherited from here
+    └── iteration_02.sysml:46:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:64:9: warning (namespace-distinguishability): Member name 'maxEmptyMass' shadows VehicleSystem::MassRequirement::maxEmptyMass
+│   64 |         maxEmptyMass :> Mass {
+│      |         ^^^^^^^^^^^^
+└── iteration_02.sysml:38:19: note: Inherited from here
+    └── iteration_02.sysml:63:27: note: Because VehicleSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_02.sysml:68:9: warning (namespace-distinguishability): Member name 'maxFullMass' shadows VehicleSystem::MassRequirement::maxFullMass
+│   68 |         maxFullMass :> Mass {
+│      |         ^^^^^^^^^^^
+└── iteration_02.sysml:39:19: note: Inherited from here
+    └── iteration_02.sysml:63:27: note: Because VehicleSystem::MassRequirement is specialized through FeatureTyping
+
+iteration_02.sysml:64:25: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Mass)
+    64 |         maxEmptyMass :> Mass {
+       |                         ^^^^
+
+iteration_02.sysml:68:24: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Mass)
+    68 |         maxFullMass :> Mass {
+       |                        ^^^^

@@ -1,0 +1,89 @@
+iteration_02.sysml:44:19: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   44 |         attribute mass : Real = 1500.0;
+│      |                   ^^^^
+└── iteration_02.sysml:32:19: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:45:19: warning (namespace-distinguishability): Member name 'name' shadows VehicleSystem::Vehicle::name
+│   45 |         attribute name : String = "vehicle_1";
+│      |                   ^^^^
+└── iteration_02.sysml:33:19: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:47:14: warning (namespace-distinguishability): Member name 'status' shadows VehicleSystem::Vehicle::status
+│   47 |         part status : OperationalStatus {
+│      |              ^^^^^^
+└── iteration_02.sysml:35:14: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:48:23: warning (namespace-distinguishability): Member name 'gear' shadows VehicleSystem::OperationalStatus::gear
+│   48 |             attribute gear : GearSetting = GearSetting::PARK;
+│      |                       ^^^^
+└── iteration_02.sysml:12:19: note: Inherited from here
+    └── iteration_02.sysml:47:23: note: Because VehicleSystem::OperationalStatus is specialized through FeatureTyping
+
+iteration_02.sysml:49:23: warning (namespace-distinguishability): Member name 'acceleratorPedalPosition' shadows VehicleSystem::OperationalStatus::acceleratorPedalPosition
+│   49 |             attribute acceleratorPedalPosition : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:13:19: note: Inherited from here
+    └── iteration_02.sysml:47:23: note: Because VehicleSystem::OperationalStatus is specialized through FeatureTyping
+
+iteration_02.sysml:52:14: warning (namespace-distinguishability): Member name 'powerplant' shadows VehicleSystem::Vehicle::powerplant
+│   52 |         part powerplant : Engine {
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:36:14: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:53:23: warning (namespace-distinguishability): Member name 'isRunning' shadows VehicleSystem::Engine::isRunning
+│   53 |             attribute isRunning : Boolean = false;
+│      |                       ^^^^^^^^^
+└── iteration_02.sysml:17:19: note: Inherited from here
+    └── iteration_02.sysml:52:27: note: Because VehicleSystem::Engine is specialized through FeatureTyping
+
+iteration_02.sysml:56:14: warning (namespace-distinguishability): Member name 'leftFrontWheel' shadows VehicleSystem::Vehicle::leftFrontWheel
+│   56 |         part leftFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^
+└── iteration_02.sysml:39:14: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:57:23: warning (namespace-distinguishability): Member name 'position' shadows VehicleSystem::Wheel::position
+│   57 |             attribute position : String = "left front";
+│      |                       ^^^^^^^^
+└── iteration_02.sysml:21:19: note: Inherited from here
+    └── iteration_02.sysml:56:31: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:58:23: warning (namespace-distinguishability): Member name 'rotationSpeed' shadows VehicleSystem::Wheel::rotationSpeed
+│   58 |             attribute rotationSpeed : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:56:31: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:61:14: warning (namespace-distinguishability): Member name 'rightFrontWheel' shadows VehicleSystem::Vehicle::rightFrontWheel
+│   61 |         part rightFrontWheel : Wheel {
+│      |              ^^^^^^^^^^^^^^^
+└── iteration_02.sysml:40:14: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:62:23: warning (namespace-distinguishability): Member name 'position' shadows VehicleSystem::Wheel::position
+│   62 |             attribute position : String = "right front";
+│      |                       ^^^^^^^^
+└── iteration_02.sysml:21:19: note: Inherited from here
+    └── iteration_02.sysml:61:32: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:63:23: warning (namespace-distinguishability): Member name 'rotationSpeed' shadows VehicleSystem::Wheel::rotationSpeed
+│   63 |             attribute rotationSpeed : Real = 0.0;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_02.sysml:22:19: note: Inherited from here
+    └── iteration_02.sysml:61:32: note: Because VehicleSystem::Wheel is specialized through FeatureTyping
+
+iteration_02.sysml:66:14: warning (namespace-distinguishability): Member name 'driverPort' shadows VehicleSystem::Vehicle::driverPort
+│   66 |         port driverPort : DriverInterface;
+│      |              ^^^^^^^^^^
+└── iteration_02.sysml:37:14: note: Inherited from here
+    └── iteration_02.sysml:43:22: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_02.sysml:70:14: warning (namespace-distinguishability): Member name 'vehicleInterface' shadows VehicleSystem::Driver::vehicleInterface
+│   70 |         port vehicleInterface : DriverInterface;
+│      |              ^^^^^^^^^^^^^^^^
+└── iteration_02.sysml:28:14: note: Inherited from here
+    └── iteration_02.sysml:69:21: note: Because VehicleSystem::Driver is specialized through FeatureTyping

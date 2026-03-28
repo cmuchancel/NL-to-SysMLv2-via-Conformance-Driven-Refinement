@@ -1,0 +1,79 @@
+iteration_01.sysml:75:14: warning (namespace-distinguishability): Member name 'lengthUnitConverter' shadows UnitSystemLibrary::LengthConverter::lengthUnitConverter
+│   75 |         part lengthUnitConverter : UnitConverter {
+│      |              ^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:55:14: note: Inherited from here
+    └── iteration_01.sysml:74:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_01.sysml:76:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows UnitSystemLibrary::UnitConverter::conversionFactor
+│   76 |             attribute conversionFactor : Real = 0.0254;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:75:36: note: Because UnitSystemLibrary::UnitConverter is specialized through FeatureTyping
+
+iteration_01.sysml:78:19: warning (namespace-distinguishability): Member name 'sourceUnit' shadows UnitSystemLibrary::LengthConverter::sourceUnit
+│   78 |         attribute sourceUnit : USCustomaryLengthUnits = inch;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:56:19: note: Inherited from here
+    └── iteration_01.sysml:74:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_01.sysml:79:19: warning (namespace-distinguishability): Member name 'targetUnit' shadows UnitSystemLibrary::LengthConverter::targetUnit
+│   79 |         attribute targetUnit : ISQBaseUnits = meter;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:57:19: note: Inherited from here
+    └── iteration_01.sysml:74:23: note: Because UnitSystemLibrary::LengthConverter is specialized through FeatureTyping
+
+iteration_01.sysml:83:14: warning (namespace-distinguishability): Member name 'massUnitConverter' shadows UnitSystemLibrary::MassConverter::massUnitConverter
+│   83 |         part massUnitConverter : UnitConverter {
+│      |              ^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:61:14: note: Inherited from here
+    └── iteration_01.sysml:82:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_01.sysml:84:23: warning (namespace-distinguishability): Member name 'conversionFactor' shadows UnitSystemLibrary::UnitConverter::conversionFactor
+│   84 |             attribute conversionFactor : Real = 0.453592;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:31:19: note: Inherited from here
+    └── iteration_01.sysml:83:34: note: Because UnitSystemLibrary::UnitConverter is specialized through FeatureTyping
+
+iteration_01.sysml:86:19: warning (namespace-distinguishability): Member name 'sourceUnit' shadows UnitSystemLibrary::MassConverter::sourceUnit
+│   86 |         attribute sourceUnit : USCustomaryMassUnits = pound;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:62:19: note: Inherited from here
+    └── iteration_01.sysml:82:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_01.sysml:87:19: warning (namespace-distinguishability): Member name 'targetUnit' shadows UnitSystemLibrary::MassConverter::targetUnit
+│   87 |         attribute targetUnit : ISQBaseUnits = kilogram;
+│      |                   ^^^^^^^^^^
+└── iteration_01.sysml:63:19: note: Inherited from here
+    └── iteration_01.sysml:82:23: note: Because UnitSystemLibrary::MassConverter is specialized through FeatureTyping
+
+iteration_01.sysml:36:26: error (reference-error): No Type named 'string' found.
+    36 |         attribute unit : string;
+       |                          ^^^^^^
+
+iteration_01.sysml:41:26: error (reference-error): No Type named 'string' found.
+    41 |         attribute unit : string;
+       |                          ^^^^^^
+
+iteration_01.sysml:46:26: error (reference-error): No Type named 'string' found.
+    46 |         attribute unit : string;
+       |                          ^^^^^^
+
+iteration_01.sysml:51:26: error (reference-error): No Type named 'string' found.
+    51 |         attribute unit : string;
+       |                          ^^^^^^
+
+iteration_01.sysml:78:57: error (reference-error): No Feature named 'inch' found.
+    78 |         attribute sourceUnit : USCustomaryLengthUnits = inch;
+       |                                                         ^^^^
+
+iteration_01.sysml:79:47: error (reference-error): No Feature named 'meter' found.
+    79 |         attribute targetUnit : ISQBaseUnits = meter;
+       |                                               ^^^^^
+
+iteration_01.sysml:86:55: error (reference-error): No Feature named 'pound' found.
+    86 |         attribute sourceUnit : USCustomaryMassUnits = pound;
+       |                                                       ^^^^^
+
+iteration_01.sysml:87:47: error (reference-error): No Feature named 'kilogram' found.
+    87 |         attribute targetUnit : ISQBaseUnits = kilogram;
+       |                                               ^^^^^^^^

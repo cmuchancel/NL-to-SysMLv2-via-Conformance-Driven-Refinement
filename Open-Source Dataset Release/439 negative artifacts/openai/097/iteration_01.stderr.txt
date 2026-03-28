@@ -1,0 +1,75 @@
+iteration_02.sysml:11:15: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleModel::Engine::cylinderCount
+│   11 |     attribute cylinderCount = 4;
+│      |               ^^^^^^^^^^^^^
+└── iteration_02.sysml:7:15: note: Inherited from here
+    └── iteration_02.sysml:10:32: note: Because VehicleModel::Engine is specialized through Subclassification
+
+iteration_02.sysml:15:15: warning (namespace-distinguishability): Member name 'cylinderCount' shadows VehicleModel::Engine::cylinderCount
+│   15 |     attribute cylinderCount = 6;
+│      |               ^^^^^^^^^^^^^
+└── iteration_02.sysml:7:15: note: Inherited from here
+    └── iteration_02.sysml:14:32: note: Because VehicleModel::Engine is specialized through Subclassification
+
+iteration_02.sysml:24:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   24 |     attribute size = small;
+│      |               ^^^^
+└── iteration_02.sysml:19:15: note: Inherited from here
+    └── iteration_02.sysml:23:37: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:25:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   25 |     part engine : Engine4;
+│      |          ^^^^^^
+└── iteration_02.sysml:20:10: note: Inherited from here
+    └── iteration_02.sysml:23:37: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:29:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   29 |     attribute size = large;
+│      |               ^^^^
+└── iteration_02.sysml:19:15: note: Inherited from here
+    └── iteration_02.sysml:28:37: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:30:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   30 |     part engine : Engine6;
+│      |          ^^^^^^
+└── iteration_02.sysml:20:10: note: Inherited from here
+    └── iteration_02.sysml:28:37: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:34:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   34 |     attribute size = standardSize;
+│      |               ^^^^
+└── iteration_02.sysml:19:15: note: Inherited from here
+    └── iteration_02.sysml:33:41: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:35:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   35 |     part engine : Engine4;
+│      |          ^^^^^^
+└── iteration_02.sysml:20:10: note: Inherited from here
+    └── iteration_02.sysml:33:41: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:39:15: warning (namespace-distinguishability): Member name 'size' shadows VehicleModel::Vehicle::size
+│   39 |     attribute size = standardSize;
+│      |               ^^^^
+└── iteration_02.sysml:19:15: note: Inherited from here
+    └── iteration_02.sysml:38:41: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:40:10: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   40 |     part engine : Engine6;
+│      |          ^^^^^^
+└── iteration_02.sysml:20:10: note: Inherited from here
+    └── iteration_02.sysml:38:41: note: Because VehicleModel::Vehicle is specialized through Subclassification
+
+iteration_02.sysml:24:22: error (reference-error): No Feature named 'small' found.
+    24 |     attribute size = small;
+       |                      ^^^^^
+
+iteration_02.sysml:29:22: error (reference-error): No Feature named 'large' found.
+    29 |     attribute size = large;
+       |                      ^^^^^
+
+iteration_02.sysml:34:22: error (reference-error): No Feature named 'standardSize' found.
+    34 |     attribute size = standardSize;
+       |                      ^^^^^^^^^^^^
+
+iteration_02.sysml:39:22: error (reference-error): No Feature named 'standardSize' found.
+    39 |     attribute size = standardSize;
+       |                      ^^^^^^^^^^^^

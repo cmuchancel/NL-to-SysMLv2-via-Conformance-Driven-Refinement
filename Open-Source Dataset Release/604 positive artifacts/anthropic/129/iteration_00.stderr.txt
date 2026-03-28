@@ -1,0 +1,185 @@
+iteration_01.sysml:43:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::componentName
+│   43 |             attribute componentName : String = "Front Seat Belt";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:42:30: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:44:23: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::category
+│   44 |             attribute category : ComponentCategory = ComponentCategory::SAFETY;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:42:30: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'mandatoryStatus' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::mandatoryStatus
+│   45 |             attribute mandatoryStatus : MandatoryStatus = MandatoryStatus::MANDATORY;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:42:30: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'affectsSafety' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsSafety
+│   46 |             attribute affectsSafety : Boolean = true;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:42:30: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'affectsAntiTheft' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsAntiTheft
+│   47 |             attribute affectsAntiTheft : Boolean = false;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:42:30: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:51:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::componentName
+│   51 |             attribute componentName : String = "Bumper";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:50:23: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:52:23: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::category
+│   52 |             attribute category : ComponentCategory = ComponentCategory::SAFETY;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:50:23: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:53:23: warning (namespace-distinguishability): Member name 'mandatoryStatus' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::mandatoryStatus
+│   53 |             attribute mandatoryStatus : MandatoryStatus = MandatoryStatus::MANDATORY;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:50:23: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'affectsSafety' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsSafety
+│   54 |             attribute affectsSafety : Boolean = true;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:50:23: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:55:23: warning (namespace-distinguishability): Member name 'affectsAntiTheft' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsAntiTheft
+│   55 |             attribute affectsAntiTheft : Boolean = false;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:50:23: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:59:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::componentName
+│   59 |             attribute componentName : String = "Driver Airbag";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:58:29: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:60:23: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::category
+│   60 |             attribute category : ComponentCategory = ComponentCategory::SAFETY;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:58:29: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:61:23: warning (namespace-distinguishability): Member name 'mandatoryStatus' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::mandatoryStatus
+│   61 |             attribute mandatoryStatus : MandatoryStatus = MandatoryStatus::OPTIONAL;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:58:29: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:62:23: warning (namespace-distinguishability): Member name 'affectsSafety' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsSafety
+│   62 |             attribute affectsSafety : Boolean = true;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:58:29: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:63:23: warning (namespace-distinguishability): Member name 'affectsAntiTheft' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsAntiTheft
+│   63 |             attribute affectsAntiTheft : Boolean = false;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:58:29: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:67:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::componentName
+│   67 |             attribute componentName : String = "Anti-Lock Braking System";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:66:38: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:68:23: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::category
+│   68 |             attribute category : ComponentCategory = ComponentCategory::SAFETY;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:66:38: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:69:23: warning (namespace-distinguishability): Member name 'mandatoryStatus' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::mandatoryStatus
+│   69 |             attribute mandatoryStatus : MandatoryStatus = MandatoryStatus::OPTIONAL;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:66:38: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:70:23: warning (namespace-distinguishability): Member name 'affectsSafety' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsSafety
+│   70 |             attribute affectsSafety : Boolean = true;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:66:38: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:71:23: warning (namespace-distinguishability): Member name 'affectsAntiTheft' shadows VehicleSafetyAntiTheftCatalogue::SafetyComponent::affectsAntiTheft
+│   71 |             attribute affectsAntiTheft : Boolean = false;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:66:38: note: Because VehicleSafetyAntiTheftCatalogue::SafetyComponent is specialized through FeatureTyping
+
+iteration_01.sysml:75:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::componentName
+│   75 |             attribute componentName : String = "Alarm System";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:74:28: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:76:23: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::category
+│   76 |             attribute category : ComponentCategory = ComponentCategory::ANTI_THEFT;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:74:28: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:77:23: warning (namespace-distinguishability): Member name 'mandatoryStatus' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::mandatoryStatus
+│   77 |             attribute mandatoryStatus : MandatoryStatus = MandatoryStatus::MANDATORY;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:74:28: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:78:23: warning (namespace-distinguishability): Member name 'affectsSafety' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::affectsSafety
+│   78 |             attribute affectsSafety : Boolean = false;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:74:28: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:79:23: warning (namespace-distinguishability): Member name 'affectsAntiTheft' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::affectsAntiTheft
+│   79 |             attribute affectsAntiTheft : Boolean = true;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:74:28: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:83:23: warning (namespace-distinguishability): Member name 'componentName' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::componentName
+│   83 |             attribute componentName : String = "Keyless Entry System";
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:82:35: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:84:23: warning (namespace-distinguishability): Member name 'category' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::category
+│   84 |             attribute category : ComponentCategory = ComponentCategory::ANTI_THEFT;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:25:19: note: Inherited from here
+    └── iteration_01.sysml:82:35: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:85:23: warning (namespace-distinguishability): Member name 'mandatoryStatus' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::mandatoryStatus
+│   85 |             attribute mandatoryStatus : MandatoryStatus = MandatoryStatus::MANDATORY;
+│      |                       ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:26:19: note: Inherited from here
+    └── iteration_01.sysml:82:35: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:86:23: warning (namespace-distinguishability): Member name 'affectsSafety' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::affectsSafety
+│   86 |             attribute affectsSafety : Boolean = false;
+│      |                       ^^^^^^^^^^^^^
+└── iteration_01.sysml:27:19: note: Inherited from here
+    └── iteration_01.sysml:82:35: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:87:23: warning (namespace-distinguishability): Member name 'affectsAntiTheft' shadows VehicleSafetyAntiTheftCatalogue::AntiTheftComponent::affectsAntiTheft
+│   87 |             attribute affectsAntiTheft : Boolean = true;
+│      |                       ^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:82:35: note: Because VehicleSafetyAntiTheftCatalogue::AntiTheftComponent is specialized through FeatureTyping
+
+iteration_01.sysml:96:23: warning (namespace-distinguishability): Member name 'sectionName' shadows VehicleSafetyAntiTheftCatalogue::BodyInterior::sectionName
+│   96 |             attribute sectionName : String = "Body and Interior";
+│      |                       ^^^^^^^^^^^
+└── iteration_01.sysml:40:19: note: Inherited from here
+    └── iteration_01.sysml:95:29: note: Because VehicleSafetyAntiTheftCatalogue::BodyInterior is specialized through FeatureTyping

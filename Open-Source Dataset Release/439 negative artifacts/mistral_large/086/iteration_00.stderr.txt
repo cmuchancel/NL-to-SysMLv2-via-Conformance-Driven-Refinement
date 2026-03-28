@@ -1,0 +1,3 @@
+iteration_01.sysml:43:19: error (reference-error): Expected Type element but found Package (VehicleDynamicsSimulation)
+    43 |     part system : VehicleDynamicsSimulation {
+       |                   ^^^^^^^^^^^^^^^^^^^^^^^^^

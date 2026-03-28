@@ -1,0 +1,101 @@
+iteration_01.sysml:44:23: warning (namespace-distinguishability): Member name 'make' shadows VehicleSystem::Vehicle::make
+│   44 |             attribute make = "Toyota";
+│      |                       ^^^^
+└── iteration_01.sysml:33:19: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'model' shadows VehicleSystem::Vehicle::model
+│   45 |             attribute model = "Camry";
+│      |                       ^^^^^
+└── iteration_01.sysml:34:19: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:46:23: warning (namespace-distinguishability): Member name 'year' shadows VehicleSystem::Vehicle::year
+│   46 |             attribute year = 2023;
+│      |                       ^^^^
+└── iteration_01.sysml:35:19: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:47:23: warning (namespace-distinguishability): Member name 'mass' shadows VehicleSystem::Vehicle::mass
+│   47 |             attribute mass = 1500.0;
+│      |                       ^^^^
+└── iteration_01.sysml:36:19: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:48:23: warning (namespace-distinguishability): Member name 'maxSpeed' shadows VehicleSystem::Vehicle::maxSpeed
+│   48 |             attribute maxSpeed = 200.0;
+│      |                       ^^^^^^^^
+└── iteration_01.sysml:37:19: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:49:18: warning (namespace-distinguishability): Member name 'vehicleDriver' shadows VehicleSystem::Vehicle::vehicleDriver
+│   49 |             part vehicleDriver : Driver {
+│      |                  ^^^^^^^^^^^^^
+└── iteration_01.sysml:38:14: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:50:27: warning (namespace-distinguishability): Member name 'licenseNumber' shadows VehicleSystem::Driver::licenseNumber
+│   50 |                 attribute licenseNumber = "DL-12345";
+│      |                           ^^^^^^^^^^^^^
+└── iteration_01.sysml:29:19: note: Inherited from here
+    └── iteration_01.sysml:49:34: note: Because VehicleSystem::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:51:27: warning (namespace-distinguishability): Member name 'driverInfo' shadows VehicleSystem::Driver::driverInfo
+│   51 |                 attribute driverInfo : Person {
+│      |                           ^^^^^^^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:49:34: note: Because VehicleSystem::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:52:31: warning (namespace-distinguishability): Member name 'firstName' shadows VehicleSystem::Person::firstName
+│   52 |                     attribute firstName = "John";
+│      |                               ^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:51:40: note: Because VehicleSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:53:31: warning (namespace-distinguishability): Member name 'lastName' shadows VehicleSystem::Person::lastName
+│   53 |                     attribute lastName = "Doe";
+│      |                               ^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:51:40: note: Because VehicleSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:54:31: warning (namespace-distinguishability): Member name 'age' shadows VehicleSystem::Person::age
+│   54 |                     attribute age = 35;
+│      |                               ^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:51:40: note: Because VehicleSystem::Person is specialized through FeatureTyping
+
+iteration_01.sysml:57:18: warning (namespace-distinguishability): Member name 'vehicleFuelTank' shadows VehicleSystem::Vehicle::vehicleFuelTank
+│   57 |             part vehicleFuelTank : FuelTank {
+│      |                  ^^^^^^^^^^^^^^^
+└── iteration_01.sysml:39:14: note: Inherited from here
+    └── iteration_01.sysml:43:20: note: Because VehicleSystem::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:58:27: warning (namespace-distinguishability): Member name 'capacity' shadows VehicleSystem::FuelTank::capacity
+│   58 |                 attribute capacity = 60.0;
+│      |                           ^^^^^^^^
+└── iteration_01.sysml:22:19: note: Inherited from here
+    └── iteration_01.sysml:57:36: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:59:27: warning (namespace-distinguishability): Member name 'storedFuelType' shadows VehicleSystem::FuelTank::storedFuelType
+│   59 |                 attribute storedFuelType = FuelType::Gasoline;
+│      |                           ^^^^^^^^^^^^^^
+└── iteration_01.sysml:23:19: note: Inherited from here
+    └── iteration_01.sysml:57:36: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:60:22: warning (namespace-distinguishability): Member name 'containedFuel' shadows VehicleSystem::FuelTank::containedFuel
+│   60 |                 part containedFuel : Fuel {
+│      |                      ^^^^^^^^^^^^^
+└── iteration_01.sysml:24:14: note: Inherited from here
+    └── iteration_01.sysml:57:36: note: Because VehicleSystem::FuelTank is specialized through FeatureTyping
+
+iteration_01.sysml:61:31: warning (namespace-distinguishability): Member name 'fuelType' shadows VehicleSystem::Fuel::fuelType
+│   61 |                     attribute fuelType = FuelType::Gasoline;
+│      |                               ^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:60:38: note: Because VehicleSystem::Fuel is specialized through FeatureTyping
+
+iteration_01.sysml:62:31: warning (namespace-distinguishability): Member name 'quantity' shadows VehicleSystem::Fuel::quantity
+│   62 |                     attribute quantity = 45.0;
+│      |                               ^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:60:38: note: Because VehicleSystem::Fuel is specialized through FeatureTyping

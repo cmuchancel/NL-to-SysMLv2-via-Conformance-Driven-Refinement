@@ -1,0 +1,23 @@
+iteration_01.sysml:5:27: error (reference-error): No Type named 'string' found.
+    5 |         attribute topic : string;
+      |                           ^^^^^^
+
+iteration_01.sysml:9:27: error (reference-error): No Type named 'string' found.
+    9 |         attribute topic : string;
+      |                           ^^^^^^
+
+iteration_01.sysml:10:29: error (reference-error): No Type named 'string' found.
+    10 |         attribute content : string;
+       |                             ^^^^^^
+
+iteration_01.sysml:21:24: error (reference-error): No Type named 'string' found.
+    21 |         attribute id : string;
+       |                        ^^^^^^
+
+iteration_01.sysml:26:24: error (reference-error): No Type named 'string' found.
+    26 |         attribute id : string;
+       |                        ^^^^^^
+
+iteration_01.sysml:31:35: error (reference-error): No Type named 'string' found.
+    31 |         attribute subscriptions : string[*];
+       |                                   ^^^^^^

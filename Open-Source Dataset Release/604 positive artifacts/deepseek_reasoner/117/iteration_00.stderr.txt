@@ -1,0 +1,71 @@
+iteration_01.sysml:38:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::Vehicle::engine
+│   38 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:37:40: note: Because VehicleProductLine::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:39:23: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Engine::type
+│   39 |             attribute type : EngineType = EngineType::sixCylinder;
+│      |                       ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:38:23: note: Because VehicleProductLine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:41:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::Vehicle::transmission
+│   41 |         part transmission : Transmission {
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:37:40: note: Because VehicleProductLine::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:42:23: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Transmission::type
+│   42 |             attribute type : TransmissionType = TransmissionType::automatic;
+│      |                       ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:41:29: note: Because VehicleProductLine::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:44:14: warning (namespace-distinguishability): Member name 'wheels' shadows VehicleProductLine::Vehicle::wheels
+│   44 |         part wheels : Wheels {
+│      |              ^^^^^^
+└── iteration_01.sysml:34:14: note: Inherited from here
+    └── iteration_01.sysml:37:40: note: Because VehicleProductLine::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:45:23: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Wheels::type
+│   45 |             attribute type : WheelType = WheelType::wideRim;
+│      |                       ^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:44:23: note: Because VehicleProductLine::Wheels is specialized through FeatureTyping
+
+iteration_01.sysml:50:14: warning (namespace-distinguishability): Member name 'engine' shadows VehicleProductLine::Vehicle::engine
+│   50 |         part engine : Engine {
+│      |              ^^^^^^
+└── iteration_01.sysml:32:14: note: Inherited from here
+    └── iteration_01.sysml:49:44: note: Because VehicleProductLine::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:51:23: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Engine::type
+│   51 |             attribute type : EngineType = EngineType::fourCylinder;
+│      |                       ^^^^
+└── iteration_01.sysml:20:19: note: Inherited from here
+    └── iteration_01.sysml:50:23: note: Because VehicleProductLine::Engine is specialized through FeatureTyping
+
+iteration_01.sysml:53:14: warning (namespace-distinguishability): Member name 'transmission' shadows VehicleProductLine::Vehicle::transmission
+│   53 |         part transmission : Transmission {
+│      |              ^^^^^^^^^^^^
+└── iteration_01.sysml:33:14: note: Inherited from here
+    └── iteration_01.sysml:49:44: note: Because VehicleProductLine::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:54:23: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Transmission::type
+│   54 |             attribute type : TransmissionType = TransmissionType::manual;
+│      |                       ^^^^
+└── iteration_01.sysml:24:19: note: Inherited from here
+    └── iteration_01.sysml:53:29: note: Because VehicleProductLine::Transmission is specialized through FeatureTyping
+
+iteration_01.sysml:56:14: warning (namespace-distinguishability): Member name 'wheels' shadows VehicleProductLine::Vehicle::wheels
+│   56 |         part wheels : Wheels {
+│      |              ^^^^^^
+└── iteration_01.sysml:34:14: note: Inherited from here
+    └── iteration_01.sysml:49:44: note: Because VehicleProductLine::Vehicle is specialized through Subclassification
+
+iteration_01.sysml:57:23: warning (namespace-distinguishability): Member name 'type' shadows VehicleProductLine::Wheels::type
+│   57 |             attribute type : WheelType = WheelType::narrowRim;
+│      |                       ^^^^
+└── iteration_01.sysml:28:19: note: Inherited from here
+    └── iteration_01.sysml:56:23: note: Because VehicleProductLine::Wheels is specialized through FeatureTyping

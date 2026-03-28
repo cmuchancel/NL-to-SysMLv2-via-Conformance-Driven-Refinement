@@ -1,0 +1,59 @@
+iteration_01.sysml:27:14: warning (namespace-distinguishability): Member name 'mathConsts' shadows ScientificConstants::ScientificComputingSystem::mathConsts
+│   27 |         part mathConsts : MathematicalConstants {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:21:14: note: Inherited from here
+    └── iteration_01.sysml:26:19: note: Because ScientificConstants::ScientificComputingSystem is specialized through FeatureTyping
+
+iteration_01.sysml:28:23: warning (namespace-distinguishability): Member name 'euler_number' shadows ScientificConstants::MathematicalConstants::euler_number
+│   28 |             attribute euler_number : Real = 2.71828182845904523536;
+│      |                       ^^^^^^^^^^^^
+└── iteration_01.sysml:5:19: note: Inherited from here
+    └── iteration_01.sysml:27:27: note: Because ScientificConstants::MathematicalConstants is specialized through FeatureTyping
+
+iteration_01.sysml:29:23: warning (namespace-distinguishability): Member name 'pi' shadows ScientificConstants::MathematicalConstants::pi
+│   29 |             attribute pi : Real = 3.14159265358979323846;
+│      |                       ^^
+└── iteration_01.sysml:6:19: note: Inherited from here
+    └── iteration_01.sysml:27:27: note: Because ScientificConstants::MathematicalConstants is specialized through FeatureTyping
+
+iteration_01.sysml:31:14: warning (namespace-distinguishability): Member name 'physConsts' shadows ScientificConstants::ScientificComputingSystem::physConsts
+│   31 |         part physConsts : PhysicalConstants {
+│      |              ^^^^^^^^^^
+└── iteration_01.sysml:22:14: note: Inherited from here
+    └── iteration_01.sysml:26:19: note: Because ScientificConstants::ScientificComputingSystem is specialized through FeatureTyping
+
+iteration_01.sysml:32:23: warning (namespace-distinguishability): Member name 'speed_of_light_m_per_s' shadows ScientificConstants::PhysicalConstants::speed_of_light_m_per_s
+│   32 |             attribute speed_of_light_m_per_s : Real = 299792458.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:31:27: note: Because ScientificConstants::PhysicalConstants is specialized through FeatureTyping
+
+iteration_01.sysml:33:23: warning (namespace-distinguishability): Member name 'fine_structure_constant' shadows ScientificConstants::PhysicalConstants::fine_structure_constant
+│   33 |             attribute fine_structure_constant : Real = 0.0072973525693;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:31:27: note: Because ScientificConstants::PhysicalConstants is specialized through FeatureTyping
+
+iteration_01.sysml:34:23: warning (namespace-distinguishability): Member name 'electron_to_proton_mass_ratio' shadows ScientificConstants::PhysicalConstants::electron_to_proton_mass_ratio
+│   34 |             attribute electron_to_proton_mass_ratio : Real = 0.000544617021487;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:31:27: note: Because ScientificConstants::PhysicalConstants is specialized through FeatureTyping
+
+iteration_01.sysml:36:14: warning (namespace-distinguishability): Member name 'ctxConsts' shadows ScientificConstants::ScientificComputingSystem::ctxConsts
+│   36 |         part ctxConsts : ContextConstants {
+│      |              ^^^^^^^^^
+└── iteration_01.sysml:23:14: note: Inherited from here
+    └── iteration_01.sysml:26:19: note: Because ScientificConstants::ScientificComputingSystem is specialized through FeatureTyping
+
+iteration_01.sysml:37:23: warning (namespace-distinguishability): Member name 'standard_gravity_m_per_s2' shadows ScientificConstants::ContextConstants::standard_gravity_m_per_s2
+│   37 |             attribute standard_gravity_m_per_s2 : Real = 9.80665;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:16:19: note: Inherited from here
+    └── iteration_01.sysml:36:26: note: Because ScientificConstants::ContextConstants is specialized through FeatureTyping
+
+iteration_01.sysml:38:23: warning (namespace-distinguishability): Member name 'model_x_amplifier_gain' shadows ScientificConstants::ContextConstants::model_x_amplifier_gain
+│   38 |             attribute model_x_amplifier_gain : Real = 42.0;
+│      |                       ^^^^^^^^^^^^^^^^^^^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:36:26: note: Because ScientificConstants::ContextConstants is specialized through FeatureTyping

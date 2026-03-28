@@ -1,0 +1,47 @@
+iteration_02.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    6 |         DRIVE
+      |         ^^^^^
+
+iteration_02.sysml:48:37: error (type-error): VehicleSystem::vehicle_1 does not conform to VehicleSystem::Vehicle
+    48 |         part vehicleRef : Vehicle = vehicle_1;
+       |                                     ^^^^^^^^^
+
+iteration_02.sysml:49:42: error (type-error): VehicleSystem::vehicle_1::leftFrontWheel does not conform to VehicleSystem::Wheel
+    49 |         part leftFrontWheelRef : Wheel = vehicle_1.leftFrontWheel;
+       |                                          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:50:43: error (type-error): VehicleSystem::vehicle_1::rightFrontWheel does not conform to VehicleSystem::Wheel
+    50 |         part rightFrontWheelRef : Wheel = vehicle_1.rightFrontWheel;
+       |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:56:37: error (type-error): VehicleSystem::vehicle_1 does not conform to VehicleSystem::Vehicle
+    56 |         part vehicleRef : Vehicle = vehicle_1;
+       |                                     ^^^^^^^^^
+
+iteration_02.sysml:57:42: error (type-error): VehicleSystem::vehicle_1::leftFrontWheel does not conform to VehicleSystem::Wheel
+    57 |         part leftFrontWheelRef : Wheel = vehicle_1.leftFrontWheel;
+       |                                          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:58:43: error (type-error): VehicleSystem::vehicle_1::rightFrontWheel does not conform to VehicleSystem::Wheel
+    58 |         part rightFrontWheelRef : Wheel = vehicle_1.rightFrontWheel;
+       |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+iteration_02.sysml:25:78: error (reference-error): No Feature named 'NEUTRAL' found.
+    25 |         attribute operationalStatus : OperationalStatus = OperationalStatus::NEUTRAL;
+       |                                                                              ^^^^^^^
+
+iteration_02.sysml:26:65: error (reference-error): No Feature named 'NEUTRAL' found.
+    26 |         attribute gear : OperationalStatus = OperationalStatus::NEUTRAL;
+       |                                                                 ^^^^^^^
+
+iteration_02.sysml:35:23: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Vehicle)
+    35 |     part vehicle_1 :> Vehicle {
+       |                       ^^^^^^^
+
+iteration_02.sysml:37:32: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Wheel)
+    37 |         part leftFrontWheel :> Wheel {
+       |                                ^^^^^
+
+iteration_02.sysml:40:33: error (reference-error): Expected Feature element but found PartDefinition (VehicleSystem::Wheel)
+    40 |         part rightFrontWheel :> Wheel {
+       |                                 ^^^^^

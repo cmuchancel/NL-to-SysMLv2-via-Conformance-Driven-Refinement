@@ -1,0 +1,22 @@
+iteration_02.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    6 |         enum LOW
+      |         ^^^^
+
+iteration_02.sysml:8:5: error (parsing-error): Expected a token. Did you forget ';'?
+    8 |     }
+
+iteration_02.sysml:12:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    12 |         enum SNOW
+       |         ^^^^
+
+iteration_02.sysml:15:9: error (parsing-error): Unexpected identifier, expected one of ["SINGLE_LINE_NOTE", "MULTILINE_NOTE", "=", ":>", ":", ";", "{", "from", "locale", "about", "language", "for", "[", "ordered", "nonunique", "if", ":=", "default", "REGULAR_COMMENT", "specializes", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "defined", "by", "then", "connect", "of", "accept", "send", "assign", "terminate", "while", "loop", "parallel"].
+    15 |         enum LOW_TEMPERATURE
+       |         ^^^^
+
+iteration_02.sysml:33:57: error (reference-error): No Feature named 'OK' found.
+    33 |         attribute fuelStatus : FuelStatus = FuelStatus::OK;
+       |                                                         ^^
+
+iteration_02.sysml:47:78: error (reference-error): No Feature named 'NORMAL' found.
+    47 |         attribute currentFactor : EnvironmentalFactor = EnvironmentalFactor::NORMAL;
+       |                                                                              ^^^^^^

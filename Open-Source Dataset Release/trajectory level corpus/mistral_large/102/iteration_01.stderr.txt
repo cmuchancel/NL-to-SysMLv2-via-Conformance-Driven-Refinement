@@ -1,0 +1,7 @@
+iteration_02.sysml:11:14: error (parsing-error): Unexpected 'first', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "=", ":=", "default", ";", "{", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    11 |         enum first;
+       |              ^^^^^
+
+iteration_02.sysml:54:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    54 |         attribute state : ClutchState = ClutchState::disengaged;
+       |                   ^^^^^

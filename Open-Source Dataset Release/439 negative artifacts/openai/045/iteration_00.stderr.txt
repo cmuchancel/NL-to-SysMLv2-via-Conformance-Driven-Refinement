@@ -1,0 +1,11 @@
+iteration_01.sysml:17:7: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    17 |       item SetSpeedCommand;
+       |       ^^^^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:21:7: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    21 |       item VehicleSpeed;
+       |       ^^^^^^^^^^^^^^^^^^
+
+iteration_01.sysml:25:7: error (port-definition-owned-usages-not-composite): Owned usages of a port definition other than ports must be referential
+    25 |       item ThrottleCommand;
+       |       ^^^^^^^^^^^^^^^^^^^^^

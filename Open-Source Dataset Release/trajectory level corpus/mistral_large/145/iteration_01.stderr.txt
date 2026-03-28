@@ -1,0 +1,15 @@
+iteration_02.sysml:22:54: error (parsing-error): Unexpected identifier, expected one of ["NAME", ";", "{", "all", "*", "if", "+", "-", "~", "not", "hastype", "istype", "@", "as", "(", ")", "null", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", "$", "Feature", "FeatureChaining", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "OperatorExpression", "ParameterMembership", "Feature", "FeatureValue", "ParameterMembership", "Feature", "FeatureValue", "MetadataAccessExpression", "OperatorExpression", "FeatureValue", "Feature", "ParameterMembership", "FeatureValue", "Feature", "ParameterMembership", "OperatorExpression", "IndexExpression", "OperatorExpression", "FeatureChainExpression", "CollectExpression", "SelectExpression", "InvocationExpression", "OwningMembership", "NullExpression", "FeatureReferenceExpression", "Membership", "MetadataAccessExpression", "Membership", "InvocationExpression", "ConstructorExpression", "Membership", "FeatureReferenceExpression", "FeatureMembership", "Expression", "LiteralBoolean", "LiteralString", "LiteralInteger", "LiteralRational", "LiteralInfinity", "ElementReference"].
+    22 |         attribute installationPosition : Vector3D = (x: 0.0, y: 0.0, z: 0.0);
+       |                                                      ^
+
+iteration_02.sysml:22:62: error (parsing-error): Unexpected identifier.
+    22 |         attribute installationPosition : Vector3D = (x: 0.0, y: 0.0, z: 0.0);
+       |                                                              ^
+
+iteration_02.sysml:22:70: error (parsing-error): Unexpected identifier.
+    22 |         attribute installationPosition : Vector3D = (x: 0.0, y: 0.0, z: 0.0);
+       |                                                                      ^
+
+iteration_02.sysml:22:53: error (type-error): ScalarValues::Rational does not conform to TireSystem::Vector3D
+    22 |         attribute installationPosition : Vector3D = (x: 0.0, y: 0.0, z: 0.0);
+       |                                                     ^

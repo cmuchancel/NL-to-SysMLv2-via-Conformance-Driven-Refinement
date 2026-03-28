@@ -1,0 +1,12 @@
+iteration_01.sysml:15:19: error (parsing-error): Unexpected 'state', expected one of ["SINGLE_LINE_NOTE", "NAME", "[", "ordered", "nonunique", "<", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", ";", "{", "=", ":=", "default", "def", "MULTILINE_NOTE", ":>", "subsets", "MultiplicityRange", "OwningMembership", "FeatureValue"].
+    15 |         attribute state : VehicleState = VehicleState::on;
+       |                   ^^^^^
+
+iteration_01.sysml:34:14: warning (namespace-distinguishability): Member name 'snapshots' shadows Occurrences::Occurrence::snapshots
+│   34 |         part snapshots : SimulationSnapshot[*];
+│      |              ^^^^^^^^^
+└── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Kernel Libraries/Kernel Semantic Library/Occurrences.kerml:331:23: note: Inherited from here
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Kernel Libraries/Kernel Semantic Library/Objects.kerml:24:37: note: Because Occurrences::Occurrence is specialized through Subclassification
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Items.sysml:24:28: note: Because Objects::Object is specialized through Subclassification
+    ├── /Users/chancelavoie/Desktop/AI_AGENT_Benchmarking_Compiler_in_Loop/.venv/lib/python3.13/site-packages/syside/sysml.library/Systems Library/Parts.sysml:19:28: note: Because Items::Item is specialized through Subclassification
+    └── iteration_01.sysml:31:5: note: Because Parts::Part is implicitly specialized through Subclassification

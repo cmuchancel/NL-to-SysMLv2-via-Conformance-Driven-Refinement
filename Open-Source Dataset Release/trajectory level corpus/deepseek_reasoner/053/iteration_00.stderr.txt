@@ -1,0 +1,87 @@
+iteration_01.sysml:6:9: error (parsing-error): Unexpected identifier, expected one of ["end", "NAME", ";", "{", "}", "dependency", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "alias", "for", "import", "all", "*", "[", "abstract", "in", "inout", "out", "derived", "end", "ordered", "nonunique", "if", "+", "-", "<", "~", "not", "hastype", "istype", "@", "as", "#", "(", "null", "metadata", "new", "true", "false", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", "DECIMAL_VALUE", "REAL_VALUE", "STRING_VALUE", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", "$", ":", "defined", "standard", "library", "package", "filter", "variation", "variant", "constant", "ref", "attribute", "enum", "occurrence", "individual", "timeslice", "snapshot", "event", "then", "item", "part", "port", "connection", "connect", "binding", "bind", "succession", "first", "flow", "message", "interface", "allocation", "allocate", "action", "perform", "merge", "decide", "join", "fork", "accept", "send", "assign", "terminate", "while", "loop", "state", "entry", "do", "exit", "exhibit", "transition", "calc", "return", "constraint", "assert", "requirement", "subject", "assume", "require", "frame", "concern", "actor", "stakeholder", "satisfy", "case", "objective", "analysis", "verification", "verify", "use", "include", "view", "render", "rendering", "expose", "viewpoint"].
+    6 |         second
+      |         ^^^^^^
+
+iteration_01.sysml:7:5: error (parsing-error): Unexpected '}', expected one of ["NAME", ";", "{", "}", "locale", "comment", "doc", "rep", "language", "private", "protected", "public", "[", "ordered", "nonunique", "<", "@", "#", "metadata", "=", ":=", "default", "SINGLE_LINE_NOTE", "MULTILINE_NOTE", "REGULAR_COMMENT", ":>", "subsets", "::>", "references", "=>", "crosses", ":>>", "redefines", ":", "defined", "enum", "OwningMembership", "Comment", "Documentation", "TextualRepresentation", "VisibilityKind", "FeatureValue", "OwningMembership", "MultiplicityRange", "OwningMembership", "VariantMembership", "EnumerationUsage", "MetadataUsage", "MetadataUsage"].
+    7 |     }
+      |     ^
+
+iteration_01.sysml:25:9: warning (namespace-distinguishability): Member name 'name' shadows VehicleModel::Driver::name
+│   25 |         name = "Alice";
+│      |         ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:24:18: note: Because VehicleModel::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:29:9: warning (namespace-distinguishability): Member name 'name' shadows VehicleModel::Driver::name
+│   29 |         name = "Bob";
+│      |         ^^^^
+└── iteration_01.sysml:10:19: note: Inherited from here
+    └── iteration_01.sysml:28:16: note: Because VehicleModel::Driver is specialized through FeatureTyping
+
+iteration_01.sysml:35:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::Vehicle::mass
+│   35 |         mass = 2000;
+│      |         ^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:36:9: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::Vehicle::gear
+│   36 |         gear = Gear::neutral;
+│      |         ^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:37:9: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::Vehicle::throttle
+│   37 |         throttle = 0.0;
+│      |         ^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:38:9: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   38 |         engine = engine1;
+│      |         ^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:39:9: warning (namespace-distinguishability): Member name 'driver' shadows VehicleModel::Vehicle::driver
+│   39 |         driver = Alice;
+│      |         ^^^^^^
+└── iteration_01.sysml:21:14: note: Inherited from here
+    └── iteration_01.sysml:34:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:43:9: warning (namespace-distinguishability): Member name 'mass' shadows VehicleModel::Vehicle::mass
+│   43 |         mass = 1500;
+│      |         ^^^^
+└── iteration_01.sysml:17:19: note: Inherited from here
+    └── iteration_01.sysml:42:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:44:9: warning (namespace-distinguishability): Member name 'gear' shadows VehicleModel::Vehicle::gear
+│   44 |         gear = Gear::second;
+│      |         ^^^^
+└── iteration_01.sysml:18:19: note: Inherited from here
+    └── iteration_01.sysml:42:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:45:9: warning (namespace-distinguishability): Member name 'throttle' shadows VehicleModel::Vehicle::throttle
+│   45 |         throttle = 0.5;
+│      |         ^^^^^^^^
+└── iteration_01.sysml:19:19: note: Inherited from here
+    └── iteration_01.sysml:42:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:46:9: warning (namespace-distinguishability): Member name 'engine' shadows VehicleModel::Vehicle::engine
+│   46 |         engine = engine1;
+│      |         ^^^^^^
+└── iteration_01.sysml:20:14: note: Inherited from here
+    └── iteration_01.sysml:42:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:47:9: warning (namespace-distinguishability): Member name 'driver' shadows VehicleModel::Vehicle::driver
+│   47 |         driver = Bob;
+│      |         ^^^^^^
+└── iteration_01.sysml:21:14: note: Inherited from here
+    └── iteration_01.sysml:42:27: note: Because VehicleModel::Vehicle is specialized through FeatureTyping
+
+iteration_01.sysml:36:22: error (reference-error): No Feature named 'neutral' found.
+    36 |         gear = Gear::neutral;
+       |                      ^^^^^^^
+
+iteration_01.sysml:44:22: error (reference-error): No Feature named 'second' found.
+    44 |         gear = Gear::second;
+       |                      ^^^^^^

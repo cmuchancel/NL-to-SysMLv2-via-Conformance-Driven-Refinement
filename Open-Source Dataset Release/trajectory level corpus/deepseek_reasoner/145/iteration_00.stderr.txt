@@ -1,0 +1,17 @@
+iteration_01.sysml:18:9: warning (namespace-distinguishability): Member name 'manufacturer' shadows TireSystem::Tire::manufacturer
+│   18 |         manufacturer = "Michelin";
+│      |         ^^^^^^^^^^^^
+└── iteration_01.sysml:11:19: note: Inherited from here
+    └── iteration_01.sysml:17:24: note: Because TireSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:19:9: warning (namespace-distinguishability): Member name 'rimDiameter' shadows TireSystem::Tire::rimDiameter
+│   19 |         rimDiameter = 18.0;
+│      |         ^^^^^^^^^^^
+└── iteration_01.sysml:12:19: note: Inherited from here
+    └── iteration_01.sysml:17:24: note: Because TireSystem::Tire is specialized through FeatureTyping
+
+iteration_01.sysml:20:9: warning (namespace-distinguishability): Member name 'width' shadows TireSystem::Tire::width
+│   20 |         width = 245;
+│      |         ^^^^^
+└── iteration_01.sysml:13:19: note: Inherited from here
+    └── iteration_01.sysml:17:24: note: Because TireSystem::Tire is specialized through FeatureTyping
