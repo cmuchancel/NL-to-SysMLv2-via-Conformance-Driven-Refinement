@@ -8,7 +8,10 @@ This repository is the paper companion repo. It contains the final paper PDF, th
   The final paper PDF.
 
 - `Open-Source Dataset Release/`
-  The released dataset package, including positive artifacts, negative artifacts, and the full trajectory-level corpus.
+  The released dataset package, including positive artifacts, negative artifacts, the full trajectory-level corpus, and run-level token-usage records.
+
+- `Open-Source Dataset Release/token_usage_by_run.csv`
+  Provider-reported token usage for all 604 prompt--model runs. Token metadata are available for 603 runs; the unavailable Mistral prompt 107 record is retained with blank token fields and an explicit availability flag.
 
 - Main results folders:
   - `Primary Outcome: Production Conformance/`
